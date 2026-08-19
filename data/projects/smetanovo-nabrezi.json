@@ -1,0 +1,391 @@
+{
+  "slug": "smetanovo-nabrezi",
+  "title": "Zklidnění Smetanova nábřeží",
+  "category": "veřejný prostor",
+  "area": "Praha 1",
+  "status": {
+    "label": "schváleno, nespuštěno",
+    "kind": "wait"
+  },
+  "summary": "Nábřeží mezi Národním divadlem a Karlovými lázněmi patří k nejcennějším místům Prahy a zároveň slouží jako tranzitní čtyřproudovka: denně tudy projede kolem 40 tisíc lidí autem, zatímco 90 tisíc jich sveze MHD. Město ho zkusilo zklidnit opakovaně: poprvé na den v roce 2004, naposledy na rok a půl v letech 2020 až 2021. V roce 2021 Rada schválila koncepci trvalé proměny; stavební část z ní zčásti stojí, dopravní režim, který je jejím jádrem, dosud spuštěn nebyl.",
+  "counter": {
+    "since": "2021-03-22",
+    "label": "dní od schválení koncepce Radou"
+  },
+  "parts": [
+    {
+      "name": "Stavební úpravy",
+      "status": {
+        "label": "zčásti hotové",
+        "kind": "ok"
+      },
+      "text": "První etapa dokončena v létě 2022: vyvýšený chráněný cyklopás od Národního divadla k Betlémské, 17 stromů, nové tramvajové zastávky. Druhá etapa (od Mánesa k náměstí Jana Palacha) je v přípravě."
+    },
+    {
+      "name": "Dopravní režim",
+      "status": {
+        "label": "nespuštěn",
+        "kind": "miss"
+      },
+      "text": "Jádro koncepce: přes den vjezd jen pro MHD, kola, rezidenty a obsluhu, tranzit po Blance a magistrále. Odloženo v roce 2022 po nesouhlasu městských částí; od té doby žádný pokus neprošel."
+    }
+  ],
+  "events": [
+    {
+      "date": "19. 9. 2004",
+      "title": "První pěší korzo",
+      "tier": "b",
+      "text": "Město poprvé zkouší nábřeží bez aut, na jeden den v rámci Evropského týdne mobility. Primátor Pavel Bém mluví o „poměrně odvážné novince“ a Praha uvažuje o korzu každou neděli.",
+      "sources": [
+        {
+          "label": "ekolist.cz, 19. 9. 2004",
+          "url": "https://ekolist.cz/cz/zpravodajstvi/zpravy/bem-praha-testuje-odvaznou-novinku-pesi-korzo-na-nabrezi"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Pavel Bém",
+          "role": "primátor, ODS"
+        }
+      ]
+    },
+    {
+      "date": "2006–2007",
+      "title": "Slib víkendových uzavírek",
+      "tier": "b",
+      "text": "Bém slibuje, že od roku 2007 se nábřeží bude o víkendech občas uzavírat. Nestane se; na nábřeží mezitím vzniká festival Zažít město jinak, který se odtud rozšíří do celé republiky.",
+      "sources": [
+        {
+          "label": "aktualne.cz, 16. 9. 2007",
+          "url": "https://zpravy.aktualne.cz/domaci/bem-slibil-ze-zavre-nabrezi-autum-slib-nedodrzel/r~i:article:505512/"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Pavel Bém",
+          "role": "primátor, ODS"
+        }
+      ],
+      "promise": {
+        "promised": "2006",
+        "due": "2007",
+        "status": "nesplněno"
+      }
+    },
+    {
+      "date": "24. 9. 2012",
+      "title": "„Definitivně, hned po Blance“",
+      "tier": "b",
+      "text": "Primátor Bohuslav Svoboda: „Chceme, aby ze Smetanova nábřeží zmizela auta definitivně. Hned po dokončení a spuštění tunelu Blanka, tedy v roce 2014.“",
+      "sources": [
+        {
+          "label": "prazsky.denik.cz, 24. 9. 2012",
+          "url": "https://prazsky.denik.cz/zpravy_region/auta-zmizi-z-vaclavaku-i-z-nabrezi-do-dvou-let-slibuje-primator-20120924.html"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Bohuslav Svoboda",
+          "role": "primátor, ODS"
+        }
+      ],
+      "promise": {
+        "promised": "2012",
+        "due": "2014",
+        "status": "nesplněno"
+      }
+    },
+    {
+      "date": "podzim 2013",
+      "title": "Nábřeží žije!",
+      "tier": "a",
+      "text": "Pět sobotních uzavírek pořádá samo město s IPR a spolkem Auto*Mat, včetně plánovacích setkání s veřejností. Studie AutoMatu z téhož roku dochází k závěru, že zklidnění je možné i bez dokončení Blanky, pokud cílová automobilová doprava do centra klesne o 15 procent.",
+      "sources": [
+        {
+          "label": "iprpraha.cz, 26. 9. 2013",
+          "url": "https://iprpraha.cz/page/2233/smetanovo-nabrezi-bez-aut-jeste-28-9-5-10-a-12-10-nabrezi-zije"
+        },
+        {
+          "label": "AutoMat: studie zklidnění centra (2013, PDF)",
+          "url": "https://auto-mat.cz/app/uploads/zprava_nabrezi_trvaly.pdf"
+        }
+      ]
+    },
+    {
+      "date": "2015",
+      "title": "Blanka jede, podmínka splněna, nic se neděje",
+      "tier": "b",
+      "text": "Tunel, jehož cena přesáhla 40 miliard, se otevírá. Omezení průjezdu centrem, které na něj bylo léta vázáno, se odkládá „do vyhodnocení dopadů“. Žádné opatření nepřichází a kongesce se do čtyř let vracejí na úroveň před otevřením.",
+      "sources": [
+        {
+          "label": "auto-mat.cz (rekapitulace)",
+          "url": "https://auto-mat.cz/28490/zklidneni-smetanova-nabrezi-se-opet-odklada-na-neurcito-aneb-bludny-kruh-prazske-dopravy"
+        }
+      ]
+    },
+    {
+      "date": "říjen–listopad 2019",
+      "title": "Necelé tři týdny bez tranzitu",
+      "tier": "a",
+      "text": "Při rekonstrukci tramvajové trati je nábřeží i průjezd Malou Stranou od 29. října uzavřen; magistrát uzavírku prodlužuje do 17. listopadu a plánuje vyhodnotit dopady. Radní Prahy 1 popisuje zklidnění oblasti, reportáže zmiňují i zahlcenou Karlovu a Husovu ulici.",
+      "sources": [
+        {
+          "label": "irozhlas.cz, 15. 11. 2019",
+          "url": "https://www.irozhlas.cz/zpravy-domov/praha-doprava-smetanovo-nabrezi-mala-strana-uzavirky-radni_1911151009_tzr"
+        }
+      ]
+    },
+    {
+      "date": "21. 5. 2020",
+      "title": "Zastupitelstvo o uzavírce: dvanáct hlasování",
+      "tier": "a",
+      "text": "Opozice vyvolává k covidové uzavírce mimořádný bod (tisk Z-8341, předkládá náměstek Scheinherr). Zastupitelstvo o něm hlasuje dvanáctkrát; pozměňovací návrhy na zrušení opatření neprocházejí a výsledné usnesení je přijato 50 pro, 5 proti, 6 se zdrželo.",
+      "vote": {
+        "label": "Usnesení k tisku Z-8341, 21. 5. 2020",
+        "pro": 50,
+        "proti": 5,
+        "zdrzel": 6,
+        "ostatni": 4,
+        "vysledek": "přijato",
+        "id": -52318,
+        "period": -33394
+      },
+      "sources": [
+        {
+          "label": "výsledky hlasování ZHMP, praha.eu",
+          "url": "https://praha.eu/vysledky-hlasovani"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Adam Scheinherr",
+          "role": "náměstek pro dopravu, Praha Sobě"
+        }
+      ]
+    },
+    {
+      "date": "2020–2021",
+      "title": "Rok a půl s předzahrádkami",
+      "tier": "a",
+      "text": "V květnu 2020 město uzavírá jeden směr vozovky v délce 150 metrů u Národního divadla; přes den patří prostor předzahrádkám, MHD a kolům. Opatření vydrží do podzimu 2021, kdy pruh zabere rekonstrukce v Divadelní a auta se vracejí bez jakékoli regulace.",
+      "sources": [
+        {
+          "label": "prazsky.denik.cz, říjen 2020",
+          "url": "https://prazsky.denik.cz/zpravy_region/uzavirka-smetanovo-nabrezi-praha-1-doprava-scheinherr-magistrat.html"
+        }
+      ]
+    },
+    {
+      "date": "22. 3. 2021",
+      "title": "Rada schvaluje koncepci proměny",
+      "tier": "a",
+      "text": "Koncepční studie IPR pro Křižovnickou a obě nábřeží: priorita tramvají a chodců, kteří tvoří 70 procent uživatelů ulice, oddělený cyklopás, stromy, nové zastávky. Vzniká pracovní skupina k omezení dopravy.",
+      "sources": [
+        {
+          "label": "iprpraha.cz, projekt 136",
+          "url": "https://iprpraha.cz/project/136/smetanovo-nabrezi"
+        },
+        {
+          "label": "prazskypatriot.cz, březen 2021",
+          "url": "https://www.prazskypatriot.cz/nabrezi-s-vyhledem-na-hradcany-a-malou-stranu-se-promeni-k-omezeni-dopravy-vznikla-pracovni-skupina/"
+        }
+      ]
+    },
+    {
+      "date": "leden 2022",
+      "title": "Odklad na neurčito",
+      "tier": "b",
+      "text": "Omezení tranzitu padá po nesouhlasu dotčených městských částí. Z koncepce zůstává stavební část; první etapa s chráněným cyklopásem se dokončuje v létě 2022.",
+      "sources": [
+        {
+          "label": "mestemnakole.cz, leden 2022",
+          "url": "https://mestemnakole.cz/2022/01/zklidneni-smetanova-nabrezi-a-male-strany-se-opet-odklada/"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Adam Scheinherr",
+          "role": "náměstek pro dopravu, Praha Sobě"
+        }
+      ]
+    },
+    {
+      "date": "16. 5. 2023",
+      "title": "Praha 1 jednomyslně za zklidnění obou břehů",
+      "tier": "a",
+      "text": "Zastupitelstvo Prahy 1 bere na vědomí memorandum o zklidnění dopravy na obou březích Vltavy včetně podpory zpoplatnění vjezdu: 26 pro, nikdo proti, nikdo se nezdržel (usnesení UZ23_0075, předkládá Vojtěch Ryvola).",
+      "vote": {
+        "rollFile": "p1-2023-05-16-h09.json",
+        "label": "ZMČ Praha 1, memorandum o zklidnění (hlasování č. 9), 16. 5. 2023",
+        "vysledek": "přijato",
+        "pro": 26,
+        "proti": 0,
+        "zdrzel": 0,
+        "ostatni": 1
+      },
+      "sources": [
+        {
+          "label": "jmenovitý záznam hlasování č. 9, praha1.cz (TXT)",
+          "url": "https://www.praha1.cz/app/uploads/2023/05/2023_16_05_09.txt"
+        },
+        {
+          "label": "zápis ze 7. zasedání ZMČ Praha 1 (PDF)",
+          "url": "https://www.praha1.cz/app/uploads/2023/05/Zapis_ZMC_16.05.2023_v.r.pdf"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Vojtěch Ryvola",
+          "role": "zastupitel MČ Praha 1, Naše Praha 1"
+        }
+      ]
+    },
+    {
+      "date": "2023",
+      "title": "Tři pokusy, žádný výsledek",
+      "tier": "a",
+      "text": "Koalice si omezení „zbytného tranzitu“ na nábřeží píše do programového prohlášení. Zpoplatnění vjezdu do centra zablokuje část koalice; noční zákaz vjezdu Prahy 1 magistrát po týdnu ruší v přezkumu; a návrh vrátit přerušený tisk o omezení tranzitu na program zastupitelstva v červnu neprojde: 11 pro, 4 proti, 46 se zdrželo.",
+      "sources": [
+        {
+          "label": "programové prohlášení Rady HMP 2023 (PDF)",
+          "url": "https://praha.eu/documents/d/praha/programove_prohlaseni_2023_3600794"
+        },
+        {
+          "label": "výsledky hlasování ZHMP, praha.eu",
+          "url": "https://praha.eu/vysledky-hlasovani"
+        },
+        {
+          "label": "irozhlas.cz, 30. 11. 2023",
+          "url": "https://www.irozhlas.cz/zpravy-domov/zakaz-vjezdu-praha-1-noc-zruseni-sobotka-magistrat_2311302121_afo"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Zdeněk Hřib",
+          "role": "náměstek pro dopravu, Piráti"
+        }
+      ],
+      "vote": {
+        "label": "Hlasování o návratu tisku Z-11209 na program, 22. 6. 2023",
+        "pro": 11,
+        "proti": 4,
+        "zdrzel": 46,
+        "ostatni": 4,
+        "vysledek": "nepřijato",
+        "id": 101420,
+        "period": -36525
+      },
+      "promise": {
+        "by": "Rada hl. m. Prahy (koalice Spolu, Piráti, STAN)",
+        "promised": "2023",
+        "due": "volební období 2022–2026",
+        "status": "nesplněno"
+      }
+    },
+    {
+      "date": "29. 1. 2025",
+      "title": "Praha 1: zklidnit „již nyní“",
+      "tier": "a",
+      "text": "Zastupitelstvo Prahy 1 v usnesení UZ25_0309 trvá na nutnosti realizovat opatření ke zklidnění dopravy v historickém centru „již nyní, bez ohledu na termín dokončení Městského a Pražského okruhu“: dílčí hlasování 21 pro, nikdo proti, 2 se zdrželi (předkládá Filip Lachmann).",
+      "vote": {
+        "rollFile": "p1-2025-01-28-h37.json",
+        "label": "ZMČ Praha 1, bod „zklidnit již nyní“ (hlasování č. 37), 29. 1. 2025",
+        "vysledek": "přijato",
+        "pro": 21,
+        "proti": 0,
+        "zdrzel": 2,
+        "ostatni": 4
+      },
+      "promise": {
+        "by": "Zastupitelstvo MČ Praha 1 (usnesení UZ25_0309)",
+        "promised": "leden 2025",
+        "due": "",
+        "status": "běží"
+      },
+      "sources": [
+        {
+          "label": "jmenovitý záznam hlasování č. 37, praha1.cz (TXT)",
+          "url": "https://www.praha1.cz/app/uploads/2025/02/2025_28_01_37.txt"
+        },
+        {
+          "label": "zápis z 22. zasedání ZMČ Praha 1 (PDF)",
+          "url": "https://www.praha1.cz/app/uploads/2025/02/Zapis_ZMC_28.01.2025_22_GDPR.pdf"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Filip Lachmann",
+          "role": "zastupitel MČ Praha 1, Praha 1 sobě"
+        }
+      ]
+    },
+    {
+      "date": "duben 2026",
+      "title": "Klidové víkendy neprošly o jeden hlas",
+      "tier": "a",
+      "text": "Náměstek Beránek navrhuje zkušební letní uzavírky; zastupitelé Prahy 1 Lachmann a Marc předkládají žádost o klidové víkendy na nábřeží a Malostranském náměstí. Návrh získává 13 hlasů z potřebných 14: nikdo není proti, nikdo se nezdrží, jedenáct zastupitelů nehlasuje. Místo něj projde protinávrh Vojtěcha Ryvoly: přijaté usnesení UZ26_0433 žádá magistrát o obnovení nočního a víkendového zákazu vjezdu do Divadelní ulice.",
+      "sources": [
+        {
+          "label": "zápis z 33. zasedání ZMČ Praha 1 (PDF)",
+          "url": "https://www.praha1.cz/app/uploads/2026/05/Zapis_ZMC_21.04.2026_33_GDPR.pdf"
+        },
+        {
+          "label": "jmenovitý záznam hlasování č. 38, praha1.cz (TXT)",
+          "url": "https://www.praha1.cz/app/uploads/2026/05/2026_21_04_38.txt"
+        },
+        {
+          "label": "irozhlas.cz, 21. 4. 2026",
+          "url": "https://www.irozhlas.cz/zpravy-domov/centrum-prahy-o-letnich-prazdninach-bez-aut-navrhuje-namestek_2604212126_elev"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Filip Lachmann",
+          "role": "zastupitel MČ Praha 1, Praha 1 sobě"
+        },
+        {
+          "name": "Pavel Marc",
+          "role": "zastupitel MČ Praha 1, Praha 1 sobě"
+        },
+        {
+          "name": "Vojtěch Ryvola",
+          "role": "zastupitel MČ Praha 1, Naše Praha 1"
+        },
+        {
+          "name": "Jaromír Beránek",
+          "role": "náměstek pro dopravu, Piráti"
+        }
+      ],
+      "vote": {
+        "rollFile": "p1-2026-04-21-h38.json",
+        "label": "ZMČ Praha 1, původní návrh klidových víkendů (hlasování č. 38), 21. 4. 2026",
+        "vysledek": "nepřijato",
+        "pro": 13,
+        "proti": 0,
+        "zdrzel": 0,
+        "ostatni": 14
+      }
+    }
+  ],
+  "trasa": "A2",
+  "karta": {
+    "typ": "opatření",
+    "gestor": "hl. m. Praha (koncepce IPR); TSK (stavební etapy)",
+    "stav": "režim nespuštěn; 1. stavební etapa hotova 2022, 2. v přípravě",
+    "horizont": "rozhodnou volby 2026"
+  },
+  "links": [
+    {
+      "label": "IPR: koncepce nábřeží",
+      "url": "https://iprpraha.cz/project/136/smetanovo-nabrezi"
+    },
+    {
+      "label": "AutoMat: kauza Smetanovo nábřeží",
+      "url": "https://auto-mat.cz/co-delame/kauzy/smetanovo-nabrezi-2"
+    },
+    {
+      "label": "město: Smetanovo nábřeží (Praha město pro lidi)",
+      "url": "https://www.praha-mestoprolidi.cz/doprava/smetanovo-nabrezi/"
+    }
+  ]
+}

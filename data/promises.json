@@ -1,0 +1,241 @@
+[
+ {
+  "who": "STAN",
+  "type": "volební program 2022",
+  "year": "2022",
+  "quote": "Dotáhneme zklidnění a rekonstrukci Smetanova nábřeží",
+  "project": "smetanovo-nabrezi",
+  "status": "nesplněno",
+  "source": {
+   "label": "program STAN Praha 2022 (archiv)",
+   "url": "https://web.archive.org/web/20230601021721/https://www.stan-praha.cz/program/plan-pro-mesto-kde-se-dobre-zije"
+  },
+  "note": "Režim nespuštěn; dubnový pokus o pilotní uzavírky 2026 neprošel.",
+  "posun": "žádný: dopravní režim se nepohnul, druhá stavební etapa nezačala"
+ },
+ {
+  "who": "STAN",
+  "type": "volební program 2022",
+  "year": "2022",
+  "quote": "Zahájíme výstavbu Vršovické drážní promenády",
+  "project": "vrsovicka-drazni-promenada",
+  "status": "nesplněno, příprava běží",
+  "source": {
+   "label": "program STAN Praha 2022 (archiv)",
+   "url": "https://web.archive.org/web/20221006202025/https://www.stan-praha.cz/program/plan-pro-mesto-v-pohybu"
+  },
+  "note": "Stavba do konce období nezačne; projektant vybrán v srpnu 2026.",
+  "posun": "jeden krok vpřed po jednom vzad: škrt 2024, poté výběr projektanta 2026"
+ },
+ {
+  "who": "SPOLU pro Prahu",
+  "type": "volební program 2022",
+  "year": "2022",
+  "quote": "Chceme omezit průjezd tranzitní dopravy centrem města v návaznosti na dokončování Městského, Pražského a Aglomeračního okruhu…",
+  "project": "smetanovo-nabrezi",
+  "status": "nesplněno",
+  "source": {
+   "label": "program SPOLU 2022 (archiv)",
+   "url": "https://web.archive.org/web/20220608133518/https://spoluproprahu22.cz/program/fungujici-a-kvalitni-dopravu"
+  },
+  "note": "Podmíněný slib: okruhy dokončeny nejsou a žádné omezení tranzitu nevzniklo.",
+  "posun": "žádný: žádné omezení tranzitu nevzniklo"
+ },
+ {
+  "who": "SPOLU pro Prahu",
+  "type": "volební program 2022",
+  "year": "2022",
+  "quote": "V historickém centru … nebudeme prosazovat zákazy, ale kombinaci časově a místně proměnných režimů průjezdnosti…",
+  "project": "smetanovo-nabrezi",
+  "status": "splněno",
+  "source": {
+   "label": "program SPOLU 2022 (archiv)",
+   "url": "https://web.archive.org/web/20220608133518/https://spoluproprahu22.cz/program/fungujici-a-kvalitni-dopravu"
+  },
+  "note": "Drženo: zpoplatnění vjezdu koalice na podzim 2023 zablokovala a plošná omezení klub nepodpořil."
+ },
+ {
+  "who": "SPOLU pro Prahu",
+  "type": "volební program 2022",
+  "year": "2022",
+  "quote": "Budeme aktivně spolupracovat na dokončení zelených koridorů pro bezmotorovou dopravu … (např. drážní promenáda v Praze 10 a 15…)",
+  "project": "vrsovicka-drazni-promenada",
+  "status": "částečně",
+  "source": {
+   "label": "program SPOLU 2022 (archiv)",
+   "url": "https://web.archive.org/web/20220608133518/https://spoluproprahu22.cz/program/fungujici-a-kvalitni-dopravu"
+  },
+  "note": "Slib úsilí: město koridor v roce 2024 škrtlo z rozpočtu, v roce 2026 vybralo projektanta; dokončen není.",
+  "posun": "výběr projektanta promenády (2026), po škrtu z rozpočtu (2024)"
+ },
+ {
+  "who": "Praha sobě",
+  "type": "volební program 2022",
+  "year": "2022",
+  "quote": "již máme hotový projekt Vršovické drážní promenády, který zrealizujeme",
+  "project": "vrsovicka-drazni-promenada",
+  "status": "v opozici",
+  "source": {
+   "label": "Plán pro Prahu 2022 (PDF)",
+   "url": "https://prahasobe.cz/wp-content/uploads/2022/04/Plan-pro-Prahu-2022-web.pdf"
+  },
+  "note": "Po volbách 2022 skončili v opozici; projekt následně město odložilo a znovu oživilo."
+ },
+ {
+  "who": "Praha sobě",
+  "type": "volební program 2022",
+  "year": "2022",
+  "quote": "na jaře 2023 otevřeme také Štvanickou lávku mezi Holešovicemi a Karlínem",
+  "project": "stvanicka-lavka",
+  "status": "v opozici",
+  "source": {
+   "label": "Plán pro Prahu 2022 (PDF)",
+   "url": "https://prahasobe.cz/wp-content/uploads/2022/04/Plan-pro-Prahu-2022-web.pdf"
+  },
+  "note": "Lávka otevřena v červenci 2023, stavba běžela z jejich přípravy; od února 2023 byli v opozici, dokončení už neřídili."
+ },
+ {
+  "who": "Praha sobě",
+  "type": "volební program 2022",
+  "year": "2022",
+  "quote": "Ještě letos začneme stavět i Dvorecký most mezi Podolím a Smíchovem",
+  "project": "dvorecky-most",
+  "status": "splněno",
+  "source": {
+   "label": "Plán pro Prahu 2022 (PDF)",
+   "url": "https://prahasobe.cz/wp-content/uploads/2022/04/Plan-pro-Prahu-2022-web.pdf"
+  },
+  "note": "Stavba zahájena 13. září 2022, ještě během jejich působení ve vedení města.",
+  "posun": "tendr dokončen a stavba zahájena (září 2022)"
+ },
+ {
+  "who": "ANO 2011",
+  "type": "volební program 2022",
+  "year": "2022",
+  "quote": "Zrušíme nesmyslnou padesátku na Magistrále a zrevitalizujeme její okolí.",
+  "project": "legerova-sokolska",
+  "status": "v opozici",
+  "source": {
+   "label": "program ANO pro Prahu 2022 (PDF, Webarchiv NK)",
+   "url": "https://wayback.webarchiv.cz/wayback/20221027080452/https://www.anobudelip.cz/file/edee/ke-stazeni/ano-program-praha.pdf"
+  }
+ },
+ {
+  "who": "ANO 2011",
+  "type": "volební program 2022",
+  "year": "2022",
+  "quote": "Zrušíme nesmyslné cyklopruhy a do budoucna budeme budovat především cyklostezky.",
+  "project": "",
+  "status": "v opozici",
+  "source": {
+   "label": "program ANO pro Prahu 2022 (PDF, Webarchiv NK)",
+   "url": "https://wayback.webarchiv.cz/wayback/20221027080452/https://www.anobudelip.cz/file/edee/ke-stazeni/ano-program-praha.pdf"
+  }
+ },
+ {
+  "who": "Piráti",
+  "type": "volební program 2022",
+  "year": "2022",
+  "quote": "Stavba cyklostezek bude směřovat k vytvoření systematicky propojené sítě, abychom … mohli dojet napříč celým městem po bezpečných cyklostezkách…",
+  "project": "",
+  "status": "částečně",
+  "source": {
+   "label": "program Pirátů 2022, doprava (archiv)",
+   "url": "http://web.archive.org/web/20220902095757/https://praha.pirati.cz/volby/2022-komunalni/doprava-a-infrastruktura.html"
+  },
+  "note": "Tempo výstavby za období kleslo: vyhrazené cyklopruhy 2,1 km (2023), 0 km (2024), 1,1 km (2025) proti 8,5 km rekordního roku 2021; v širším centru nevznikla 2025 ani jedna chráněná stezka. Rozpočet klesl z až 370 mil. (2021) na ~100–137 mil. ročně a nebýval dočerpán.",
+  "posun": "dílčí úseky (A2 Karlín 2023, pruh u Muzea 2025, cykloobousměrky); souvislá síť se nepřiblížila"
+ },
+ {
+  "who": "koalice Spolu, Piráti, STAN",
+  "type": "programové prohlášení Rady",
+  "year": "2023",
+  "quote": "…omezíme zbytný individuální tranzit na Malé Straně a Smetanově nábřeží…",
+  "project": "smetanovo-nabrezi",
+  "status": "nesplněno",
+  "source": {
+   "label": "programové prohlášení Rady HMP 2023 (PDF)",
+   "url": "https://praha.eu/documents/d/praha/programove_prohlaseni_2023_3600794"
+  },
+  "note": "Do konce období nerealizovatelné; zpoplatnění padlo v koalici, pilot 2026 neprošel.",
+  "posun": "zpoplatnění připraveno a zablokováno v koalici; pilot uzavírek neprošel"
+ },
+ {
+  "who": "koalice MČ Praha 2 (ODS, TOP 09, ANO)",
+  "type": "programové prohlášení rady MČ",
+  "year": "2023",
+  "quote": "i nadále budeme usilovat o humanizaci a zklidnění dopravně přetížené severojižní magistrály a přilehlých ulic",
+  "project": "legerova-sokolska",
+  "status": "částečně",
+  "source": {
+   "label": "programové prohlášení RMČ Praha 2 (archiv)",
+   "url": "https://web.archive.org/web/20230129184028/https://www.praha2.cz/programove-prohlaseni-rady-mc-praha-2-na-obdobi-2022-2026/d-114502"
+  },
+  "note": "Praha 2 podpořila projekt oddělených pásů na Legerově; realizace je za horizontem období.",
+  "posun": "projekt oddělených pásů Legerova/Sokolská došel do dokumentace"
+ },
+ {
+  "who": "koalice MČ Praha 1",
+  "type": "programové prohlášení rady MČ",
+  "year": "2022",
+  "quote": "v koordinaci s MHMP podpoříme úsilí k omezení tranzitu přes Prahu",
+  "project": "smetanovo-nabrezi",
+  "status": "částečně",
+  "source": {
+   "label": "programové prohlášení koalice P1 (PDF, archiv Pirátů)",
+   "url": "https://raw.githubusercontent.com/pirati-web/praha1.pirati.cz/master/assets/pdf/programove.pdf"
+  },
+  "note": "Memorandum 2023 a usnesení „zklidnit již nyní“ 2025 přijata; žádné opatření nevzniklo.",
+  "posun": "memorandum 2023 a usnesení „zklidnit již nyní“ 2025; žádné opatření"
+ },
+ {
+  "who": "Motoristé sobě (Klára Sovová)",
+  "type": "kampaň",
+  "year": "2026",
+  "quote": "Chci, aby byla větší svoboda, chci aby se odstranily cyklopruhy…",
+  "project": "",
+  "status": "kampaň 2026",
+  "source": {
+   "label": "echo24.cz, 13. 6. 2026",
+   "url": "https://www.echo24.cz/a/H8X4m/zpravy-domov-motoriste-poslou-do-boje-o-prahu-majitelku-lucni-boudy-sovovou-mesto-napadli-pirati-zrusime-cyklopruhy"
+  }
+ },
+ {
+  "who": "SPOLU (Tomáš Portlík)",
+  "type": "kampaň",
+  "year": "2026",
+  "quote": "Zásadní je vnitřní okruh, vnější okruh, metro D.",
+  "project": "",
+  "status": "kampaň 2026",
+  "source": {
+   "label": "ods.cz, 18. 8. 2026",
+   "url": "https://www.ods.cz/clanek/28703-kandidat-na-primatora-tomas-portlik-chci-prahu-ktera-bude-stavet-a-rust"
+  }
+ },
+ {
+  "who": "Piráti (Jaromír Beránek)",
+  "type": "kampaň",
+  "year": "2026",
+  "quote": "Tramvajová síť se do roku 2030 rozšíří o sedm nových tratí…",
+  "project": "",
+  "status": "kampaň 2026",
+  "source": {
+   "label": "praha.pirati.cz, 25. 6. 2026",
+   "url": "https://praha.pirati.cz/aktuality/fuze-kolejove-dopravy-a-bytove-vystavby-jedno-nejde-bez-druheho-pirati-predstavili-program-pro-obe/"
+  }
+ },
+ {
+  "who": "Bohuslav Svoboda (primátor, ODS)",
+  "type": "veřejný výrok",
+  "year": "2023",
+  "quote": "…do konce roku zásadním způsobem [vygumujeme cyklopruhy].",
+  "project": "",
+  "status": "nesplněno",
+  "note": "Plošné rušení cyklopruhů nenastalo; náměstek Hřib je na zastupitelstvu odmítl.",
+  "posun": "žádný: výrok zůstal výrokem; výstavba nové infrastruktury ale souběžně zpomalila",
+  "source": {
+   "label": "mestemnakole.cz, 14. 3. 2023 (Český rozhlas)",
+   "url": "https://mestemnakole.cz/2023/03/primator-svoboda-pro-rozhlas-do-konce-roku-vygumujeme-zasadnim-zpusobem-cyklopruhy/"
+  }
+ }
+]

@@ -1,0 +1,184 @@
+{
+  "slug": "stvanicka-lavka",
+  "title": "Štvanická lávka",
+  "category": "pěší a cyklistická doprava",
+  "area": "Praha 7 / 8",
+  "status": {
+    "label": "v provozu",
+    "kind": "ok"
+  },
+  "summary": "Lávka mezi Holešovicemi a Karlínem přes ostrov Štvanici prošla od záměru k otevření třemi vedeními města: soutěž zadala éra Krnáčové a Dolínka, dokumentaci a stavbu dotáhl Scheinherr, pásku stříhali Svoboda s Hřibem. Návrh se cestou nezhoršil, naopak se rozšířil; výrazně ale vzrostla cena proti původním odhadům. Otevřena v létě 2023; na podzim téhož roku získala titul Stavba roku.",
+  "parts": [
+    {
+      "name": "Lávka",
+      "status": {
+        "label": "v provozu",
+        "kind": "ok"
+      },
+      "text": "Subtilní betonová konstrukce autorů Petra Teje, Marka Blanka a Jana Mourka, pole 38 metrů na karlínské a 149 metrů na holešovické straně, s rampou na Štvanici. Slouží chodcům i cyklistům."
+    },
+    {
+      "name": "Rozpočet",
+      "status": {
+        "label": "vyšší než odhady",
+        "kind": "muted"
+      },
+      "text": "Tendr byl vypsán s předpokladem 197 milionů bez DPH, Skanska vysoutěžila stavbu za 298 milionů; dodatek za změny z května 2024 přidal dalších 78,6 milionu (registr smluv). Veřejně komunikovaná cena 352 milionů s těmito čísly úplně nesedí; rozpad ověřujeme."
+    }
+  ],
+  "events": [
+    {
+      "date": "1999–2006",
+      "title": "Záměr z územního plánu usíná",
+      "tier": "b",
+      "text": "Lávky přes Štvanici jsou v územním plánu od konce 90. let; soutěž v roce 2000 vyhrává kolektiv Aleny Šrámkové. Po povodni 2002 se realizace odkládá a v roce 2006 od ní město upouští.",
+      "sources": [
+        {
+          "label": "wikipedie: Štvanická lávka",
+          "url": "https://cs.wikipedia.org/wiki/%C5%A0tvanick%C3%A1_l%C3%A1vka"
+        }
+      ]
+    },
+    {
+      "date": "7. 8. 2015",
+      "title": "Přívoz jako důkaz poptávky",
+      "tier": "b",
+      "text": "Praha 7 za starosty Jana Čižinského spouští přívoz HolKa, výslovně jako upozornění, že „lidem chybí lávka“. Do otevření lávky přepraví zhruba 690 tisíc lidí a stane se jedním z nejvytíženějších pražských přívozů; poptávka po spojení tím přestává být hypotézou.",
+      "sources": [
+        {
+          "label": "praha7.cz (rekapitulace)",
+          "url": "https://www.praha7.cz/prirozena-krivka-ktera-se-vine-prostorem/"
+        },
+        {
+          "label": "wikipedie: přívoz HolKa",
+          "url": "https://cs.wikipedia.org/wiki/P%C5%99%C3%ADvoz_Pra%C5%BEsk%C3%A1_tr%C5%BEnice_%E2%80%93_%C5%A0tvanice_%E2%80%93_Karl%C3%ADn-Rohansk%C3%BD_ostrov"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Jan Čižinský",
+          "role": "starosta MČ Praha 7, Praha 7 sobě"
+        }
+      ]
+    },
+    {
+      "date": "13. 12. 2016",
+      "title": "Rada zadává architektonickou soutěž",
+      "tier": "a",
+      "text": "Rada hl. m. Prahy schvaluje zadání soutěže o návrh lávky (usnesení č. 3129, tisk R-23784); předkladatelem je náměstek pro dopravu Petr Dolínek. Soutěž je vyhlášena v dubnu 2017, v prosinci 2017 Rada vybírá vítězný návrh Petra Teje a Marka Blanka (usnesení č. 3001).",
+      "sources": [
+        {
+          "label": "databáze soutěží ČKA",
+          "url": "https://www.cka.cz/souteze/databaze/lavka-holesovice-karlin"
+        },
+        {
+          "label": "TZ praha.eu, 11. 4. 2017",
+          "url": "https://praha.eu/w/nova_lavka_pres_stvanici_praha_vyhlasuje_2418544"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Petr Dolínek",
+          "role": "náměstek pro dopravu, ČSSD"
+        }
+      ]
+    },
+    {
+      "date": "8. 4. 2019",
+      "title": "Nové vedení projekt přebírá a rozšiřuje",
+      "tier": "a",
+      "text": "Rada za náměstka Adama Scheinherra zadává vítězi soutěže projektovou dokumentaci (usnesení č. 597, tisk R-32809) a prosazuje věcné změny: rozšíření lávky z 3,5 na minimálně 4 metry a nosnost pro vozy záchranářů. Následuje stavební povolení (5/2021) a výběr zhotovitele: Skanska za 298 milionů bez DPH (usnesení č. 1696, 12. 7. 2021). Stavba začíná 11. ledna 2022.",
+      "sources": [
+        {
+          "label": "prazsky.denik.cz, 8. 4. 2019",
+          "url": "https://prazsky.denik.cz/zpravy-region/dalsi-kubisticky-most-bude-stat-miliardu-praha-planuje-i-lavku-pres-stvanici/"
+        },
+        {
+          "label": "smlouva se Skanskou, registr smluv",
+          "url": "https://smlouvy.gov.cz/smlouva/17890815"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Adam Scheinherr",
+          "role": "náměstek pro dopravu, Praha sobě"
+        }
+      ]
+    },
+    {
+      "date": "12. 11. 2020",
+      "title": "Zastupitelstvo schvaluje zakázku",
+      "tier": "a",
+      "text": "Zastupitelstvo hl. m. Prahy schvaluje záměr veřejné zakázky na stavbu č. 42822 Lávka Holešovice–Karlín: 53 pro, nikdo proti (tisk Z-8805). Navazují smlouvy o spolupráci a o právu stavby schválené v letech 2021 až 2023 (tisky Z-9929, Z-10744, Z-11050).",
+      "sources": [
+        {
+          "label": "výsledky hlasování ZHMP, praha.eu",
+          "url": "https://praha.eu/vysledky-hlasovani"
+        }
+      ],
+      "vote": {
+        "id": -53744,
+        "period": -33394,
+        "vysledek": "přijato",
+        "label": "Záměr zakázky na stavbu lávky (Z-8805), 12. 11. 2020",
+        "pro": 0,
+        "proti": 0,
+        "zdrzel": 0,
+        "ostatni": 0
+      }
+    },
+    {
+      "date": "28. 7. 2023",
+      "title": "Otevření lávky",
+      "tier": "b",
+      "text": "Lávku otevírají primátor Svoboda a náměstek Hřib. Bývalá náměstkyně Petra Kolínská připomíná, že z vedení, které soutěž připravilo, nebyl pozván nikdo: „Tolik k žánru stříhání pásky a vděku v politice.“ Zda byl pozván Petr Dolínek, se z dostupných zdrojů nepodařilo rozhodnout.",
+      "sources": [
+        {
+          "label": "cc.cz, červenec 2023",
+          "url": "https://cc.cz/tenka-bila-linie-mezi-holesovicemi-a-karlinem-se-otevira-stvanicka-lavka/"
+        },
+        {
+          "label": "wikipedie: Štvanická lávka",
+          "url": "https://cs.wikipedia.org/wiki/%C5%A0tvanick%C3%A1_l%C3%A1vka"
+        },
+        {
+          "label": "zdopravy.cz, 30. 7. 2023",
+          "url": "https://zdopravy.cz/obrazem-lavka-holka-laka-davy-netradicni-stavba-budi-emoce-obdiv-i-horkost-politiku-169869/"
+        }
+      ]
+    },
+    {
+      "date": "2023",
+      "title": "Stavba roku",
+      "tier": "b",
+      "text": "Lávka získává titul Stavba roku 2023.",
+      "sources": [
+        {
+          "label": "prazsky.denik.cz",
+          "url": "https://prazsky.denik.cz/zpravy_region/praha-stvanicka-lavka-holesovice-karlin-holka-stavba-roku-2023.html"
+        }
+      ]
+    }
+  ],
+  "karta": {
+    "typ": "stavba",
+    "faze": "provoz",
+    "investor": "hl. m. Praha (investiční odbor MHMP)",
+    "horizont": "otevřena 28. 7. 2023",
+    "cena": "298 mil. Kč bez DPH + dodatky"
+  },
+  "links": [
+    {
+      "label": "IPR: otevření lávky",
+      "url": "https://iprpraha.cz/page/4295/stvanicka-lavka-uz-slouzi-prazanum-zastupci-mesta-a-ipr-praha-otevreli-lavku-spojujici-karlin-stvanici-a-holesovice"
+    },
+    {
+      "label": "wikipedie: Štvanická lávka",
+      "url": "https://cs.wikipedia.org/wiki/%C5%A0tvanick%C3%A1_l%C3%A1vka"
+    },
+    {
+      "label": "smlouva se zhotovitelem, registr smluv",
+      "url": "https://smlouvy.gov.cz/smlouva/17890815"
+    }
+  ]
+}

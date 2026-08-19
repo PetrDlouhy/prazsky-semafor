@@ -1,0 +1,206 @@
+{
+  "slug": "tunelbus-blanka",
+  "title": "Autobus tunelem Blanka (linka 145)",
+  "category": "veřejná doprava",
+  "area": "Praha 6 / 7 / 8",
+  "status": {
+    "label": "v provozu",
+    "kind": "ok"
+  },
+  "summary": "Myšlenka vést městský autobus tunelem Blanka je stará jako tunel sám. Deset let ji odmítaly posudky i dopravní podnik, v létě 2026 nakonec linka 145 vyjela a spojuje Kobylisy s Dejvicemi zhruba dvakrát rychleji než metro. Součástí příběhu zůstávají dvě otevřené otázky: zastávka Kuchyňka u vysokoškolského areálu, která z trasy před spuštěním vypadla, a plánované prodloužení na Smíchov.",
+  "parts": [
+    {
+      "name": "Provoz linky",
+      "status": {
+        "label": "jezdí",
+        "kind": "ok"
+      },
+      "text": "Sídliště Čimice – Kobylisy – tunel Blanka – Hradčanská – Dejvická, interval 6 minut v ranní špičce. Z Kobylis na Hradčanskou 13 až 15 minut; metro se dvěma přestupy potřebuje 22 až 30."
+    },
+    {
+      "name": "Zastávka Kuchyňka",
+      "status": {
+        "label": "chybí",
+        "kind": "miss"
+      },
+      "text": "Jediná zastávka, která by obsloužila trojský areál MFF UK a kolej 17. listopadu. V plánované trase byla ještě na jaře 2025, při spuštění linky chyběla. O jejím doplnění se má jednat po prázdninách 2026."
+    },
+    {
+      "name": "Prodloužení na Smíchov",
+      "status": {
+        "label": "výhled",
+        "kind": "muted"
+      },
+      "text": "Pokračování Strahovským tunelem na Smíchov ROPID vylučuje do dokončení rekonstrukce Strahovského tunelu. Ta se teprve připravuje a má trvat zhruba deset let; prodloužení je tedy otázkou příštího desetiletí."
+    }
+  ],
+  "events": [
+    {
+      "date": "2013",
+      "title": "První konkrétní návrh",
+      "tier": "b",
+      "text": "Radní Jiří Pařízek navrhuje, aby hned s otevřením Blanky jezdila tunelem linka 180. Tunel se nakonec otevírá v roce 2015 bez městské linky.",
+      "sources": [
+        {
+          "label": "wikipedie: Tunelový komplex Blanka",
+          "url": "https://cs.wikipedia.org/wiki/Tunelov%C3%BD_komplex_Blanka"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Jiří Pařízek",
+          "role": "radní hl. m. Prahy pro dopravu, TOP 09"
+        }
+      ]
+    },
+    {
+      "date": "2016",
+      "title": "ROPID: všechny varianty nereálné",
+      "tier": "a",
+      "text": "ROPID nejdřív v dubnové tiskové zprávě vypočítává úskalí záměru včetně dodatečných nákladů kolem 75 milionů korun ročně, v prosinci pak předkládá dopravnímu výboru zastupitelstva posouzení čtyř variant vedení linky a všechny odmítá: naráží na kapacitu Vítězného náměstí, nesouhlas Prahy 6 a náklady kolem 70 milionů korun ročně.",
+      "sources": [
+        {
+          "label": "TZ ROPID 4/2016 a posudek 12/2016, via wikipedie",
+          "url": "https://cs.wikipedia.org/wiki/Tunelov%C3%BD_komplex_Blanka"
+        }
+      ]
+    },
+    {
+      "date": "15. 5. 2024",
+      "title": "Praha 8 žádá linku",
+      "tier": "a",
+      "text": "Zastupitelstvo Prahy 8 vyzývá hlavní město a ROPID „bezodkladně zavést autobusovou linku mezi Prahou 8 a Prahou 6, která pojede tunelem Blanka“ (usnesení Usn ZMC 020/2024). Výzvu, doplněnou pozměňovacím návrhem opozičního zastupitele Jana Šimbery, podpořilo 35 zastupitelů napříč kluby, nikdo nebyl proti; klub ODS a SPD s Trikolorou nehlasovaly.",
+      "sources": [
+        {
+          "label": "jmenovitý záznam hlasování č. 11, praha8.cz (HTML)",
+          "url": "https://praha8.cz/podklady_mc/ZMC20240515audiohlasovani/export/html/0011.html"
+        },
+        {
+          "label": "zápis z 9. zasedání ZMČ Praha 8 (PDF)",
+          "url": "https://www.praha8.cz/file/kRN/Zastupitelstvo-9-dne-15-05-2024.pdf"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Tomáš Slabihoudek",
+          "role": "radní MČ Praha 8, TOP 09"
+        },
+        {
+          "name": "Jan Šimbera",
+          "role": "zastupitel MČ Praha 8, 8ŽIJE a Praha sobě"
+        }
+      ],
+      "vote": {
+        "rollFile": "p8-2024-05-15-h11.json",
+        "label": "ZMČ Praha 8, návrh propojení s Prahou 6 (hlasování č. 11), 15. 5. 2024",
+        "vysledek": "přijato",
+        "pro": 35,
+        "proti": 0,
+        "zdrzel": 0,
+        "ostatni": 10
+      }
+    },
+    {
+      "date": "duben 2025",
+      "title": "Testovací jízdy",
+      "tier": "b",
+      "text": "ROPID s policií a městskými částmi testuje průjezdy autobusů tunelem. Nejpravděpodobnější vedení linky v té době výslovně počítá se zastávkou Kuchyňka.",
+      "sources": [
+        {
+          "label": "zdopravy.cz, 2. 4. 2025",
+          "url": "https://zdopravy.cz/praha-otestovala-tunelbusy-do-blanky-by-mela-nova-paterni-linka-zamirit-pristi-rok-241177/"
+        }
+      ]
+    },
+    {
+      "date": "12. 5. 2026",
+      "title": "Linka oznámena",
+      "tier": "a",
+      "text": "Po více než roce příprav mezi ROPID, TSK, dopravním podnikem a městskými částmi je linka oznámena na léto. Radní Prahy 6 Ondřej Matěj Hrubeš připomíná, že zavedení tunelbusu prosazoval deset let.",
+      "sources": [
+        {
+          "label": "pid.cz, 12. 5. 2026",
+          "url": "https://pid.cz/tunelbus-na-prahu-realizace-vyjede-v-prubehu-leta/"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Ondřej Matěj Hrubeš",
+          "role": "radní MČ Praha 6 pro dopravu, ODS"
+        }
+      ]
+    },
+    {
+      "date": "15. 8. 2026",
+      "title": "Linka 145 vyjíždí",
+      "tier": "a",
+      "text": "První spoj vyráží ve 4:45 ze Sídliště Čimice. V publikované trase není zastávka Kuchyňka; autobus ulicí V Holešovičkách projíždí bez zastavení.",
+      "sources": [
+        {
+          "label": "dpp.cz",
+          "url": "https://www.dpp.cz/spolecnost/aktuality/detail/66_3413-dpp-od-15-srpna-vypravi-novou-tunelbusovou-linku-145"
+        },
+        {
+          "label": "pid.cz",
+          "url": "https://pid.cz/trvale-zmeny-pid-od-15-8-2026-tunelbus-145-prodlouzeni-linky-218-a-rozdeleni-linky-110/"
+        }
+      ]
+    },
+    {
+      "date": "16. 8. 2026",
+      "title": "Proč se na Kuchyňce nestaví, není doloženo",
+      "tier": "b",
+      "text": "Odborný web zdopravy.cz píše, že linka na Kuchyňce nestaví po jednáních s Prahou 8, jinde uvádí politický kompromis. Kdo a proč o vynechání zastávky rozhodl, žádný veřejný zdroj neuvádí; formálně o zastávkách rozhoduje ROPID po projednání s městem a městskými částmi.",
+      "sources": [
+        {
+          "label": "zdopravy.cz, 16. 8. 2026",
+          "url": "https://zdopravy.cz/bez-papiru-a-na-baterky-v-praze-se-objevily-prvni-e-paper-zastavky-ukazou-i-mimoradnosti-294170/"
+        }
+      ]
+    },
+    {
+      "date": "17. 8. 2026",
+      "title": "Praha 8: chceme Kuchyňku",
+      "tier": "a",
+      "text": "Radnice Prahy 8 veřejně žádá doplnění zastávky. Radní Martin Jedlička: „Nejzásadnější je pro nás zastávka Kuchyňka. Jsou tu sídla univerzit a kolejí.“ Podle ROPID se o zastávce bude jednat po prázdninách podle plynulosti provozu.",
+      "sources": [
+        {
+          "label": "praha8.cz, 17. 8. 2026",
+          "url": "https://www.praha8.cz/tunelem-blanka-projizdi-nova-autobusova-linka-1.html"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Martin Jedlička",
+          "role": "radní MČ Praha 8"
+        }
+      ],
+      "promise": {
+        "by": "ROPID",
+        "promised": "srpen 2026",
+        "due": "po prázdninách 2026",
+        "status": "běží"
+      }
+    }
+  ],
+  "karta": {
+    "typ": "opatření",
+    "gestor": "ROPID (organizace), DPP (provoz)",
+    "stav": "v provozu od 15. 8. 2026",
+    "horizont": "jednání o zastávce Kuchyňka po prázdninách 2026"
+  },
+  "links": [
+    {
+      "label": "PID: tunelbus na prahu realizace",
+      "url": "https://pid.cz/tunelbus-na-prahu-realizace-vyjede-v-prubehu-leta/"
+    },
+    {
+      "label": "DPP: vypravení linky 145",
+      "url": "https://www.dpp.cz/spolecnost/aktuality/detail/66_3413-dpp-od-15-srpna-vypravi-novou-tunelbusovou-linku-145"
+    },
+    {
+      "label": "Praha 8 k lince a zastávce",
+      "url": "https://www.praha8.cz/tunelem-blanka-projizdi-nova-autobusova-linka-1.html"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "slug": "dvorecky-most",
+  "title": "Dvorecký most",
+  "category": "doprava přes Vltavu",
+  "area": "Praha 4 / 5",
+  "status": {
+    "label": "v provozu",
+    "kind": "ok"
+  },
+  "summary": "Nový most přes Vltavu mezi Podolím a Zlíchovem je vyhrazen tramvajím, autobusům, vozům záchranného systému, chodcům a cyklistům; osobní auta na něj nesmějí. Od architektonické soutěže k otevření uběhlo devět let a s mostem se přeskupila velká část tramvajové sítě. Cestou se výrazně zvedla cena a namísto původně projektovaných oddělených cyklopruhů se jezdí ve sdíleném režimu; ten cyklokomise hájí jako nejlepší řešení za daných stavebních podmínek.",
+  "parts": [
+    {
+      "name": "Most pro MHD, pěší a kola",
+      "status": {
+        "label": "v provozu",
+        "kind": "ok"
+      },
+      "text": "Spojuje Podolí se Zlíchovem; vjezd mají tramvaje, autobusy, vozy IZS, chodci a cyklisté. Otevřen v dubnu 2026, s ním se změnily trasy řady tramvajových linek."
+    },
+    {
+      "name": "Cyklistické řešení",
+      "status": {
+        "label": "kompromis",
+        "kind": "muted"
+      },
+      "text": "Návrh ze soutěže počítal s jednosměrnými cyklopruhy podél kolejí. Nakonec se jezdí po sdílených chodnících s chodci, případně ve vozovce mezi kolejemi. Cyklokomise záměnu jednomyslně doporučila s tím, že jde o nejlepší řešení za daných stavebních podmínek a návazností; deklarován je zkušební provoz s možností vrátit oddělení."
+    },
+    {
+      "name": "Návaznosti v podmostí",
+      "status": {
+        "label": "v dokončování",
+        "kind": "muted"
+      },
+      "text": "Napojení na břehové trasy a prostory pod mostem se dokončují; hotová mají být do konce roku 2026."
+    }
+  ],
+  "events": [
+    {
+      "date": "2017–2018",
+      "title": "Architektonická soutěž",
+      "tier": "a",
+      "text": "Soutěž na most bez individuální automobilové dopravy vyhlašuje v listopadu 2017 vedení Krnáčové a Dolínka; ze 45 návrhů vybírá porota tým ATELIER 6 a TUBES a Rada vítěze potvrzuje 2. října 2018, tři dny před komunálními volbami.",
+      "sources": [
+        {
+          "label": "praha.eu: Dvorecký most",
+          "url": "https://praha.eu/dvorecky-most"
+        },
+        {
+          "label": "wikipedie: Dvorecký most",
+          "url": "https://cs.wikipedia.org/wiki/Dvoreck%C3%BD_most"
+        },
+        {
+          "label": "databáze soutěží ČKA",
+          "url": "https://www.cka.cz/souteze/databaze/dvorecky-most"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Adriana Krnáčová",
+          "role": "primátorka, ANO"
+        },
+        {
+          "name": "Petr Dolínek",
+          "role": "náměstek pro dopravu, ČSSD"
+        }
+      ]
+    },
+    {
+      "date": "2018 / 2021",
+      "title": "Zastupitelstvo schvaluje zakázky",
+      "tier": "a",
+      "text": "Záměr zakázky na projektování schvaluje zastupitelstvo v prosinci 2018 (tisk Z-6905), záměr zakázky na stavební práce v červnu 2021 (tisk Z-9446); následují smluvní tisky v letech 2022 a 2023 (Z-10443, Z-10724, Z-11597), všechny přijaté bez hlasů proti.",
+      "sources": [
+        {
+          "label": "výsledky hlasování ZHMP, praha.eu",
+          "url": "https://praha.eu/vysledky-hlasovani"
+        }
+      ],
+      "vote": {
+        "id": -55449,
+        "period": -33394,
+        "vysledek": "přijato",
+        "label": "Záměr zakázky na stavební práce (Z-9446), 17. 6. 2021",
+        "pro": 0,
+        "proti": 0,
+        "zdrzel": 0,
+        "ostatni": 0
+      }
+    },
+    {
+      "date": "2021 / 2022",
+      "title": "Zakázka na zhotovitele",
+      "tier": "b",
+      "text": "Rada v červnu 2021 schvaluje vypsání zakázky s předpokladem 972 milionů bez DPH; v květnu 2022 vybírá sdružení Metrostav TBR, Firesta a Strabag za 1,075 miliardy. Stavba začíná v září 2022.",
+      "sources": [
+        {
+          "label": "praha.eu: Dvorecký most má zhotovitele, 9. 5. 2022",
+          "url": "https://praha.eu/w/dvorecky_most_ma_zhotovitele_schvalili_3420427"
+        },
+        {
+          "label": "ceskenoviny.cz, září 2022",
+          "url": "https://www.ceskenoviny.cz/zpravy/v-podoli-zacne-stavba-dvoreckeho-mostu-ktery-propoji-prahu-4-a-5/2255950"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Adam Scheinherr",
+          "role": "náměstek pro dopravu, Praha sobě"
+        },
+        {
+          "name": "Zdeněk Hřib",
+          "role": "primátor, Piráti"
+        }
+      ]
+    },
+    {
+      "date": "červen 2025",
+      "title": "Cyklokomise mění cyklistické řešení",
+      "tier": "b",
+      "text": "Cyklokomise Rady jednomyslně doporučuje nahradit projektované cyklopruhy obousměrným sdílením chodníků s chodci. Argumentuje stavebními limity konstrukce, návazností na trasu A1 a nepraktičností jednosměrných pásů pro část směrů; řešení označuje za nejlepší možné a zkušební, při špatných zkušenostech se má vrátit oddělení.",
+      "sources": [
+        {
+          "label": "mestemnakole.cz, září 2025",
+          "url": "https://mestemnakole.cz/2025/09/dvorecky-most-cyklopruhy-v-projektu-nakonec-nebudou-rozhodla-prazska-cyklokomise/"
+        }
+      ]
+    },
+    {
+      "date": "17. 4. 2026",
+      "title": "Otevření mostu",
+      "tier": "a",
+      "text": "Po 1 312 dnech stavby se most otevírá chodcům a cyklistům, od následujícího dne jezdí MHD. Celkové náklady činí 1,624 miliardy korun bez DPH (s DPH téměř dvě miliardy), zhruba o dvě třetiny víc, než předpokládala zakázka.",
+      "sources": [
+        {
+          "label": "praha.eu, 17. 4. 2026",
+          "url": "https://praha.eu/w/praha-otevrela-dvorecky-most-stavba-vyrazne-usnadni-presun-cestujicim-mestskou-hromadnou-dopravou-cyklistum-a-pesim-ale-zlepsi-i-prujezd-sanitkam"
+        },
+        {
+          "label": "pid.cz",
+          "url": "https://pid.cz/dvorecky-most-bude-otevren-18-dubna-rada-tramvaji-a-autobusu-zamiri-do-novych-tras/"
+        }
+      ]
+    },
+    {
+      "date": "jaro 2026",
+      "title": "První zkušenosti se sdílením",
+      "tier": "b",
+      "text": "Reportáže z prvních týdnů popisují proplétání cyklistů mezi chodci a čekání na vyhodnocení zkušebního provozu. Zda a kdy se vrátí oddělené vedení, zůstává otevřené.",
+      "sources": [
+        {
+          "label": "mestemnakole.cz, duben 2026",
+          "url": "https://mestemnakole.cz/2026/04/otevrel-se-dvorecky-most-nove-propojeni-pres-vltavu-i-kompromis-pro-cyklisty/"
+        }
+      ]
+    },
+    {
+      "date": "23. 4. 2026",
+      "title": "Zařazení tisku o dopravním režimu neprošlo",
+      "tier": "a",
+      "text": "Návrh zařadit na program zastupitelstva tisk „Úprava dopravního režimu na Dvoreckém mostě“ neprošel: 23 pro, 2 proti, 8 se zdrželo, 29 nehlasovalo. Neprošlo ani zařazení tisku k dokončení přípravy návazné lávky Zlíchov (v březnu i dubnu). Jde o hlasování o programu; kdo zařazení navrhl a proč koalice nehlasovala, z dat neplyne.",
+      "vote": {
+        "label": "Zařazení tisku Z-14014 na program, 23. 4. 2026",
+        "pro": 23,
+        "proti": 2,
+        "zdrzel": 8,
+        "ostatni": 32,
+        "vysledek": "nepřijato",
+        "id": 105174,
+        "period": -36525,
+        "kind": "zarazeni"
+      },
+      "sources": [
+        {
+          "label": "výsledky hlasování ZHMP, praha.eu",
+          "url": "https://praha.eu/vysledky-hlasovani"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Jaromír Beránek",
+          "role": "autor odkládaného tisku; náměstek pro dopravu, Piráti"
+        }
+      ]
+    }
+  ],
+  "karta": {
+    "typ": "stavba",
+    "faze": "provoz",
+    "investor": "hl. m. Praha (investiční odbor MHMP)",
+    "horizont": "otevřen 17. 4. 2026",
+    "cena": "1,624 mld. Kč bez DPH"
+  },
+  "links": [
+    {
+      "label": "praha.eu: stránka mostu",
+      "url": "https://praha.eu/dvorecky-most"
+    },
+    {
+      "label": "wikipedie: Dvorecký most",
+      "url": "https://cs.wikipedia.org/wiki/Dvoreck%C3%BD_most"
+    },
+    {
+      "label": "Městem na kole: souhrn kompromisu",
+      "url": "https://mestemnakole.cz/2026/04/otevrel-se-dvorecky-most-nove-propojeni-pres-vltavu-i-kompromis-pro-cyklisty/"
+    }
+  ]
+}

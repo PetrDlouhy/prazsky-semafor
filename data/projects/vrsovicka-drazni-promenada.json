@@ -1,0 +1,237 @@
+{
+  "slug": "vrsovicka-drazni-promenada",
+  "title": "Vršovická drážní promenáda",
+  "category": "pěší a cyklistická doprava",
+  "area": "Praha 10",
+  "status": {
+    "label": "schváleno, nezahájeno",
+    "kind": "wait"
+  },
+  "summary": "Po modernizaci železniční trati zůstal mezi Vršovicemi a Zahradním Městem opuštěný drážní koridor. Město na něm naplánovalo několik kilometrů dlouhý lineární park s oddělenou stezkou pro pěší a cyklisty, získalo územní rozhodnutí, a pak projekt škrtlo z rozpočtu. Při životě ho drží občanská petice a usnesení zastupitelstva; koridor zatím zarůstá a stavba nezačala.",
+  "parts": [
+    {
+      "name": "Územní rozhodnutí",
+      "status": {
+        "label": "platné",
+        "kind": "ok"
+      },
+      "text": "Záměr má územní rozhodnutí od konce roku 2022; jeho platnost se podařilo udržet i během odkladů, mimo jiné zahájením přípravných prací."
+    },
+    {
+      "name": "Projektant",
+      "status": {
+        "label": "vybrán 8/2026",
+        "kind": "ok"
+      },
+      "text": "Zakázku na projektovou dokumentaci za 78 milionů korun vypsala TSK v dubnu 2025; po podzimním zrušení hodnocení bylo řízení dokončeno a výsledek uveřejněn 5. srpna 2026."
+    },
+    {
+      "name": "Stavba",
+      "status": {
+        "label": "nezahájena",
+        "kind": "miss"
+      },
+      "text": "Původní plán počítal se stavbou 2022 a dokončením 2024. Podle současného stavu příprav se začátek stavby nečeká před rokem 2027."
+    }
+  ],
+  "events": [
+    {
+      "date": "do 2022",
+      "title": "Záměr a původní harmonogram",
+      "tier": "b",
+      "text": "Po přeložení trati na novou estakádu město plánuje proměnit opuštěný koridor v lineární park s oddělenou pěší a cyklistickou stezkou; stavět se má od roku 2022, hotovo být do 2024.",
+      "sources": [
+        {
+          "label": "praha.eu: drážní promenáda",
+          "url": "https://praha.eu/drazni-promenada"
+        }
+      ]
+    },
+    {
+      "date": "prosinec 2022",
+      "title": "Územní rozhodnutí",
+      "tier": "b",
+      "text": "Záměr získává územní rozhodnutí; formální překážky stavby padají.",
+      "sources": [
+        {
+          "label": "mestemnakole.cz, leden 2025 (rekapitulace)",
+          "url": "https://mestemnakole.cz/2025/01/uzemni-povoleni-vrsovicke-drazni-promenady-zachraneno-zacatek-stavby-nejisty/"
+        }
+      ]
+    },
+    {
+      "date": "duben 2024",
+      "title": "Škrt v rozpočtu",
+      "tier": "b",
+      "text": "Město v rámci úspor navrhuje odložit stavbu promenády a dalších osmi cyklostaveb nejméně do roku 2026. Městem na kole za úsporami označuje radního pro finance Zdeňka Kovaříka; gesční náměstek Hřib oponuje, že promenádu neblokují peníze, ale pozemky Správy železnic a nejistota kolem vysokorychlostní trati. Úřední dokument, který by autora škrtů jmenoval, není veřejně k dispozici.",
+      "sources": [
+        {
+          "label": "mestemnakole.cz, duben 2024",
+          "url": "https://mestemnakole.cz/2024/04/praha-navrhuje-odlozit-stavbu-vrsovicke-drazni-promenady-skrta-i-dalsi-akce/"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Zdeněk Kovářík",
+          "role": "radní hl. m. Prahy pro finance, ODS"
+        },
+        {
+          "name": "Zdeněk Hřib",
+          "role": "náměstek pro dopravu, Piráti"
+        }
+      ]
+    },
+    {
+      "date": "20. 2. 2025",
+      "title": "Praha 10 žádá trojstrannou dohodu",
+      "tier": "a",
+      "text": "Rada Prahy 10 vyzývá hlavní město k iniciaci trojstranné dohody s Prahou 10 a Správou železnic pro území Bohdalec–Slatiny „s prioritou realizace Drážní promenády“ (usnesení 0102/RMČ/2025). Hlasování rad městských částí nejsou jmenovitě veřejná.",
+      "sources": [
+        {
+          "label": "usnesení RMČ Praha 10 č. 0102/RMČ/2025",
+          "url": "https://usneseni.praha10.cz/usneseni/usneseni/4611"
+        }
+      ]
+    },
+    {
+      "date": "březen 2025",
+      "title": "Petice a usnesení zastupitelstva",
+      "tier": "b",
+      "text": "Občanskou petici za urychlení stavby podepisují zhruba dva tisíce lidí. Zastupitelstvo ji projednává a k stavu projektu přijímá usnesení: 58 pro, nikdo proti (tisky Z-13051 a Z-13057); radě ukládá přípravu urychlit. Radní pro finance Kovářík v rozpravě říká, že politici „prezentují své vize předčasně, aniž by měli zajištěné potřebné dokumenty a finance“, a „matou veřejnost, která pak doufá ve vznik projektů předčasně a sepisuje petice“.",
+      "sources": [
+        {
+          "label": "mestemnakole.cz, říjen 2025 (rekapitulace)",
+          "url": "https://mestemnakole.cz/2025/10/vrsovicka-drazni-promenada-ma-memorandum-vyber-projektanta-se-zadrhl/"
+        },
+        {
+          "label": "výsledky hlasování ZHMP, praha.eu",
+          "url": "https://praha.eu/vysledky-hlasovani"
+        },
+        {
+          "label": "prazsky.denik.cz, 28. 3. 2025",
+          "url": "https://prazsky.denik.cz/zpravy-region/praha-10-drazni-promenada-petice-zastupitelstvo-odpadky-zachrana-projekt/"
+        }
+      ],
+      "promise": {
+        "by": "Zastupitelstvo hl. m. Prahy (usnesení)",
+        "promised": "březen 2025",
+        "due": "",
+        "status": "běží"
+      },
+      "vote": {
+        "id": 103702,
+        "period": -36525,
+        "vysledek": "přijato",
+        "label": "Usnesení k petici (Z-13051), 27. 3. 2025",
+        "pro": 0,
+        "proti": 0,
+        "zdrzel": 0,
+        "ostatni": 0
+      },
+      "actors": [
+        {
+          "name": "Zdeněk Kovářík",
+          "role": "radní hl. m. Prahy pro finance, ODS"
+        }
+      ]
+    },
+    {
+      "date": "7. 10. 2025",
+      "title": "Memorandum a zadrhnutý tendr",
+      "tier": "b",
+      "text": "Rada schvaluje memorandum se Správou železnic a Prahou 10 o koordinaci s plánovanou vysokorychlostní tratí a rozvojem území Bohdalec–Slatiny. Tentýž den je v rámci nápravných opatření zrušeno hodnocení nabídek v zakázce na projektanta za 78 milionů korun; řízení pokračuje s novým hodnocením.",
+      "sources": [
+        {
+          "label": "mestemnakole.cz, říjen 2025",
+          "url": "https://mestemnakole.cz/2025/10/vrsovicka-drazni-promenada-ma-memorandum-vyber-projektanta-se-zadrhl/"
+        }
+      ]
+    },
+    {
+      "date": "23. 10. 2025",
+      "title": "Spor o peníze na projektanta",
+      "tier": "a",
+      "text": "V interpelacích zastupitelstva se petiční výbor ptá, zda rozpočet 2026 zajistí prostředky na projekční práce a výkup pozemků; dotaz míří na náměstka Hřiba a radního Kovaříka, který na jednání není přítomen. Hřib do stenozáznamu říká, že pokud by návrh rozpočtu „neměl dostatečnou alokaci od pana radního“, zastupitelstvo bude „konzistentní ve svém rozhodování“.",
+      "sources": [
+        {
+          "label": "interpelace 27. ZHMP, stenozáznam (PDF, praha.eu)",
+          "url": "https://praha.eu/documents/42409/14166871/Interpelace_obcanu_a_odpovedi_radnich_27_ZHMP_INT_OBC_akt_web_02.pdf"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Zdeněk Hřib",
+          "role": "náměstek pro dopravu, Piráti"
+        },
+        {
+          "name": "Zdeněk Kovářík",
+          "role": "radní hl. m. Prahy pro finance, ODS"
+        }
+      ]
+    },
+    {
+      "date": "23. 4. 2026",
+      "title": "Zařazení tisku o promenádě neprošlo",
+      "tier": "a",
+      "text": "Návrh zařadit na program zastupitelstva tisk radního Zábranského „Drážní promenáda a liniový park na Praze 10“ neprošel: pro byla především opozice (ANO, SPD, Praha sobě) a část Pirátů, koalice vesměs nehlasovala, sám autor tisku byl mezi nehlasujícími. Kdo zařazení navrhl, z dat hlasování neplyne; jde zřejmě o taktickou přetahovanou o program, ne o hlasování o promenádě samotné.",
+      "vote": {
+        "label": "Zařazení tisku Z-14016 na program, 23. 4. 2026",
+        "pro": 30,
+        "proti": 1,
+        "zdrzel": 9,
+        "ostatni": 25,
+        "vysledek": "nepřijato",
+        "id": 105171,
+        "period": -36525,
+        "kind": "zarazeni"
+      },
+      "sources": [
+        {
+          "label": "výsledky hlasování ZHMP, praha.eu",
+          "url": "https://praha.eu/vysledky-hlasovani"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Adam Zábranský",
+          "role": "autor odkládaného tisku; radní hl. m. Prahy, Piráti"
+        }
+      ]
+    },
+    {
+      "date": "5. 8. 2026",
+      "title": "Projektant vybrán",
+      "tier": "a",
+      "text": "Zakázka na projektanta promenády je zadána; výsledek zadávacího řízení byl uveřejněn ve Věstníku veřejných zakázek. Projektová příprava se po dvou letech odkladů znovu rozbíhá.",
+      "sources": [
+        {
+          "label": "NEN N006-25-V00009318 / VVZ Z2025-018379",
+          "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00009318"
+        }
+      ]
+    }
+  ],
+  "trasa": "A3",
+  "karta": {
+    "typ": "stavba",
+    "faze": "dokumentace",
+    "fazepozn": "projektant vybrán 8/2026",
+    "investor": "TSK Praha",
+    "horizont": "stavba ne dříve než 2027",
+    "cena": "dokumentace 78 mil. Kč"
+  },
+  "links": [
+    {
+      "label": "praha.eu: drážní promenáda",
+      "url": "https://praha.eu/drazni-promenada"
+    },
+    {
+      "label": "petice Zachraňme promenádu",
+      "url": "https://zachranmepromenadu.cz/"
+    },
+    {
+      "label": "wikipedie: Vršovická drážní promenáda",
+      "url": "https://cs.wikipedia.org/wiki/Vr%C5%A1ovick%C3%A1_dr%C3%A1%C5%BEn%C3%AD_promen%C3%A1da"
+    }
+  ]
+}

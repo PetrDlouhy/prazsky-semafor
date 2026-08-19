@@ -1,0 +1,284 @@
+{
+  "slug": "legerova-sokolska",
+  "title": "Cyklotrasa A4 na magistrále",
+  "category": "cyklistická doprava",
+  "area": "Praha 1 / 2 / 4",
+  "status": {
+    "label": "v přípravě, část vypuštěna",
+    "kind": "wait"
+  },
+  "summary": "Severojižní magistrála prochází nejhustěji obydlenou částí Prahy a v její stopě vede páteřní cyklotrasa A4, dodnes bez souvislé cyklistické infrastruktury. Jednu osu proto sledujeme jako celek: Pankrác, kde se v roce 2024 položil nový povrch bez jediného cykloopatření; úsek od Nuselského mostu k Muzeu, kde se projektují skutečně oddělené pásy; první vyznačený pruh u Muzea; a přednádraží, kde cyklistická infrastruktura mezi studií a stavbou beze zbytku vypadla. Čtyři úseky téže trasy, čtyři různé osudy.",
+  "parts": [
+    {
+      "name": "Pankrác (5. května)",
+      "status": {
+        "label": "nový povrch bez opatření",
+        "kind": "miss"
+      },
+      "text": "Zhruba kilometr mezi Pražského povstání a Nuselským mostem dostal v roce 2024 nový tichý asfalt, ale žádné cykloopatření, přestože tudy má trasa A4 pokračovat dál na Kačerov a Jižní Město. Podle kritiky by zúžení předimenzovaných pruhů na normových 3,2 metru uvolnilo místo pro chráněné pásy bez omezení kapacity aut."
+    },
+    {
+      "name": "Oddělené pásy Nuselský most – Muzeum",
+      "status": {
+        "label": "v dokumentaci",
+        "kind": "wait"
+      },
+      "text": "Jednosměrné pásy o šířce 2 až 2,5 metru v obou směrech Legerovy a Sokolské, chráněné obrubníkem nebo parkovacím pruhem, s červeným asfaltem; k tomu 120 stromů a zachované tři jízdní pruhy ve většině úseku. Projekt přechází ze studie do dokumentace."
+    },
+    {
+      "name": "Cyklopruh u Muzea",
+      "status": {
+        "label": "vyznačen",
+        "kind": "ok"
+      },
+      "text": "První vyhrazený cyklopruh na pravobřežní magistrále vznikl v prosinci 2025 před křižovatkou Legerovy s Vinohradskou, v rámci stavby tramvajové trati k Muzeu. Zhruba 1,5 metru s červeným podbarvením; minimální standard, ne oddělená infrastruktura."
+    },
+    {
+      "name": "Úsek před Hlavním nádražím",
+      "status": {
+        "label": "infrastruktura vypuštěna",
+        "kind": "miss"
+      },
+      "text": "Přednádraží se od léta 2026 přestavuje spolu s opravou stropní desky odbavovací haly. Z odděleného cyklopásu slibovaného v roce 2023 zbyl nejdřív pruh ve vozovce a ve finální dokumentaci nic; magistrát odkazuje řešení trasy A4 na budoucí projekt Nový Hlavák přes Vrchlického sady, bez závazného harmonogramu."
+    },
+    {
+      "name": "Realizace",
+      "status": {
+        "label": "výhled ~2030",
+        "kind": "muted"
+      },
+      "text": "Stavba má zabrat dvě sezóny; podle harmonogramu z představení projektu vychází dokončení zhruba na rok 2030."
+    }
+  ],
+  "events": [
+    {
+      "date": "2017",
+      "title": "Gehlova vize městské třídy",
+      "tier": "b",
+      "text": "Ateliér Jana Gehla dokončuje pro Prahu koncepční studii proměny magistrály ve „spojující městskou třídu“; Rada schvaluje realizaci jednotlivých opatření. V témže období město na části magistrály zvyšuje nejvyšší povolenou rychlost na 70 km/h.",
+      "sources": [
+        {
+          "label": "auto-mat.cz: magistrála (rekapitulace)",
+          "url": "https://auto-mat.cz/magistrala"
+        },
+        {
+          "label": "iprpraha.cz, projekt 32",
+          "url": "https://iprpraha.cz/project/32"
+        }
+      ],
+      "thread": "celá trasa"
+    },
+    {
+      "date": "22. 5. 2023",
+      "title": "Rada schvaluje přípravu proměny",
+      "tier": "b",
+      "text": "Rada schvaluje přípravu úprav magistrály v okolí Hlavního nádraží; prezentované plány počítají se zúžením ze šesti pruhů na čtyři a s prostorem pro pěší i cyklisty. Náměstek Hlaváček: cílem je, aby se po magistrále „mohli pohybovat i chodci a cyklisti“.",
+      "sources": [
+        {
+          "label": "ceskenoviny.cz, 22. 5. 2023",
+          "url": "https://www.ceskenoviny.cz/zpravy/2368619"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Petr Hlaváček",
+          "role": "náměstek pro územní rozvoj, STAN"
+        }
+      ],
+      "thread": "Hlavní nádraží"
+    },
+    {
+      "date": "březen 2024",
+      "title": "Cyklokomise žádá přepracování",
+      "tier": "b",
+      "text": "Komise Rady pro cyklodopravu přijímá usnesení požadující přepracování projektu: kritizuje nebezpečný vjezd zpět na magistrálu a nedostatečné oddělení od chodců. Návrh odděleného pásu podél Fantovy budovy mezitím naráží u památkářů.",
+      "sources": [
+        {
+          "label": "mestemnakole.cz, březen 2026 (rekapitulace)",
+          "url": "https://mestemnakole.cz/2026/03/oprava-hlavniho-nadrazi-prinese-do-roku-2028-prechod-pres-magistralu-z-cyklopasu-zbyly-cyklopruhy/"
+        }
+      ],
+      "thread": "Hlavní nádraží"
+    },
+    {
+      "date": "29. 4. 2024",
+      "title": "Praha 2 podmiňuje Hlavák humanizací",
+      "tier": "a",
+      "text": "Zastupitelstvo Prahy 2 souhlasí se změnou územního plánu u Hlavního nádraží jen za podmínek, mezi nimiž výslovně stojí, že „změna bude probíhat v návaznosti na zklidnění a humanizaci severojižní magistrály“ (usnesení č. 99). Praha 2 jmenovitá hlasování nezveřejňuje.",
+      "sources": [
+        {
+          "label": "usnesení ZMČ Praha 2 č. 99, 29. 4. 2024",
+          "url": "https://archiv.praha2.cz/usneseni-k-podnetu-na-porizeni-zmeny-uzemniho-planu-sidelniho-utvaru-hl-m-prahy-tykajici-se-uzemi-hlavniho-nadrazi-praha/d-119384/p1=28099"
+        }
+      ],
+      "thread": "celá trasa"
+    },
+    {
+      "date": "prosinec 2024",
+      "title": "Pankrác: nový povrch, žádná opatření",
+      "tier": "b",
+      "thread": "Pankrác",
+      "text": "Rekonstrukce povrchu ulice 5. května mezi Pražského povstání a Nuselským mostem končí bez jakéhokoli cykloopatření; s trasou A4 v tomto úseku počítají koncepční dokumenty města, rekonstrukce je pominula.",
+      "sources": [
+        {
+          "label": "mestemnakole.cz, prosinec 2024",
+          "url": "https://mestemnakole.cz/2024/12/magistrala-na-pankraci-novy-povrch-stary-pristup/"
+        }
+      ]
+    },
+    {
+      "date": "prosinec 2024",
+      "title": "Cyklokomise varuje před zástavbou u Wilsonovy",
+      "tier": "b",
+      "thread": "Těšnov / Florenc",
+      "text": "Cyklokomise jednomyslně (usnesení č. 17.3, 10-0-0) varuje, že zástavba Penty u Wilsonovy bez úpravy regulací „těsně obestaví“ magistrálu, znemožní budoucí snížení nivelety u Těšnova a zablokuje plnohodnotné vedení trasy A4 podle standardů aktivní mobility. Žádá IPR a náměstky, aby regulace upravili.",
+      "sources": [
+        {
+          "label": "mestemnakole.cz: podzimní cyklokomise, leden 2025",
+          "url": "https://mestemnakole.cz/2025/01/podzimni-cyklokomise/"
+        }
+      ]
+    },
+    {
+      "date": "29. 1. 2025",
+      "title": "Praha 1 se vymezuje proti humanizaci",
+      "tier": "a",
+      "text": "Den před představením projektu oddělených pásů schvaluje zastupitelstvo Prahy 1 jako součást usnesení UZ25_0309 bod, podle nějž městská část „nevnímá humanizaci magistrály (redukci pruhů a cyklostezku) jako účinný krok“: 14 pro, 5 proti, 5 nehlasovalo. Nejtěsnější dílčí hlasování celého usnesení.",
+      "vote": {
+        "rollFile": "p1-2025-01-28-h39.json",
+        "label": "ZMČ Praha 1, bod k humanizaci magistrály (hlasování č. 39), 29. 1. 2025",
+        "vysledek": "přijato",
+        "pro": 14,
+        "proti": 5,
+        "zdrzel": 0,
+        "ostatni": 8
+      },
+      "sources": [
+        {
+          "label": "jmenovitý záznam hlasování č. 39, praha1.cz (TXT)",
+          "url": "https://www.praha1.cz/app/uploads/2025/02/2025_28_01_39.txt"
+        },
+        {
+          "label": "zápis z 22. zasedání ZMČ Praha 1 (PDF)",
+          "url": "https://www.praha1.cz/app/uploads/2025/02/Zapis_ZMC_28.01.2025_22_GDPR.pdf"
+        }
+      ],
+      "thread": "celá trasa"
+    },
+    {
+      "date": "30. 1. 2025",
+      "title": "Projekt oddělených pásů představen",
+      "tier": "b",
+      "text": "TSK představuje projekt proměny Legerovy, Sokolské a Ječné: oddělené cyklopásy jako součást trasy A4, 120 stromů, chytré semafory. Podporu vyjadřují náměstci Hřib a Hlaváček i starosta Prahy 2 Korseska; Hřib slibuje „bezpečně oddělené cyklostezky“ se zachováním plynulosti provozu.",
+      "sources": [
+        {
+          "label": "mestemnakole.cz, 30. 1. 2025",
+          "url": "https://mestemnakole.cz/2025/01/cyklostezka-na-magistrale-bude-realitou-magistrat-odhalil-plany/"
+        },
+        {
+          "label": "ceskenoviny.cz, 30. 1. 2025",
+          "url": "https://www.ceskenoviny.cz/zpravy/praha-planuje-rekonstrukci-magistraly-a-jecne-od-nuselskeho-mostu-k-muzeu/2627470"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Zdeněk Hřib",
+          "role": "náměstek pro dopravu, Piráti"
+        },
+        {
+          "name": "Petr Hlaváček",
+          "role": "náměstek pro územní rozvoj, STAN"
+        },
+        {
+          "name": "Jan Korseska",
+          "role": "starosta MČ Praha 2, ODS"
+        }
+      ],
+      "promise": {
+        "promised": "leden 2025",
+        "due": "dokumentace 2026, realizace ~2030",
+        "status": "běží"
+      },
+      "thread": "Nuselský most – Muzeum"
+    },
+    {
+      "date": "21. 12. 2025",
+      "title": "První cyklopruh u Muzea",
+      "tier": "b",
+      "text": "V rámci dopravních úprav při stavbě tramvajové trati Václavské náměstí – Muzeum je vyznačen první vyhrazený cyklopruh na pravobřežní části magistrály.",
+      "sources": [
+        {
+          "label": "mestemnakole.cz, 21. 12. 2025",
+          "url": "https://mestemnakole.cz/2025/12/praha-u-muzea-vyznacila-prvni-cyklopruh-na-pravobrezni-casti-magistraly/"
+        }
+      ],
+      "thread": "Muzeum"
+    },
+    {
+      "date": "10. 3. 2026",
+      "title": "Z cyklopásů zbývají pruhy",
+      "tier": "b",
+      "text": "Aktualizovaná podoba projektu zachovává tři jízdní pruhy v každém směru; z odděleného cyklopásu zbývá vyhrazený pruh ve vozovce.",
+      "sources": [
+        {
+          "label": "mestemnakole.cz, 10. 3. 2026",
+          "url": "https://mestemnakole.cz/2026/03/oprava-hlavniho-nadrazi-prinese-do-roku-2028-prechod-pres-magistralu-z-cyklopasu-zbyly-cyklopruhy/"
+        }
+      ],
+      "thread": "Hlavní nádraží"
+    },
+    {
+      "date": "21. 5. 2026",
+      "title": "Ze studie do dokumentace",
+      "tier": "a",
+      "text": "Podle odpovědí magistrátu projekt Nuselský most – Muzeum přechází ze studie proveditelnosti do projektové dokumentace a zadávají se průzkumy.",
+      "sources": [
+        {
+          "label": "mestemnakole.cz: odpovědi MHMP, květen 2026",
+          "url": "https://mestemnakole.cz/zpravicky/magistrat-zverejnil-aktualni-stav-cyklo-projektu-v-praze-podivejte-se-co-se-chysta/"
+        }
+      ],
+      "thread": "Nuselský most – Muzeum"
+    },
+    {
+      "date": "22. 7. 2026",
+      "title": "Stavba začíná bez cyklistické infrastruktury",
+      "tier": "b",
+      "text": "Ve finální dokumentaci Správy železnic nezůstává žádná cyklistická infrastruktura; zůstává buspruh s povoleným vjezdem kol, nový přechod s přejezdem a stojany. Kdo a kdy o vypuštění rozhodl, žádný veřejný dokument neuvádí; magistrát odkazuje řešení trasy A4 na budoucí projekt Nový Hlavák.",
+      "sources": [
+        {
+          "label": "mestemnakole.cz, 22. 7. 2026",
+          "url": "https://mestemnakole.cz/2026/07/rekonstrukce-magistraly-u-hlavniho-nadrazi-bude-bez-cyklisticke-infrastruktury-z-puvodnich-planu-nic-nezustalo/"
+        },
+        {
+          "label": "zdopravy.cz, červenec 2026",
+          "url": "https://zdopravy.cz/misto-cyklopruhu-bude-buspruh-magistrala-pred-nadrazim-se-nakonec-pro-auta-nezuzi-pribude-autobusu-290497/"
+        }
+      ],
+      "thread": "Hlavní nádraží"
+    }
+  ],
+  "trasa": "A4",
+  "karta": {
+    "typ": "stavba",
+    "faze": "dokumentace",
+    "fazepozn": "úsek Nuselský most – Muzeum",
+    "investor": "TSK Praha",
+    "horizont": "realizace ~2027–2030",
+    "cena": "neurčena"
+  },
+  "links": [
+    {
+      "label": "IPR: koncepce magistrály",
+      "url": "https://iprpraha.cz/project/32"
+    },
+    {
+      "label": "TSK: představení projektu",
+      "url": "https://www.tsk-praha.cz/praha-planuje-rekonstrukci-magistraly-promeni-se-v-moderni-mestsky-bulvar-spolecne-s-jecnou-ulici/"
+    },
+    {
+      "label": "AutoMat: kauza magistrála",
+      "url": "https://auto-mat.cz/magistrala"
+    }
+  ]
+}
