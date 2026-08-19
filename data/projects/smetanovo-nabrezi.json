@@ -7,10 +7,10 @@
     "label": "schváleno, nespuštěno",
     "kind": "wait"
   },
-  "summary": "Nábřeží mezi Národním divadlem a Karlovými lázněmi patří k nejcennějším místům Prahy a zároveň slouží jako tranzitní čtyřproudovka: denně tudy projede kolem 40 tisíc lidí autem, zatímco 90 tisíc jich sveze MHD. Město ho zkusilo zklidnit opakovaně: poprvé na den v roce 2004, naposledy na rok a půl v letech 2020 až 2021. V roce 2021 Rada schválila koncepci trvalé proměny; stavební část z ní zčásti stojí, dopravní režim, který je jejím jádrem, dosud spuštěn nebyl.",
+  "summary": "Nábřeží mezi Národním divadlem a Karlovými lázněmi patří k nejcennějším místům Prahy a zároveň slouží jako tranzitní čtyřproudovka: denně tudy projede kolem 40 tisíc lidí autem, zatímco 90 tisíc jich sveze MHD. Město ho zkusilo zklidnit opakovaně: poprvé na den v roce 2004, naposledy na rok a půl v letech 2020 až 2021. V roce 2021 Rada schválila koncepční zadání trvalé proměny; stavební část je zčásti hotová, dopravní režim, který je jádrem koncepce, dosud spuštěn nebyl.",
   "counter": {
     "since": "2021-03-22",
-    "label": "dní od schválení koncepce Radou"
+    "label": "dní od schválení koncepčního zadání Radou (usnesení č. 579)"
   },
   "parts": [
     {
@@ -99,7 +99,7 @@
       "date": "podzim 2013",
       "title": "Nábřeží žije!",
       "tier": "a",
-      "text": "Pět sobotních uzavírek pořádá samo město s IPR a spolkem Auto*Mat, včetně plánovacích setkání s veřejností. Studie AutoMatu z téhož roku dochází k závěru, že zklidnění je možné i bez dokončení Blanky, pokud cílová automobilová doprava do centra klesne o 15 procent.",
+      "text": "Pět sobotních uzavírek pořádá samo město s IPR a spolkem AutoMat, včetně plánovacích setkání s veřejností. Studie AutoMatu z téhož roku dochází k závěru, že zklidnění je možné i bez dokončení Blanky, pokud cílová automobilová doprava do centra klesne o 15 procent.",
       "sources": [
         {
           "label": "iprpraha.cz, 26. 9. 2013",
@@ -159,7 +159,7 @@
       "actors": [
         {
           "name": "Adam Scheinherr",
-          "role": "náměstek pro dopravu, Praha Sobě"
+          "role": "náměstek pro dopravu, Praha sobě"
         }
       ]
     },
@@ -177,9 +177,9 @@
     },
     {
       "date": "22. 3. 2021",
-      "title": "Rada schvaluje koncepci proměny",
+      "title": "Rada schvaluje koncepční zadání proměny",
       "tier": "a",
-      "text": "Koncepční studie IPR pro Křižovnickou a obě nábřeží: priorita tramvají a chodců, kteří tvoří 70 procent uživatelů ulice, oddělený cyklopás, stromy, nové zastávky. Vzniká pracovní skupina k omezení dopravy.",
+      "text": "Rada usnesením č. 579 schvaluje koncepční zadání Křižovnická – Smetanovo nábřeží – Masarykovo nábřeží podle studie IPR: priorita tramvají a chodců, kteří tvoří 70 procent uživatelů ulice, oddělený cyklopás, stromy, nové zastávky. Vzniká pracovní skupina k omezení dopravy.",
       "sources": [
         {
           "label": "iprpraha.cz, projekt 136",
@@ -205,7 +205,7 @@
       "actors": [
         {
           "name": "Adam Scheinherr",
-          "role": "náměstek pro dopravu, Praha Sobě"
+          "role": "náměstek pro dopravu, Praha sobě"
         }
       ]
     },
@@ -283,13 +283,13 @@
       }
     },
     {
-      "date": "29. 1. 2025",
+      "date": "28. 1. 2025",
       "title": "Praha 1: zklidnit „již nyní“",
       "tier": "a",
       "text": "Zastupitelstvo Prahy 1 v usnesení UZ25_0309 trvá na nutnosti realizovat opatření ke zklidnění dopravy v historickém centru „již nyní, bez ohledu na termín dokončení Městského a Pražského okruhu“: dílčí hlasování 21 pro, nikdo proti, 2 se zdrželi (předkládá Filip Lachmann).",
       "vote": {
         "rollFile": "p1-2025-01-28-h37.json",
-        "label": "ZMČ Praha 1, bod „zklidnit již nyní“ (hlasování č. 37), 29. 1. 2025",
+        "label": "ZMČ Praha 1, bod „zklidnit již nyní“ (hlasování č. 37), 28. 1. 2025",
         "vysledek": "přijato",
         "pro": 21,
         "proti": 0,
@@ -323,7 +323,7 @@
       "date": "duben 2026",
       "title": "Klidové víkendy neprošly o jeden hlas",
       "tier": "a",
-      "text": "Náměstek Beránek navrhuje zkušební letní uzavírky; zastupitelé Prahy 1 Lachmann a Marc předkládají žádost o klidové víkendy na nábřeží a Malostranském náměstí. Návrh získává 13 hlasů z potřebných 14: nikdo není proti, nikdo se nezdrží, jedenáct zastupitelů nehlasuje. Místo něj projde protinávrh Vojtěcha Ryvoly: přijaté usnesení UZ26_0433 žádá magistrát o obnovení nočního a víkendového zákazu vjezdu do Divadelní ulice.",
+      "text": "Náměstek Beránek navrhuje zkušební letní uzavírky; zastupitelé Prahy 1 Lachmann a Marc předkládají žádost o klidové víkendy na nábřeží a Malostranském náměstí. Návrh získává 13 hlasů z potřebných 14: nikdo není proti, nikdo se nezdrží, jedenáct zastupitelů nehlasuje a tři jsou omluveni. Místo něj projde protinávrh Vojtěcha Ryvoly: přijaté usnesení UZ26_0433 žádá magistrát o obnovení nočního a víkendového zákazu vjezdu do Divadelní ulice.",
       "sources": [
         {
           "label": "zápis z 33. zasedání ZMČ Praha 1 (PDF)",
@@ -382,10 +382,6 @@
     {
       "label": "AutoMat: kauza Smetanovo nábřeží",
       "url": "https://auto-mat.cz/co-delame/kauzy/smetanovo-nabrezi-2"
-    },
-    {
-      "label": "město: Smetanovo nábřeží (Praha město pro lidi)",
-      "url": "https://www.praha-mestoprolidi.cz/doprava/smetanovo-nabrezi/"
     }
   ]
 }

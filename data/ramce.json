@@ -1,25 +1,25 @@
 [
   {
-    "nazev": "Koncepce nábřeží (Křižovnická – Smetanovo – Masarykovo)",
-    "schvaleno": "Rada hl. m. Prahy, 22. 3. 2021",
+    "nazev": "Koncepční zadání nábřeží (Křižovnická – Smetanovo – Masarykovo)",
+    "schvaleno": "Rada hl. m. Prahy, usnesení č. 579 z 22. 3. 2021",
     "slibuje": "Priorita tramvají a chodců, kteří tvoří 70 % uživatelů ulice; oddělený cyklopás, stromy, nové zastávky a dopravní režim omezující tranzit.",
-    "stav": "Stavební část zčásti stojí (1. etapa 2022); dopravní režim, jádro koncepce, nebyl spuštěn ani po pěti letech.",
+    "stav": "Stavební část je zčásti hotová (1. etapa 2022); dopravní režim, jádro koncepce, nebyl spuštěn ani po pěti letech.",
     "dokumenty": [{"label": "IPR, projekt 136", "url": "https://iprpraha.cz/project/136/smetanovo-nabrezi"}],
     "projekty": ["smetanovo-nabrezi"]
   },
   {
     "nazev": "Magistrála jako spojující městská třída (koncepce Gehl Architects)",
-    "schvaleno": "studie 2016/17; Rada schválila realizaci opatření 2017",
+    "schvaleno": "studie dokončena 2017; Rada schválila realizaci opatření 2017",
     "slibuje": "Proměnu severojižní magistrály v městskou třídu snesitelnou pro chodce a cyklisty.",
-    "stav": "Po deseti letech dílčí kroky (pruh u Muzea, projekt Legerova/Sokolská v dokumentaci); u Hlavního nádraží se staví bez cyklistické infrastruktury, na Pankráci se v roce 2024 položil povrch bez opatření.",
+    "stav": "Po devíti letech dílčí kroky (pruh u Muzea, projekt Legerova/Sokolská v dokumentaci); u Hlavního nádraží se staví bez cyklistické infrastruktury, na Pankráci se v roce 2024 položil povrch bez opatření.",
     "dokumenty": [{"label": "IPR, projekt 32", "url": "https://iprpraha.cz/project/32"}],
     "projekty": ["legerova-sokolska"]
   },
   {
     "nazev": "Strategie aktivní mobility a celoměstský systém cyklotras",
-    "schvaleno": "Rada hl. m. Prahy, usnesení č. 1859 z 1. 8. 2022; koncepce cyklodopravy prodloužena do 2030 usnesením č. 418 ze 7. 3. 2022",
+    "schvaleno": "Rada hl. m. Prahy, usnesení č. 1859 z 1. 8. 2022; koncepce cyklodopravy prodloužena do roku 2030 usnesením č. 418 ze 7. 3. 2022",
     "slibuje": "Souvislou síť páteřních tras A1–A9 s oddělenou infrastrukturou podle Standardů aktivní mobility; cíl podílu kola 5–7 % cest v létě.",
-    "stav": "Tempo výstavby po roce 2022 výrazně kleslo (vyhrazené pruhy: 2,1 km v 2023, 0 km v 2024, 1,1 km v 2025); páteřní síť zůstává nesouvislá.",
+    "stav": "Tempo výstavby po roce 2022 výrazně kleslo (vyhrazené pruhy: 2,1 km v roce 2023, 0 km v roce 2024, 1,1 km v roce 2025); páteřní síť zůstává nesouvislá.",
     "dokumenty": [{"label": "praha.eu: koncepce cyklistické dopravy", "url": "https://praha.eu/web/cyklo/koncepce"}],
     "projekty": ["legerova-sokolska", "vrsovicka-drazni-promenada"]
   },

@@ -7,7 +7,7 @@
     "label": "v provozu",
     "kind": "ok"
   },
-  "summary": "Lávka mezi Holešovicemi a Karlínem přes ostrov Štvanici prošla od záměru k otevření třemi vedeními města: soutěž zadala éra Krnáčové a Dolínka, dokumentaci a stavbu dotáhl Scheinherr, pásku stříhali Svoboda s Hřibem. Návrh se cestou nezhoršil, naopak se rozšířil; výrazně ale vzrostla cena proti původním odhadům. Otevřena v létě 2023; na podzim téhož roku získala titul Stavba roku.",
+  "summary": "Lávka mezi Holešovicemi a Karlínem přes ostrov Štvanici prošla od záměru k otevření třemi vedeními města: soutěž zadala éra Krnáčové a Dolínka, dokumentaci a stavbu dotáhl Scheinherr, pásku stříhali Svoboda s Hřibem. Návrh se cestou nezhoršil, naopak se rozšířil; výrazně ale vzrostla cena oproti původním odhadům. Otevřena v létě 2023; na podzim téhož roku získala titul Stavba roku.",
   "parts": [
     {
       "name": "Lávka",
@@ -23,7 +23,7 @@
         "label": "vyšší než odhady",
         "kind": "muted"
       },
-      "text": "Tendr byl vypsán s předpokladem 197 milionů bez DPH, Skanska vysoutěžila stavbu za 298 milionů; dodatek za změny z května 2024 přidal dalších 78,6 milionu (registr smluv). Veřejně komunikovaná cena 352 milionů s těmito čísly úplně nesedí; rozpad ověřujeme."
+      "text": "Tendr byl vypsán s předpokladem 197 milionů bez DPH, Skanska vysoutěžila stavbu za 298 milionů. Při otevření město uvedlo stavební náklady 352 milionů; zdražení připsalo potížím se zakládáním pilířů ve vltavském dně a rozsáhlejším úpravám na Štvanici."
     }
   ],
   "events": [
@@ -65,7 +65,7 @@
       "date": "13. 12. 2016",
       "title": "Rada zadává architektonickou soutěž",
       "tier": "a",
-      "text": "Rada hl. m. Prahy schvaluje zadání soutěže o návrh lávky (usnesení č. 3129, tisk R-23784); předkladatelem je náměstek pro dopravu Petr Dolínek. Soutěž je vyhlášena v dubnu 2017, v prosinci 2017 Rada vybírá vítězný návrh Petra Teje a Marka Blanka (usnesení č. 3001).",
+      "text": "Rada hl. m. Prahy schvaluje zadání soutěže o návrh lávky (usnesení č. 3129, tisk R-23784); předkladatelem je náměstek pro dopravu Petr Dolínek. Soutěž je vyhlášena v dubnu 2017, v prosinci 2017 Rada vybírá vítězný návrh Petra Teje, Marka Blanka a Jana Mourka (usnesení č. 3001).",
       "sources": [
         {
           "label": "databáze soutěží ČKA",
@@ -87,7 +87,7 @@
       "date": "8. 4. 2019",
       "title": "Nové vedení projekt přebírá a rozšiřuje",
       "tier": "a",
-      "text": "Rada za náměstka Adama Scheinherra zadává vítězi soutěže projektovou dokumentaci (usnesení č. 597, tisk R-32809) a prosazuje věcné změny: rozšíření lávky z 3,5 na minimálně 4 metry a nosnost pro vozy záchranářů. Následuje stavební povolení (5/2021) a výběr zhotovitele: Skanska za 298 milionů bez DPH (usnesení č. 1696, 12. 7. 2021). Stavba začíná 11. ledna 2022.",
+      "text": "Rada za náměstka Adama Scheinherra zadává vítězi soutěže projektovou dokumentaci (usnesení č. 597, tisk R-32809) a prosazuje věcné změny: rozšíření lávky ze 3,5 na minimálně 4 metry a nosnost pro vozy záchranářů. Následuje stavební povolení (5/2021) a výběr zhotovitele: Skanska za 298 milionů bez DPH (usnesení č. 1696, 12. 7. 2021). Stavba začíná 11. ledna 2022.",
       "sources": [
         {
           "label": "prazsky.denik.cz, 8. 4. 2019",
@@ -165,7 +165,7 @@
     "faze": "provoz",
     "investor": "hl. m. Praha (investiční odbor MHMP)",
     "horizont": "otevřena 28. 7. 2023",
-    "cena": "298 mil. Kč bez DPH + dodatky"
+    "cena": "vysoutěženo 298 mil. Kč bez DPH; dokončeno za ~352 mil. Kč"
   },
   "links": [
     {

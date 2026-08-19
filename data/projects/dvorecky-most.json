@@ -7,7 +7,7 @@
     "label": "v provozu",
     "kind": "ok"
   },
-  "summary": "Nový most přes Vltavu mezi Podolím a Zlíchovem je vyhrazen tramvajím, autobusům, vozům záchranného systému, chodcům a cyklistům; osobní auta na něj nesmějí. Od architektonické soutěže k otevření uběhlo devět let a s mostem se přeskupila velká část tramvajové sítě. Cestou se výrazně zvedla cena a namísto původně projektovaných oddělených cyklopruhů se jezdí ve sdíleném režimu; ten cyklokomise hájí jako nejlepší řešení za daných stavebních podmínek.",
+  "summary": "Nový most přes Vltavu mezi Podolím a Zlíchovem je vyhrazen tramvajím, autobusům, vozům integrovaného záchranného systému, chodcům a cyklistům; osobní auta na něj nesmějí. Od architektonické soutěže k otevření uběhlo přes osm let a s mostem se přeskupila velká část tramvajové sítě. Cestou se výrazně zvedla cena a namísto původně projektovaných oddělených cyklopruhů se jezdí ve sdíleném režimu; ten cyklokomise hájí jako nejlepší možné řešení za daných podmínek.",
   "parts": [
     {
       "name": "Most pro MHD, pěší a kola",
@@ -23,7 +23,7 @@
         "label": "kompromis",
         "kind": "muted"
       },
-      "text": "Návrh ze soutěže počítal s jednosměrnými cyklopruhy podél kolejí. Nakonec se jezdí po sdílených chodnících s chodci, případně ve vozovce mezi kolejemi. Cyklokomise záměnu jednomyslně doporučila s tím, že jde o nejlepší řešení za daných stavebních podmínek a návazností; deklarován je zkušební provoz s možností vrátit oddělení."
+      "text": "Návrh ze soutěže počítal s jednosměrnými cyklopruhy podél kolejí. Nakonec se jezdí po sdílených chodnících s chodci, případně ve vozovce mezi kolejemi. Cyklokomise záměnu jednomyslně doporučila s tím, že jde o nejlepší řešení za daných stavebních podmínek a návazností; deklarován je zkušební provoz s možností vrátit oddělené vedení."
     },
     {
       "name": "Návaznosti v podmostí",
@@ -39,7 +39,7 @@
       "date": "2017–2018",
       "title": "Architektonická soutěž",
       "tier": "a",
-      "text": "Soutěž na most bez individuální automobilové dopravy vyhlašuje v listopadu 2017 vedení Krnáčové a Dolínka; ze 45 návrhů vybírá porota tým ATELIER 6 a TUBES a Rada vítěze potvrzuje 2. října 2018, tři dny před komunálními volbami.",
+      "text": "Soutěž na most bez individuální automobilové dopravy vyhlašuje v listopadu 2017 vedení Krnáčové a Dolínka; ze 45 návrhů vybírá porota tým ATELIER 6 a TUBES a Rada vítěze potvrzuje 2. října 2018 (usnesení č. 2546), tři dny před komunálními volbami.",
       "sources": [
         {
           "label": "praha.eu: Dvorecký most",
@@ -117,7 +117,7 @@
       "date": "červen 2025",
       "title": "Cyklokomise mění cyklistické řešení",
       "tier": "b",
-      "text": "Cyklokomise Rady jednomyslně doporučuje nahradit projektované cyklopruhy obousměrným sdílením chodníků s chodci. Argumentuje stavebními limity konstrukce, návazností na trasu A1 a nepraktičností jednosměrných pásů pro část směrů; řešení označuje za nejlepší možné a zkušební, při špatných zkušenostech se má vrátit oddělení.",
+      "text": "Cyklokomise Rady jednomyslně doporučuje nahradit projektované cyklopruhy obousměrným sdílením chodníků s chodci. Argumentuje stavebními limity konstrukce, návazností na trasu A1 a nepraktičností jednosměrných pásů pro část směrů; řešení označuje za nejlepší možné a zkušební, při špatných zkušenostech se má vrátit oddělené vedení.",
       "sources": [
         {
           "label": "mestemnakole.cz, září 2025",
@@ -129,7 +129,7 @@
       "date": "17. 4. 2026",
       "title": "Otevření mostu",
       "tier": "a",
-      "text": "Po 1 312 dnech stavby se most otevírá chodcům a cyklistům, od následujícího dne jezdí MHD. Celkové náklady činí 1,624 miliardy korun bez DPH (s DPH téměř dvě miliardy), zhruba o dvě třetiny víc, než předpokládala zakázka.",
+      "text": "Po 1 312 dnech stavby se most otevírá chodcům a cyklistům, od následujícího dne jezdí MHD. Celkové náklady činí 1,624 miliardy korun bez DPH (s DPH téměř dvě miliardy), zhruba o dvě třetiny víc, než zněla předpokládaná hodnota zakázky 972 milionů.",
       "sources": [
         {
           "label": "praha.eu, 17. 4. 2026",
@@ -157,7 +157,7 @@
       "date": "23. 4. 2026",
       "title": "Zařazení tisku o dopravním režimu neprošlo",
       "tier": "a",
-      "text": "Návrh zařadit na program zastupitelstva tisk „Úprava dopravního režimu na Dvoreckém mostě“ neprošel: 23 pro, 2 proti, 8 se zdrželo, 29 nehlasovalo. Neprošlo ani zařazení tisku k dokončení přípravy návazné lávky Zlíchov (v březnu i dubnu). Jde o hlasování o programu; kdo zařazení navrhl a proč koalice nehlasovala, z dat neplyne.",
+      "text": "Návrh zařadit na program zastupitelstva tisk „Úprava dopravního režimu na Dvoreckém mostě“ neprošel: 23 pro, 2 proti, 8 se zdrželo, 29 nehlasovalo a 3 chyběli. Neprošlo ani zařazení tisku k dokončení přípravy návazné lávky Zlíchov (v březnu i dubnu). Jde o hlasování o programu; kdo zařazení navrhl a proč koalice nehlasovala, z dat neplyne.",
       "vote": {
         "label": "Zařazení tisku Z-14014 na program, 23. 4. 2026",
         "pro": 23,

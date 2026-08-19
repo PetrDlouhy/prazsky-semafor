@@ -7,7 +7,7 @@
     "label": "v provozu",
     "kind": "ok"
   },
-  "summary": "Myšlenka vést městský autobus tunelem Blanka je stará jako tunel sám. Deset let ji odmítaly posudky i dopravní podnik, v létě 2026 nakonec linka 145 vyjela a spojuje Kobylisy s Dejvicemi zhruba dvakrát rychleji než metro. Součástí příběhu zůstávají dvě otevřené otázky: zastávka Kuchyňka u vysokoškolského areálu, která z trasy před spuštěním vypadla, a plánované prodloužení na Smíchov.",
+  "summary": "Myšlenka vést městský autobus tunelem Blanka je stará jako tunel sám. Deset let ji odmítaly posudky i dopravní podnik, v létě 2026 nakonec linka 145 vyjela a spojuje Kobylisy s Hradčanskou zhruba dvakrát rychleji než metro. Součástí příběhu zůstávají dvě otevřené otázky: zastávka Kuchyňka u vysokoškolského areálu, která z trasy před spuštěním vypadla, a plánované prodloužení na Smíchov.",
   "parts": [
     {
       "name": "Provoz linky",
@@ -31,7 +31,7 @@
         "label": "výhled",
         "kind": "muted"
       },
-      "text": "Pokračování Strahovským tunelem na Smíchov ROPID vylučuje do dokončení rekonstrukce Strahovského tunelu. Ta se teprve připravuje a má trvat zhruba deset let; prodloužení je tedy otázkou příštího desetiletí."
+      "text": "Pokračování na Smíchov ROPID vylučuje, dokud neskončí rekonstrukce Strahovského tunelu. Ta se teprve připravuje a má trvat zhruba deset let; prodloužení je tedy otázkou příštího desetiletí."
     }
   ],
   "events": [
@@ -69,7 +69,7 @@
       "date": "15. 5. 2024",
       "title": "Praha 8 žádá linku",
       "tier": "a",
-      "text": "Zastupitelstvo Prahy 8 vyzývá hlavní město a ROPID „bezodkladně zavést autobusovou linku mezi Prahou 8 a Prahou 6, která pojede tunelem Blanka“ (usnesení Usn ZMC 020/2024). Výzvu, doplněnou pozměňovacím návrhem opozičního zastupitele Jana Šimbery, podpořilo 35 zastupitelů napříč kluby, nikdo nebyl proti; klub ODS a SPD s Trikolorou nehlasovaly.",
+      "text": "Zastupitelstvo Prahy 8 vyzývá hlavní město a ROPID „bezodkladně zavést autobusovou linku mezi Prahou 8 a Prahou 6, která pojede tunelem Blanka“ (usnesení Usn ZMC 020/2024). Výzvu, doplněnou pozměňovacím návrhem opozičního zastupitele Jana Šimbery, podpořilo 35 zastupitelů napříč kluby, nikdo nebyl proti; kluby ODS a SPD s Trikolorou nehlasovaly.",
       "sources": [
         {
           "label": "jmenovitý záznam hlasování č. 11, praha8.cz (HTML)",
@@ -116,7 +116,7 @@
       "date": "12. 5. 2026",
       "title": "Linka oznámena",
       "tier": "a",
-      "text": "Po více než roce příprav mezi ROPID, TSK, dopravním podnikem a městskými částmi je linka oznámena na léto. Radní Prahy 6 Ondřej Matěj Hrubeš připomíná, že zavedení tunelbusu prosazoval deset let.",
+      "text": "Po více než roce jednání mezi ROPID, TSK, dopravním podnikem a městskými částmi je linka oznámena na léto. Radní Prahy 6 Ondřej Matěj Hrubeš připomíná, že zavedení tunelbusu prosazoval deset let.",
       "sources": [
         {
           "label": "pid.cz, 12. 5. 2026",
@@ -153,7 +153,11 @@
       "text": "Odborný web zdopravy.cz píše, že linka na Kuchyňce nestaví po jednáních s Prahou 8, jinde uvádí politický kompromis. Kdo a proč o vynechání zastávky rozhodl, žádný veřejný zdroj neuvádí; formálně o zastávkách rozhoduje ROPID po projednání s městem a městskými částmi.",
       "sources": [
         {
-          "label": "zdopravy.cz, 16. 8. 2026",
+          "label": "zdopravy.cz: první jízda tunelbusem, srpen 2026",
+          "url": "https://zdopravy.cz/prvni-jizda-tunelbusem-preference-udelala-z-autobusu-nove-metro-linka-vsak-ma-i-sva-kriticka-mista-294134/"
+        },
+        {
+          "label": "zdopravy.cz: e-paper zastávky, 16. 8. 2026",
           "url": "https://zdopravy.cz/bez-papiru-a-na-baterky-v-praze-se-objevily-prvni-e-paper-zastavky-ukazou-i-mimoradnosti-294170/"
         }
       ]

@@ -178,7 +178,7 @@ def page(title, body, nav_active, single_file=False, desc="", path=""):
  else '<link rel="stylesheet" href="style.css">'}
 </head>
 <body>
-<div class="betabar">Pracovní verze · údaje projdou před spuštěním položkovým ověřením</div>
+<div class="betabar">Pracovní verze · údaje před spuštěním projdou položkovým ověřením</div>
 <header class="site"><div class="wrap site-inner">
   <a class="brand" href="{prefix}index{ext}">Pražský <em>semafor</em><small>{TAGLINE}</small></a>
   <nav class="top">{nav}</nav>
@@ -374,8 +374,8 @@ def render_promises_body(projects, single_file=False):
   <p class="crumb">Závazky</p>
   <h1 class="page">Sliby a jejich osud</h1>
   <p class="page-lead">Veřejné závazky z událostí spisů: kdo je dal, dokdy měly
-  platit a jak dopadly. Řadíme chronologicky; každý závazek vede na kontext ve
-  svém spisu.</p>
+  být splněny a jak dopadly. Řadíme chronologicky; každý závazek vede na
+  kontext ve svém spisu.</p>
   <table class="votes promises">
     <thead><tr><th>Kdy</th><th>Kdo a co</th><th>Termín</th><th>Stav</th></tr></thead>
     <tbody>{"".join(rows)}</tbody>
@@ -551,8 +551,8 @@ def render_index_body(projects, single_file=False):
   <h1 class="page">Projekty</h1>
   <p class="page-lead">Dokumentujeme pražské projekty aktivní mobility, veřejné
   dopravy a veřejného prostoru: co si město schválilo, co skutečně vzniklo a co
-  se cestou změnilo. Každý spis vede časovou osu událostí s odkazovanými zdroji
-  a stupněm jejich doloženosti.</p>
+  se cestou změnilo. Každý spis obsahuje časovou osu událostí s odkazy na
+  zdroje a stupněm doloženosti.</p>
   <div class="cards">{cards}</div>
 </div>"""
 
@@ -613,8 +613,7 @@ def render_methodology_body(single_file=False):
     <div class="tier-row"><span class="tier tier-c">tvrzení</span>
       <p>Informace třetích stran. Publikujeme výhradně jako označené tvrzení
       s uvedením původce, jen pokud je veřejně dohledatelné; dotčený vždy
-      dostane prostor k vyjádření předem. Nedohledatelná tvrzení
-      nezveřejňujeme.</p></div>
+      dostane prostor k vyjádření předem.</p></div>
   </div>
   <h2>Hlasování a jejich výklad</h2>
   <p>Postoj k projektu nikdy nevyvozujeme z jediného procedurálního hlasování:
@@ -623,12 +622,12 @@ def render_methodology_body(single_file=False):
   navrhovatele jeho zařazení; co z dat neplyne, výslovně říkáme.</p>
   <h2>Sliby a férovost</h2>
   <p>Sliby evidujeme podle typu zdroje: volební program, koaliční smlouva,
-  programové prohlášení, veřejný výrok, předvolební odpověď. Velké stavby trvají přes několik volebních období a zásluhy se dělí; proto
-  vedle známky uvádíme i <b>reálný posun</b>: o kolik fází (studie, soutěž,
-  dokumentace, povolení, tendr, stavba, provoz) se věc pohnula za vlády
-  slibujícího. Známka měří slib proti jeho horizontu, posun měří skutečnou
-  práci; nečinnost tak nezakryje ani vzletný slib, ani výmluva na délku
-  stavby. Sliby stran, které skončily v opozici, neznámkujeme (plnit je
+  programové prohlášení, veřejný výrok, předvolební odpověď. Velké stavby se táhnou přes několik volebních období a zásluhy se dělí; proto
+  vedle známky uvádíme i <b>reálný posun</b>: o kolik fází (záměr, studie,
+  soutěž, dokumentace, povolení, tendr, stavba, provoz) se věc pohnula za
+  vlády slibujícího. Známka poměřuje slib s jeho horizontem, posun měří
+  skutečnou práci; nečinnost tak nezakryje ani vzletný slib, ani výmluva na
+  délku stavby. Sliby stran, které skončily v opozici, neznámkujeme (plnit je
   nebylo v jejich moci) a u slibů úsilí („budeme usilovat, podpoříme“)
   hodnotíme doložené úsilí, ne výsledek. Koaliční smlouvy citujeme jako podepsané politické závazky, nikoli
   úřední akty.</p>
@@ -648,10 +647,10 @@ def render_methodology_body(single_file=False):
   </ul>
   <h2>Kdo za tím stojí</h2>
   <p>Web připravuje a data ověřuje <b>Petr Dlouhý</b>, softwarový inženýr a
-  Pražan. Projekt je občanský, bez rozpočtu a bez vazby na politické strany;
-  nikdo ho neplatí. Kontaktní adresa a repozitář se zdrojovými daty budou
-  uvedeny zde. Opravy a doplnění se zdrojem vítáme; každou změnu spisu
-  verzujeme.</p>
+  Pražan. Projekt je občanský, bez rozpočtu a bez vazby na politické strany.
+  Zdrojová data a historie každé změny jsou veřejné v
+  <a href="https://github.com/PetrDlouhy/prazsky-semafor">repozitáři webu</a>;
+  opravy a doplnění se zdrojem vítáme. Kontaktní adresa bude uvedena zde.</p>
 </div>"""
 
 
@@ -839,9 +838,7 @@ def build():
     not_found_body = """<div class="wrap">
   <p class="crumb">Chyba 404</p>
   <h1 class="page">Tahle stránka vypadla cestou</h1>
-  <p class="page-lead">Adresa neexistuje nebo se změnila. Zkuste přehled
-  projektů; pokud jste sem přišli z odkazu na tomto webu, napište nám,
-  ať to opravíme.</p>
+  <p class="page-lead">Adresa neexistuje nebo se změnila.</p>
   <p><a href="index.html">Přejít na projekty</a></p>
 </div>"""
     (DIST / "404.html").write_text(page("Stránka nenalezena", not_found_body, ""))

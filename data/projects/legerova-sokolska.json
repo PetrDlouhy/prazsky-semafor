@@ -15,7 +15,7 @@
         "label": "nový povrch bez opatření",
         "kind": "miss"
       },
-      "text": "Zhruba kilometr mezi Pražského povstání a Nuselským mostem dostal v roce 2024 nový tichý asfalt, ale žádné cykloopatření, přestože tudy má trasa A4 pokračovat dál na Kačerov a Jižní Město. Podle kritiky by zúžení předimenzovaných pruhů na normových 3,2 metru uvolnilo místo pro chráněné pásy bez omezení kapacity aut."
+      "text": "Zhruba kilometr mezi stanicí Pražského povstání a Nuselským mostem dostal v roce 2024 nový tichý asfalt, ale žádné cykloopatření, přestože tudy má trasa A4 pokračovat dál na Kačerov a Jižní Město. Podle kritiky by zúžení předimenzovaných pruhů na normových 3,2 metru uvolnilo místo pro chráněné pásy bez omezení kapacity aut."
     },
     {
       "name": "Oddělené pásy Nuselský most – Muzeum",
@@ -118,7 +118,7 @@
       "title": "Pankrác: nový povrch, žádná opatření",
       "tier": "b",
       "thread": "Pankrác",
-      "text": "Rekonstrukce povrchu ulice 5. května mezi Pražského povstání a Nuselským mostem končí bez jakéhokoli cykloopatření; s trasou A4 v tomto úseku počítají koncepční dokumenty města, rekonstrukce je pominula.",
+      "text": "Rekonstrukce povrchu ulice 5. května mezi stanicí Pražského povstání a Nuselským mostem končí bez jakéhokoli cykloopatření; s trasou A4 v tomto úseku počítají koncepční dokumenty města, rekonstrukce je pominula.",
       "sources": [
         {
           "label": "mestemnakole.cz, prosinec 2024",
@@ -140,13 +140,13 @@
       ]
     },
     {
-      "date": "29. 1. 2025",
+      "date": "28. 1. 2025",
       "title": "Praha 1 se vymezuje proti humanizaci",
       "tier": "a",
-      "text": "Den před představením projektu oddělených pásů schvaluje zastupitelstvo Prahy 1 jako součást usnesení UZ25_0309 bod, podle nějž městská část „nevnímá humanizaci magistrály (redukci pruhů a cyklostezku) jako účinný krok“: 14 pro, 5 proti, 5 nehlasovalo. Nejtěsnější dílčí hlasování celého usnesení.",
+      "text": "Dva dny před představením projektu oddělených pásů schvaluje zastupitelstvo Prahy 1 jako součást usnesení UZ25_0309 bod, podle nějž městská část „nevnímá humanizaci magistrály (redukci pruhů a cyklostezku) jako účinný krok“: 14 pro, 5 proti, 5 nehlasovalo a 3 chyběli. Nejtěsnější dílčí hlasování celého usnesení.",
       "vote": {
         "rollFile": "p1-2025-01-28-h39.json",
-        "label": "ZMČ Praha 1, bod k humanizaci magistrály (hlasování č. 39), 29. 1. 2025",
+        "label": "ZMČ Praha 1, bod k humanizaci magistrály (hlasování č. 39), 28. 1. 2025",
         "vysledek": "přijato",
         "pro": 14,
         "proti": 5,
