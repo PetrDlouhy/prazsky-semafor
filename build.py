@@ -80,8 +80,15 @@ def api_cached(name, url):
 # na pevnou šířku a u vícedílných jmen přehazuje pořadí.
 NAME_FIXES = {
     "Adél Kučera": "Adéla Kučerová",
+    "Petr Kučera": "Adéla Kučerová",
     "Clare Talacková Valerie": "Valerie Clare Talacková",
     "Bara Soukup": "Bára Soukupová",
+}
+
+# Jména na kandidátkách, která se liší od dnešního úředního jména osoby
+KANDIDATKA_ALIASES = {
+    "Eva Danis": ["Eva Horáková"],
+    "Monika Hášová": ["Monika Krobová Hášová"],
 }
 
 
@@ -486,7 +493,8 @@ MC_BODIES = {"p1": "Zastupitelstvo MČ Praha 1", "p8": "Zastupitelstvo MČ Praha
 # Zkratky z číselníku volby.cz → čitelná podoba
 PARTY_CANON = {"STAROSTOVÉ A NEZÁVISLÍ": "STAN",
                "Občanská demokratická strana": "ODS",
-               "Česká strana sociálně demokratická": "ČSSD"}
+               "Česká strana sociálně demokratická": "ČSSD",
+               "Česká str.sociálně demokrat.": "ČSSD"}
 PARTY_LINKS = [
     ("Česká pirátská strana", "https://www.pirati.cz"),
     ("Starostové a nezávislí", "https://www.starostove.cz"),
@@ -792,37 +800,45 @@ def collect_persons(projects):
             continue
         for r in json.loads(reps_file.read_text()):
             reps_by_key.setdefault(name_key(r["fullName"]), []).append((label, period, r["id"]))
-    reverse_fixes = {v: k for k, v in NAME_FIXES.items()}
+    reverse_fixes = {}
+    for k, v in NAME_FIXES.items():
+        reverse_fixes.setdefault(v, []).append(k)
     for person in persons.values():
-        names = [person["name"], reverse_fixes.get(person["name"])]
-        for name in filter(None, names):
+        names = [person["name"]] + reverse_fixes.get(person["name"], [])
+        for name in names:
             for label, period, rep_id in reps_by_key.get(name_key(name), []):
                 person["mandaty"].add(("Zastupitelstvo hl. m. Prahy", label))
                 person.setdefault("zhmp", {})[label] = (period, rep_id)
     # Politická příslušnost z kandidátek (otevřená data volby.cz); hledáme jen
     # v kandidátkách odpovídajících doloženým mandátům, kvůli jmenovcům.
+    # Další kandidátky lze osobě přiřadit ručně přes persons.json "kandidatky".
     volby = json.loads((CACHE / "volby" / "prislusnost.json").read_text())
     kandidatky = {(rok, body): {name_key(n): v for n, v in reg.items()}
                   for rok, bodies in volby.items() for body, reg in bodies.items()}
     YEAR_OF = {"2022–2026": "2022", "2018–2022": "2018", "2014–2018": "2014"}
-    for person in persons.values():
+    for slug, person in persons.items():
         lookups = []
-        for body, label in sorted(person["mandaty"], reverse=True,
-                                  key=lambda m: m[1]):
+        for body, label in person["mandaty"]:
             if body == "Zastupitelstvo hl. m. Prahy":
                 lookups.append((YEAR_OF[label], "zhmp"))
             elif body == MC_BODIES["p1"]:
                 lookups.append(("2022", "p1"))
             elif body == MC_BODIES["p8"]:
                 lookups.append(("2022", "p8"))
-        keys = [name_key(n) for n in filter(None, [
-            person["name"], reverse_fixes.get(person["name"])])]
+        lookups += [tuple(x) for x in overrides.get(slug, {}).get("kandidatky", [])]
+        keys = [name_key(n) for n in
+                [person["name"]] + reverse_fixes.get(person["name"], [])
+                + KANDIDATKA_ALIASES.get(person["name"], [])]
+        found = {}
         for rok, body in lookups:
+            if rok in found:
+                continue
             hit = next((kandidatky[(rok, body)][k] for k in keys
                         if k in kandidatky.get((rok, body), {})), None)
             if hit:
-                person["prislusnost"] = {**hit, "rok": rok}
-                break
+                found[rok] = {**hit, "rok": rok}
+        if found:
+            person["prislusnosti"] = [found[r] for r in sorted(found)]
     for slug, override in overrides.items():
         if slug in persons:
             persons[slug]["name"] = override.get("name", persons[slug]["name"])
@@ -900,18 +916,26 @@ def render_person_body(person):
         mandaty = (f'<p style="margin:-1.2rem 0 1.5rem; font-size:.9rem; '
                    f'color:var(--ink-2)">{esc(parts_m)}</p>')
     strana_line = ""
-    pr = person.get("prislusnost")
-    if pr:
-        p = PARTY_CANON.get(pr["p"], pr["p"])
-        n = PARTY_CANON.get(pr["n"], pr["n"])
-        if p == "Bez politické příslušnosti":
-            text = (f'bez politické příslušnosti, na kandidátce '
-                    f'{linkify_parties(esc(n))}')
+    entries = person.get("prislusnosti", [])
+    if entries:
+        def disp(e):
+            p = PARTY_CANON.get(e["p"], e["p"])
+            n = PARTY_CANON.get(e["n"], e["n"])
+            if p == "Bez politické příslušnosti":
+                return f'bez příslušnosti, na kandidátce {linkify_parties(esc(n))}'
+            return linkify_parties(esc(p))
+        variants = {disp(e) for e in entries}
+        if len(variants) == 1:
+            roky = ", ".join(e["rok"] for e in entries)
+            label = "kandidátka" if len(entries) == 1 else "kandidátky"
+            text = (f'politická příslušnost: {disp(entries[0])} '
+                    f'<span class="src">({label} {esc(roky)}, volby.cz)</span>')
         else:
-            text = f'politická příslušnost: {linkify_parties(esc(p))}'
+            parts_p = " · ".join(f'{esc(e["rok"])}: {disp(e)}' for e in entries)
+            text = (f'politická příslušnost dle kandidátek '
+                    f'<span class="src">(volby.cz)</span>: {parts_p}')
         strana_line = (f'<p style="margin:-1.2rem 0 1.5rem; font-size:.9rem; '
-                       f'color:var(--ink-2)">{text} '
-                       f'<span class="src">(kandidátka {esc(pr["rok"])}, volby.cz)</span></p>')
+                       f'color:var(--ink-2)">{text}</p>')
     zhmp = person.get("zhmp", {})
     praha_links = []
     current = zhmp.get(PERIOD_LABELS[-36525])

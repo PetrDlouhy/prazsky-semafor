@@ -189,6 +189,12 @@
     "label": "wikipedie",
     "url": "https://cs.wikipedia.org/wiki/Pavel_B%C3%A9m"
    }
+  ],
+  "kandidatky": [
+   [
+    "2006",
+    "zhmp"
+   ]
   ]
  },
  "petr-borecky": {
@@ -201,6 +207,16 @@
     "label": "STAN střední Čechy",
     "url": "https://starostovestrednicechy.cz/kandidati-kraj/petr-borecky"
    }
+  ],
+  "kandidatky": [
+   [
+    "2020",
+    "sck"
+   ],
+   [
+    "2024",
+    "sck"
+   ]
   ]
  },
  "ondrej-matej-hrubes": {
@@ -209,6 +225,12 @@
     "label": "profil u ODS Praha 6",
     "url": "https://www.ods.cz/os.praha6/profil/4234-ondrej-matej-hrubes"
    }
+  ],
+  "kandidatky": [
+   [
+    "2022",
+    "p6"
+   ]
   ]
  },
  "martin-jedlicka": {
@@ -264,6 +286,49 @@
    {
     "label": "profil u ODS Kladno",
     "url": "https://www.ods.cz/os.kladno/profil/9530-lukas-hanes"
+   }
+  ],
+  "kandidatky": [
+   [
+    "2022",
+    "kladno"
+   ]
+  ]
+ },
+ "jiri-parizek": {
+  "kandidatky": [
+   [
+    "2010",
+    "zhmp"
+   ]
+  ]
+ },
+ "jan-korseska": {
+  "kandidatky": [
+   [
+    "2022",
+    "p2"
+   ]
+  ]
+ },
+ "eva-danis": {
+  "odkazy": [
+   {
+    "label": "profil u Pirátů",
+    "url": "https://lide.pirati.cz/profil/3066/"
+   }
+  ]
+ },
+ "adela-kucerova": {
+  "note": "zastupitelka MČ Praha 1 od roku 2015; starší úřední záznamy (do roku 2024) ji vedou pod dřívějším jménem",
+  "odkazy": [
+   {
+    "label": "profil u Prahy 1 sobě",
+    "url": "https://www.praha1sobe.cz/zastupitele-a-zastupitelky/"
+   },
+   {
+    "label": "wikipedie",
+    "url": "https://cs.wikipedia.org/wiki/Ad%C3%A9la_Ku%C4%8Derov%C3%A1"
    }
   ]
  }
