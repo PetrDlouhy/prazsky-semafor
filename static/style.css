@@ -140,6 +140,9 @@ table.votes a { color: var(--river); }
 .votekey b { color: var(--ink); font-variant-numeric: tabular-nums; }
 .votekey .swatch { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: .4rem; }
 table.promises th { text-align: left; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .66rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); font-weight: 500; padding: 0 .8rem .5rem 0; border-bottom: 2px solid var(--line); }
+table.promises .src { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .7rem; color: var(--ink-3); }
+table.promises .src a { color: var(--ink-3); }
+table.promises .src a:hover { color: var(--river); }
 table.promises td { padding: .7rem .8rem .7rem 0; }
 table.promises td:first-child { white-space: nowrap; }
 

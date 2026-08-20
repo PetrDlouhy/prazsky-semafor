@@ -69,7 +69,8 @@
       "promise": {
         "promised": "2006",
         "due": "2007",
-        "status": "nesplněno"
+        "status": "nesplněno",
+        "text": "Od roku 2007 se nábřeží bude o víkendech občas uzavírat."
       }
     },
     {
@@ -92,7 +93,8 @@
       "promise": {
         "promised": "2012",
         "due": "2014",
-        "status": "nesplněno"
+        "status": "nesplněno",
+        "text": "Auta ze Smetanova nábřeží zmizí definitivně hned po spuštění Blanky, tedy v roce 2014."
       }
     },
     {
@@ -279,7 +281,8 @@
         "by": "Rada hl. m. Prahy (koalice Spolu, Piráti, STAN)",
         "promised": "2023",
         "due": "volební období 2022–2026",
-        "status": "nesplněno"
+        "status": "nesplněno",
+        "text": "Omezíme zbytný individuální tranzit na Malé Straně a Smetanově nábřeží (programové prohlášení)."
       }
     },
     {
@@ -300,7 +303,8 @@
         "by": "Zastupitelstvo MČ Praha 1 (usnesení UZ25_0309)",
         "promised": "leden 2025",
         "due": "",
-        "status": "běží"
+        "status": "běží",
+        "text": "Opatření ke zklidnění dopravy v historickém centru se mají realizovat již nyní, bez ohledu na dokončení okruhů (usnesení UZ25_0309)."
       },
       "sources": [
         {

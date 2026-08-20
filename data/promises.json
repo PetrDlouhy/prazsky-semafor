@@ -38,8 +38,8 @@
    "label": "program SPOLU 2022 (archiv)",
    "url": "https://web.archive.org/web/20220608133518/https://spoluproprahu22.cz/program/fungujici-a-kvalitni-dopravu"
   },
-  "note": "Podmíněný slib: okruhy dokončeny nejsou a žádné omezení tranzitu nevzniklo.",
-  "posun": "žádný: žádné omezení tranzitu nevzniklo"
+  "note": "Podmíněný slib: okruhy se za období nedokončily, podmínka tedy nenastala; žádné omezení tranzitu ale ani nezačalo vznikat.",
+  "posun": "žádný: příprava omezení tranzitu se nepohnula"
  },
  {
   "who": "SPOLU pro Prahu",
@@ -231,8 +231,7 @@
   "quote": "…do konce roku zásadním způsobem [vygumujeme cyklopruhy].",
   "project": "",
   "status": "nesplněno",
-  "note": "Plošné rušení cyklopruhů nenastalo; náměstek Hřib je na zastupitelstvu odmítl.",
-  "posun": "žádný: výrok zůstal výrokem; výstavba nové infrastruktury ale souběžně zpomalila",
+  "note": "Plošné rušení cyklopruhů nenastalo; náměstek Hřib je na zastupitelstvu odmítl. Výstavba nové infrastruktury ale v témže období výrazně zpomalila.",
   "source": {
    "label": "mestemnakole.cz, 14. 3. 2023 (Český rozhlas)",
    "url": "https://mestemnakole.cz/2023/03/primator-svoboda-pro-rozhlas-do-konce-roku-vygumujeme-zasadnim-zpusobem-cyklopruhy/"

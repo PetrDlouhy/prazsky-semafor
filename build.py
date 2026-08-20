@@ -336,10 +336,11 @@ def render_promises_body(projects, single_file=False):
             who = pr.get("by") or ", ".join(a["name"] for a in ev.get("actors", []))
             kind = PROMISE_CHIP.get(pr["status"], "muted")
             year = int(next(iter(re.findall(r"\d{4}", pr["promised"])), 9999))
+            text = f'{esc(pr["text"])}<br>' if pr.get("text") else ""
             rows.append((year, f"""<tr>
   <td>{esc(pr["promised"])}</td>
   <td><b>{esc(who)}</b><br>
-      <a href="{prefix}{p["slug"]}{ext}">{esc(p["title"])}</a>: {esc(ev["title"])}</td>
+      {text}<span class="src">kontext: <a href="{prefix}{p["slug"]}{ext}">{esc(p["title"])}</a>: {esc(ev["title"])}</span></td>
   <td>{esc(pr.get("due") or "bez termínu")}</td>
   <td><span class="chip chip-{kind}">{esc(pr["status"])}</span></td>
 </tr>"""))
