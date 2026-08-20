@@ -745,18 +745,22 @@ def collect_persons(projects):
             for a in ev.get("actors", []):
                 e = entry(a["name"])
                 e["events"].append((p, ev, a["role"]))
-    # Mandáty ZHMP i bez zaznamenaného hlasování: úřední seznamy členů period
+    # Mandáty ZHMP i bez zaznamenaného hlasování: úřední seznamy členů period.
+    # Seznamy vedou příjmení první, proto párujeme přes množinu jmenných tokenů.
+    reps_by_key = {}
     for period, label in PERIOD_LABELS.items():
         reps_file = CACHE / f"reps_{period}.json"
         if not reps_file.exists():
             continue
         for r in json.loads(reps_file.read_text()):
-            short = norm_name(" ".join(
-                t.strip(",") for t in r["fullName"].split()
-                if not TITLE_TOKENS.search(t)))
-            slug = actor_slug(short)
-            if slug in persons:
-                persons[slug]["mandaty"].add(("Zastupitelstvo hl. m. Prahy", label))
+            reps_by_key.setdefault(name_key(r["fullName"]), []).append((label, period, r["id"]))
+    reverse_fixes = {v: k for k, v in NAME_FIXES.items()}
+    for person in persons.values():
+        names = [person["name"], reverse_fixes.get(person["name"])]
+        for name in filter(None, names):
+            for label, period, rep_id in reps_by_key.get(name_key(name), []):
+                person["mandaty"].add(("Zastupitelstvo hl. m. Prahy", label))
+                person.setdefault("zhmp", {})[label] = (period, rep_id)
     for slug, override in overrides.items():
         if slug in persons:
             persons[slug]["name"] = override.get("name", persons[slug]["name"])
@@ -818,6 +822,20 @@ def render_person_body(person):
             f'{body} (období {", ".join(sorted(by_body[body]))})' for body in body_order)
         mandaty = (f'<p style="margin:-1.2rem 0 1.5rem; font-size:.9rem; '
                    f'color:var(--ink-2)">{esc(parts_m)}</p>')
+    zhmp = person.get("zhmp", {})
+    praha_links = []
+    current = zhmp.get(PERIOD_LABELS[-36525])
+    if current:
+        praha_links.append(f'<a href="https://praha.eu/seznam-zastupitelu#/detail/{current[1]}">profil zastupitele</a>')
+    for label in sorted(zhmp, reverse=True):
+        period, rep_id = zhmp[label]
+        praha_links.append(
+            f'<a href="https://praha.eu/vysledky-hlasovani#/?periodId={period}&amp;representativeId={rep_id}">'
+            f'všechna hlasování {label}</a>')
+    praha_line = ""
+    if praha_links:
+        praha_line = (f'<p class="src" style="margin:-1.2rem 0 1.5rem">'
+                      f'na praha.eu: {" · ".join(praha_links)}</p>')
     clubs = " ".join(
         club_chip(c, link=True)
         for c in sorted(person["clubs"])) or "bez záznamu ve sledovaných jmenovitých hlasováních"
@@ -853,6 +871,7 @@ def render_person_body(person):
   <p class="page-lead">{clubs}</p>
   {mandaty}
   {f'<p style="margin-top:-1.2rem; font-size:.9rem; color:var(--ink-2)">{esc(person["note"])}</p>' if person.get("note") else ""}
+  {praha_line}
   {bilance}
   {sections}
   <p class="src" style="margin-top:2rem">Stránka zachycuje pouze hlasování a
