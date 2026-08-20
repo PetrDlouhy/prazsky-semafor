@@ -1,0 +1,300 @@
+{
+ "SPOLU pro Prahu": {
+  "slozeni": "koalice ODS, TOP 09 a KDU-ČSL (ZHMP 2022–2026, 18 mandátů)",
+  "note": "V únoru 2023 klub opustila Hana Kordová Marvanová, dále působí jako nezařazená.",
+  "odkazy": [
+   {
+    "label": "ODS Praha",
+    "url": "https://www.ods.cz/region.prazsky"
+   },
+   {
+    "label": "TOP 09",
+    "url": "https://www.top09.cz"
+   },
+   {
+    "label": "KDU-ČSL",
+    "url": "https://www.kdu.cz"
+   }
+  ]
+ },
+ "Piráti": {
+  "slozeni": "Česká pirátská strana (ZHMP)",
+  "odkazy": [
+   {
+    "label": "praha.pirati.cz",
+    "url": "https://praha.pirati.cz"
+   },
+   {
+    "label": "lidé pražských Pirátů",
+    "url": "https://praha.pirati.cz/lide/"
+   }
+  ]
+ },
+ "PRAHA SOBĚ": {
+  "slozeni": "hnutí Praha sobě (ZHMP 2022–2026)",
+  "odkazy": [
+   {
+    "label": "prahasobe.cz",
+    "url": "https://prahasobe.cz"
+   }
+  ]
+ },
+ "ANO 2011": {
+  "slozeni": "hnutí ANO (ZHMP)",
+  "odkazy": [
+   {
+    "label": "anobudelip.cz",
+    "url": "https://www.anobudelip.cz"
+   }
+  ]
+ },
+ "STAN": {
+  "slozeni": "Starostové a nezávislí (ZHMP 2022–2026)",
+  "odkazy": [
+   {
+    "label": "starostove.cz",
+    "url": "https://www.starostove.cz"
+   }
+  ]
+ },
+ "Zastupitelský klub SPD": {
+  "slozeni": "SPD (ZHMP 2022–2026)",
+  "odkazy": [
+   {
+    "label": "spd.cz",
+    "url": "https://www.spd.cz"
+   }
+  ]
+ },
+ "ODS": {
+  "slozeni": "ODS (ZHMP 2018–2022; v období 2022–2026 je ODS součástí klubu SPOLU pro Prahu)",
+  "odkazy": [
+   {
+    "label": "ODS Praha",
+    "url": "https://www.ods.cz/region.prazsky"
+   }
+  ]
+ },
+ "TOP 09 a STAN - Spojené síly pro Prahu": {
+  "slozeni": "koalice TOP 09 a STAN (ZHMP 2018–2022)",
+  "note": "Klub se před volbami 2022 rozdělil: TOP 09 odešla do koalice SPOLU, STAN kandidoval samostatně.",
+  "odkazy": [
+   {
+    "label": "TOP 09",
+    "url": "https://www.top09.cz"
+   },
+   {
+    "label": "starostove.cz",
+    "url": "https://www.starostove.cz"
+   }
+  ]
+ },
+ "TOP 09 a nezávislých ": {
+  "slozeni": "TOP 09 a nezávislí (ZHMP 2014–2018)",
+  "odkazy": [
+   {
+    "label": "TOP 09",
+    "url": "https://www.top09.cz"
+   }
+  ]
+ },
+ "TROJKOALICE Zelení, KDU-ČSL, STAN": {
+  "slozeni": "koalice Zelených, KDU-ČSL a STAN (ZHMP 2014–2018)",
+  "odkazy": [
+   {
+    "label": "Zelení",
+    "url": "https://www.zeleni.cz"
+   },
+   {
+    "label": "KDU-ČSL",
+    "url": "https://www.kdu.cz"
+   },
+   {
+    "label": "starostove.cz",
+    "url": "https://www.starostove.cz"
+   }
+  ]
+ },
+ "ČSSD": {
+  "slozeni": "ČSSD (ZHMP 2014–2018); strana dnes vystupuje jako SOCDEM"
+ },
+ "KSČM": {
+  "slozeni": "KSČM (ZHMP 2014–2018)",
+  "odkazy": [
+   {
+    "label": "kscm.cz",
+    "url": "https://www.kscm.cz"
+   }
+  ]
+ },
+ "Nezařazení": {
+  "slozeni": "zastupitelé bez klubové příslušnosti"
+ },
+ "ODS (Praha 1)": {
+  "slozeni": "ODS (ZMČ Praha 1)",
+  "odkazy": [
+   {
+    "label": "kluby zastupitelstva, praha1.cz",
+    "url": "https://www.praha1.cz/politicka-reprezentace/zastupitelstvo/kluby-clenu-zastupitelstva/"
+   }
+  ]
+ },
+ "TOP 09 (Praha 1)": {
+  "slozeni": "TOP 09 (ZMČ Praha 1)",
+  "odkazy": [
+   {
+    "label": "kluby zastupitelstva, praha1.cz",
+    "url": "https://www.praha1.cz/politicka-reprezentace/zastupitelstvo/kluby-clenu-zastupitelstva/"
+   }
+  ]
+ },
+ "P1 SOBĚ (Praha 1)": {
+  "slozeni": "sdružení Praha 1 sobě (ZMČ Praha 1)",
+  "note": "V přehledu klubů z roku 2026 vystupuje jako „Praha 1 Sobě a Zelení“.",
+  "odkazy": [
+   {
+    "label": "praha1sobe.cz",
+    "url": "https://www.praha1sobe.cz"
+   },
+   {
+    "label": "kluby zastupitelstva, praha1.cz",
+    "url": "https://www.praha1.cz/politicka-reprezentace/zastupitelstvo/kluby-clenu-zastupitelstva/"
+   }
+  ]
+ },
+ "Piráti (Praha 1)": {
+  "slozeni": "Česká pirátská strana (ZMČ Praha 1)",
+  "note": "V přehledu klubů z roku 2026 vystupuje jako „Piráti a občané z Prahy 1“.",
+  "odkazy": [
+   {
+    "label": "kluby zastupitelstva, praha1.cz",
+    "url": "https://www.praha1.cz/politicka-reprezentace/zastupitelstvo/kluby-clenu-zastupitelstva/"
+   }
+  ]
+ },
+ "POP 1 (Praha 1)": {
+  "slozeni": "Piráti a občané z Prahy 1 (ZMČ Praha 1)",
+  "odkazy": [
+   {
+    "label": "kluby zastupitelstva, praha1.cz",
+    "url": "https://www.praha1.cz/politicka-reprezentace/zastupitelstvo/kluby-clenu-zastupitelstva/"
+   }
+  ]
+ },
+ "LEVICE (Praha 1)": {
+  "slozeni": "strana Levice (ZMČ Praha 1)",
+  "odkazy": [
+   {
+    "label": "levice.cz",
+    "url": "https://www.levice.cz"
+   },
+   {
+    "label": "kluby zastupitelstva, praha1.cz",
+    "url": "https://www.praha1.cz/politicka-reprezentace/zastupitelstvo/kluby-clenu-zastupitelstva/"
+   }
+  ]
+ },
+ "REZIDENTI1 (Praha 1)": {
+  "slozeni": "hnutí Rezidenti 1 (ZMČ Praha 1)",
+  "note": "Část zastupitelů zvolených za Rezidenty 1 v roce 2026 vystupuje v klubu „NEZÁVISLÍ z Jedničky“.",
+  "odkazy": [
+   {
+    "label": "rezidenti1.cz",
+    "url": "https://rezidenti1.cz/"
+   },
+   {
+    "label": "kluby zastupitelstva, praha1.cz",
+    "url": "https://www.praha1.cz/politicka-reprezentace/zastupitelstvo/kluby-clenu-zastupitelstva/"
+   }
+  ]
+ },
+ "3koalice (Praha 1)": {
+  "slozeni": "místní koalice na Praze 1; přesné složení ověřujeme",
+  "odkazy": [
+   {
+    "label": "kluby zastupitelstva, praha1.cz",
+    "url": "https://www.praha1.cz/politicka-reprezentace/zastupitelstvo/kluby-clenu-zastupitelstva/"
+   }
+  ]
+ },
+ "Naše P1 (Praha 1)": {
+  "slozeni": "hnutí Naše Praha 1 (ZMČ Praha 1)",
+  "odkazy": [
+   {
+    "label": "kluby zastupitelstva, praha1.cz",
+    "url": "https://www.praha1.cz/politicka-reprezentace/zastupitelstvo/kluby-clenu-zastupitelstva/"
+   }
+  ]
+ },
+ "8ŽIJE A PRAHA SOBĚ (Praha 8)": {
+  "slozeni": "místní hnutí 8žije a Praha sobě (ZMČ Praha 8)",
+  "odkazy": [
+   {
+    "label": "klub na praha8.cz",
+    "url": "https://m.praha8.cz/Klub-8ZIJE-A-PRAHA-SOBE.html"
+   },
+   {
+    "label": "prahasobe.cz",
+    "url": "https://prahasobe.cz"
+   }
+  ]
+ },
+ "Společně pro Prahu 8 (Praha 8)": {
+  "slozeni": "koalice TOP 09 a STAN (ZMČ Praha 8)",
+  "odkazy": [
+   {
+    "label": "klub na praha8.cz",
+    "url": "https://m.praha8.cz/Spolecne-pro-Prahu-8.html"
+   }
+  ]
+ },
+ "Česká pirátská strana (Praha 8)": {
+  "slozeni": "Česká pirátská strana (ZMČ Praha 8)",
+  "odkazy": [
+   {
+    "label": "klub na praha8.cz",
+    "url": "https://m.praha8.cz/Klub-Ceska-piratska-strana.html"
+   },
+   {
+    "label": "praha.pirati.cz",
+    "url": "https://praha.pirati.cz"
+   }
+  ]
+ },
+ "SPD a Trikolora pro Osmičku (Praha 8)": {
+  "slozeni": "SPD a Trikolora (ZMČ Praha 8)",
+  "odkazy": [
+   {
+    "label": "klub na praha8.cz",
+    "url": "https://m.praha8.cz/SPD-a-Trikolora-pro-Osmicku.html"
+   }
+  ]
+ },
+ "PATRIOTI PRO PRAHU 8 (Praha 8)": {
+  "slozeni": "místní hnutí Patrioti pro Prahu 8 (ZMČ Praha 8)",
+  "odkazy": [
+   {
+    "label": "klub na praha8.cz",
+    "url": "https://m.praha8.cz/Klub-Patrioti-pro-Prahu-8.html"
+   }
+  ]
+ },
+ "ODS (Praha 8)": {
+  "slozeni": "ODS (ZMČ Praha 8)",
+  "odkazy": [
+   {
+    "label": "klub na praha8.cz",
+    "url": "https://m.praha8.cz/Klub-ODS.html"
+   }
+  ]
+ },
+ "ANO 2011 (Praha 8)": {
+  "slozeni": "hnutí ANO (ZMČ Praha 8)",
+  "odkazy": [
+   {
+    "label": "klub na praha8.cz",
+    "url": "https://m.praha8.cz/Klub-ANO-2011.html"
+   }
+  ]
+ }
+}

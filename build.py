@@ -349,6 +349,8 @@ def render_vote_zneni(ev):
     if v.get("zneni"):
         zdroj = f' ({esc(v["zneniZdroj"])})' if v.get("zneniZdroj") else ""
         rows.append(f'<p class="roll-group">„{esc(v["zneni"])}“{zdroj}</p>')
+    if v.get("tiskPozn"):
+        rows.append(f'<p class="roll-group">{esc(v["tiskPozn"])}</p>')
     if not rows:
         return ""
     return f"""<details class="roll">
@@ -791,6 +793,19 @@ def collect_clubs(projects):
 
 
 def render_club_body(club, entry):
+    meta = json.loads((ROOT / "data" / "clubs.json").read_text()).get(club, {})
+    meta_lines = ""
+    if meta.get("slozeni"):
+        meta_lines += (f'<p style="font-size:.92rem; color:var(--ink-2); '
+                       f'margin:-1rem 0 .6rem">zastupuje: {esc(meta["slozeni"])}</p>')
+    if meta.get("note"):
+        meta_lines += (f'<p style="font-size:.92rem; color:var(--ink-2); '
+                       f'margin:0 0 .6rem">{esc(meta["note"])}</p>')
+    if meta.get("odkazy"):
+        items = " · ".join(
+            f'<a href="{html.escape(o["url"])}">{esc(o["label"])}</a>'
+            for o in meta["odkazy"])
+        meta_lines += f'<p class="src" style="margin:0 0 1.4rem">odkazy: {items}</p>'
     votes = "".join(
         f"""<div class="club-vote">
   <p class="src" style="margin-bottom:.3rem"><a href="{p["slug"]}.html">{esc(p["title"])}</a>:
@@ -808,6 +823,7 @@ def render_club_body(club, entry):
   <h1 class="page">{club_chip(club)}</h1>
   <p class="page-lead">Členové a členky zaznamenaní ve sledovaných hlasováních:
   {members}.</p>
+  {meta_lines}
   <h2 class="sec">Hlasování klubu ve sledovaných projektech</h2>
   {votes}
   <p class="src" style="margin-top:2rem">Stránka zachycuje pouze hlasování ze
