@@ -379,9 +379,10 @@ def render_promises_body(projects, single_file=False):
             kind = PROMISE_CHIP.get(pr["status"], "muted")
             year = int(next(iter(re.findall(r"\d{4}", pr["promised"])), 9999))
             text = f'{esc(pr["text"])}<br>' if pr.get("text") else ""
+            who_html = esc(who) if single_file else linkify_parties(esc(who))
             rows.append((year, f"""<tr>
   <td>{esc(pr["promised"])}</td>
-  <td><b>{esc(who)}</b><br>
+  <td><b>{who_html}</b><br>
       {text}<span class="src">kontext: <a href="{prefix}{p["slug"]}{ext}">{esc(p["title"])}</a>: {esc(ev["title"])}</span></td>
   <td>{esc(pr.get("due") or "bez termínu")}</td>
   <td><span class="chip chip-{kind}">{esc(pr["status"])}</span></td>
@@ -399,9 +400,10 @@ def render_promises_body(projects, single_file=False):
         if pr.get("project") and pr["project"] in slug_to_title:
             proj = (f'<br><a href="{prefix2}{pr["project"]}{ext2}">'
                     f'{esc(slug_to_title[pr["project"]])}</a>')
+        who_html = esc(pr["who"]) if single_file else linkify_parties(esc(pr["who"]))
         doc_rows.append(f"""<tr>
   <td>{esc(pr["year"])}<br><span class="src mono">{esc(pr["type"])}</span></td>
-  <td><b>{esc(pr["who"])}</b><br>„{esc(pr["quote"])}“
+  <td><b>{who_html}</b><br>„{esc(pr["quote"])}“
       <br><a class="src" href="{html.escape(pr["source"]["url"])}">{esc(pr["source"]["label"])}</a>{proj}</td>
   <td><span class="chip chip-{kind}">{esc(pr["status"])}</span>{f'<br><span class="src">{esc(pr["note"])}</span>' if pr.get("note") else ""}{f'<br><span class="src posun">reálný posun: {esc(pr["posun"])}</span>' if pr.get("posun") else ""}</td>
 </tr>""")
@@ -494,34 +496,43 @@ MC_BODIES = {"p1": "Zastupitelstvo MČ Praha 1", "p8": "Zastupitelstvo MČ Praha
 PARTY_CANON = {"STAROSTOVÉ A NEZÁVISLÍ": "STAN",
                "Občanská demokratická strana": "ODS",
                "Česká strana sociálně demokratická": "ČSSD",
-               "Česká str.sociálně demokrat.": "ČSSD"}
-PARTY_LINKS = [
-    ("Česká pirátská strana", "https://www.pirati.cz"),
-    ("Starostové a nezávislí", "https://www.starostove.cz"),
-    ("Praha 1 sobě", "https://www.praha1sobe.cz"),
-    ("Praha sobě", "https://prahasobe.cz"),
-    ("PRAHA SOBĚ", "https://prahasobe.cz"),
-    ("Rezidenti 1", "https://rezidenti1.cz/"),
-    ("KDU-ČSL", "https://www.kdu.cz"),
-    ("TOP 09", "https://www.top09.cz"),
-    ("ANO 2011", "https://www.anobudelip.cz"),
-    ("Zelených", "https://www.zeleni.cz"),
-    ("Zelení", "https://www.zeleni.cz"),
-    ("Piráti", "https://www.pirati.cz"),
-    ("KSČM", "https://www.kscm.cz"),
-    ("Levice", "https://www.levice.cz"),
-    ("STAN", "https://www.starostove.cz"),
-    ("ODS", "https://www.ods.cz"),
-    ("SPD", "https://www.spd.cz"),
-]
+               "Česká str.sociálně demokrat.": "ČSSD",
+               "Pražská městská str.PRAHA SOBĚ": "Praha sobě",
+               "Svoboda a př. demokracie (SPD)": "SPD",
+               "Komunistická str.Čech a Moravy": "KSČM",
+               "Křesť.demokr.unie-Čs.str.lid.": "KDU-ČSL",
+               "Strana zelených": "Zelení",
+               "Česká pirátská strana": "Piráti",
+               "80": "Nezávislý kandidát"}
+
+STRANY = json.loads((ROOT / "data" / "strany.json").read_text())
+KOALICE_LINKS = [("SPOLU pro Prahu", "klub-spolu-pro-prahu.html"),
+                 ("SPOLU", "klub-spolu-pro-prahu.html")]
+
+
+def strana_slug(name):
+    return actor_slug(name)
+
+
+def _party_matchers():
+    pairs = list(KOALICE_LINKS)
+    for name, meta in STRANY.items():
+        for alias in [name] + meta.get("aliases", []):
+            pairs.append((alias, f"strana-{strana_slug(name)}.html"))
+    pairs.sort(key=lambda x: -len(x[0]))
+    return pairs
 
 
 def linkify_parties(escaped_text):
-    for name, url in PARTY_LINKS:
-        marker = esc(name)
-        if marker in escaped_text and f'>{marker}<' not in escaped_text:
-            escaped_text = escaped_text.replace(
-                marker, f'<a href="{url}">{marker}</a>', 1)
+    """Názvy stran v textu vedou na naši stránku strany, nikdy přímo ven."""
+    for alias, href in _party_matchers():
+        marker = esc(alias)
+        pat = re.compile(rf'(?<![\w>–-]){re.escape(marker)}(?![\w–-])')
+        m = pat.search(escaped_text)
+        if m and f'>{marker}<' not in escaped_text:
+            escaped_text = (escaped_text[:m.start()]
+                            + f'<a href="{href}">{marker}</a>'
+                            + escaped_text[m.end():])
     return escaped_text
 
 
@@ -904,6 +915,59 @@ def render_club_body(club, entry):
 </div>"""
 
 
+def render_strana_body(name, meta, persons, clubs):
+    odkazy = ""
+    if meta.get("odkazy"):
+        items = " · ".join(
+            f'<a href="{html.escape(o["url"])}">{esc(o["label"])}</a>'
+            for o in meta["odkazy"])
+        odkazy = f'<p class="src" style="margin:0 0 1.4rem">odkazy: {items}</p>'
+    aliases = [name] + meta.get("aliases", [])
+    kluby = []
+    club_meta = json.loads((ROOT / "data" / "clubs.json").read_text())
+    for club in sorted(clubs):
+        slozeni = club_meta.get(club, {}).get("slozeni", "")
+        hay = f"{club} {slozeni}"
+        if any(re.search(rf'(?<![\w–-]){re.escape(a)}(?![\w–-])', hay)
+               for a in aliases):
+            kluby.append(f'<a href="klub-{club_slug(club)}.html">{esc(club)}</a>')
+    kluby_line = (f'<p style="font-size:.92rem; color:var(--ink-2)">kluby na '
+                  f'tomto webu: {" · ".join(kluby)}</p>') if kluby else ""
+    clenove, nominovani = [], []
+    for slug, person in sorted(persons.items(), key=lambda kv: kv[1]["name"].split()[-1]):
+        roky_c = sorted(e["rok"] for e in person.get("prislusnosti", [])
+                        if PARTY_CANON.get(e["p"], e["p"]) == name)
+        roky_n = sorted(e["rok"] for e in person.get("prislusnosti", [])
+                        if PARTY_CANON.get(e["p"], e["p"]) == "Bez politické příslušnosti"
+                        and PARTY_CANON.get(e["n"], e["n"]) == name)
+        link = f'<a href="osoba-{slug}.html">{esc(person["name"])}</a>'
+        if roky_c:
+            clenove.append(f'{link} <span class="src">({", ".join(roky_c)})</span>')
+        elif roky_n:
+            nominovani.append(f'{link} <span class="src">({", ".join(roky_n)})</span>')
+    sections = ""
+    if clenove:
+        sections += (f'<h2 class="sec">Osoby s touto příslušností na webu '
+                     f'({len(clenove)})</h2><p style="font-size:.9rem; '
+                     f'color:var(--ink-2)">{" · ".join(clenove)}</p>')
+    if nominovani:
+        sections += (f'<h2 class="sec">Bez příslušnosti na kandidátkách strany '
+                     f'({len(nominovani)})</h2><p style="font-size:.9rem; '
+                     f'color:var(--ink-2)">{" · ".join(nominovani)}</p>')
+    return f"""<div class="wrap">
+  <p class="crumb">Strana</p>
+  <h1 class="page">{esc(name)}</h1>
+  <p class="page-lead">{esc(meta["plny"])}</p>
+  {odkazy}
+  {kluby_line}
+  {sections}
+  <p class="src" style="margin-top:2rem">Příslušnosti pocházejí z kandidátních
+  listin (otevřená data volby.cz) a vztahují se k uvedeným rokům; stránka
+  zachycuje jen osoby a kluby vystupující ve spisech tohoto webu. Sliby stran
+  vede <a href="sliby.html">Kniha slibů</a>.</p>
+</div>"""
+
+
 def render_person_body(person):
     by_body = {}
     for body, label in sorted(person.get("mandaty", set())):
@@ -1046,6 +1110,11 @@ def build():
             page(club, render_club_body(club, entry), "akteri",
                  desc=f"Jak hlasuje klub {club} ve sledovaných pražských projektech.",
                  path=f"klub-{club_slug(club)}.html"))
+    for name, meta in STRANY.items():
+        emit(f"strana-{strana_slug(name)}.html",
+            page(name, render_strana_body(name, meta, persons, clubs), "akteri",
+                 desc=f"{meta['plny']}: kluby, osoby a odkazy na tomto webu.",
+                 path=f"strana-{strana_slug(name)}.html"))
     for p in projects:
         emit(f'{p["slug"]}.html',
             page(p["title"], render_project_body(p), "index",

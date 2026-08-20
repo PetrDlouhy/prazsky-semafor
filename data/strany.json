@@ -1,0 +1,259 @@
+{
+ "ODS": {
+  "plny": "Občanská demokratická strana",
+  "aliases": [
+   "Občanská demokratická strana"
+  ],
+  "odkazy": [
+   {
+    "label": "ods.cz",
+    "url": "https://www.ods.cz"
+   },
+   {
+    "label": "ODS Praha",
+    "url": "https://www.ods.cz/region.prazsky"
+   },
+   {
+    "label": "wikipedie",
+    "url": "https://cs.wikipedia.org/wiki/Občanská_demokratická_strana"
+   }
+  ]
+ },
+ "TOP 09": {
+  "plny": "TOP 09",
+  "odkazy": [
+   {
+    "label": "top09.cz",
+    "url": "https://www.top09.cz"
+   },
+   {
+    "label": "wikipedie",
+    "url": "https://cs.wikipedia.org/wiki/TOP_09"
+   }
+  ]
+ },
+ "KDU-ČSL": {
+  "plny": "Křesťanská a demokratická unie – Československá strana lidová",
+  "aliases": [
+   "Křesť.demokr.unie-Čs.str.lid."
+  ],
+  "odkazy": [
+   {
+    "label": "kdu.cz",
+    "url": "https://www.kdu.cz"
+   },
+   {
+    "label": "wikipedie",
+    "url": "https://cs.wikipedia.org/wiki/KDU-ČSL"
+   }
+  ]
+ },
+ "STAN": {
+  "plny": "Starostové a nezávislí",
+  "aliases": [
+   "Starostové a nezávislí",
+   "STAROSTOVÉ A NEZÁVISLÍ"
+  ],
+  "odkazy": [
+   {
+    "label": "starostove.cz",
+    "url": "https://www.starostove.cz"
+   },
+   {
+    "label": "wikipedie",
+    "url": "https://cs.wikipedia.org/wiki/Starostové_a_nezávislí"
+   }
+  ]
+ },
+ "Piráti": {
+  "plny": "Česká pirátská strana",
+  "aliases": [
+   "Česká pirátská strana"
+  ],
+  "odkazy": [
+   {
+    "label": "pirati.cz",
+    "url": "https://www.pirati.cz"
+   },
+   {
+    "label": "praha.pirati.cz",
+    "url": "https://praha.pirati.cz"
+   },
+   {
+    "label": "wikipedie",
+    "url": "https://cs.wikipedia.org/wiki/Česká_pirátská_strana"
+   }
+  ]
+ },
+ "Praha sobě": {
+  "plny": "Pražská městská strana PRAHA SOBĚ",
+  "aliases": [
+   "PRAHA SOBĚ",
+   "Pražská městská str.PRAHA SOBĚ"
+  ],
+  "odkazy": [
+   {
+    "label": "prahasobe.cz",
+    "url": "https://prahasobe.cz"
+   },
+   {
+    "label": "wikipedie",
+    "url": "https://cs.wikipedia.org/wiki/Praha_sobě"
+   }
+  ]
+ },
+ "ANO 2011": {
+  "plny": "hnutí ANO",
+  "odkazy": [
+   {
+    "label": "anobudelip.cz",
+    "url": "https://www.anobudelip.cz"
+   },
+   {
+    "label": "wikipedie",
+    "url": "https://cs.wikipedia.org/wiki/ANO_2011"
+   }
+  ]
+ },
+ "SPD": {
+  "plny": "Svoboda a přímá demokracie",
+  "aliases": [
+   "Svoboda a př. demokracie (SPD)"
+  ],
+  "odkazy": [
+   {
+    "label": "spd.cz",
+    "url": "https://www.spd.cz"
+   },
+   {
+    "label": "wikipedie",
+    "url": "https://cs.wikipedia.org/wiki/Svoboda_a_přímá_demokracie"
+   }
+  ]
+ },
+ "Zelení": {
+  "plny": "Strana zelených",
+  "aliases": [
+   "Strana zelených",
+   "Zelených"
+  ],
+  "odkazy": [
+   {
+    "label": "zeleni.cz",
+    "url": "https://www.zeleni.cz"
+   },
+   {
+    "label": "wikipedie",
+    "url": "https://cs.wikipedia.org/wiki/Zelení_(Česko)"
+   }
+  ]
+ },
+ "KSČM": {
+  "plny": "Komunistická strana Čech a Moravy",
+  "aliases": [
+   "Komunistická str.Čech a Moravy"
+  ],
+  "odkazy": [
+   {
+    "label": "kscm.cz",
+    "url": "https://www.kscm.cz"
+   },
+   {
+    "label": "wikipedie",
+    "url": "https://cs.wikipedia.org/wiki/Komunistická_strana_Čech_a_Moravy"
+   }
+  ]
+ },
+ "ČSSD": {
+  "plny": "Česká strana sociálně demokratická (dnes SOCDEM)",
+  "aliases": [
+   "Česká str.sociálně demokrat.",
+   "Česká strana sociálně demokratická"
+  ],
+  "odkazy": [
+   {
+    "label": "wikipedie",
+    "url": "https://cs.wikipedia.org/wiki/Sociální_demokracie_(Česko)"
+   }
+  ]
+ },
+ "Levice": {
+  "plny": "strana Levice",
+  "odkazy": [
+   {
+    "label": "levice.cz",
+    "url": "https://www.levice.cz"
+   }
+  ]
+ },
+ "Trikolora": {
+  "plny": "hnutí Trikolora",
+  "odkazy": []
+ },
+ "Rezidenti 1": {
+  "plny": "hnutí Rezidenti 1 (Praha 1)",
+  "aliases": [
+   "REZIDENTI 1"
+  ],
+  "odkazy": [
+   {
+    "label": "rezidenti1.cz",
+    "url": "https://rezidenti1.cz/"
+   }
+  ]
+ },
+ "Praha 1 sobě": {
+  "plny": "sdružení Praha 1 sobě",
+  "aliases": [
+   "PRAHA 1 SOBĚ"
+  ],
+  "odkazy": [
+   {
+    "label": "praha1sobe.cz",
+    "url": "https://www.praha1sobe.cz"
+   }
+  ]
+ },
+ "Osmička žije": {
+  "plny": "místní hnutí Osmička žije (Praha 8)",
+  "aliases": [
+   "8žije"
+  ],
+  "odkazy": [
+   {
+    "label": "osmickazije.cz",
+    "url": "https://osmickazije.cz"
+   }
+  ]
+ },
+ "Patrioti České republiky": {
+  "plny": "Patrioti České republiky",
+  "odkazy": []
+ },
+ "Svobodní": {
+  "plny": "strana Svobodní",
+  "odkazy": [
+   {
+    "label": "svobodni.cz",
+    "url": "https://www.svobodni.cz"
+   }
+  ]
+ },
+ "Konzervativní strana": {
+  "plny": "Konzervativní strana",
+  "odkazy": []
+ },
+ "Iniciativa občanů": {
+  "plny": "Iniciativa občanů",
+  "odkazy": []
+ },
+ "Motoristé sobě": {
+  "plny": "hnutí Motoristé sobě",
+  "odkazy": [
+   {
+    "label": "wikipedie",
+    "url": "https://cs.wikipedia.org/wiki/Motoristé_sobě"
+   }
+  ]
+ }
+}
