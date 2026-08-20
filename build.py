@@ -483,6 +483,39 @@ ELECTIONS = [(2010, 10, 16), (2014, 10, 11), (2018, 10, 6), (2022, 9, 24)]
 PERIOD_LABELS = {-36525: "2022–2026", -33394: "2018–2022", -29783: "2014–2018"}
 MC_BODIES = {"p1": "Zastupitelstvo MČ Praha 1", "p8": "Zastupitelstvo MČ Praha 8"}
 
+# Zkratky z číselníku volby.cz → čitelná podoba
+PARTY_CANON = {"STAROSTOVÉ A NEZÁVISLÍ": "STAN",
+               "Občanská demokratická strana": "ODS",
+               "Česká strana sociálně demokratická": "ČSSD"}
+PARTY_LINKS = [
+    ("Česká pirátská strana", "https://www.pirati.cz"),
+    ("Starostové a nezávislí", "https://www.starostove.cz"),
+    ("Praha 1 sobě", "https://www.praha1sobe.cz"),
+    ("Praha sobě", "https://prahasobe.cz"),
+    ("PRAHA SOBĚ", "https://prahasobe.cz"),
+    ("Rezidenti 1", "https://rezidenti1.cz/"),
+    ("KDU-ČSL", "https://www.kdu.cz"),
+    ("TOP 09", "https://www.top09.cz"),
+    ("ANO 2011", "https://www.anobudelip.cz"),
+    ("Zelených", "https://www.zeleni.cz"),
+    ("Zelení", "https://www.zeleni.cz"),
+    ("Piráti", "https://www.pirati.cz"),
+    ("KSČM", "https://www.kscm.cz"),
+    ("Levice", "https://www.levice.cz"),
+    ("STAN", "https://www.starostove.cz"),
+    ("ODS", "https://www.ods.cz"),
+    ("SPD", "https://www.spd.cz"),
+]
+
+
+def linkify_parties(escaped_text):
+    for name, url in PARTY_LINKS:
+        marker = esc(name)
+        if marker in escaped_text and f'>{marker}<' not in escaped_text:
+            escaped_text = escaped_text.replace(
+                marker, f'<a href="{url}">{marker}</a>', 1)
+    return escaped_text
+
 
 def mc_mandate(roll_file):
     prefix, y, m, d = roll_file.split("-")[0], *[int(x) for x in roll_file.split("-")[1:4]]
@@ -766,6 +799,30 @@ def collect_persons(projects):
             for label, period, rep_id in reps_by_key.get(name_key(name), []):
                 person["mandaty"].add(("Zastupitelstvo hl. m. Prahy", label))
                 person.setdefault("zhmp", {})[label] = (period, rep_id)
+    # Politická příslušnost z kandidátek (otevřená data volby.cz); hledáme jen
+    # v kandidátkách odpovídajících doloženým mandátům, kvůli jmenovcům.
+    volby = json.loads((CACHE / "volby" / "prislusnost.json").read_text())
+    kandidatky = {(rok, body): {name_key(n): v for n, v in reg.items()}
+                  for rok, bodies in volby.items() for body, reg in bodies.items()}
+    YEAR_OF = {"2022–2026": "2022", "2018–2022": "2018", "2014–2018": "2014"}
+    for person in persons.values():
+        lookups = []
+        for body, label in sorted(person["mandaty"], reverse=True,
+                                  key=lambda m: m[1]):
+            if body == "Zastupitelstvo hl. m. Prahy":
+                lookups.append((YEAR_OF[label], "zhmp"))
+            elif body == MC_BODIES["p1"]:
+                lookups.append(("2022", "p1"))
+            elif body == MC_BODIES["p8"]:
+                lookups.append(("2022", "p8"))
+        keys = [name_key(n) for n in filter(None, [
+            person["name"], reverse_fixes.get(person["name"])])]
+        for rok, body in lookups:
+            hit = next((kandidatky[(rok, body)][k] for k in keys
+                        if k in kandidatky.get((rok, body), {})), None)
+            if hit:
+                person["prislusnost"] = {**hit, "rok": rok}
+                break
     for slug, override in overrides.items():
         if slug in persons:
             persons[slug]["name"] = override.get("name", persons[slug]["name"])
@@ -797,7 +854,7 @@ def render_club_body(club, entry):
     meta_lines = ""
     if meta.get("slozeni"):
         meta_lines += (f'<p style="font-size:.92rem; color:var(--ink-2); '
-                       f'margin:-1rem 0 .6rem">zastupuje: {esc(meta["slozeni"])}</p>')
+                       f'margin:-1rem 0 .6rem">zastupuje: {linkify_parties(esc(meta["slozeni"]))}</p>')
     if meta.get("note"):
         meta_lines += (f'<p style="font-size:.92rem; color:var(--ink-2); '
                        f'margin:0 0 .6rem">{esc(meta["note"])}</p>')
@@ -842,6 +899,19 @@ def render_person_body(person):
             f'{body} (období {", ".join(sorted(by_body[body]))})' for body in body_order)
         mandaty = (f'<p style="margin:-1.2rem 0 1.5rem; font-size:.9rem; '
                    f'color:var(--ink-2)">{esc(parts_m)}</p>')
+    strana_line = ""
+    pr = person.get("prislusnost")
+    if pr:
+        p = PARTY_CANON.get(pr["p"], pr["p"])
+        n = PARTY_CANON.get(pr["n"], pr["n"])
+        if p == "Bez politické příslušnosti":
+            text = (f'bez politické příslušnosti, na kandidátce '
+                    f'{linkify_parties(esc(n))}')
+        else:
+            text = f'politická příslušnost: {linkify_parties(esc(p))}'
+        strana_line = (f'<p style="margin:-1.2rem 0 1.5rem; font-size:.9rem; '
+                       f'color:var(--ink-2)">{text} '
+                       f'<span class="src">(kandidátka {esc(pr["rok"])}, volby.cz)</span></p>')
     zhmp = person.get("zhmp", {})
     praha_links = []
     current = zhmp.get(PERIOD_LABELS[-36525])
@@ -897,6 +967,7 @@ def render_person_body(person):
   <h1 class="page">{esc(person["name"])}</h1>
   <p class="page-lead">{clubs}</p>
   {mandaty}
+  {strana_line}
   {f'<p style="margin-top:-1.2rem; font-size:.9rem; color:var(--ink-2)">{esc(person["note"])}</p>' if person.get("note") else ""}
   {praha_line}
   {odkazy_line}
