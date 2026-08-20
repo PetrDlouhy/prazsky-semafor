@@ -855,6 +855,17 @@ def collect_persons(projects):
             persons[slug]["name"] = override.get("name", persons[slug]["name"])
             persons[slug]["note"] = override.get("note")
             persons[slug]["odkazy"] = override.get("odkazy", [])
+    # Automaticky ověřené profily: karty zastupitelů Prahy 8 a wikipedie
+    for cache_file, label in [("p8_cards.json", "karta zastupitele, praha8.cz"),
+                              ("wiki_profiles.json", None)]:
+        f = CACHE / cache_file
+        if not f.exists():
+            continue
+        for slug, val in json.loads(f.read_text()).items():
+            if slug not in persons:
+                continue
+            odkaz = {"label": label, "url": val} if label else val
+            persons[slug].setdefault("auto_odkazy", []).append(odkaz)
     return persons
 
 
@@ -1015,10 +1026,14 @@ def render_person_body(person):
         praha_line = (f'<p class="src" style="margin:-1.2rem 0 1.5rem">'
                       f'na praha.eu: {" · ".join(praha_links)}</p>')
     odkazy_line = ""
-    if person.get("odkazy"):
+    profily = list(person.get("odkazy") or [])
+    for auto in person.get("auto_odkazy", []):
+        if auto["url"] not in {o["url"] for o in profily}:
+            profily.append(auto)
+    if profily:
         items = " · ".join(
             f'<a href="{html.escape(o["url"])}">{esc(o["label"])}</a>'
-            for o in person["odkazy"])
+            for o in profily)
         odkazy_line = (f'<p class="src" style="margin:-1.2rem 0 1.5rem">'
                        f'veřejné profily: {items}</p>')
     clubs = " ".join(
