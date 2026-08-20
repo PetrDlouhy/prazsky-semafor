@@ -406,7 +406,8 @@ def render_actors_body(projects, single_file=False, persons_index=None):
             f'<tr><td>{esc(ev["date"])}</td>'
             f'<td><a href="{prefix}{p["slug"]}{ext}">{esc(p["title"])}</a>: '
             f'{esc(ev["title"])}</td></tr>'
-            for p, ev in entry["events"]
+            for p, ev in sorted(entry["events"],
+                                key=lambda x: event_sort_key(x[1]["date"]))
         )
         role_parts = []
         for r in entry["roles"]:
@@ -443,6 +444,15 @@ def render_actors_body(projects, single_file=False, persons_index=None):
 
 
 ELECTIONS = [(2010, 10, 16), (2014, 10, 11), (2018, 10, 6), (2022, 9, 24)]
+
+PERIOD_LABELS = {-36525: "2022–2026", -33394: "2018–2022", -29783: "2014–2018"}
+MC_BODIES = {"p1": "Zastupitelstvo MČ Praha 1", "p8": "Zastupitelstvo MČ Praha 8"}
+
+
+def mc_mandate(roll_file):
+    prefix, y, m, d = roll_file.split("-")[0], *[int(x) for x in roll_file.split("-")[1:4]]
+    start = max(ey for ey, em, ed in ELECTIONS if (ey, em, ed) <= (y, m, d))
+    return (MC_BODIES[prefix], f"{start}–{start + 4}")
 
 
 def event_sort_key(d):
@@ -669,11 +679,15 @@ def prefetch_rolls(projects):
                 continue
             if v.get("rollFile"):
                 ev["_roll"] = json.loads((ROOT / "data" / "rolls" / v["rollFile"]).read_text())
+                mandate = mc_mandate(v["rollFile"])
                 for r in ev["_roll"]:
                     r["shortName"] = norm_name(r["shortName"])
+                    r["_mandat"] = mandate
             elif v.get("id") is not None and v.get("period") is not None:
                 try:
                     ev["_roll"] = vote_roll(v["id"], v["period"])
+                    for r in ev["_roll"]:
+                        r["_mandat"] = ("Zastupitelstvo hl. m. Prahy", PERIOD_LABELS[v["period"]])
                 except Exception as exc:  # noqa: broad-except - offline build falls back to stored counts
                     print(f"  ! roll {v['id']}: {exc}")
 
@@ -684,16 +698,31 @@ def collect_persons(projects):
     def entry(short_name):
         slug = actor_slug(short_name)
         return persons.setdefault(slug, {
-            "name": short_name, "clubs": set(), "votes": [], "events": []})
+            "name": short_name, "clubs": set(), "votes": [], "events": [],
+            "mandaty": set()})
     for p in projects:
         for ev in p["events"]:
             for r in ev.get("_roll", []):
                 e = entry(r["shortName"])
                 e["clubs"].add(r["club"])
                 e["votes"].append((p, ev, r["voteText"]))
+                if r.get("_mandat"):
+                    e["mandaty"].add(tuple(r["_mandat"]))
             for a in ev.get("actors", []):
                 e = entry(a["name"])
                 e["events"].append((p, ev, a["role"]))
+    # Mandáty ZHMP i bez zaznamenaného hlasování: úřední seznamy členů period
+    for period, label in PERIOD_LABELS.items():
+        reps_file = CACHE / f"reps_{period}.json"
+        if not reps_file.exists():
+            continue
+        for r in json.loads(reps_file.read_text()):
+            short = norm_name(" ".join(
+                t.strip(",") for t in r["fullName"].split()
+                if not TITLE_TOKENS.search(t)))
+            slug = actor_slug(short)
+            if slug in persons:
+                persons[slug]["mandaty"].add(("Zastupitelstvo hl. m. Prahy", label))
     for slug, override in overrides.items():
         if slug in persons:
             persons[slug]["name"] = override.get("name", persons[slug]["name"])
@@ -727,7 +756,8 @@ def render_club_body(club, entry):
   {render_bar(counts, height=14)}
   <p class="src">{counts["pro"]} pro · {counts["proti"]} proti · {counts["zdrzel"]} zdrželo se · {counts["ostatni"]} nehlasovalo/chybělo</p>
 </div>"""
-        for p, ev, counts in entry["votes"])
+        for p, ev, counts in sorted(entry["votes"],
+                                    key=lambda x: event_sort_key(x[1]["date"])))
     members = ", ".join(
         f'<a href="osoba-{slug}.html">{esc(name)}</a>'
         for slug, name in sorted(entry["members"].items(), key=lambda kv: kv[1].split()[-1]))
@@ -744,6 +774,16 @@ def render_club_body(club, entry):
 
 
 def render_person_body(person):
+    by_body = {}
+    for body, label in sorted(person.get("mandaty", set())):
+        by_body.setdefault(body, []).append(label)
+    body_order = sorted(by_body, key=lambda b: (b != "Zastupitelstvo hl. m. Prahy", b))
+    mandaty = ""
+    if by_body:
+        parts_m = " · ".join(
+            f'{body} (období {", ".join(sorted(by_body[body]))})' for body in body_order)
+        mandaty = (f'<p style="margin:-1.2rem 0 1.5rem; font-size:.9rem; '
+                   f'color:var(--ink-2)">{esc(parts_m)}</p>')
     clubs = " ".join(
         club_chip(c, link=True)
         for c in sorted(person["clubs"])) or "bez záznamu ve sledovaných jmenovitých hlasováních"
@@ -751,12 +791,14 @@ def render_person_body(person):
         f'<tr><td>{esc(ev["date"])}</td>'
         f'<td><a href="{p["slug"]}.html">{esc(p["title"])}</a>: {esc(ev["title"])}'
         f'<br><span class="src mono">{esc(role)}</span></td><td></td></tr>'
-        for p, ev, role in person["events"])
+        for p, ev, role in sorted(person["events"],
+                                  key=lambda x: event_sort_key(x[1]["date"])))
     vote_rows = "".join(
         f'<tr><td>{esc(ev["date"])}</td>'
         f'<td><a href="{p["slug"]}.html">{esc(p["title"])}</a>: {esc(ev["vote"]["label"])}</td>'
         f'<td><span class="v-chip v-{VOTE_SEG.get(vt, "zdrzel")}">{esc(vt.lower())}</span></td></tr>'
-        for p, ev, vt in person["votes"])
+        for p, ev, vt in sorted(person["votes"],
+                                key=lambda x: event_sort_key(x[1]["date"])))
     counts = {}
     for _, _, vt in person["votes"]:
         counts[vt] = counts.get(vt, 0) + 1
@@ -775,6 +817,7 @@ def render_person_body(person):
   <p class="crumb">Osoba</p>
   <h1 class="page">{esc(person["name"])}</h1>
   <p class="page-lead">{clubs}</p>
+  {mandaty}
   {f'<p style="margin-top:-1.2rem; font-size:.9rem; color:var(--ink-2)">{esc(person["note"])}</p>' if person.get("note") else ""}
   {bilance}
   {sections}
