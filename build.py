@@ -311,6 +311,7 @@ def render_vote(ev, single_file=False):
          ("ostatni", "nehlasovalo / chybělo")]
     )
     details = render_roll_details(roll, single_file) if roll else ""
+    zneni = render_vote_zneni(ev)
     caveat = ""
     if v.get("kind") == "zarazeni":
         caveat = ('<p class="src">poznámka: hlasování o zařazení bodu na program '
@@ -320,8 +321,36 @@ def render_vote(ev, single_file=False):
   {render_bar(counts, label=v["label"])}
   <ul class="votekey">{key_items}</ul>
   {caveat}
+  {zneni}
   {details}
 </div>"""
+
+
+def render_vote_zneni(ev):
+    v = ev["vote"]
+    meta = ev.get("_meta")
+    rows = []
+    if meta and meta.get("printName"):
+        subject = ("zařazení tisku na program jednání; tisk: "
+                   if v.get("kind") == "zarazeni" else "")
+        rows.append(f'<p class="roll-group"><b>úřední název:</b> {subject}'
+                    f'„{esc(meta["printName"])}“</p>')
+        ids = [f'tisk {esc(meta["printNumber"])}'] if meta.get("printNumber") else []
+        if meta.get("meetingNumber"):
+            ids.append(f'{esc(meta["meetingNumber"])}. zasedání ZHMP')
+        if meta.get("resolutionNumber") and v["vysledek"] == "přijato":
+            ids.append(f'usnesení č. {esc(meta["meetingNumber"])}/{esc(meta["resolutionNumber"])}')
+        if ids:
+            rows.append(f'<p class="roll-group">{" · ".join(ids)}</p>')
+    if v.get("zneni"):
+        zdroj = f' ({esc(v["zneniZdroj"])})' if v.get("zneniZdroj") else ""
+        rows.append(f'<p class="roll-group">„{esc(v["zneni"])}“{zdroj}</p>')
+    if not rows:
+        return ""
+    return f"""<details class="roll">
+  <summary>Co přesně se hlasovalo</summary>
+  <div style="margin-top:.5rem">{"".join(rows)}</div>
+</details>"""
 
 
 def render_promises_body(projects, single_file=False):
@@ -688,6 +717,7 @@ def prefetch_rolls(projects):
                     ev["_roll"] = vote_roll(v["id"], v["period"])
                     for r in ev["_roll"]:
                         r["_mandat"] = ("Zastupitelstvo hl. m. Prahy", PERIOD_LABELS[v["period"]])
+                    ev["_meta"] = api_cached(f"meta_{v['id']}", f"{API}/voting/detail/{v['id']}")
                 except Exception as exc:  # noqa: broad-except - offline build falls back to stored counts
                     print(f"  ! roll {v['id']}: {exc}")
 
