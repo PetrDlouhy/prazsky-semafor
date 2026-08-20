@@ -316,8 +316,12 @@ def render_vote(ev, single_file=False):
     if v.get("kind") == "zarazeni":
         caveat = ('<p class="src">poznámka: hlasování o zařazení bodu na program '
                   'vypovídá o ochotě jednat, ne nutně o postoji k projektu</p>')
+    detail_link = ""
+    if v.get("id") is not None and v.get("period") is not None:
+        detail_link = (f' · <a href="https://praha.eu/vysledky-hlasovani#/detail/{v["id"]}">'
+                       f'detail na praha.eu</a>')
     return f"""<div class="votewrap">
-  <p class="src" style="margin-bottom:.35rem">{esc(v["label"])} · výsledek: {esc(v["vysledek"])}</p>
+  <p class="src" style="margin-bottom:.35rem">{esc(v["label"])} · výsledek: {esc(v["vysledek"])}{detail_link}</p>
   {render_bar(counts, label=v["label"])}
   <ul class="votekey">{key_items}</ul>
   {caveat}
