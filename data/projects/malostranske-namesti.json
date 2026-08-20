@@ -1,0 +1,297 @@
+{
+  "slug": "malostranske-namesti",
+  "title": "Malostranské náměstí",
+  "category": "veřejný prostor",
+  "area": "Praha 1",
+  "status": {
+    "label": "tendr zrušen 2022, bez termínu",
+    "kind": "miss"
+  },
+  "summary": "Jedno z nejznámějších náměstí v zemi čeká na rekonstrukci dvanáct let od architektonické soutěže. Projekt má vítězný návrh (2014), náměstí zbavené parkoviště (2016), stavební povolení (2019) i jednou vybraného zhotovitele (2021); tendr ale dosluhující Rada v listopadu 2022 zrušila a žádné vedení města od té doby nevypsalo nový. V červnu 2026 zastupitelstvo schválilo návrat pomníku maršála Radeckého na náměstí, jehož rekonstrukce nemá termín.",
+  "counter": {
+    "since": "2022-11-22",
+    "label": "dní od zrušení tendru na zhotovitele; nový vypsán nebyl"
+  },
+  "parts": [
+    {
+      "name": "Dolní náměstí bez parkoviště",
+      "status": {
+        "label": "hotovo 2016",
+        "kind": "ok"
+      },
+      "text": "Parkoviště před chrámem sv. Mikuláše město vyklidilo k 1. červenci 2016. Plocha od té doby slouží pěším a akcím, finální dlažbu a kašnu má přinést až rekonstrukce."
+    },
+    {
+      "name": "Rekonstrukce parteru",
+      "status": {
+        "label": "tendr zrušen",
+        "kind": "miss"
+      },
+      "text": "Nová dlažba, kašna v dolní části, stromy v horní části a zklidnění dopravy podle vítězného návrhu ateliéru Hájek. Stavební povolení je z roku 2019, vybraný zhotovitel z roku 2021; po zrušení tendru v listopadu 2022 se soutěž nikdy neopakovala a město dnes uvádí stav „stavební řízení“ bez termínu."
+    },
+    {
+      "name": "Pomník maršála Radeckého",
+      "status": {
+        "label": "návrat schválen 2026",
+        "kind": "wait"
+      },
+      "text": "Zastupitelstvo v červnu 2026 schválilo znovuobnovení pomníku (originál z Lapidária, případně replika, odhad 15 až 30 milionů korun). Návrat je vázán na rekonstrukci náměstí, která termín nemá."
+    }
+  ],
+  "events": [
+    {
+      "date": "září 2014",
+      "title": "Architektonická soutěž",
+      "tier": "a",
+      "text": "Soutěž IPR na revitalizaci náměstí přitahuje 40 návrhů; vítězí Martin Hájek, Václav Hájek a Petr Horský. Návrh slibuje odstranění parkoviště, novou kašnu v dolní části, stromy v horní části a zklidnění dopravy.",
+      "sources": [
+        {
+          "label": "databáze soutěží ČKA",
+          "url": "https://www.cka.cz/souteze/databaze/malostranske-namesti-v-praze"
+        },
+        {
+          "label": "IPR: projekt 7",
+          "url": "https://iprpraha.cz/project/7"
+        }
+      ]
+    },
+    {
+      "date": "1. 7. 2016",
+      "title": "Parkoviště mizí",
+      "tier": "b",
+      "text": "Město vypovídá nájemní smlouvu a auta z dolní části náměstí mizí; první viditelný krok proměny. Proti se stavěla část poslanců, kteří na náměstí parkovali.",
+      "sources": [
+        {
+          "label": "aktualne.cz, 2016",
+          "url": "https://zpravy.aktualne.cz/regiony/praha/malostranske-namesti-bude-od-1cervence-bez-parkoviste-praha/r~8e9ef7a6fb2411e5b8aa0025900fea04/"
+        },
+        {
+          "label": "TZ praha.eu, 2. 2. 2018 (rekapitulace)",
+          "url": "https://praha.eu/w/z_malostranskeho_parkoviste_se_stava_2622768"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Petr Dolínek",
+          "role": "náměstek pro dopravu, ČSSD"
+        }
+      ]
+    },
+    {
+      "date": "únor 2018",
+      "title": "Koleje už podle vítězného návrhu",
+      "tier": "b",
+      "text": "Při výměně tramvajových kolejí se pokládá vzorek budoucí dlažby; první a na dlouho poslední fyzický kus projektu.",
+      "sources": [
+        {
+          "label": "prazsky.denik.cz, 5. 2. 2018",
+          "url": "https://prazsky.denik.cz/z-regionu/revitalizace-malostranskeho-namesti-uz-zacala-vymenou-koleji-20180205.html"
+        }
+      ]
+    },
+    {
+      "date": "29. 3. 2018",
+      "title": "Spor o garáže končí jejich vyškrtnutím",
+      "tier": "b",
+      "text": "Podzemní garáže, které požadovala Praha 1, blokují územní rozhodnutí; magistrát projekt upravuje bez nich. Praha 1 si prověření garáží nechává v květnu podpořit dotací ze zastupitelstva hl. m. Prahy.",
+      "sources": [
+        {
+          "label": "info.cz, 29. 3. 2018",
+          "url": "https://www.info.cz/praha/na-malostranskem-namesti-zadne-garaze-nebudou-magistrat-nasel-reseni-problematicke-rekonstrukce-27041.html"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Adriana Krnáčová",
+          "role": "primátorka, ANO"
+        }
+      ],
+      "vote": {
+        "id": -47218,
+        "period": -29783,
+        "vysledek": "přijato",
+        "label": "Dotace MČ Praha 1 na prověření garáží (Z-6396), 17. 5. 2018",
+        "pro": 0,
+        "proti": 0,
+        "zdrzel": 0,
+        "ostatni": 0
+      }
+    },
+    {
+      "date": "2019",
+      "title": "Stavební povolení",
+      "tier": "a",
+      "text": "Projekt získává stavební povolení; podle harmonogramu na oficiální kartě projektu je připraven ke stavbě.",
+      "sources": [
+        {
+          "label": "karta projektu, praha.camp (CAMP/IPR)",
+          "url": "https://praha.camp/praha-zitra/projekt/malostranske-namesti"
+        }
+      ]
+    },
+    {
+      "date": "22. 5. 2020",
+      "title": "Zastupitelstvo schvaluje zakázku",
+      "tier": "a",
+      "text": "Zastupitelstvo hl. m. Prahy schvaluje záměr veřejné zakázky na stavební práce (stavba č. 42700, tisk Z-8059) s rozpočtem 73,5 milionu korun.",
+      "sources": [
+        {
+          "label": "výsledky hlasování ZHMP, praha.eu",
+          "url": "https://praha.eu/vysledky-hlasovani"
+        },
+        {
+          "label": "profil zakázky, Tender arena",
+          "url": "https://tenderarena.cz/dodavatel/zakazka/100286"
+        }
+      ]
+    },
+    {
+      "date": "13. 12. 2021",
+      "title": "Zhotovitel vybrán: Gardenline za 84,4 milionu",
+      "tier": "a",
+      "text": "Rada vybírá zhotovitele; stavět se má od jara 2022 od horní části a hotovo být na přelomu let 2023 a 2024. Nabídka je zhruba o 10 milionů nad předpokladem.",
+      "sources": [
+        {
+          "label": "iprpraha.cz, prosinec 2021",
+          "url": "https://iprpraha.cz/stranka/3978/praha-vybrala-dodavatele-stavebnich-praci-malostranskeho-namesti"
+        },
+        {
+          "label": "e15.cz, prosinec 2021",
+          "url": "https://www.e15.cz/byznys/reality-a-stavebnictvi/malostranske-namesti-ziska-novou-podobu-prace-zacnou-na-jare-1386197"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Petr Hlaváček",
+          "role": "1. náměstek pro územní rozvoj, Spojené síly pro Prahu"
+        }
+      ],
+      "promise": {
+        "by": "Rada hl. m. Prahy",
+        "promised": "prosinec 2021",
+        "due": "dokončení přelom 2023/2024",
+        "status": "nesplněno"
+      }
+    },
+    {
+      "date": "22. 11. 2022",
+      "title": "Dosluhující Rada tendr ruší",
+      "tier": "b",
+      "text": "Dva měsíce po volbách Rada ruší zadávací řízení; smlouva s vybraným zhotovitelem nebyla nikdy podepsána. Důvodem jsou změny projektu od výběru dodavatele: archeologický výzkum, úpravy křižovatek, požadavky památkářů na mobiliář a osvětlení a parkování podle požadavků Poslanecké sněmovny; doba prací se protáhla z 12 na více než 24 měsíců. Nový tendr už nikdo nevypsal.",
+      "sources": [
+        {
+          "label": "prazsky.denik.cz, 22. 11. 2022",
+          "url": "https://prazsky.denik.cz/zpravy_region/praha-malostranske-namesti-uprava-tendr-20221122.html"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Zdeněk Hřib",
+          "role": "primátor (dosluhující koalice), Piráti"
+        }
+      ]
+    },
+    {
+      "date": "3. 4. 2024",
+      "title": "„Nepodařilo se dotáhnout výběr zhotovitele“",
+      "tier": "b",
+      "text": "Náměstek Hlaváček při představování městských staveb řadí náměstí mezi nerozjeté projekty; nový tendr stále neexistuje.",
+      "sources": [
+        {
+          "label": "prazsky.denik.cz, 3. 4. 2024",
+          "url": "https://prazsky.denik.cz/zpravy_region/praha-vystavby-revitalizace-ipr-predstaveni-plany-stavby.html"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Petr Hlaváček",
+          "role": "1. náměstek pro územní rozvoj, STAN"
+        }
+      ]
+    },
+    {
+      "date": "25. 11. 2024",
+      "title": "Opozice: město neumí rozjet ani připravené projekty",
+      "tier": "b",
+      "text": "Při projednávání rozpočtu opozice kritizuje, že vedení města „není ani schopno rozjet dlouho připravované rekonstrukce Malostranského náměstí, náměstí Jana Palacha, Mariánského či Vítězného náměstí“.",
+      "sources": [
+        {
+          "label": "ceskenoviny.cz, 25. 11. 2024",
+          "url": "https://www.ceskenoviny.cz/zpravy/praha-chce-pristi-rok-hospodarit-s-prijmy-11092-mld-a-vydaji-11349-mld-kc/2600094"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Adam Scheinherr",
+          "role": "opoziční zastupitel, Praha sobě"
+        }
+      ]
+    },
+    {
+      "date": "8. 4. 2026",
+      "title": "Oficiální stav: stavební řízení, bez termínu",
+      "tier": "a",
+      "text": "Karta projektu na webu CAMP uvádí stav „stavební řízení“ a výslovně: „V roce 2022 byla rozhodnutím Rady hl. m. Prahy příprava akce zastavena.“ Termín dokončení chybí; rozpočet se mezitím v podkladech města posunul z 95 na zhruba 147 milionů korun.",
+      "sources": [
+        {
+          "label": "karta projektu, praha.camp (CAMP/IPR)",
+          "url": "https://praha.camp/praha-zitra/projekt/malostranske-namesti"
+        }
+      ]
+    },
+    {
+      "date": "18. 6. 2026",
+      "title": "Zastupitelstvo chce vrátit pomník Radeckého",
+      "tier": "a",
+      "text": "Čtyři měsíce před volbami zastupitelstvo schvaluje znovuobnovení pomníku maršála Radeckého (tisk Z-14160, předkládají Pospíšil, Čapková, Wolf, Slabihoudek a Bodeček): 41 pro, 4 proti, 4 se zdrželi. Praha požádá o originál z Lapidária, jinak vznikne replika za odhadovaných 15 až 30 milionů; návrat je vázán na rekonstrukci náměstí, která termín nemá.",
+      "vote": {
+        "id": 105606,
+        "period": -36525,
+        "vysledek": "přijato",
+        "label": "Znovuobnovení pomníku maršála Radeckého (Z-14160), 18. 6. 2026",
+        "pro": 41,
+        "proti": 4,
+        "zdrzel": 5,
+        "ostatni": 15
+      },
+      "sources": [
+        {
+          "label": "výsledky hlasování ZHMP, praha.eu",
+          "url": "https://praha.eu/vysledky-hlasovani"
+        },
+        {
+          "label": "echo24.cz, 18. 6. 2026",
+          "url": "https://www.echo24.cz/a/HzjCj/zpravy-domaci-zastupitele-schvalili-navrat-pomniku-marsala-radeckeho-malostranske-namesti"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Jiří Pospíšil",
+          "role": "náměstek pro kulturu, TOP 09"
+        }
+      ]
+    }
+  ],
+  "karta": {
+    "typ": "stavba",
+    "faze": "povolení",
+    "fazepozn": "město uvádí „stavební řízení“; tendr z roku 2021 zrušen",
+    "investor": "hl. m. Praha (příprava IPR)",
+    "horizont": "bez termínu",
+    "cena": "nabídka zhotovitele 2021: 84,4 mil. Kč; dnes město uvádí 95 až 147 mil. Kč"
+  },
+  "links": [
+    {
+      "label": "karta projektu na praha.camp",
+      "url": "https://praha.camp/praha-zitra/projekt/malostranske-namesti"
+    },
+    {
+      "label": "IPR: projekt 7",
+      "url": "https://iprpraha.cz/project/7"
+    },
+    {
+      "label": "databáze soutěží ČKA",
+      "url": "https://www.cka.cz/souteze/databaze/malostranske-namesti-v-praze"
+    }
+  ]
+}

@@ -33,6 +33,9 @@ CLUB_COLORS = {
     "P1 SOBĚ (Praha 1)": "#F2C400", "POP 1 (Praha 1)": "#1C1C1C",
     "LEVICE (Praha 1)": "#B02A2A", "REZIDENTI1 (Praha 1)": "#6B7B4A",
     "3koalice (Praha 1)": "#4C7C6C", "Naše P1 (Praha 1)": "#557088",
+    "ČSSD": "#E8542F", "KSČM": "#B02A2A",
+    "TOP 09 a nezávislých ": "#7B2D8B",
+    "TROJKOALICE Zelení, KDU-ČSL, STAN": "#5B8C3E",
     "ODS (Praha 8)": "#1A4FA0", "ANO 2011 (Praha 8)": "#009FC7",
     "Česká pirátská strana (Praha 8)": "#1C1C1C",
     "8ŽIJE A PRAHA SOBĚ (Praha 8)": "#F2C400",
@@ -600,8 +603,11 @@ def render_methodology_body(single_file=False):
   zařazujeme projekty, ke kterým se Praha zavázala schváleným dokumentem
   (koncepce, strategie, programové prohlášení, usnesení). Dokumentujeme rozdíl
   mezi schváleným záměrem a realitou, v obou směrech: spisem je dotažený projekt
-  stejně jako rozpadlý. Dálniční okruhy a radiály nesledujeme; mají vlastní
-  početné hlídače, tento web se věnuje závazkům, které soustavně nehlídá nikdo.</p>
+  stejně jako rozpadlý. Každý spis musí vypovídat o tom, jak město drží slovo
+  a hospodaří, srozumitelně i pro čtenáře, kterého dané téma jinak nezajímá;
+  web není katalogem oborových přání. Dálniční okruhy a radiály nesledujeme;
+  mají vlastní početné hlídače, tento web se věnuje závazkům, které soustavně
+  nehlídá nikdo.</p>
   <h2>Tři stupně doloženosti</h2>
   <div class="tiers">
     <div class="tier-row"><span class="tier tier-a">úřední</span>
