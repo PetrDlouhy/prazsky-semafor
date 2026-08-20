@@ -141,7 +141,7 @@
       "date": "21. 5. 2020",
       "title": "Zastupitelstvo o uzavírce: dvanáct hlasování",
       "tier": "a",
-      "text": "Opozice vyvolává k covidové uzavírce mimořádný bod (tisk Z-8341, předkládá náměstek Scheinherr). Zastupitelstvo o něm hlasuje dvanáctkrát; pozměňovací návrhy na zrušení opatření neprocházejí a výsledné usnesení je přijato 50 pro, 5 proti, 6 se zdrželo.",
+      "text": "Opozice vyvolává k covidové uzavírce mimořádný bod (tisk Z-8341, předkládají Patrik Nacher a Alexandra Udženija). Zastupitelstvo o něm hlasuje dvanáctkrát; pozměňovací návrhy na zrušení opatření neprocházejí a výsledné usnesení je přijato 50 pro, 5 proti, 6 se zdrželo.",
       "vote": {
         "label": "Usnesení k tisku Z-8341, 21. 5. 2020",
         "pro": 50,
@@ -150,7 +150,9 @@
         "ostatni": 4,
         "vysledek": "přijato",
         "id": -52318,
-        "period": -33394
+        "period": -33394,
+        "zneni": "Zastupitelstvo hl. m. Prahy požaduje informace, na základě čeho se připravuje uzavření části Smetanova nábřeží, proč nebylo projednáno Radou a dopravním výborem a jaké je stanovisko MČ Praha 1; ukládá Radě HMP projednávat změny na páteřních komunikacích s městskými částmi a projednat s MČ Praha 1 koncept omezení zbytné tranzitní dopravy na obou březích Vltavy.",
+        "zneniZdroj": "výrok usnesení č. 17/2, kráceno"
       },
       "sources": [
         {
@@ -159,6 +161,14 @@
         }
       ],
       "actors": [
+        {
+          "name": "Patrik Nacher",
+          "role": "zastupitel hl. m. Prahy, ANO"
+        },
+        {
+          "name": "Alexandra Udženija",
+          "role": "zastupitelka hl. m. Prahy, ODS"
+        },
         {
           "name": "Adam Scheinherr",
           "role": "náměstek pro dopravu, Praha sobě"

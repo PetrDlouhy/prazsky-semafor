@@ -114,7 +114,9 @@
         "pro": 0,
         "proti": 0,
         "zdrzel": 0,
-        "ostatni": 0
+        "ostatni": 0,
+        "zneni": "Zastupitelstvo hl. m. Prahy schvaluje financování průzkumných prací zajišťovaných MČ Praha 1, úpravu rozpočtu a poskytnutí účelové investiční dotace MČ Praha 1; ukládá Radě HMP zajistit realizaci.",
+        "zneniZdroj": "výrok usnesení č. 37/34, kráceno"
       }
     },
     {
@@ -253,7 +255,9 @@
         "pro": 41,
         "proti": 4,
         "zdrzel": 5,
-        "ostatni": 15
+        "ostatni": 15,
+        "zneni": "Zastupitelstvo hl. m. Prahy souhlasí s instalací pomníku maršála Radeckého na Malostranském náměstí v Praze; ukládá Radě HMP zajistit součinnost městských orgánů a organizací a informovat zastupitelstvo o výsledku; žádá Ministerstvo kultury ČR o poskytnutí originálu sochy maršála Radeckého ze sbírky Národního muzea.",
+        "zneniZdroj": "výrok usnesení č. 35/3, kráceno"
       },
       "sources": [
         {

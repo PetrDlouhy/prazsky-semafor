@@ -97,7 +97,7 @@
       "date": "březen 2025",
       "title": "Petice a usnesení zastupitelstva",
       "tier": "b",
-      "text": "Občanskou petici za urychlení stavby podepisují zhruba dva tisíce lidí. Zastupitelstvo ji projednává a ke stavu projektu přijímá usnesení: 58 pro, nikdo proti (tisky Z-13051 a Z-13057); radě ukládá přípravu urychlit. Radní pro finance Kovářík v rozpravě říká, že politici „prezentují své vize předčasně, aniž by měli zajištěné potřebné dokumenty a finance“, a „matou veřejnost, která pak doufá ve vznik projektů předčasně a sepisuje petice“.",
+      "text": "Občanskou petici za urychlení stavby podepisují zhruba dva tisíce lidí. Zastupitelstvo ji projednává a přijímá usnesení ke stavu projektu: 58 pro, nikdo proti (tisky Z-13051 a Z-13057). Rada má mimo jiné vybrat projektanta dokumentace do 31. srpna 2025, jednat se Správou železnic o nabytí pozemků do konce roku 2025 a zachovat standard řešení podle studie a územního rozhodnutí. Radní pro finance Kovářík v rozpravě říká, že politici „prezentují své vize předčasně, aniž by měli zajištěné potřebné dokumenty a finance“, a „matou veřejnost, která pak doufá ve vznik projektů předčasně a sepisuje petice“.",
       "sources": [
         {
           "label": "mestemnakole.cz, říjen 2025 (rekapitulace)",
@@ -113,21 +113,23 @@
         }
       ],
       "promise": {
-        "by": "Zastupitelstvo hl. m. Prahy (usnesení)",
+        "by": "Zastupitelstvo hl. m. Prahy (usnesení č. 22/2)",
         "promised": "březen 2025",
-        "due": "",
-        "status": "běží",
-        "text": "Zastupitelstvo ukládá Radě urychlit přípravu promenády (usnesení k petici, tisky Z-13051 a Z-13057)."
+        "due": "projektant do 31. 8. 2025",
+        "status": "částečně",
+        "text": "Rada má vybrat projektanta dokumentace do 31. 8. 2025, jednat se Správou železnic o nabytí pozemků do konce roku 2025 a zachovat standard řešení podle studie a územního rozhodnutí."
       },
       "vote": {
-        "id": 103702,
+        "id": 103701,
         "period": -36525,
         "vysledek": "přijato",
-        "label": "Usnesení k petici (Z-13051), 27. 3. 2025",
-        "pro": 0,
+        "label": "Usnesení k aktuálnímu stavu projektu (Z-13057), 27. 3. 2025",
+        "pro": 58,
         "proti": 0,
         "zdrzel": 0,
-        "ostatni": 0
+        "ostatni": 7,
+        "zneni": "Zastupitelstvo hl. m. Prahy konstatuje, že Drážní promenáda je prioritou rozvoje celoměstsky významných tras pro aktivní mobilitu a zásadní rozvojový projekt pro Prahu 10 i okolní městské části; ukládá Radě HMP vybrat projektanta dokumentace do 31. 8. 2025, zachovat standard řešení dle studie a DÚR, jednat se Správou železnic o nabytí pozemků do 31. 12. 2025, hledat externí financování a zahájit přípravu napojení od Petrohradské k nádraží Vršovice do 31. 10. 2025.",
+        "zneniZdroj": "výrok usnesení č. 22/2, kráceno"
       },
       "actors": [
         {
