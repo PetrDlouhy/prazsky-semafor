@@ -57,7 +57,7 @@
       "actors": [
         {
           "name": "Lukáš Hanes",
-          "role": "radní města Kladna pro rozvoj"
+          "role": "radní města Kladna pro rozvoj, ODS"
         }
       ]
     },
@@ -257,6 +257,10 @@
     {
       "label": "Praha na kole: trasa A16",
       "url": "https://www.prahanakole.cz/paterni-cyklotrasy/cyklotrasa-a16-liben-holesovice-letna-dejvice-veleslavin-ruzyne-hostivice/"
+    },
+    {
+      "label": "Městem na kole: štítek kladenská drážní stezka",
+      "url": "https://mestemnakole.cz/tag/kladenska-drazni-stezka/"
     }
   ]
 }

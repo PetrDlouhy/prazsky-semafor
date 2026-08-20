@@ -687,6 +687,9 @@ def render_methodology_body(single_file=False):
     praha.eu, kompletní včetně neschválených návrhů.</li>
     <li>Usnesení a zápisy Rady hl. m. Prahy a městských částí: úřední desky.</li>
     <li>Vše ostatní: odkazovaný veřejný zdroj s uvedeným stupněm doloženosti.</li>
+    <li>U osob odkazujeme výhradně veřejné politické profily: úřední stránky,
+    stranické profily, osobní weby věnované politické práci a mediální tagy.
+    Soukromé stránky neodkazujeme.</li>
   </ul>
   <h2>Co web nedělá</h2>
   <ul>
@@ -765,6 +768,7 @@ def collect_persons(projects):
         if slug in persons:
             persons[slug]["name"] = override.get("name", persons[slug]["name"])
             persons[slug]["note"] = override.get("note")
+            persons[slug]["odkazy"] = override.get("odkazy", [])
     return persons
 
 
@@ -836,6 +840,13 @@ def render_person_body(person):
     if praha_links:
         praha_line = (f'<p class="src" style="margin:-1.2rem 0 1.5rem">'
                       f'na praha.eu: {" · ".join(praha_links)}</p>')
+    odkazy_line = ""
+    if person.get("odkazy"):
+        items = " · ".join(
+            f'<a href="{html.escape(o["url"])}">{esc(o["label"])}</a>'
+            for o in person["odkazy"])
+        odkazy_line = (f'<p class="src" style="margin:-1.2rem 0 1.5rem">'
+                       f'veřejné profily: {items}</p>')
     clubs = " ".join(
         club_chip(c, link=True)
         for c in sorted(person["clubs"])) or "bez záznamu ve sledovaných jmenovitých hlasováních"
@@ -872,6 +883,7 @@ def render_person_body(person):
   {mandaty}
   {f'<p style="margin-top:-1.2rem; font-size:.9rem; color:var(--ink-2)">{esc(person["note"])}</p>' if person.get("note") else ""}
   {praha_line}
+  {odkazy_line}
   {bilance}
   {sections}
   <p class="src" style="margin-top:2rem">Stránka zachycuje pouze hlasování a

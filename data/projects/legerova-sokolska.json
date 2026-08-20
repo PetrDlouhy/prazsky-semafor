@@ -281,6 +281,18 @@
     {
       "label": "AutoMat: kauza magistrála",
       "url": "https://auto-mat.cz/magistrala"
+    },
+    {
+      "label": "ČT24: téma severojižní magistrála",
+      "url": "https://ct24.ceskatelevize.cz/tema/severojizni-magistrala-23370"
+    },
+    {
+      "label": "wikipedie: Severojižní magistrála",
+      "url": "https://cs.wikipedia.org/wiki/Severoji%C5%BEn%C3%AD_magistr%C3%A1la"
+    },
+    {
+      "label": "Aktuálně.cz: téma magistrála",
+      "url": "https://zpravy.aktualne.cz/magistrala/l~i:keyword:2312/"
     }
   ]
 }
