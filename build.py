@@ -756,7 +756,8 @@ def render_methodology_body(single_file=False):
   Pražan. Projekt je občanský, bez rozpočtu a bez vazby na politické strany.
   Zdrojová data a historie každé změny jsou veřejné v
   <a href="https://github.com/PetrDlouhy/prazsky-semafor">repozitáři webu</a>;
-  opravy a doplnění se zdrojem vítáme. Kontaktní adresa bude uvedena zde.</p>
+  opravy a doplnění se zdrojem vítáme. Kontakt:
+  <a href="mailto:prazskysemafor@gmail.com">prazskysemafor@gmail.com</a>.</p>
 </div>"""
 
 
@@ -1147,7 +1148,10 @@ def build():
     not_found_body = """<div class="wrap">
   <p class="crumb">Chyba 404</p>
   <h1 class="page">Tahle stránka vypadla cestou</h1>
-  <p class="page-lead">Adresa neexistuje nebo se změnila.</p>
+  <p class="page-lead">Adresa neexistuje nebo se změnila. Pokud jste sem
+  přišli z odkazu na tomto webu, napište nám na
+  <a href="mailto:prazskysemafor@gmail.com">prazskysemafor@gmail.com</a>,
+  ať to opravíme.</p>
   <p><a href="index.html">Přejít na projekty</a></p>
 </div>"""
     (DIST / "404.html").write_text(page("Stránka nenalezena", not_found_body, ""))
