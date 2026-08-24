@@ -117,8 +117,7 @@ def vote_roll(vote_id, period):
             t.strip(",") for t in r["memberFullName"].split()
             if not TITLE_TOKENS.search(t)))
     return roll
-# Po registraci domeny prepnout na https://prazskysemafor.cz (domena je volna)
-SITE_URL = "https://petrdlouhy.github.io/prazsky-semafor"
+SITE_URL = "https://prazskysemafor.cz"
 SITE_NAME = "Pražský semafor"
 TAGLINE = "hlídač pražských projektů a slibů"
 FAVICON = ("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' "
