@@ -7,7 +7,7 @@
     "label": "schváleno, nespuštěno",
     "kind": "wait"
   },
-  "summary": "Nábřeží mezi Národním divadlem a Karlovými lázněmi patří k nejcennějším místům Prahy a zároveň slouží jako tranzitní čtyřproudovka: denně tudy projede kolem 40 tisíc lidí autem, zatímco 90 tisíc jich sveze MHD. Město ho zkusilo zklidnit opakovaně: poprvé na den v roce 2004, naposledy na rok a půl v letech 2020 až 2021. V roce 2021 Rada schválila koncepční zadání trvalé proměny; stavební část je zčásti hotová, dopravní režim, který je jádrem koncepce, dosud spuštěn nebyl.",
+  "summary": "Nábřeží mezi Národním divadlem a Karlovými lázněmi patří k nejcennějším místům Prahy a zároveň slouží jako tranzitní čtyřproudovka: denně tudy projede kolem 40 tisíc lidí autem, zatímco 90 tisíc jich sveze MHD, a chodci s cestujícími tramvají tvoří 70 procent uživatelů ulice. Město ho zkusilo zklidnit opakovaně: poprvé na den v roce 2004, naposledy na rok a půl v letech 2020 až 2021. V roce 2021 Rada schválila koncepční zadání trvalé proměny; stavební část je zčásti hotová, dopravní režim, který je jádrem koncepce, dosud spuštěn nebyl.",
   "counter": {
     "since": "2021-03-22",
     "label": "dní od schválení koncepčního zadání Radou (usnesení č. 579)"
@@ -382,11 +382,10 @@
       }
     }
   ],
-  "trasa": "A2",
   "karta": {
     "typ": "opatření",
     "gestor": "hl. m. Praha (koncepce IPR); TSK (stavební etapy)",
-    "stav": "režim nespuštěn; 1. stavební etapa hotova 2022, 2. v přípravě",
+    "stav": "režim s prioritou tramvají a chodců nespuštěn; 1. stavební etapa hotova 2022, 2. v přípravě",
     "horizont": "rozhodnou volby 2026"
   },
   "links": [
