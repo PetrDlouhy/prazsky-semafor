@@ -153,7 +153,7 @@ def page(title, body, nav_active, single_file=False, desc="", path=""):
     desc = desc or ("Hlídač pražských projektů: co si město schválilo, co skutečně "
                     "vzniklo a co se cestou změnilo. Spisy se zdroji a jmenovitými "
                     "hlasováními.")
-    canonical = f"{SITE_URL}/{path}" if path and not single_file else ""
+    canonical = f"{SITE_URL}/{'' if path == 'index.html' else path}" if path and not single_file else ""
     head_meta = (
         f'<meta name="description" content="{esc(desc)[:300]}">\n'
         + (f'<link rel="canonical" href="{canonical}">\n' if canonical else "")
@@ -1156,7 +1156,7 @@ def build():
 </div>"""
     (DIST / "404.html").write_text(page("Stránka nenalezena", not_found_body, ""))
 
-    urls = "".join(f"<url><loc>{SITE_URL}/{f}</loc></url>" for f in sorted(written))
+    urls = "".join(f"<url><loc>{SITE_URL}/{'' if f == 'index.html' else f}</loc></url>" for f in sorted(written))
     (DIST / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>'
         f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>')
