@@ -4,8 +4,8 @@
   "stav_k": "2026-09-14",
   "skala": {
     "zavazek": "závazek s termínem",
-    "podpora": "ano / podpora bez termínu",
-    "vyhybave": "podmíněné / bez jasné pozice",
+    "podpora": "ano, bez termínu",
+    "vyhybave": "podmíněně nebo nejasně",
     "ne": "ne",
     "bez": "bez odpovědi"
   },
@@ -72,7 +72,7 @@
             "kratce": "Prodloužení na Smíchov"
           }
         ],
-        "poznamka": "Vývoj po rozeslání otázek: 10. 9. 2026 Praha 8 oznámila, že linka 145 začne na Kuchyňce zastavovat od 29. 9. 2026. Odpovědi PRAHA SOBĚ, STAN, SPD, Levice, PATRIOTI, GEN a Voluntia přišly před tímto oznámením, odpovědi Naše Praha, SEN a REZIDENTI po něm."
+        "poznamka": "Po rozeslání otázek se situace změnila: 10. 9. 2026 Praha 8 oznámila, že linka 145 začne na Kuchyňce zastavovat od 29. 9. 2026. PRAHA SOBĚ, STAN, SPD, Levice, PATRIOTI, GEN a Voluntia odpovídaly před tímto oznámením, Naše Praha, SEN a REZIDENTI po něm."
       },
       {
         "id": "7",
@@ -90,7 +90,7 @@
         "nazev": "PRAHA SOBĚ",
         "slozeni": "Praha sobě, KDU-ČSL, Zelení",
         "lidr": "Adam Scheinherr",
-        "odpovedel": "Adam Scheinherr, lídr kandidátky, prostřednictvím mluvčího Praha sobě",
+        "odpovedel": "Adam Scheinherr, lídr kandidátky (poslal mluvčí Praha sobě)",
         "doruceno": "2026-09-09",
         "poznamka": "KDU-ČSL 7. 9. sdělila, že za sebe samostatně odpovídat nebude, protože kampaň vede společně s koaličními partnery.",
         "hodnoceni": {
@@ -120,9 +120,9 @@
         "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
         "slozeni": "STAN",
         "lidr": "Petr Hlaváček",
-        "odpovedel": "Petr Hlaváček, lídr kandidátky, prostřednictvím sekretariátu náměstka primátora; 10. 9. potvrzeno jako stanovisko hnutí",
+        "odpovedel": "Petr Hlaváček, lídr kandidátky (poslal sekretariát náměstka primátora)",
         "doruceno": "2026-09-10",
-        "poznamka": "První verzi z 8. 9. označil sekretariát za předběžnou; zveřejňujeme finální znění z 10. 9.",
+        "poznamka": "První verze přišla 8. 9.; sekretariát ji označil za předběžnou a 10. 9. poslal konečné znění potvrzené jako stanovisko hnutí. Zveřejňujeme konečné znění.",
         "hodnoceni": {
           "1": "podpora",
           "2a": "podpora",
@@ -150,7 +150,7 @@
         "nazev": "SPD pro Prahu",
         "slozeni": "SPD, Trikolora, PRO, Přísaha",
         "lidr": "Milan Urban",
-        "odpovedel": "Milan Urban, lídr kandidátky, osobně",
+        "odpovedel": "Milan Urban, lídr kandidátky",
         "doruceno": "2026-09-02",
         "hodnoceni": {
           "1": "ne",
@@ -179,9 +179,9 @@
         "nazev": "REZIDENTI - REBELOVÉ pro změnu Prahy",
         "slozeni": "Rezidenti 1",
         "lidr": "Martin Motl",
-        "odpovedel": "Martin Motl, lídr kandidátky, osobně",
+        "odpovedel": "Martin Motl, lídr kandidátky",
         "doruceno": "2026-09-11",
-        "poznamka": "Veřejný kontakt jsme dohledali až 4. 9.; dopis proto odešel o deset dní později než ostatním.",
+        "poznamka": "Veřejný kontakt na tuto kandidátku jsme našli až 4. 9., dopis proto dostala o deset dní později než ostatní.",
         "hodnoceni": {
           "1": "podpora",
           "2a": "ne",
@@ -208,7 +208,7 @@
       {
         "nazev": "Levice",
         "slozeni": "Levice",
-        "odpovedel": "sekretariát strany (odpovědi v příloze)",
+        "odpovedel": "sekretariát strany, odpovědi v příloze",
         "doruceno": "2026-09-02",
         "hodnoceni": {
           "1": "zavazek",
@@ -237,7 +237,7 @@
         "nazev": "Naše Praha SNK ED",
         "slozeni": "SNK ED",
         "lidr": "Jiří Benýšek",
-        "odpovedel": "Jiří Benýšek, kandidát na primátora, osobně",
+        "odpovedel": "Jiří Benýšek, kandidát na primátora",
         "doruceno": "2026-09-10",
         "hodnoceni": {
           "1": "zavazek",
@@ -295,7 +295,7 @@
         "nazev": "PATRIOTI PRO PRAHU",
         "slozeni": "Patrioti České republiky",
         "lidr": "Jiří Vítek",
-        "odpovedel": "Jiří Vítek, předseda strany, osobně",
+        "odpovedel": "Jiří Vítek, předseda strany",
         "doruceno": "2026-09-07",
         "hodnoceni": {
           "1": "vyhybave",
@@ -324,7 +324,7 @@
         "nazev": "GEN s podporou veřejnosti",
         "slozeni": "GEN",
         "lidr": "Vojtěch Ryvola",
-        "odpovedel": "Vojtěch Ryvola, předseda strany, osobně",
+        "odpovedel": "Vojtěch Ryvola, předseda strany",
         "doruceno": "2026-08-25",
         "hodnoceni": {
           "1": "vyhybave",
@@ -353,7 +353,7 @@
         "nazev": "Libertariánská strana Voluntia",
         "slozeni": "Voluntia",
         "lidr": "Tadeáš Janků",
-        "odpovedel": "Tadeáš Janků, kandidát na primátora (odpovědi v příloze)",
+        "odpovedel": "Tadeáš Janků, kandidát na primátora, odpovědi v příloze",
         "doruceno": "2026-09-09",
         "hodnoceni": {
           "1": "vyhybave",
@@ -382,9 +382,9 @@
         "nazev": "Urza.cz: Nechceme vaše hlasy",
         "slozeni": "Urza.cz",
         "lidr": "Urza",
-        "odpovedel": "Urza, osobně",
+        "odpovedel": "Urza",
         "doruceno": "2026-08-25",
-        "poznamka": "Jediná společná odpověď na všech osm otázek; strana se zavázala složit každý získaný mandát.",
+        "poznamka": "Strana se zavázala složit každý získaný mandát a poslala jednu odpověď na všech osm otázek.",
         "hodnoceni": {
           "1": "ne",
           "2a": "ne",
@@ -404,9 +404,9 @@
         "nazev": "Motoristé sobě",
         "slozeni": "Motoristé sobě",
         "lidr": "Alena Sovová",
-        "odpovedel": "krajský manažer",
+        "odpovedel": "krajský manažer hnutí",
         "doruceno": "2026-09-11",
-        "poznamka": "Hnutí odpovědělo jen na dvě otázky pro kandidující v Praze 1 (viz níže); na osm otázek pro zastupitelstvo hlavního města neodpovědělo, ačkoli jsme 11. 9. poslali výčet otevřených otázek.",
+        "poznamka": "Hnutí odpovědělo jen na dvě otázky pro Prahu 1 (níže na této stránce). Na osm otázek pro hlavní město neodpovědělo, ani když jsme 11. 9. poslali seznam otevřených otázek.",
         "hodnoceni": {
           "1": "bez",
           "2a": "bez",
@@ -432,7 +432,7 @@
         "nazev": "Česká pirátská strana",
         "slozeni": "Piráti",
         "lidr": "Tereza Nislerová",
-        "poznamka": "Tisková mluvčí 4. 9. napsala, že s doručením odpovědi počítají; do uzávěrky obsahu nedorazila."
+        "poznamka": "Tisková mluvčí 4. 9. napsala, že s odpovědí počítají. Do uzávěrky nepřišla."
       },
       {
         "nazev": "ANO 2011",
@@ -480,7 +480,8 @@
         "nazev": "VELKÝ KŘÍŽEK ... SOUSEDÉ PRO PRAHU",
         "poznamka": "bez dohledatelného kontaktu"
       }
-    ]
+    ],
+    "kratke": "hlavní město"
   },
   "p1": {
     "nazev": "Zastupitelstvo městské části Praha 1",
@@ -507,14 +508,14 @@
         "nazev": "NEZÁVISLÍ z Jedničky Kateřiny Klasnové a Davida Bodečka",
         "slozeni": "Nezávislí",
         "lidr": "David Bodeček",
-        "odpovedel": "David Bodeček, lídr kandidátky, výslovně za sebe",
+        "odpovedel": "David Bodeček, lídr kandidátky, výslovně sám za sebe",
         "doruceno": "2026-09-03",
-        "poznamka": "Odpovídá za sebe: kandidáti listiny nejsou vázáni jednotným hlasováním, jednotný postoj všech případně zvolených zastupitelů proto předem nezaručuje.",
+        "poznamka": "Odpovídá sám za sebe, nikoli za celou kandidátku; důvod vysvětluje v úvodu.",
         "hodnoceni": {
           "1": "podpora",
           "2": "podpora"
         },
-        "uvod": "Považuji za správní předeslat, že Smetanovo nábřeží ani dokončení proměny Malostranského náměstí nejsou v našem volebním programu uvedeny jako samostatná hlavní témata. Obecně však podporujeme rozšiřování pěších a zklidněných zón tam, kde to charakter lokality umožňuje, omezování průjezdné dopravy v obytných čtvrtích a silnější prosazování zájmů Prahy 1 vůči magistrátu.",
+        "uvod": "Považuji za správní předeslat, že Smetanovo nábřeží ani dokončení proměny Malostranského náměstí nejsou v našem volebním programu uvedeny jako samostatná hlavní témata. Obecně však podporujeme rozšiřování pěších a zklidněných zón tam, kde to charakter lokality umožňuje, omezování průjezdné dopravy v obytných čtvrtích a silnější prosazování zájmů Prahy 1 vůči magistrátu.\n\nNEZÁVISLÍ z Jedničky Kateřiny Klasnové a Davida Bodečka nejsou místní stranickou organizací, ale skupinou nezávislých kandidátů, jejíž kandidátní listinu formálně zastřešuje hnutí Nezávislí. Naši kandidáti nejsou vázáni stranickým členstvím ani příkazem hlasovat jednotně. Kandidátku jsme sestavili z lidí, kteří žijí v Praze 1 nebo k ní mají silný vztah a s nimiž máme dobrou zkušenost při práci pro Jedničku. Spojují nás principy našeho programu, nikoli stranická poslušnost. O tom, kdo bude zvolen, rozhodují voliči. Díky osobním hlasům může mandát teoreticky získat také kandidát z nižšího, či dokonce posledního místa kandidátky. Nemůžeme proto předem zaručit jednotný postoj všech případně zvolených zastupitelů ke každému jednotlivému projektu. Následující odpovědi tedy uvádím za sebe.",
         "odpovedi": {
           "1": "Za sebe podpořím omezení zbytného tranzitu, nikoli plošné uzavření Smetanova nábřeží. V letech 2023 a 2025 jsem v Praze 1 hlasoval pro zklidnění centra a v dubnu 2026 také pro klidové víkendy. Podmínkou je dopravní model a zkušební provoz, které prověří dopady na okolní ulice a sousední městské části a zachovají dostupnost pro rezidenty, MHD, IZS, zásobování a osoby se sníženou pohyblivostí.",
           "2": "Za sebe dokončení proměny Malostranského náměstí podporuji. Praha 1 má po hlavním městě aktivně požadovat nový harmonogram, rozpočet, určení odpovědnosti a vypsání nového tendr. Plnění těchto kroků má pravidelně projednávat zastupitelstvo. Před vypsáním soutěže je však nutné ověřit aktuálnost projektu a jeho soulad s požadavky památkové péče, dopravy, archeologie a potřebami rezidentů."
@@ -524,7 +525,7 @@
         "nazev": "REZIDENTI 1",
         "slozeni": "Rezidenti 1",
         "lidr": "Martin Motl",
-        "odpovedel": "Martin Motl, lídr kandidátky, osobně",
+        "odpovedel": "Martin Motl, lídr kandidátky",
         "doruceno": "2026-09-04",
         "hodnoceni": {
           "1": "podpora",
@@ -539,7 +540,7 @@
         "nazev": "GEN a sousedé z Prahy 1",
         "slozeni": "GEN",
         "lidr": "Vojtěch Ryvola",
-        "odpovedel": "Vojtěch Ryvola, předseda strany, osobně",
+        "odpovedel": "Vojtěch Ryvola, předseda strany",
         "doruceno": "2026-09-10",
         "hodnoceni": {
           "1": "vyhybave",
@@ -560,7 +561,7 @@
         "nazev": "Rozhodujme společně",
         "slozeni": "Volt",
         "lidr": "Petr Rachunek",
-        "odpovedel": "Petr Rachunek, lídr kandidátky, osobně",
+        "odpovedel": "Petr Rachunek, lídr kandidátky",
         "doruceno": "2026-09-11",
         "hodnoceni": {
           "1": "podpora",
@@ -575,22 +576,22 @@
         "nazev": "Patrioti pro Prahu 1",
         "slozeni": "Patrioti České republiky",
         "lidr": "Jiří Pavlů",
-        "odpovedel": "René Buřič, kandidát, z oficiální adresy listiny",
+        "odpovedel": "René Buřič, kandidát, z oficiální adresy kandidátky",
         "doruceno": "2026-09-11",
         "hodnoceni": {
           "1": "podpora",
           "2": "podpora"
         },
         "odpovedi": {
-          "1": "Patrioti pro Prahu 1 podporují zklidnění dopravy v historickém centru. Průjezd touto lokalitou však musí zůstat zachován pro obyvatele Prahy 1. Úplné omezení by řadě místních zkomplikovalo každodenní dopravu. Proto upřednostňujeme jednoduché elektronické řešení, například čtení SPZ propojené se světelnou signalizací, které umožní průjezd místním a současně omezí tranzitní dopravu.\n\nPodle informací na vašem webu sestavil magistrát pracovní skupinu, která měla řešit další podmínky projektu. Výsledky její práce ani zápisy z jednání se nám však nepodařilo dohledat. Před konečným rozhodnutím bychom se s nimi rádi seznámili.",
-          "2": "Patrioti pro Prahu 1 podporují dokončení proměny Malostranského náměstí, ale považujeme za vhodné oddělit úpravu náměstí od řešení dopravy. Budeme prosazovat, aby hlavní město vypsalo novou soutěž zaměřenou na prostor bývalého parkoviště. Součástí zadání podle nás musí být návrat vody na náměstí v podobě kašny, více zeleně a prostoru k posezení. Takové řešení je zároveň v souladu s klimatickými cíli hlavního města.\n\nZměna dopravního režimu na Malostranském náměstí si podle nás zaslouží samostatný projekt a samostatnou veřejnou diskusi."
+          "1": "*Patrioti pro Prahu 1 podporují zklidnění dopravy v historickém centru. *Průjezd touto lokalitou však musí zůstat zachován pro obyvatele Prahy 1. Úplné omezení by řadě místních zkomplikovalo každodenní dopravu. Proto upřednostňujeme jednoduché elektronické řešení, například čtení SPZ propojené se světelnou signalizací, které umožní průjezd místním a současně omezí tranzitní dopravu.\n\nPodle informací na vašem webu sestavil magistrát pracovní skupinu, která měla řešit další podmínky projektu. Výsledky její práce ani zápisy z jednání se nám však nepodařilo dohledat. *Před konečným rozhodnutím bychom se s nimi rádi seznámili.*",
+          "2": "*Patrioti pro Prahu 1 podporují dokončení proměny Malostranského náměstí, ale považujeme za vhodné oddělit úpravu náměstí od řešení dopravy.* Budeme prosazovat, aby hlavní město vypsalo novou soutěž zaměřenou na prostor bývalého parkoviště. *Součástí zadání podle nás musí být návrat vody na náměstí v podobě kašny, více zeleně a prostoru k posezení.* Takové řešení je zároveň v souladu s klimatickými cíli hlavního města.\n\n*Změna dopravního režimu na Malostranském náměstí si podle nás zaslouží samostatný projekt a samostatnou veřejnou diskusi.*"
         }
       },
       {
         "nazev": "Motoristé sobě a Svobodní",
         "slozeni": "Motoristé sobě, Svobodní",
         "lidr": "Michal Sechter",
-        "odpovedel": "Tristan Giudici, krajský manažer Motoristé sobě",
+        "odpovedel": "Tristan Giudici, krajský manažer Motoristů sobě",
         "doruceno": "2026-09-11",
         "hodnoceni": {
           "1": "ne",
@@ -605,7 +606,7 @@
         "nazev": "Piráti a nezávislí pro Prahu 1",
         "slozeni": "Piráti",
         "lidr": "Tomáš Raiter",
-        "odpovedel": "Tomáš Raiter, kandidát na starostu, osobně",
+        "odpovedel": "Tomáš Raiter, kandidát na starostu",
         "doruceno": "2026-09-11",
         "hodnoceni": {
           "1": "podpora",
@@ -642,7 +643,7 @@
         "nazev": "Starostové, KDU-ČSL / My, co tady žijeme",
         "slozeni": "STAN, KDU-ČSL",
         "lidr": "Petr Hejma",
-        "poznamka": "Adresa uvedená na webu listiny (mctz.cz) poštu nepřijímá; dopis jsme 4. 9. poslali navíc na adresu pražské KDU-ČSL a na úřední adresu lídra."
+        "poznamka": "Adresa z webu kandidátky (mctz.cz) poštu nepřijímá. Dopis jsme 4. 9. poslali navíc pražské KDU-ČSL a na úřední adresu lídra."
       },
       {
         "nazev": "SPD pro Prahu 1",
@@ -655,12 +656,13 @@
         "nazev": "MODRÁ pro jedničku",
         "poznamka": "bez dohledatelného kontaktu"
       }
-    ]
+    ],
+    "kratke": "Praha 1"
   },
   "changelog": [
     {
       "datum": "2026-09-15",
-      "text": "Zveřejnění: odpovědi došlé do uzávěrky obsahu 14. 9. Doplnění odpovědi GEN a sousedé z Prahy 1 k první otázce došlo 14. 9., po termínu 11. 9."
+      "text": "První zveřejnění. Zahrnuje odpovědi, které přišly do 14. 9. Doplnění GEN a sousedé z Prahy 1 k první otázce přišlo 14. 9., po termínu 11. 9."
     }
   ]
 }

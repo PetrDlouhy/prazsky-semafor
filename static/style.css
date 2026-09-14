@@ -230,3 +230,5 @@ table.odp td:first-child a { color: var(--ink); text-decoration: none; border-bo
 .odp-q blockquote { margin: 0; padding: .1rem 0 .1rem 1rem; border-left: 3px solid var(--line); font-size: .95rem; }
 .odp-q blockquote p { margin: 0 0 .55rem; }
 .odp-qnote { display: block; margin-top: .25rem; color: var(--amber); }
+.odp-box { background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--amber); border-radius: 3px; padding: .7rem 1rem; margin: 0 0 1.4rem; max-width: 46rem; font-size: .92rem; }
+.odp-box .src { white-space: nowrap; }
