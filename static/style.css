@@ -200,3 +200,35 @@ main a { color: var(--river); text-decoration-color: color-mix(in srgb, var(--ri
 .morelinks li { margin: .35rem 0; }
 .ramce-list { display: grid; gap: 1rem; max-width: 48rem; }
 .part.ramec p { font-size: .9rem; margin: 0 0 .5rem; }
+
+/* odpovědi kandidujících */
+.odp-h3 { font-family: Georgia, "Times New Roman", serif; font-size: 1.15rem; margin: 1.8rem 0 .6rem; }
+.odp-questions { max-width: 46rem; padding-left: 1.2rem; }
+.odp-questions li { margin-bottom: .55rem; }
+.qtext { font-size: .88rem; color: var(--ink-2); }
+.odp-scroll { overflow-x: auto; margin: 0 0 .8rem; }
+table.odp { border-collapse: collapse; font-size: .8rem; width: 100%; min-width: 40rem; }
+table.odp th, table.odp td { padding: .35rem .2rem; border-bottom: 1px solid var(--line); text-align: center; vertical-align: middle; }
+table.odp th { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .62rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); font-weight: 600; }
+table.odp td:first-child, table.odp th:first-child { text-align: left; padding-right: .6rem; }
+table.odp td:first-child a { color: var(--ink); text-decoration: none; border-bottom: 1px dotted var(--ink-3); }
+.hod { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .55rem; letter-spacing: .04em; text-transform: uppercase; padding: .14rem .3rem; border-radius: 2px; white-space: nowrap; display: inline-block; text-decoration: none; }
+.hod-zavazek { background: var(--river); color: var(--chip-ink); }
+.hod-podpora { background: var(--river-soft); color: var(--river); }
+.hod-vyhybave { background: var(--amber-soft); color: var(--amber); }
+.hod-ne { background: var(--alarm); color: var(--chip-ink); }
+.hod-bez { background: var(--line); color: var(--ink-3); }
+.odp-legend { display: flex; flex-wrap: wrap; gap: .4rem 1rem; font-size: .8rem; color: var(--ink-2); margin: 0 0 1.6rem; }
+.odp-late { color: var(--amber); font-weight: 700; }
+.odp-subject { max-width: 46rem; margin: 0 0 2.2rem; padding-top: .3rem; border-top: 1px solid var(--line); }
+.odp-subject h3 { font-family: Georgia, "Times New Roman", serif; font-size: 1.25rem; margin: 1rem 0 .2rem; }
+.odp-meta { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .72rem; color: var(--ink-3); margin: 0 0 .6rem; }
+.odp-meta a { color: var(--ink-3); }
+.odp-note { font-size: .85rem; color: var(--ink-2); margin: .3rem 0 .6rem; }
+.odp-q { margin: 1rem 0 0; }
+.odp-q h4 { font-size: .92rem; margin: 0 0 .35rem; display: flex; gap: .5rem; align-items: center; flex-wrap: wrap; }
+.odp-q blockquote { margin: 0; padding: .1rem 0 .1rem 1rem; border-left: 3px solid var(--line); font-size: .95rem; }
+.odp-q blockquote p { margin: 0 0 .55rem; }
+.odp-qnote { display: block; margin-top: .25rem; color: var(--amber); }
+.odp-box { background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--amber); border-radius: 3px; padding: .7rem 1rem; margin: 0 0 1.4rem; max-width: 46rem; font-size: .92rem; }
+.odp-box .src { white-space: nowrap; }
