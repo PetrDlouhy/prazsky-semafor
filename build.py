@@ -1139,7 +1139,8 @@ def render_odpovedi_section(key, section, data, persons, slug_to_title, single_f
         if q.get("casti"):
             parts = " <span class=\"src\">hodnotíme zvlášť: " + "; ".join(
                 f'{c["id"]} {esc(c["kratce"])}' for c in q["casti"]) + "</span>"
-        qitems.append(f'<li><b>{esc(q["kratce"])}.</b> <span class="qtext">{esc(q["text"])}</span>{proj}{parts}</li>')
+        note = f' <span class="qtext odp-qnote">{esc(q["poznamka"])}</span>' if q.get("poznamka") else ""
+        qitems.append(f'<li><b>{esc(q["kratce"])}.</b> <span class="qtext">{esc(q["text"])}</span>{proj}{parts}{note}</li>')
 
     head = "".join(f'<th title="{esc(label)}">{esc(cid)}</th>' for cid, label in cols)
     rows = []
