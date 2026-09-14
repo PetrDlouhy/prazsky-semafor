@@ -211,6 +211,58 @@
         {
           "label": "NEN N006-25-V00009318 / VVZ Z2025-018379",
           "url": "https://nen.nipez.cz/verejne-zakazky/detail-zakazky/N006-25-V00009318"
+        },
+        {
+          "label": "Městem na kole, 19. 8. 2026",
+          "url": "https://mestemnakole.cz/2026/08/vrsovicka-drazni-promenada-ma-vybraneho-projektanta/"
+        }
+      ]
+    },
+    {
+      "date": "18. 6. 2026",
+      "title": "Zastupitelstvo schvaluje koupi pozemků od Správy železnic",
+      "tier": "a",
+      "text": "Rada 8. června a zastupitelstvo 18. června 2026 schvalují úplatné nabytí 10 parcel v k. ú. Strašnice a 2 parcel v k. ú. Vršovice v úsecích bez střetu s plánovanou vysokorychlostní tratí, včetně drážních staveb a zařízení, za 274 999 000 Kč bez DPH (asi 332 milionů s DPH). Pro hlasovalo 44 zastupitelů, nikdo proti; radní pro finance Kovářík nehlasoval. Náměstek Beránek: projektant má promenádu dovést „až k získání stavebního povolení“; podle časové osy města připadá povolení záměru na roky 2027 až 2028.",
+      "vote": {
+        "id": 105682,
+        "period": -36525,
+        "vysledek": "přijato",
+        "label": "Úplatné nabytí pozemků pro Drážní promenádu od Správy železnic (Z-14069, usnesení č. 35/68), 18. 6. 2026",
+        "pro": 44,
+        "proti": 0,
+        "zdrzel": 0,
+        "ostatni": 21
+      },
+      "sources": [
+        {
+          "label": "jmenovitý záznam hlasování, praha.eu",
+          "url": "https://praha.eu/vysledky-hlasovani#/detail/105682"
+        },
+        {
+          "label": "zdopravy.cz, 9. 6. 2026",
+          "url": "https://zdopravy.cz/praha-vykoupi-pozemky-pro-drazni-promenadu-sprave-zeleznic-zaplati-275-milionu-284705/"
+        },
+        {
+          "label": "Pražský deník, 19. 6. 2026",
+          "url": "https://prazsky.denik.cz/zpravy-region/praha-koupi-za-332-milionu-pozemky-pro-drazni-promenadu-stavet-se-zatim-nezacne/"
+        },
+        {
+          "label": "praha.eu: časová osa projektu",
+          "url": "https://praha.eu/casova-osa-projektu-drazni-promenada"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Adam Zábranský",
+          "role": "radní pro majetek, Piráti"
+        },
+        {
+          "name": "Jaromír Beránek",
+          "role": "náměstek primátora pro dopravu, Piráti"
+        },
+        {
+          "name": "Zdeněk Kovářík",
+          "role": "radní pro finance, ODS"
         }
       ]
     }

@@ -90,9 +90,13 @@
     {
       "date": "březen 2024",
       "title": "Cyklokomise žádá přepracování",
-      "tier": "b",
+      "tier": "a",
       "text": "Komise Rady pro cyklodopravu přijímá usnesení požadující přepracování projektu: kritizuje nebezpečný vjezd zpět na magistrálu a nedostatečné oddělení od chodců. Návrh odděleného pásu podél Fantovy budovy mezitím naráží u památkářů.",
       "sources": [
+        {
+          "label": "zápis z 9. jednání komise Rady pro cyklodopravu, 4. 3. 2024, usnesení 9.6 (PDF, praha.eu)",
+          "url": "https://praha.eu/documents/42409/12187801/Zapis_jednani_Z%C3%A1pis_z_jedn%C3%A1n%C3%AD_KCD_%C4%8D__9_KCD.pdf/e2415bd4-80f8-4cb8-be4e-b733b5b9c358?version=1.0&t=1710411776307"
+        },
         {
           "label": "mestemnakole.cz, březen 2026 (rekapitulace)",
           "url": "https://mestemnakole.cz/2026/03/oprava-hlavniho-nadrazi-prinese-do-roku-2028-prechod-pres-magistralu-z-cyklopasu-zbyly-cyklopruhy/"
@@ -134,8 +138,8 @@
       "text": "Cyklokomise jednomyslně (usnesení č. 17.3, 10-0-0) varuje, že zástavba Penty u Wilsonovy bez úpravy regulací „těsně obestaví“ magistrálu, znemožní budoucí snížení nivelety u Těšnova a zablokuje plnohodnotné vedení trasy A4 podle standardů aktivní mobility. Žádá IPR a náměstky, aby regulace upravili.",
       "sources": [
         {
-          "label": "mestemnakole.cz: podzimní cyklokomise, leden 2025",
-          "url": "https://mestemnakole.cz/2025/01/podzimni-cyklokomise/"
+          "label": "mestemnakole.cz, prosinec 2024",
+          "url": "https://mestemnakole.cz/2024/12/magistrala-na-pankraci-novy-povrch-stary-pristup/"
         }
       ]
     },
@@ -258,6 +262,44 @@
         }
       ],
       "thread": "Hlavní nádraží"
+    },
+    {
+      "date": "3. 6. 2024",
+      "title": "Cyklokomise podruhé: řešení „nadále nevhodné a nebezpečné“",
+      "tier": "a",
+      "thread": "Hlavní nádraží",
+      "text": "Komise Rady pro cyklodopravu projednává upravený projekt IPR s cyklopásem v úrovni chodníku za zastávkami. Usnesením 12.2 (7 pro, 3 proti) konstatuje, že po čtvrt roce došlo „pouze k dílčím úpravám“ a řešení je „nadále nevhodné a nebezpečné“; usnesením 12.3 trvá na přepracování podle TP 179 a usnesením 12.4 preferuje „dojem oddělené vozovky, nikoliv pobytové plochy“. Podle zápisu IPR odmítl duální řešení s cyklopruhem ve vozovce a plnohodnotný dánský pás nebyl rozpracován. Žádné usnesení komise nepožaduje vedení cyklistů v pruhu pro autobusy.",
+      "sources": [
+        {
+          "label": "zápis z 12. jednání komise Rady pro cyklodopravu, 3. 6. 2024 (PDF, praha.eu)",
+          "url": "https://praha.eu/documents/42409/12917955/Zapis_jednani_2024_06_05_DH_Z%C3%A1pis_z_jedn%C3%A1n%C3%AD_KCD_%C4%8D-_12-_schv%C3%A1len%C3%BD_p%C5%99edsedkyn%C3%AD_KCD.pdf/05c97b80-29ec-d370-06bc-1629c8e43954?version=1.0&t=1717656035677"
+        },
+        {
+          "label": "zápis z 9. jednání, 4. 3. 2024, usnesení 9.6 (PDF, praha.eu)",
+          "url": "https://praha.eu/documents/42409/12187801/Zapis_jednani_Z%C3%A1pis_z_jedn%C3%A1n%C3%AD_KCD_%C4%8D__9_KCD.pdf/e2415bd4-80f8-4cb8-be4e-b733b5b9c358?version=1.0&t=1710411776307"
+        }
+      ]
+    },
+    {
+      "date": "7. 9. 2026",
+      "title": "Cyklokomise se o buspruhu dozvídá dodatečně",
+      "tier": "a",
+      "thread": "Hlavní nádraží",
+      "text": "V bodě Různé zápis komise konstatuje: „Nebyl zapracován projekt IPR řešící cyklotrasu A4. Nově je navrhován BUS + cyklo pruh ve směru na sever, a žádné cyklointegrační opatření ve směru na jih.“ Podrobnější projednání komise odkládá na příští jednání. V zápisech komise z let 2024 až 2026 není žádné usnesení, které by vedení cyklistů v pruhu pro autobusy požadovalo; komise opakovaně žádala samostatné pruhy v obou směrech. Podle zdopravy.cz z 28. 7. zúžení magistrály s cyklopruhy neschválil silniční správní úřad.",
+      "sources": [
+        {
+          "label": "zápis z 34. jednání komise Rady pro cyklodopravu, 7. 9. 2026 (PDF, praha.eu)",
+          "url": "https://praha.eu/documents/42409/15115402/Zapis_jednani_2026_09_08_DH_Z%C3%A1pis_z_jedn%C3%A1n%C3%AD_KCD_%C4%8D-_34_Schv%C3%A1len%C3%BD.pdf/5f5d2af3-852d-71b1-4314-041c6c21791f?version=1.0&t=1788943713373"
+        },
+        {
+          "label": "Echo24, 18. 8. 2026",
+          "url": "https://www.echo24.cz/a/HG58N/zpravy-domov-na-magistrale-nakonec-cyklopruh-nebude-cykliste-budou-jezdit-mezi-autobusy"
+        },
+        {
+          "label": "Deník N, minuta 28. 7. 2026 (podle zdopravy.cz)",
+          "url": "https://denikn.cz/minuta/2139324"
+        }
+      ]
     }
   ],
   "trasa": "A4",

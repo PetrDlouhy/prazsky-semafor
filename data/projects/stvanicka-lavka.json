@@ -160,6 +160,28 @@
           "url": "https://prazsky.denik.cz/zpravy_region/praha-stvanicka-lavka-holesovice-karlin-holka-stavba-roku-2023.html"
         }
       ]
+    },
+    {
+      "date": "16. 5. 2026",
+      "title": "Zkušební zdvih selhal na hydraulice",
+      "tier": "b",
+      "text": "Při protipovodňovém cvičení se lávku nepodařilo zvednout kvůli poruše hydraulického systému; TSK zdvih ukončila, zavolala výrobce a oprava proběhla týž den odpoledne. Zdvih o 3,2 metru má trvat 17 minut a je podmínkou ochrany lávky při povodni.",
+      "sources": [
+        {
+          "label": "tsk-praha.cz, 29. 4. 2026",
+          "url": "https://www.tsk-praha.cz/stvanicka-lavka-holka-projde-pravidelnou-kontrolou-a-zkusebnim-zdvihem/"
+        },
+        {
+          "label": "blesk.cz, 16. 5. 2026",
+          "url": "https://blesk.cz/clanek/regiony-praha-praha-zpravy/839592/chteli-zvednout-stvanickou-lavku-kvuli-povodnim-rozbila-se.html"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Barbora Lišková",
+          "role": "mluvčí TSK Praha"
+        }
+      ]
     }
   ],
   "karta": {
