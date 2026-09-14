@@ -7,7 +7,7 @@
     "label": "v provozu",
     "kind": "ok"
   },
-  "summary": "Myšlenka vést městský autobus tunelem Blanka je stará jako tunel sám. Deset let ji odmítaly posudky i dopravní podnik, v létě 2026 nakonec linka 145 vyjela a spojuje Kobylisy s Hradčanskou zhruba dvakrát rychleji než metro. Součástí příběhu zůstávají dvě otevřené otázky: zastávka Kuchyňka u vysokoškolského areálu, která z trasy před spuštěním vypadla, a plánované prodloužení na Smíchov.",
+  "summary": "Myšlenka vést městský autobus tunelem Blanka je stará jako tunel sám. Deset let ji odmítaly posudky i dopravní podnik, v létě 2026 nakonec linka 145 vyjela a spojuje Kobylisy s Hradčanskou zhruba dvakrát rychleji než metro. Součástí příběhu zůstávají dvě otevřené otázky: zastávka Kuchyňka u vysokoškolského areálu, která z trasy před spuštěním vypadla a od 29. 9. 2026 se doplňuje, a plánované prodloužení na Smíchov.",
   "parts": [
     {
       "name": "Provoz linky",
@@ -183,16 +183,38 @@
         "by": "ROPID",
         "promised": "srpen 2026",
         "due": "po prázdninách 2026",
-        "status": "běží",
-        "text": "Po prázdninách 2026 se podle plynulosti provozu bude jednat o doplnění zastávky Kuchyňka."
+        "status": "splněno",
+        "text": "Po prázdninách 2026 se podle plynulosti provozu bude jednat o doplnění zastávky Kuchyňka. Výsledek: 10. 9. 2026 oznámeno doplnění zastávky od 29. 9. 2026."
       }
+    },
+    {
+      "date": "10. 9. 2026",
+      "title": "Kuchyňka bude: od 29. září",
+      "tier": "a",
+      "text": "Praha 8 oznamuje, že od 29. 9. 2026 začne linka 145 zastavovat na Kuchyňce v obou směrech. Městská část o doplnění opakovaně jednala s ROPID; oficiální žádost poslalo i vedení Univerzity Karlovy (areál na Pelc-Tyrolce má zhruba 1 400 kolejních lůžek). Radní Martin Jedlička: „Zastavování linky 145 na Kuchyňce je logickým krokem. Autobus dosud míjel významný univerzitní areál bez možnosti zastavení.“ Proč zastávka z trasy před spuštěním vypadla, ani tato zpráva nevysvětluje.",
+      "sources": [
+        {
+          "label": "praha8.cz, 10. 9. 2026",
+          "url": "https://www.praha8.cz/linka-145-zacne-od-29-zari-zastavovat-na-kuchynce-1.html"
+        },
+        {
+          "label": "Pražský deník (ČTK), 10. 9. 2026",
+          "url": "https://prazsky.denik.cz/zpravy-region/autobusova-linka-145-jezdici-blankou-bude-stavet-i-v-zastavce-kuchynka/"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Martin Jedlička",
+          "role": "radní MČ Praha 8, TOP 09"
+        }
+      ]
     }
   ],
   "karta": {
     "typ": "opatření",
     "gestor": "ROPID (organizace), DPP (provoz)",
     "stav": "v provozu od 15. 8. 2026",
-    "horizont": "jednání o zastávce Kuchyňka po prázdninách 2026"
+    "horizont": "zastávka Kuchyňka obsluhována od 29. 9. 2026; prodloužení na Smíchov po rekonstrukci Strahovského tunelu"
   },
   "links": [
     {
