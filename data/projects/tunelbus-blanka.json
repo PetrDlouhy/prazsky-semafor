@@ -191,8 +191,12 @@
       "date": "10. 9. 2026",
       "title": "Kuchyňka bude: od 29. září",
       "tier": "a",
-      "text": "Praha 8 oznamuje, že od 29. 9. 2026 začne linka 145 zastavovat na Kuchyňce v obou směrech. Městská část o doplnění opakovaně jednala s ROPID; oficiální žádost poslalo i vedení Univerzity Karlovy (areál na Pelc-Tyrolce má zhruba 1 400 kolejních lůžek). Radní Martin Jedlička: „Zastavování linky 145 na Kuchyňce je logickým krokem. Autobus dosud míjel významný univerzitní areál bez možnosti zastavení.“ Proč zastávka z trasy před spuštěním vypadla, ani tato zpráva nevysvětluje.",
+      "text": "Praha 8 oznamuje, že od 29. 9. 2026 začne linka 145 zastavovat na Kuchyňce v obou směrech; ROPID změnu vede jako trvalou. Městská část o doplnění opakovaně jednala s ROPID, oficiální žádost poslalo i vedení Univerzity Karlovy (areál na Pelc-Tyrolce má zhruba 1 400 kolejních lůžek). Radní Martin Jedlička: „Zastavování linky 145 na Kuchyňce je logickým krokem. Autobus dosud míjel významný univerzitní areál bez možnosti zastavení.“ Proč zastávka z trasy před spuštěním vypadla, vysvětluje až 14. 9. náměstek Beránek: „Důvodem, proč tam linka 145 v tuto chvíli nestaví, jsou obavy jednoho z koaličních partnerů. Ten vyjádřil obavu, že by zastavující autobus brzdil plynulost dopravy v hustě vytížené ulici V Holešovičkách.“ Kterého partnera, neříká.",
       "sources": [
+        {
+          "label": "pid.cz: zřízení zastávky Kuchyňka pro linku 145 (trvalá změna od 29. 9. 2026)",
+          "url": "https://pid.cz/zmena/zrizeni-zastavky-kuchynka-pro-linku-145-230022-9/"
+        },
         {
           "label": "praha8.cz, 10. 9. 2026",
           "url": "https://www.praha8.cz/linka-145-zacne-od-29-zari-zastavovat-na-kuchynce-1.html"
@@ -200,12 +204,42 @@
         {
           "label": "Pražský deník (ČTK), 10. 9. 2026",
           "url": "https://prazsky.denik.cz/zpravy-region/autobusova-linka-145-jezdici-blankou-bude-stavet-i-v-zastavce-kuchynka/"
+        },
+        {
+          "label": "PrahaIN, 14. 9. 2026",
+          "url": "https://www.prahain.cz/doprava/praha-otocila-ve-sporu-o-zastavku-tunelbus-zastavi-take-u-kampusu-28640.html"
         }
       ],
       "actors": [
         {
           "name": "Martin Jedlička",
           "role": "radní MČ Praha 8, TOP 09"
+        },
+        {
+          "name": "Jaromír Beránek",
+          "role": "náměstek primátora pro dopravu, Piráti"
+        }
+      ]
+    },
+    {
+      "date": "27. 8. 2026",
+      "title": "První krizový den: regulace Blanky",
+      "tier": "b",
+      "text": "Porucha kamionu blokuje přes dvě hodiny pruh v Blance a policie reguluje vjezdy. Desetina spojů linky 145 nabírá zpoždění, průměrně 9 minut směr Dejvice a 15 minut směr Kobylisy, nejvíce 16 minut; linka jede celou trasu. Za dva týdny provozu ji využilo 30 tisíc lidí. Na první školní den 1. září se scénář opakuje po nehodě pěti aut v Bubenečském tunelu: zpoždění 10 až 15 minut směr Dejvice.",
+      "sources": [
+        {
+          "label": "zdopravy.cz, 29. 8. 2026",
+          "url": "https://zdopravy.cz/krizovy-den-pro-tunelbusy-jak-linka-obstala-pri-mnohahodinove-regulaci-komplexu-blanka-296500/"
+        },
+        {
+          "label": "novinky.cz, 1. 9. 2026",
+          "url": "https://www.novinky.cz/clanek/domaci-zpravy-hlavni-mesto-praha-kolony-aut-po-nehode-v-blance-blokovaly-hned-prvni-skolni-den-i-nove-tunelbusy-40595382"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Filip Drápal",
+          "role": "mluvčí ROPID"
         }
       ]
     }
