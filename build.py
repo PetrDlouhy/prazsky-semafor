@@ -1088,6 +1088,8 @@ def render_person_body(person):
 
 
 
+ODP_PAGE = {"zhmp": "odpovedi", "p1": "odpovedi-praha1"}
+
 HOD_LABEL = {"zavazek": "termín", "podpora": "ano", "vyhybave": "neurčité",
              "ne": "ne", "bez": "bez odp."}
 
@@ -1125,6 +1127,8 @@ def subject_anchor(key, s):
 def odp_person(name, persons, prefix, ext):
     if not name:
         return ""
+    if prefix == "#":
+        return esc(name)
     slug = actor_slug(name)
     if slug in persons:
         return f'<a href="{prefix}osoba-{slug}{ext}">{esc(name)}</a>'
@@ -1190,7 +1194,7 @@ def render_odpovedi_box_for_project(slug, single_file=False):
         sec = ODPOVEDI[key]
         n = len([s for s in sec["subjekty"] if s["odpovedi"] or s.get("spolecna")])
         total = len(sec["subjekty"]) + len(sec["bez_odpovedi"]) + len(sec["bez_kontaktu"])
-        target = f"{prefix}odpovedi{ext}#odp-{key}-q{q['id']}" if not single_file else f"#odp-{key}-q{q['id']}"
+        target = f"{prefix}{ODP_PAGE[key]}{ext}#odp-{key}-q{q['id']}" if not single_file else f"#odp-{key}-q{q['id']}"
         links.append(f'<a href="{target}">otázka {q["id"]}, {esc(sec["kratke"])}</a> '
                      f'<span class="src">(odpovědělo {n} z {total})</span>')
     return (f'<div class="odp-box"><b>Volby 2026.</b> Na tento projekt jsme se před volbami '
@@ -1310,25 +1314,36 @@ def render_odpovedi_section(key, section, persons, slug_to_title, single_file):
   <ul class="odp-questions">{nocontact}</ul>"""
 
 
-def render_odpovedi_body(projects, persons, single_file=False):
+def render_odpovedi_body(projects, persons, key, single_file=False):
     slug_to_title = {p["slug"]: p["title"] for p in projects}
-    anchor = ' id="odpovedi"' if single_file else ""
+    anchor = f' id="{ODP_PAGE[key]}"' if single_file else ""
     prefix = "#" if single_file else ""
     ext = "" if single_file else ".html"
-    sections = "".join(
-        render_odpovedi_section(key, ODPOVEDI[key], persons, slug_to_title, single_file)
-        for key in ("zhmp", "p1"))
+    section = render_odpovedi_section(key, ODPOVEDI[key], persons, slug_to_title, single_file)
     changelog = "".join(f"<li><b>{cz_date(c['datum'])}</b> {esc(c['text'])}</li>" for c in ODPOVEDI["changelog"])
+    other = "p1" if key == "zhmp" else "zhmp"
+    other_href = f"#{ODP_PAGE[other]}" if single_file else f"{ODP_PAGE[other]}.html"
+    if key == "zhmp":
+        h1 = "Osm otázek pro pražské kandidátky"
+        lead = f"""Před komunálními volbami jsme všem volebním stranám, které
+  kandidují do zastupitelstva hlavního města, poslali osm stejných otázek
+  k projektům z našich <a href="{prefix}index{ext}">spisů</a>. Tady jsou odpovědi
+  tak, jak přišly, vedle sebe, i s tím, kdo neodpověděl. Kandidátkám v Praze 1
+  jsme položili <a href="{other_href}">dvě doplňkové otázky</a>. Po volbách
+  odpovědi přeneseme do <a href="{prefix}sliby{ext}">Slibů</a> a budeme
+  sledovat, co se z nich stane."""
+    else:
+        h1 = "Dvě otázky pro kandidátky v Praze 1"
+        lead = f"""Smetanovo nábřeží i Malostranské náměstí leží na území Prahy 1
+  a postoj její radnice o obou projektech v praxi rozhoduje. Kandidátkám do
+  zastupitelstva městské části jsme proto položili dvě otázky navíc k
+  <a href="{other_href}">osmi otázkám pro hlavní město</a>. Odpovědi jsou tak,
+  jak přišly, vedle sebe, i s tím, kdo neodpověděl."""
     return f"""<div class="wrap"{anchor}>
   <p class="crumb">Volby {ODPOVEDI["zverejneno"][:4]}</p>
-  <h1 class="page">Osm otázek pro pražské kandidátky</h1>
-  <p class="page-lead">Před komunálními volbami jsme všem volebním stranám, které
-  kandidují do zastupitelstva hlavního města, poslali osm stejných otázek
-  k projektům z našich <a href="{prefix}index{ext}">spisů</a>. Kandidátkám
-  v Praze 1 jsme položili dvě doplňkové. Tady jsou odpovědi tak, jak přišly,
-  vedle sebe, i s tím, kdo neodpověděl. Po volbách je přeneseme do
-  <a href="{prefix}sliby{ext}">Slibů</a> a budeme sledovat, co se z nich stane.</p>
-  {sections}
+  <h1 class="page">{h1}</h1>
+  <p class="page-lead">{lead}</p>
+  {section}
   <h2 class="sec">Jak jsme postupovali</h2>
   <div class="odp-questions qtext">
   <p>Otázky dostaly všechny volební strany z úředních seznamů zaregistrovaných
@@ -1341,9 +1356,10 @@ def render_odpovedi_body(projects, persons, single_file=False):
   zařadili do jedné z pěti skupin: <b>závazek s termínem</b> (strana říká co a
   kdy), <b>ano, bez termínu</b>, <b>podmíněně nebo nejasně</b> (podpora vázaná
   na budoucí data či rozhodnutí, nebo text, ze kterého postoj nejde vyčíst),
-  <b>ne</b> a <b>bez odpovědi</b>. Otázky 2 a 6 mají dvě části, každou
-  hodnotíme zvlášť. Kdo nesouhlasí s naším zařazením, má hned pod tabulkou
-  celý text a může si udělat vlastní názor.</p>
+  <b>ne</b> a <b>bez odpovědi</b>. Otázky se dvěma dílčími projekty hodnotíme
+  po částech. Kdo nesouhlasí s naším zařazením, má hned pod tabulkou celý text
+  a může si udělat vlastní názor. Kde odpověď obsahuje ověřitelné tvrzení o
+  stavu projektu, připojujeme poznámku „Ověřili jsme“ s odkazem do spisu.</p>
   <p>Pokud za stranu odpověděl lídr nebo kandidát osobně, uvádíme to. Odpověď
   bereme jako stanovisko celé kandidátky, pokud odesílatel výslovně nenapsal
   něco jiného. Odpovědi, které přijdou po termínu, doplňujeme s datem doručení;
@@ -1366,10 +1382,10 @@ def render_odpovedi_person_section(person_name, single_file=False):
         sec = ODPOVEDI[key]
         if answered:
             items.append(f'lídr kandidátky <b>{esc(s["nazev"])}</b> ({esc(sec["kratke"])}): '
-                         f'<a href="{prefix}odpovedi{ext}#{subject_anchor(key, s)}">odpovědi kandidátky</a>')
+                         f'<a href="{prefix}{ODP_PAGE[key]}{ext}#{subject_anchor(key, s)}">odpovědi kandidátky</a>')
         else:
             items.append(f'lídr kandidátky <b>{esc(s["nazev"])}</b> ({esc(sec["kratke"])}): '
-                         f'<a href="{prefix}odpovedi{ext}#odp-{key}">kandidátka na otázky neodpověděla</a>')
+                         f'<a href="{prefix}{ODP_PAGE[key]}{ext}#odp-{key}">kandidátka na otázky neodpověděla</a>')
     return ('<h2 class="sec">Předvolební otázky 2026</h2><p style="font-size:.92rem; color:var(--ink-2)">'
             + "<br>".join(items) + "</p>")
 
@@ -1383,10 +1399,10 @@ def render_odpovedi_party_section(name, aliases):
         sec = ODPOVEDI[key]
         if answered:
             items.append(f'<b>{esc(s["nazev"])}</b> ({esc(sec["kratke"])}): '
-                         f'<a href="odpovedi.html#{subject_anchor(key, s)}">odpovědi kandidátky</a>')
+                         f'<a href="{ODP_PAGE[key]}.html#{subject_anchor(key, s)}">odpovědi kandidátky</a>')
         else:
             items.append(f'<b>{esc(s["nazev"])}</b> ({esc(sec["kratke"])}): '
-                         f'<a href="odpovedi.html#odp-{key}">neodpověděla</a>')
+                         f'<a href="{ODP_PAGE[key]}.html#odp-{key}">neodpověděla</a>')
     return ('<h2 class="sec">Předvolební otázky 2026</h2><p style="font-size:.92rem; color:var(--ink-2)">'
             + "<br>".join(items) + "</p>")
 
@@ -1424,9 +1440,12 @@ def build():
     emit("sliby.html", page("Sliby", render_promises_body(projects), "sliby",
         desc="Veřejné závazky politiků k pražským projektům: kdo co slíbil, dokdy a jak to dopadlo.",
         path="sliby.html"))
-    emit("odpovedi.html", page("Odpovědi kandidujících", render_odpovedi_body(projects, persons), "odpovedi",
-        desc="Volby 2026: doslovné odpovědi kandidujících stran na osm otázek k pražským projektům, vedle sebe, včetně toho, kdo neodpověděl.",
+    emit("odpovedi.html", page("Osm otázek pro pražské kandidátky", render_odpovedi_body(projects, persons, "zhmp"), "odpovedi",
+        desc="Volby 2026: odpovědi kandidujících stran na osm otázek k pražským projektům, tak jak přišly, vedle sebe, i kdo neodpověděl.",
         path="odpovedi.html"))
+    emit("odpovedi-praha1.html", page("Dvě otázky pro kandidátky v Praze 1", render_odpovedi_body(projects, persons, "p1"), "odpovedi",
+        desc="Volby 2026: odpovědi kandidátek do zastupitelstva Prahy 1 na dvě otázky ke Smetanovu nábřeží a Malostranskému náměstí.",
+        path="odpovedi-praha1.html"))
     for slug, person in persons.items():
         emit(f"osoba-{slug}.html",
             page(person["name"], render_person_body(person), "akteri",
@@ -1452,7 +1471,8 @@ def build():
         + "".join(render_project_body(p, single_file=True) for p in projects)
         + render_ramce_body(projects, single_file=True)
         + render_promises_body(projects, single_file=True)
-        + render_odpovedi_body(projects, persons, single_file=True)
+        + render_odpovedi_body(projects, persons, "zhmp", single_file=True)
+        + render_odpovedi_body(projects, persons, "p1", single_file=True)
         + render_actors_body(projects, single_file=True)
         + render_methodology_body(single_file=True)
     )

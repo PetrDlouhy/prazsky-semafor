@@ -1,5 +1,5 @@
 {
-  "zverejneno": "2026-09-15",
+  "zverejneno": "2026-09-14",
   "uzaverka": "2026-09-11",
   "stav_k": "2026-09-14",
   "skala": {
@@ -37,7 +37,8 @@
             "id": "2b",
             "kratce": "Cyklo v přestavbě přednádraží"
           }
-        ]
+        ],
+        "poznamka": "K části 2b: stavba přednádraží začala v červenci 2026 bez oddělené cyklistické infrastruktury, cyklisté mají jet v pruhu pro autobusy. Zápisy komise Rady pro cyklodopravu z let 2024 až 2026 neobsahují usnesení, které by takové řešení požadovalo; komise návrh IPR dvakrát odmítla jako „nevhodný a nebezpečný“, žádala samostatné pruhy v obou směrech a o buspruhu se podle zápisu ze 7. 9. 2026 dozvěděla dodatečně."
       },
       {
         "id": "3",
@@ -671,8 +672,8 @@
   },
   "changelog": [
     {
-      "datum": "2026-09-15",
-      "text": "První zveřejnění. Zahrnuje odpovědi, které přišly do 14. 9. Doplnění GEN a sousedé z Prahy 1 k první otázce přišlo 14. 9., po termínu 11. 9."
+      "datum": "2026-09-14",
+      "text": "První zveřejnění, o den dřív, než jsme slíbili. Zahrnuje odpovědi, které přišly do 14. 9. Doplnění GEN a sousedé z Prahy 1 k první otázce přišlo 14. 9., po termínu 11. 9."
     }
   ]
 }
