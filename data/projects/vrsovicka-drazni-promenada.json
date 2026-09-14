@@ -50,9 +50,13 @@
     {
       "date": "prosinec 2022",
       "title": "Územní rozhodnutí",
-      "tier": "b",
+      "tier": "a",
       "text": "Záměr získává územní rozhodnutí; formální překážky stavby padají.",
       "sources": [
+        {
+          "label": "praha.eu: Drážní promenáda (územní rozhodnutí 20. 12. 2022)",
+          "url": "https://praha.eu/drazni-promenada"
+        },
         {
           "label": "mestemnakole.cz, leden 2025 (rekapitulace)",
           "url": "https://mestemnakole.cz/2025/01/uzemni-povoleni-vrsovicke-drazni-promenady-zachraneno-zacatek-stavby-nejisty/"
@@ -63,7 +67,7 @@
       "date": "duben 2024",
       "title": "Škrt v rozpočtu",
       "tier": "b",
-      "text": "Město v rámci úspor navrhuje odložit stavbu promenády a dalších osmi cyklostaveb nejméně do roku 2026. Městem na kole za úsporami označuje radního pro finance Zdeňka Kováříka; gesční náměstek Hřib oponuje, že promenádu neblokují peníze, ale pozemky Správy železnic a nejistota kolem vysokorychlostní trati. Úřední dokument, který by autora škrtů jmenoval, není veřejně k dispozici.",
+      "text": "Město v rámci úspor navrhuje odložit stavbu promenády a více než deseti dalších projektů pěší a cyklistické dopravy nejméně do roku 2026. Městem na kole za úsporami označuje radního pro finance Zdeňka Kováříka; gesční náměstek Hřib oponuje, že promenádu neblokují peníze, ale pozemky Správy železnic a nejistota kolem vysokorychlostní trati. Úřední dokument, který by autora škrtů jmenoval, není veřejně k dispozici.",
       "sources": [
         {
           "label": "mestemnakole.cz, duben 2024",
@@ -97,7 +101,7 @@
       "date": "březen 2025",
       "title": "Petice a usnesení zastupitelstva",
       "tier": "b",
-      "text": "Občanskou petici za urychlení stavby podepisují zhruba dva tisíce lidí. Zastupitelstvo ji projednává a přijímá usnesení ke stavu projektu: 58 pro, nikdo proti (tisky Z-13051 a Z-13057). Rada má mimo jiné vybrat projektanta dokumentace do 31. srpna 2025, jednat se Správou železnic o nabytí pozemků do konce roku 2025 a zachovat standard řešení podle studie a územního rozhodnutí. Radní pro finance Kovářík v rozpravě říká, že politici „prezentují své vize předčasně, aniž by měli zajištěné potřebné dokumenty a finance“, a „matou veřejnost, která pak doufá ve vznik projektů předčasně a sepisuje petice“.",
+      "text": "Občanskou petici za urychlení stavby podepisují zhruba dva tisíce lidí. Zastupitelstvo ji projednává a přijímá usnesení ke stavu projektu (tisk Z-13057): 60 pro, nikdo proti; usnesení k petici (Z-13051) 58 pro, nikdo proti. Rada má mimo jiné vybrat projektanta dokumentace do 31. srpna 2025, jednat se Správou železnic o nabytí pozemků do konce roku 2025 a zachovat standard řešení podle studie a územního rozhodnutí. Radní pro finance Kovářík v rozpravě říká, že politici „prezentují své vize předčasně, aniž by měli zajištěné potřebné dokumenty a finance“; podle Deníku tím podle něj politici matou veřejnost, která pak doufá ve vznik projektů předčasně a sepisuje petice.",
       "sources": [
         {
           "label": "mestemnakole.cz, říjen 2025 (rekapitulace)",
@@ -124,10 +128,10 @@
         "period": -36525,
         "vysledek": "přijato",
         "label": "Usnesení k aktuálnímu stavu projektu (Z-13057), 27. 3. 2025",
-        "pro": 58,
+        "pro": 60,
         "proti": 0,
         "zdrzel": 0,
-        "ostatni": 7,
+        "ostatni": 5,
         "zneni": "Zastupitelstvo hl. m. Prahy konstatuje, že Drážní promenáda je prioritou rozvoje celoměstsky významných tras pro aktivní mobilitu a zásadní rozvojový projekt pro Prahu 10 i okolní městské části; ukládá Radě HMP vybrat projektanta dokumentace do 31. 8. 2025, zachovat standard řešení dle studie a DÚR, jednat se Správou železnic o nabytí pozemků do 31. 12. 2025, hledat externí financování a zahájit přípravu napojení od Petrohradské k nádraží Vršovice do 31. 10. 2025.",
         "zneniZdroj": "výrok usnesení č. 22/2, kráceno"
       },
@@ -154,7 +158,7 @@
       "date": "23. 10. 2025",
       "title": "Spor o peníze na projektanta",
       "tier": "a",
-      "text": "V interpelacích zastupitelstva se petiční výbor ptá, zda rozpočet 2026 zajistí prostředky na projekční práce a výkup pozemků; dotaz míří na náměstka Hřiba a radního Kováříka, který na jednání není přítomen. Hřib do stenozáznamu říká, že pokud by návrh rozpočtu „neměl dostatečnou alokaci od pana radního“, zastupitelstvo bude „konzistentní ve svém rozhodování“.",
+      "text": "V interpelacích zastupitelstva se petiční výbor ptá, zda rozpočet 2026 zajistí prostředky na projekční práce a výkup pozemků; dotaz míří na náměstka Hřiba a radního Kováříka, který na jednání není přítomen. Hřib do stenozáznamu říká, že pokud by návrh rozpočtu „nemělo dostatečnou alokaci od pana radního“, zastupitelstvo bude „konzistentní ve svém rozhodování“.",
       "sources": [
         {
           "label": "interpelace 27. ZHMP, stenozáznam (PDF, praha.eu)",
@@ -206,7 +210,7 @@
       "date": "5. 8. 2026",
       "title": "Projektant vybrán",
       "tier": "a",
-      "text": "Zakázku na projektanta promenády získává Mott MacDonald CZ za 58,6 milionu korun bez DPH (předpoklad zněl na 78 milionů); smlouva je podepsána 24. července a výsledek uveřejněn 5. srpna. Projektová příprava se po dvou letech odkladů znovu rozbíhá.",
+      "text": "Zakázku na projektanta promenády získává Mott MacDonald CZ za 58,6 milionu korun bez DPH (předpoklad zněl na 78 milionů); smlouva byla 24. července uveřejněna v registru smluv a výsledek uveřejněn 5. srpna. Projektová příprava se po dvou letech odkladů znovu rozbíhá.",
       "sources": [
         {
           "label": "NEN N006-25-V00009318 / VVZ Z2025-018379",

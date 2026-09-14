@@ -70,12 +70,7 @@
           "url": "https://praha.eu/w/z_malostranskeho_parkoviste_se_stava_2622768"
         }
       ],
-      "actors": [
-        {
-          "name": "Petr Dolínek",
-          "role": "náměstek pro dopravu, ČSSD"
-        }
-      ]
+      "actors": []
     },
     {
       "date": "únor 2018",
@@ -111,10 +106,10 @@
         "period": -29783,
         "vysledek": "přijato",
         "label": "Dotace MČ Praha 1 na prověření garáží (Z-6396), 17. 5. 2018",
-        "pro": 0,
+        "pro": 48,
         "proti": 0,
-        "zdrzel": 0,
-        "ostatni": 0,
+        "zdrzel": 7,
+        "ostatni": 10,
         "zneni": "Zastupitelstvo hl. m. Prahy schvaluje financování průzkumných prací zajišťovaných MČ Praha 1, úpravu rozpočtu a poskytnutí účelové investiční dotace MČ Praha 1; ukládá Radě HMP zajistit realizaci.",
         "zneniZdroj": "výrok usnesení č. 37/34, kráceno"
       }
@@ -135,23 +130,29 @@
       "date": "22. 5. 2020",
       "title": "Zastupitelstvo schvaluje zakázku",
       "tier": "a",
-      "text": "Zastupitelstvo hl. m. Prahy schvaluje záměr veřejné zakázky na stavební práce (stavba č. 42700, tisk Z-8059) s rozpočtem 73,5 milionu korun.",
+      "text": "Zastupitelstvo hl. m. Prahy schvaluje záměr veřejné zakázky na stavební práce (stavba č. 42700, tisk Z-8059): 41 pro, nikdo proti, 5 se zdrželo.",
       "sources": [
         {
-          "label": "výsledky hlasování ZHMP, praha.eu",
-          "url": "https://praha.eu/vysledky-hlasovani"
-        },
-        {
-          "label": "profil zakázky, Tender arena",
-          "url": "https://tenderarena.cz/dodavatel/zakazka/100286"
+          "label": "jmenovitý záznam hlasování, praha.eu",
+          "url": "https://praha.eu/vysledky-hlasovani#/detail/-52336"
         }
-      ]
+      ],
+      "vote": {
+        "id": -52336,
+        "period": -33394,
+        "vysledek": "přijato",
+        "label": "Záměr zakázky na stavební práce (Z-8059, usnesení č. 17/4), 22. 5. 2020",
+        "pro": 41,
+        "proti": 0,
+        "zdrzel": 5,
+        "ostatni": 19
+      }
     },
     {
       "date": "13. 12. 2021",
       "title": "Zhotovitel vybrán: Gardenline za 84,4 milionu",
       "tier": "a",
-      "text": "Rada vybírá zhotovitele; stavět se má od jara 2022 od horní části a hotovo být na přelomu let 2023 a 2024. Nabídka je zhruba o 10 milionů nad předpokladem.",
+      "text": "Rada vybírá zhotovitele; stavět se má od jara 2022 od horní části, práce na zbylé části u Malostranské besedy mají začít v roce 2023. Nabídka je zhruba o 10 milionů nad předpokladem.",
       "sources": [
         {
           "label": "iprpraha.cz, prosinec 2021",
@@ -171,9 +172,9 @@
       "promise": {
         "by": "Rada hl. m. Prahy",
         "promised": "prosinec 2021",
-        "due": "dokončení přelom 2023/2024",
+        "due": "zahájení jaro 2022, druhá část od 2023",
         "status": "nesplněno",
-        "text": "Stavba začne na jaře 2022 od horní části a náměstí bude hotové na přelomu let 2023 a 2024."
+        "text": "Stavba začne na jaře 2022 od horní části, práce na zbylé části náměstí u Malostranské besedy začnou v roce 2023."
       }
     },
     {
@@ -196,7 +197,7 @@
     },
     {
       "date": "3. 4. 2024",
-      "title": "„Nepodařilo se dotáhnout výběr zhotovitele“",
+      "title": "„Nepodařilo se dotáhnout výběrové řízení na dodavatele“",
       "tier": "b",
       "text": "Náměstek Hlaváček při představování městských staveb řadí náměstí mezi nerozjeté projekty; nový tendr stále neexistuje.",
       "sources": [
@@ -246,7 +247,7 @@
       "date": "18. 6. 2026",
       "title": "Zastupitelstvo chce vrátit pomník Radeckého",
       "tier": "a",
-      "text": "Čtyři měsíce před volbami zastupitelstvo schvaluje znovuobnovení pomníku maršála Radeckého (tisk Z-14160, předkládají Pospíšil, Čapková, Wolf, Slabihoudek a Bodeček): 41 pro, 4 proti, 4 se zdrželi. Praha požádá o originál z Lapidária, jinak vznikne replika za odhadovaných 15 až 30 milionů; návrat je vázán na rekonstrukci náměstí, která termín nemá.",
+      "text": "Čtyři měsíce před volbami zastupitelstvo schvaluje znovuobnovení pomníku maršála Radeckého (tisk Z-14160, předkládají Pospíšil, Wolf a Slabihoudek s podporou Čapkové): 41 pro, 4 proti, 4 se zdrželi. Praha požádá o originál z Lapidária, jinak vznikne replika za odhadovaných 15 až 30 milionů; návrat je vázán na rekonstrukci náměstí, která termín nemá.",
       "vote": {
         "id": 105606,
         "period": -36525,
@@ -254,8 +255,8 @@
         "label": "Znovuobnovení pomníku maršála Radeckého (Z-14160), 18. 6. 2026",
         "pro": 41,
         "proti": 4,
-        "zdrzel": 5,
-        "ostatni": 15,
+        "zdrzel": 4,
+        "ostatni": 16,
         "zneni": "Zastupitelstvo hl. m. Prahy souhlasí s instalací pomníku maršála Radeckého na Malostranském náměstí v Praze; ukládá Radě HMP zajistit součinnost městských orgánů a organizací a informovat zastupitelstvo o výsledku; žádá Ministerstvo kultury ČR o poskytnutí originálu sochy maršála Radeckého ze sbírky Národního muzea.",
         "zneniZdroj": "výrok usnesení č. 35/3, kráceno"
       },
@@ -272,7 +273,7 @@
       "actors": [
         {
           "name": "Jiří Pospíšil",
-          "role": "náměstek pro kulturu, TOP 09"
+          "role": "zastupitel hl. m. Prahy, TOP 09"
         }
       ]
     },
@@ -280,7 +281,7 @@
       "date": "23. 4. 2026",
       "title": "Prázdninový zákaz průjezdu náměstím padá v zastupitelstvu",
       "tier": "a",
-      "text": "Náměstek Beránek 21. 4. oznamuje, že Radě navrhne o prázdninách 2026 zákaz průjezdu Malostranským náměstím (od jihu přikázaný směr vlevo, z Valdštejnské odklon do Letenské) a částí Smetanova nábřeží, denně od 6 do 22 h; zpoplatnění vjezdu podle něj zamítlo ministerstvo vnitra. Na mimořádném bodu Tomáše Portlíka 23. 4. návrh odmítají zástupci Prahy 1, 2, 5, 8 a 9 i koaliční partneři Pirátů. Beránkovy návrhy usnesení včetně pilotního zklidnění centra v roce 2027 neprocházejí; přijaté usnesení č. 33/1 odmítá „dílčí a nesystémové zákazy průjezdu“ a ukládá Radě do konce roku 2026 předložit koncepci organizace dopravy: 37 pro, 16 proti.",
+      "text": "Náměstek Beránek 21. 4. oznamuje, že Radě navrhne o prázdninách 2026 zákaz průjezdu Malostranským náměstím (od jihu přikázaný směr vlevo, z Valdštejnské odklon do Letenské) a částí Smetanova nábřeží, denně od 6 do 22 h; zpoplatnění vjezdu podle něj zamítlo ministerstvo vnitra. Na mimořádném bodu Tomáše Portlíka 23. 4. návrh odmítají zástupci Prahy 1, 2, 5, 8 a 9 i koaliční partneři Pirátů. Beránkovy návrhy usnesení včetně pilotního zklidnění centra v roce 2027 neprocházejí; přijaté usnesení č. 33/1 odmítá řešení dopravy „formou dílčích a nesystémových zákazů průjezdů“ a ukládá Radě do konce roku 2026 předložit koncepci organizace dopravy: 37 pro, 16 proti.",
       "vote": {
         "id": 105193,
         "period": -36525,
@@ -290,7 +291,7 @@
         "proti": 16,
         "zdrzel": 0,
         "ostatni": 12,
-        "zneni": "Zastupitelstvo hl. m. Prahy bere na vědomí negativní dopady nekoncepčních a izolovaných dopravních omezení; odmítá řešení dopravní situace formou dílčích a nesystémových zákazů průjezdu v jednotlivých městských částech bez předchozího posouzení vlivu na celou dopravní síť; ukládá Radě HMP zajistit, aby Magistrát neinicioval nové lokální zákazy průjezdu bez projednání Radou, předložit do 31. 12. 2026 ucelenou koncepci organizace dopravy upřednostňující plynulost a dokončení klíčové infrastruktury před restrikcemi a zajistit koordinaci omezení mezi Magistrátem, městskými částmi a TSK; revokuje usnesení č. 17/3 ke světelné závoře v Trojské.",
+        "zneni": "Zastupitelstvo hl. m. Prahy bere na vědomí negativní dopady nekoncepčních a izolovaných dopravních omezení; odmítá řešení dopravní situace formou dílčích a nesystémových zákazů průjezdů v jednotlivých městských částech bez předchozího posouzení vlivu na celou dopravní síť; ukládá Radě HMP zajistit, aby Magistrát neinicioval nové lokální zákazy průjezdu bez projednání Radou, předložit do 31. 12. 2026 ucelenou koncepci organizace dopravy upřednostňující plynulost a dokončení klíčové infrastruktury před restrikcemi a zajistit koordinaci omezení mezi Magistrátem, městskými částmi a TSK; revokuje body III.1.1 a 1.5 usnesení č. 17/3 k petici o regulaci tranzitu v ulici Trojská.",
         "zneniZdroj": "výrok usnesení č. 33/1 podle zápisu z 33. zasedání ZHMP, kráceno"
       },
       "promise": {

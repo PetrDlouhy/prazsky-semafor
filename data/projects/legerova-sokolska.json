@@ -23,7 +23,7 @@
         "label": "v dokumentaci",
         "kind": "wait"
       },
-      "text": "Jednosměrné pásy o šířce 2 až 2,5 metru v obou směrech Legerovy a Sokolské, chráněné obrubníkem nebo parkovacím pruhem, s červeným asfaltem; k tomu 120 stromů a zachované tři jízdní pruhy ve většině úseku. Projekt přechází ze studie do dokumentace."
+      "text": "Jednosměrné pásy o šířce dva metry v obou směrech Legerovy a Sokolské, chráněné obrubníkem nebo parkovacím pruhem, s červeným asfaltem; k tomu 120 stromů a zachované tři jízdní pruhy ve většině úseku. Projekt přechází ze studie do dokumentace."
     },
     {
       "name": "Cyklopruh u Muzea",
@@ -72,7 +72,7 @@
       "date": "22. 5. 2023",
       "title": "Rada schvaluje přípravu proměny",
       "tier": "b",
-      "text": "Rada schvaluje přípravu úprav magistrály v okolí Hlavního nádraží; prezentované plány počítají se zúžením ze šesti pruhů na čtyři a s prostorem pro pěší i cyklisty. Náměstek Hlaváček: cílem je, aby se po magistrále „mohli pohybovat i chodci a cyklisti“.",
+      "text": "Rada schvaluje přípravu úprav magistrály v okolí Hlavního nádraží; prezentované plány počítají se zúžením u nádraží na dva plus dva pruhy a s prostorem pro pěší i cyklisty. Náměstek Hlaváček: cílem je, aby se po magistrále „mohli pohybovat i chodci a cyklisti“.",
       "sources": [
         {
           "label": "ceskenoviny.cz, 22. 5. 2023",
@@ -135,11 +135,11 @@
       "title": "Cyklokomise varuje před zástavbou u Wilsonovy",
       "tier": "b",
       "thread": "Těšnov / Florenc",
-      "text": "Cyklokomise jednomyslně (usnesení č. 17.3, 10-0-0) varuje, že zástavba Penty u Wilsonovy bez úpravy regulací „těsně obestaví“ magistrálu, znemožní budoucí snížení nivelety u Těšnova a zablokuje plnohodnotné vedení trasy A4 podle standardů aktivní mobility. Žádá IPR a náměstky, aby regulace upravili.",
+      "text": "Cyklokomise jednomyslně (usnesení č. 17.3, 10-0-0) varuje, že zástavba u Wilsonovy bez úpravy regulací hrozí „těsným obestavěním“ magistrály, které „neumožní plnohodnotné pěší a cyklistické řešení“ a „definitivně do budoucna znemožňuje snížení nivelety“ u Těšnova. Žádá IPR a náměstky pro dopravu a územní rozvoj o zpřesnění regulace zástavby.",
       "sources": [
         {
-          "label": "mestemnakole.cz, prosinec 2024",
-          "url": "https://mestemnakole.cz/2024/12/magistrala-na-pankraci-novy-povrch-stary-pristup/"
+          "label": "mestemnakole.cz: podzimní cyklokomise, 5. 1. 2025",
+          "url": "https://mestemnakole.cz/2025/01/podzimni-cyklokomise/"
         }
       ]
     },
@@ -147,7 +147,7 @@
       "date": "28. 1. 2025",
       "title": "Praha 1 se vymezuje proti humanizaci",
       "tier": "a",
-      "text": "Dva dny před představením projektu oddělených pásů schvaluje zastupitelstvo Prahy 1 jako součást usnesení UZ25_0309 bod, podle nějž městská část „nevnímá humanizaci magistrály (redukci pruhů a cyklostezku) jako účinný krok“: 14 pro, 5 proti, 5 nehlasovalo a 3 chyběli. Nejtěsnější dílčí hlasování celého usnesení.",
+      "text": "Dva dny před představením projektu oddělených pásů schvaluje zastupitelstvo Prahy 1 jako součást usnesení UZ25_0309 bod, podle nějž městská část „nevnímá současně připravovaný projekt tzv. ‚humanizace magistrály‘, spočívající v redukci počtu dopravních jízdních pruhů a jejich nahrazení cyklostezkou, jako účinný krok vedoucí ke zklidnění dopravy“: 14 pro, 5 proti, 5 nehlasovalo a 3 chyběli. Nejtěsnější dílčí hlasování celého usnesení.",
       "vote": {
         "rollFile": "p1-2025-01-28-h39.json",
         "label": "ZMČ Praha 1, bod k humanizaci magistrály (hlasování č. 39), 28. 1. 2025",
@@ -173,7 +173,7 @@
       "date": "30. 1. 2025",
       "title": "Projekt oddělených pásů představen",
       "tier": "b",
-      "text": "TSK představuje projekt proměny Legerovy, Sokolské a Ječné: oddělené cyklopásy jako součást trasy A4, 120 stromů, chytré semafory. Podporu vyjadřují náměstci Hřib a Hlaváček i starosta Prahy 2 Korseska; Hřib slibuje „bezpečně oddělené cyklostezky“ se zachováním plynulosti provozu.",
+      "text": "TSK představuje projekt proměny Legerovy, Sokolské a Ječné: oddělené cyklopásy jako součást trasy A4, 120 stromů, chytré semafory. Podporu vyjadřují náměstci Hřib a Hlaváček i starosta Prahy 2 Korseska; Hřib návrh označuje za „win – win pro všechny“; TSK slibuje oddělené cyklostezky a zachování průjezdnosti pro auta díky chytrým semaforům.",
       "sources": [
         {
           "label": "mestemnakole.cz, 30. 1. 2025",
@@ -202,8 +202,8 @@
         "promised": "leden 2025",
         "due": "dokumentace 2026, realizace ~2030",
         "status": "běží",
-        "text": "Na Legerově a Sokolské vzniknou bezpečně oddělené cyklopásy se zachováním plynulosti provozu; dokumentace 2026, realizace kolem roku 2030.",
-        "by": "Zdeněk Hřib (náměstek pro dopravu) a TSK"
+        "text": "Na Legerově a Sokolské vzniknou oddělené cyklopásy; podle TSK zůstane díky chytrým semaforům zachována průjezdnost pro auta. Dokumentace 2026, realizace kolem roku 2030.",
+        "by": "TSK a náměstek pro dopravu Zdeněk Hřib"
       },
       "thread": "Nuselský most – Muzeum"
     },
@@ -236,7 +236,7 @@
     {
       "date": "21. 5. 2026",
       "title": "Ze studie do dokumentace",
-      "tier": "a",
+      "tier": "b",
       "text": "Podle odpovědí magistrátu projekt Nuselský most – Muzeum přechází ze studie proveditelnosti do projektové dokumentace a zadávají se průzkumy.",
       "sources": [
         {
