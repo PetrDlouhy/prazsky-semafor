@@ -380,6 +380,75 @@
         "zdrzel": 0,
         "ostatni": 14
       }
+    },
+    {
+      "date": "23. 4. 2026",
+      "title": "Zastupitelstvo: místo prázdninové uzavírky koncepce do konce roku",
+      "tier": "a",
+      "text": "Dva dny po oznámení Beránkova plánu (zákaz průjezdu Malostranským náměstím a částí Smetanova nábřeží o prázdninách 2026 od 6 do 22 h) zařazuje předseda klubu SPOLU Tomáš Portlík mimořádný bod. Proti vystupují starostka Prahy 1 Radoměřská (doprava by se přelila „do oblasti ulice Divadelní“) i radní Prahy 2 Halva („dozvídáme se z médií“). Beránek hájí návrh jako „velmi kompromisní“ a podle modelu TSK slibuje úbytek až 8 tisíc aut denně. Jeho návrhy usnesení včetně pilotního zklidnění centra v roce 2027 neprocházejí (20 pro, 2 proti, 5 se zdrželo); přijato je usnesení č. 33/1, které odmítá „dílčí a nesystémové zákazy průjezdu“ a ukládá Radě do 31. 12. 2026 předložit koncepci organizace dopravy upřednostňující plynulost a dokončení infrastruktury před restrikcemi: 37 pro (SPOLU, ANO, SPD, část STAN), 16 proti (Piráti, Praha sobě). O samotné uzavírce zastupitelstvo nehlasovalo, ta je v pravomoci Rady.",
+      "vote": {
+        "id": 105193,
+        "period": -36525,
+        "vysledek": "přijato",
+        "label": "Usnesení č. 33/1 k tisku Z-14023 „omezování automobilové dopravy na klíčových tazích Prahy“, 23. 4. 2026",
+        "pro": 37,
+        "proti": 16,
+        "zdrzel": 0,
+        "ostatni": 12,
+        "zneni": "Zastupitelstvo hl. m. Prahy bere na vědomí negativní dopady nekoncepčních a izolovaných dopravních omezení; odmítá řešení dopravní situace formou dílčích a nesystémových zákazů průjezdu v jednotlivých městských částech bez předchozího posouzení vlivu na celou dopravní síť; ukládá Radě HMP zajistit, aby Magistrát neinicioval nové lokální zákazy průjezdu bez projednání Radou, předložit do 31. 12. 2026 ucelenou koncepci organizace dopravy upřednostňující plynulost a dokončení klíčové infrastruktury před restrikcemi a zajistit koordinaci omezení mezi Magistrátem, městskými částmi a TSK; revokuje usnesení č. 17/3 ke světelné závoře v Trojské.",
+        "zneniZdroj": "výrok usnesení č. 33/1 podle zápisu z 33. zasedání ZHMP, kráceno"
+      },
+      "promise": {
+        "by": "Rada hl. m. Prahy (usnesení ZHMP č. 33/1)",
+        "promised": "23. 4. 2026",
+        "due": "31. 12. 2026",
+        "status": "běží",
+        "text": "Předložit zastupitelstvu ucelenou koncepci organizace dopravy, která upřednostní plynulost dopravy a dokončení klíčové infrastruktury před restrikcemi."
+      },
+      "sources": [
+        {
+          "label": "jmenovitý záznam hlasování, praha.eu",
+          "url": "https://praha.eu/vysledky-hlasovani#/detail/105193"
+        },
+        {
+          "label": "zápis z 33. zasedání ZHMP, 23. 4. 2026 (PDF, s. 8 až 9)",
+          "url": "https://praha.eu/documents/42409/14668302/Zapis_jednani_zps260423_b_o_udaju.pdf"
+        },
+        {
+          "label": "stenozápis z 33. zasedání ZHMP (PDF, s. 73 až 118)",
+          "url": "https://praha.eu/documents/42409/14668302/Stenozapis_zhmp260423_b_o_udaju.pdf"
+        },
+        {
+          "label": "Pražský deník (ČTK), 23. 4. 2026",
+          "url": "https://prazsky.denik.cz/zpravy-region/navrh-uzavrit-malostranske-namesti-vyvolal-v-zastupitelstvu-dlouhou-diskusi-2026/"
+        },
+        {
+          "label": "zdopravy.cz (ČTK), 22. 4. 2026",
+          "url": "https://zdopravy.cz/zpoplatneni-neproslo-nabrezi-a-mala-strana-mohou-byt-bez-aut-alespon-na-prazdniny-279463/"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Jaromír Beránek",
+          "role": "náměstek primátora pro dopravu, Piráti"
+        },
+        {
+          "name": "Tomáš Portlík",
+          "role": "předseda klubu SPOLU, ODS"
+        },
+        {
+          "name": "Terezie Radoměřská",
+          "role": "starostka MČ Praha 1, TOP 09"
+        },
+        {
+          "name": "Tomáš Halva",
+          "role": "radní MČ Praha 2 pro dopravu, TOP 09"
+        },
+        {
+          "name": "Adam Scheinherr",
+          "role": "zastupitel hl. m. Prahy, Praha sobě"
+        }
+      ]
     }
   ],
   "karta": {
