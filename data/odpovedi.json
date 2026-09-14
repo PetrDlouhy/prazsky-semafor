@@ -1,0 +1,377 @@
+{
+  "zverejneno": "2026-09-15",
+  "uzaverka": "2026-09-11",
+  "stav_k": "2026-09-14",
+  "skala": {
+    "zavazek": "závazek s termínem",
+    "podpora": "ano / podpora bez termínu",
+    "vyhybave": "podmíněné / bez jasné pozice",
+    "ne": "ne",
+    "bez": "bez odpovědi"
+  },
+  "zhmp": {
+    "nazev": "Zastupitelstvo hlavního města Prahy",
+    "dopis": "2026-08-25",
+    "pripominky": ["2026-09-03", "2026-09-09"],
+    "otazky": [
+      {"id": "1", "kratce": "Smetanovo nábřeží", "project": "smetanovo-nabrezi",
+       "text": "Rada v roce 2021 schválila zadání proměny (usnesení č. 579). Stavební úpravy jsou zčásti hotové, ale omezení průjezdu aut, které je jádrem záměru, dosud nikdo nespustil. Spustíte ho? Kdy?"},
+      {"id": "2", "kratce": "Magistrála", "project": "legerova-sokolska",
+       "text": "Na Legerově a Sokolské se projektují cyklopásy, tedy jízdní pásy pro kola fyzicky oddělené od aut obrubníkem; podle harmonogramu města má být hotovo kolem roku 2030. Dotáhnete projekt do realizace v tomto harmonogramu? A vrátíte cyklistickou infrastrukturu do přestavby přednádraží u Hlavního nádraží, ze které vypadla?",
+       "casti": [{"id": "2a", "kratce": "Cyklopásy Legerova a Sokolská do 2030"}, {"id": "2b", "kratce": "Cyklo v přestavbě přednádraží"}]},
+      {"id": "3", "kratce": "Vršovická drážní promenáda", "project": "vrsovicka-drazni-promenada",
+       "text": "Město ji v roce 2024 vyškrtlo z rozpočtu, letos v srpnu vybralo projektanta. Necháte v rozpočtech peníze na dokončení přípravy a stavbu? Zavazujete se, že stavba začne do konce příštího volebního období?"},
+      {"id": "4", "kratce": "Malostranské náměstí", "project": "malostranske-namesti",
+       "text": "Od architektonické soutěže uplynulo dvanáct let; zhotovitel byl v roce 2021 vybrán, smlouvu ale nikdo nepodepsal a nový tendr od té doby nikdo nevypsal. Vypíšete ho? Do kdy?"},
+      {"id": "5", "kratce": "Kladenská drážní cesta", "project": "kladenska-drazni-cesta",
+       "text": "Praha se s krajem smluvně dohodla na stezce po opuštěné železniční trati do Kladna, mimo silniční provoz; stavět se mělo v letech 2024 až 2026, dnes kraj mluví o roce 2033. Jak zajistíte, aby se termín znovu neposunul? K jakému roku dokončení se zavážete?"},
+      {"id": "6", "kratce": "Veřejná doprava", "project": "tunelbus-blanka",
+       "text": "Autobus 145 tunelem Blanka jezdí, ale bez zastávky Kuchyňka u vysokoškolských kolejí. Doplníte ji? A podpoříte prodloužení linky na Smíchov, až skončí rekonstrukce Strahovského tunelu?",
+       "casti": [{"id": "6a", "kratce": "Zastávka Kuchyňka"}, {"id": "6b", "kratce": "Prodloužení na Smíchov"}]},
+      {"id": "7", "kratce": "Dánské cyklopásy",
+       "text": "Městské Standardy aktivní mobility z roku 2022 počítají pro hlavní trasy s „dánskými pásy“: vyvýšenými jízdními pásy pro kola oddělenými od vozovky obrubníkem, jak je zná Kodaň. Praha má zatím jediný dokončený, na Smetanově nábřeží; druhý se připravuje na Strahově. Kolik kilometrů infrastruktury v této kvalitě (dánské pásy a samostatné stezky) postavíte za příští čtyři roky, alespoň řádově?"},
+      {"id": "8", "kratce": "Transparentnost",
+       "text": "Když se návrh nedostane na program zastupitelstva, jeho text si veřejnost nemá kde přečíst; ověřili jsme to letos u konkrétních případů. Budete zveřejňovat podklady všech návrhů pro zastupitelstvo (tzv. tisků), včetně nezařazených?"}
+    ],
+    "subjekty": [
+      {
+        "nazev": "PRAHA SOBĚ",
+        "slozeni": "Praha sobě, KDU-ČSL, Zelení",
+        "lidr": "Adam Scheinherr",
+        "odpovedel": "Adam Scheinherr, lídr kandidátky, prostřednictvím mluvčího Praha sobě",
+        "doruceno": "2026-09-09",
+        "poznamka": "KDU-ČSL 7. 9. sdělila, že za sebe samostatně odpovídat nebude, protože kampaň vede společně s koaličními partnery.",
+        "hodnoceni": {"1": "zavazek", "2a": "zavazek", "2b": "podpora", "3": "zavazek", "4": "zavazek", "5": "podpora", "6a": "zavazek", "6b": "podpora", "7": "podpora", "8": "podpora"},
+        "odpovedi": {
+          "1": "Ano. Smetanovo nábřeží se musí dokončit v plném rozsahu, tedy i druhá polovina stavebních úprav, která bohužel pod současnou koalicí ODS, STAN a Pirátů skončila v šuplíku. Na její realizaci hned začneme pracovat, společně s tím je třeba spustit omezení zbytné tranzitní dopravy. Nejde o zákaz všech aut. Kdo na nábřeží potřebuje dojet, dojede, kdo tudy jen projíždí, má jet jinudy. Záměr jsme připravili za mého náměstkování a lze ho realizovat v prvním roce po volbách.",
+          "2": "Ano. Legerovu i Sokolskou je potřeba realizovat v těchto letech a harmonogram držet, i proto, že se tam musí rekonstruovat inženýrské sítě a obě ulice se tak jako tak rozkopou. Udělat to jednou a pořádně, včetně cyklopásů a celého stromořadí, které tam dnes chybí. Přestavbu přednádraží u Hlavního nádraží vede Správa železnic a město do jejího projektu nemůže přímo zasahovat. Jako partner projektu ale budu na návrat cyklistické infrastruktury tlačit.",
+          "3": "Ano, zavazuji se. Peníze na dokončení přípravy i na stavbu v rozpočtu budou a stavba začne do konce volebního období. Říkám to i přesto, že současná koalice ODS, STAN a Pirátů nechala promenádu čtyři roky ležet a projektanta vybrala až pár týdnů před volbami, ačkoli jsme jí po minulých volbách předali projekt s platným územním rozhodnutím.",
+          "4": "Ano, vypíšu ho hned v prvním roce volebního období. Zhotovitel byl vybraný ještě za minulé koalice. Současné vedení města pak za čtyři roky neudělalo nic, smlouvu nepodepsalo ani nevypsalo nový tendr. Gesce byla a dodnes je náměstka Hlaváčka, který má rekonstrukce náměstí na starosti a za osm let ve funkci nedotáhl sám ani jednu. Malostranské náměstí je jeden z jeho velkých neúspěchů. Dvanáct let od soutěže není smůla, je to neschopnost rozhodnout.",
+          "5": "K roku se poctivě zavázat nemůžu a nebudu slibovat termín, který nemám v rukou. Kladenská drážní cesta je vázaná na novostavbu železnice na letiště a do Kladna, teprve po ní se stará trať uvolní. Co v rukou mám, je priorita. Stezka patří mezi mé priority a město bude mít svou část přípravy hotovou tak, aby se začalo stavět hned, jak se trať uvolní, ne o několik let později.",
+          "6": "Ano. Zastávku Kuchyňka na lince 145 doplníme hned po volbách. A linka musí v budoucnu pokračovat až na Smíchov, jakmile skončí rekonstrukce Strahovského tunelu.",
+          "7": "První dánský pás v Praze, na Smetanově nábřeží, vznikl za mého náměstkování a beru ho jako vzor. Řádově musí vznikat jednotky kilometrů takové infrastruktury ročně, tedy za čtyři roky jednotky až nižší desítky kilometrů dánských pásů a samostatných stezek. Přesné číslo nechci slibovat, dokud neuvidím stav přípravy jednotlivých tras. Na Smetanově nábřeží jsme ukázali, že stavět oddělené cyklostezky jde i v památkově chráněném centru. Teď to chce jen vůli je skutečně dělat.",
+          "8": "Ano. Veřejnost musí vždy vědět, o čem zastupitelé hlasují, a to platí i pro návrhy, o jejichž zařazení na program se hlasovalo a neprošly. Podklady těchto tisků budeme zveřejňovat."
+        }
+      },
+      {
+        "nazev": "STAROSTOVÉ A NEZÁVISLÍ",
+        "slozeni": "STAN",
+        "lidr": "Petr Hlaváček",
+        "odpovedel": "Petr Hlaváček, lídr kandidátky, prostřednictvím sekretariátu náměstka primátora; 10. 9. potvrzeno jako stanovisko hnutí",
+        "doruceno": "2026-09-10",
+        "poznamka": "První verzi z 8. 9. označil sekretariát za předběžnou; zveřejňujeme finální znění z 10. 9.",
+        "hodnoceni": {"1": "podpora", "2a": "podpora", "2b": "ne", "3": "podpora", "4": "vyhybave", "5": "vyhybave", "6a": "vyhybave", "6b": "podpora", "7": "vyhybave", "8": "ne"},
+        "odpovedi": {
+          "1": "Za STAN podporujeme dokončení revitalizace Smetanova nábřeží. Ta je závislá právě na omezení tranzitu na Smetanově nábřeží, které se dosud nepodařilo v koalici prosadit. Navrhujeme takové technické řešení, které omezí tranzitní dopravu, umožní průjezd místním rezidentům a zároveň zajistí, aby řešení nebrzdilo tramvaje a MHD, jako je tomu dnes. Pokud bude politická shoda, jsem přesvědčen, že se projekt dá realizovat během jedné stavební sezóny.",
+          "2": "Projektová příprava běží a domnívám se, že termín je reálný. Naše snaha je v každém případě projekt dotáhnout, stejně jako další projekty na Magistrále, jako je např. humanizace Těšnovské estakády.\n\nOddělený cyklopás před Fantovou budovou jsem spolu s Institutem plánování a rozvoje prosazoval, ovšem Cyklokomise Rady hl. m. Prahy jako odborný poradní orgán rozhodla, že řešení pro cyklisty má být součástí bus pruhu. To bylo preferováno i za investora stavby - Správu železnic. Změna už nyní není technicky možná, probíhá totiž již výstavba nových hydroizolací a nových obrub, které kvůli odvodnění již není možné posouvat.",
+          "3": "Město v červnu schválilo nákup pozemků za 330 milionů korun od Správy železnic a běží projekt povolení záměru. Za STAN projekt podporujeme, a pokud budeme mít v koalici dostatečně silné slovo, jsem přesvědčen, že výstavbu do 4 let zahájíme.",
+          "4": "V koalici jsem bohužel nenašel dostatečnou podporu pro jeho realizaci, jako prioritnější byla vytipována Václavské náměstí, Karlovo náměstí a Náměstí Jiřího z Poděbrad. Projekt na Malé Straně má stále platné povolení. V nové koalici je tudíž potřeba na začátku příštího období rozhodnout, jestli projekt realizovat, jak je povolen anebo zda je nutné ho aktualizovat.",
+          "5": "Termín není tak úplně závislý na městě vzhledem k tomu, že projekt počítá s využitím opuštěného drážního tělesa, které dosud opuštěno nebylo, protože se trať do Kladna a na letiště teprve buduje. Nicméně v uplynulých letech se proces přípravy výrazně posunul dopředu a vznikají první podrobnější studie. Některé úseky dokonce vzniknou souběžně s výstavbou železnice.",
+          "6": "Myslím, že není úkolem politiků zasahovat organizaci ROPID do konkrétního trasování a počtu zastávek, a věřím, že k tomu kolegové měli důvod. Za sebe ho ale neznám a doplnění zastávky zní rozumně.\n\nRozšiřování tunelbusů už politická otázka je a za STAN určitě tento expresní segment podporujeme.",
+          "7": "Zatímco vymezení cyklopruhu je poměrně snadné, dánský cyklopás vyžaduje komplexní rekonstrukci uličního profilu, která podobně jako výsadba stromů, nebo bezpečné bezbariérové přechody vyžadují pracnou koordinaci. Se stavem veřejného prostoru v Praze nejsem spokojen, je to důsledek toho, že je agenda rozdrobena po sektorech mezi několik radních (doprava, infrastruktura, životní prostředí, bezpečnost). Dokonce já sám mám na starosti koncepčně veřejný prostor a nemám žádné nástroje, jak ho realizovat.\n\nNemohu nyní slibovat konkrétní kilometry, ale mohu slíbit, že budeme prosazovat reformu přístupu města k správě a revitalizaci veřejného prostoru a budeme chtít agendu sjednotit pod jednoho “radního pro veřejný prostor”.",
+          "8": "Myslím, že stávající systém je nastaven správně. Všechny schválené tisky jsou vždy transparentně zveřejněny včetně těch schvalovaných Radou. Z důvodu ochrany soukromí a obchodních tajemství mohou mít i neveřejnou část, ale to je povinností města ze zákona. Zveřejňování neschválených a rozpracovaných materiálů z mého pohledu příliš smysl nedává."
+        }
+      },
+      {
+        "nazev": "SPD pro Prahu",
+        "slozeni": "SPD, Trikolora, PRO, Přísaha",
+        "lidr": "Milan Urban",
+        "odpovedel": "Milan Urban, lídr kandidátky, osobně",
+        "doruceno": "2026-09-02",
+        "hodnoceni": {"1": "ne", "2a": "ne", "2b": "ne", "3": "vyhybave", "4": "vyhybave", "5": "vyhybave", "6a": "podpora", "6b": "podpora", "7": "ne", "8": "podpora"},
+        "odpovedi": {
+          "1": "Pevně věřím, že nová koalice v Praze společně s SPD omezení průjezdu aut na Smetanově nábřeží nikdy nespustí. My chceme naopak Prahu opět co nejvíce zprůjezdnit, pro snadnou, rychlou a dostupnou dopravu Pražanů napříč městem do cílových destinací. Nyní jsou Pražané bohužel rukojmími progresivistických levicových ideologií, které staví proti sobě chodce, cyklisty a automobilisty a vzájemně je segreguje, omezuje a vytváří nebezpečné kolizní situace. Důsledkem jsou stálé kolony ve všech směrech, maximální zpomalení, ubírání jízdních pruhů, slalomové dráhy z patníků, zbytečné světelné závory a světelné signalizace (např. před Hlavním nádražím na magistrále), cílený chaos v koordinaci dopravních uzavírek a chybějících objížděk a další.",
+          "2": "Cyklopásy na magistrále a již zmiňovaná přestavba přednádraží u Hlavního nádraží s s nepotřebným přechodem se světelnou signalizací jsou holý nesmysl jen tlačený agresivní progresivní ideologií za každou cenu. Jsem pro humanizaci magistrály, ale bez omezení průjezdnosti a bez cyklopásu. Praha má budovat cyklostezky dle schválené koncepce, ale posledních 8 let pražské koalice vedené Piráty pouze malují cyklopruhy ve vnitřním městě a nebudují cyklostezky na okrajích dle původního časového harmonogramu. Je iluzí, že Pražané budou používat kola ve vnitřním městě, tak jako v Holandsku nebo v rovinatých městech v Německu a Skandinávii.",
+          "3": "Vršovická drážní promenáda je katastrofou, typickou pro poslední 2 pražská volební období. Další kauza typu „Dozimetr“, více jak dvakrát předražená, účelově chybně vypsané VŘ a další skandální fakta. Zastupitelé jsme obdrželi otevřený dopis původního projektanta s otřesnými fakty, celé budu interpelovat na zářijovém Zastupitelstvu. Projekt vršovické drážní promenády – ano, ale zásadně jinak a s jinými reálnými náklady!",
+          "4": "Návrh architektonického řešení Malostranského náměstí bude určitě pozměněn. Tématem je i umístění sochy maršála Radeckého.",
+          "5": "Projekt Kladenské drážní cesty je třeba podrobit důkladné analýze, tak jako projekt a realizaci Vršovické drážní promenády. Je třeba rázně zastavit mrhání veřejnými prostředky a projekt realizovat v reálných skutečných nákladech tak jako privátní sektor. Erár není od toho, aby se bezohledně vysával.",
+          "6": "Ano, souhlasím s obojím. I se zavedení nových linek autobusů používajících městský okruh a páteřní komunikace pro zrychlení veřejné dopravy.",
+          "7": "Dánské cyklopásy jsou v Dánsku, tady jsme v Praze. V rámci vnitřního města a páteřních vnitřních komunikací kvůli prostorové náročnosti nedávají v Praze smysl. Možná na okraji města a na sídlištích, pokud je na ně prostorová rezerva. Budujme na okrajích města schválené cyklostezky a agresivně tlačenou ideologii cyklopásů opusťme. Praha pro to není vhodná geograficky, ani prostorově. Navíc, řekněme si popravdě, kolik Pražanů je bude používat? Není proto veřejná poptávka. Pro pár jedinců trpí celé město!",
+          "8": "Je to zajímavá myšlenka. Rád ji budu prosazovat."
+        }
+      },
+      {
+        "nazev": "REZIDENTI - REBELOVÉ pro změnu Prahy",
+        "slozeni": "Rezidenti 1",
+        "lidr": "Martin Motl",
+        "odpovedel": "Martin Motl, lídr kandidátky, osobně",
+        "doruceno": "2026-09-11",
+        "poznamka": "Veřejný kontakt jsme dohledali až 4. 9.; dopis proto odešel o deset dní později než ostatním.",
+        "hodnoceni": {"1": "podpora", "2a": "ne", "2b": "podpora", "3": "podpora", "4": "zavazek", "5": "zavazek", "6a": "zavazek", "6b": "podpora", "7": "zavazek", "8": "podpora"},
+        "odpovedi": {
+          "1": "Jako lídr kandidátky na Magistrát, ale i pro Prahu 1 odmítám, aby se tranzitní doprava z jednoho břehu pouze přelila do obytných ulic na břehu druhém. Podporuji zklidnění, ale výhradně jako společné, koordinované řešení Smetanova nábřeží a Karmelitské. Podmínkou je otevřená participace s dotčenými obyvateli a stoprocentní zachování vjezdu pro rezidenty a obsluhu. Nevylučuji ani debatu o mýtném. Doprava pro nás není ideologie, ale především služba lidem, kteří v místě bydlí.",
+          "2": "Projekt fyzicky oddělených cyklopásů přímo na magistrále v tomto harmonogramu nepodpoříme. Zužováním magistrály nebudeme lidem komplikovat život za volantem. U Hlavního nádraží však podpoříme vznik bezpečného, stavebně odděleného cyklokoridoru v rámci celkové přestavby přednádraží. Pěší, cyklisté i řidiči musí fungovat společně, aniž by se navzájem omezovali. Doprava musí být v první řadě bezpečná a funkční.",
+          "3": "Finance v rozpočtu na přípravu a stavbu ponecháme. Tento projekt ukazuje neschopnost města dotahovat své plány. Technické procesy po zrušeném tendru z roku 2025 sice reálně neumožňují kopnout do země dříve než v roce 2029, ale náš manažerský slib je jasný: určíme jednoho odpovědného člověka, nastavíme milníky a projekt v příštím období dotáhneme do fáze stavebního povolení. Žádné další odkládání.",
+          "4": "Po 12 letech politického divadla okamžitě vyhlásíme nový tendr na zhotovitele, nejpozději do 6 měsíců od sestavení rady. Ještě před spuštěním ale provedeme bleskovou participaci s místními rezidenty, protože za ty roky se jejich potřeby posunuly. Chtějí více stromů, zeleně a vodní prvky, při zachování tradičních trhů. Město musí přestat přešlapovat na místě. Musíme rozhodnout, vysoutěžit a revitalizaci do roku 2028 dokončit.",
+          "5": "Nebudu populisticky slibovat nereálné termíny – k dokončení této stezky se zodpovědně zavazujeme k roku 2033. Projekt technicky závisí na modernizaci železniční trati ze strany Správy železnic a následném převodu pozemků. Aby se termín už znovu neposunul, uzavřeme se Středočeským krajem závaznou koordinační smlouvu s pevnými milníky a zavedeme osobní odpovědnost projektového manažera.",
+          "6": "Ano, chybějící zastávku Kuchyňka u vysokoškolských kolejí v Troji okamžitě doplníme a prodloužení linky na Smíchov plně podpoříme. Je absurdní, že autobus novým tunelem pouze projíždí a ignoruje potřeby studentů a místních rezidentů. Propojení severu města se Smíchovem přes tunelový komplex dává logický smysl. Naším cílem je rychlá a pohodlná MHD pro Pražany, která pružně reaguje na realitu.",
+          "7": "Odmítám střílet do vzduchu nesmyslné kilometry, prioritou pro nás zůstává bezpečnost obyvatel. Stavět dánské vyvýšené pásy v historickém centru naráží na prostorové limity a památkovou ochranu. Garantujeme výstavbu řádově 5 až 10 kilometrů této prémiové infrastruktury za čtyři roky, a to výhradně v nově vznikajících čtvrtích, kde můžeme cyklostezky budovat koncepčně, bezpečně a bez vyvolání chaosu v dopravě.",
+          "8": "Jednoznačně ano, zavedeme povinné zveřejňování všech připravených tisků pro zastupitelstvo, včetně těch nezařazených. Současná praxe, kdy se neschválené návrhy před veřejností schovávají, je nepřijatelná. Magistrát musí být moderní službou občanům, ne uzavřeným úřadem. Mezi našich 10 prvních rozhodnutí patří spuštění veřejného přehledu investic. Pražané mají právo vědět, co se v jejich městě chystá."
+        }
+      },
+      {
+        "nazev": "Levice",
+        "slozeni": "Levice",
+        "odpovedel": "sekretariát strany (odpovědi v příloze)",
+        "doruceno": "2026-09-02",
+        "hodnoceni": {"1": "zavazek", "2a": "zavazek", "2b": "podpora", "3": "zavazek", "4": "zavazek", "5": "zavazek", "6a": "podpora", "6b": "podpora", "7": "zavazek", "8": "zavazek"},
+        "odpovedi": {
+          "1": "Ano. Smyslem proměny Smetanova nábřeží nemůže být jen hezčí dlažba při zachování stejného množství tranzitní dopravy. Chceme naplnit i tu část usnesení z roku 2021, která počítala s omezením zbytného průjezdu centrem. Do šesti měsíců od nástupu chceme zveřejnit konkrétní dopravní režim, jeho právní a technické řešení a vyhodnocení dopadů na okolní komunikace. Samotné omezení chceme spustit nejpozději do konce roku 2027. Režim musí samozřejmě zachovat obsluhu území, zásobování, IZS, služby pro osoby s omezenou mobilitou a veřejnou dopravu.",
+          "2": "Ano, projekt Legerovy a Sokolské chceme dotáhnout nejpozději kolem roku 2030 a fyzicky oddělené cyklopásy považujeme za nedílnou součást projektu, nikoli za položku, kterou lze při zdražení stavby vyškrtnout.\n\nU Hlavního nádraží chceme zachovat jeden základní princip: mezi Vinohrady, centrem a severem města musí vzniknout souvislá a bezpečná chráněná cyklistická trasa A4. Prověříme proto možnost vrátit chráněnou infrastrukturu ještě do současné přestavby. Pokud by to v této fázi znamenalo zásadní zdržení již rozestavěného projektu, musí město zajistit bezpečné provizorní řešení a oddělenou trasu přes Nový Hlavák učinit závaznou součástí jeho konečného projektu.",
+          "3": "Ano. Vršovická drážní promenáda musí dostat stabilní víceleté financování jak na projektovou přípravu, tak na samotnou výstavbu.\n\nZavazujeme se, že město nebude znovu projekt zastavovat kvůli každoročnímu hledání několika milionů na projektování a že stavba začne nejpozději do konce příštího volebního období, tedy nejpozději v roce 2030. Budeme ale usilovat o zahájení už v letech 2028–2029, což odpovídá dnešnímu městskému harmonogramu.\n\nPromenádu přitom nevnímáme jen jako cyklostezku. Je to nový několikakilometrový veřejný prostor, pěší spojení, lineární park, prvek adaptace města na vedro a bezpečné propojení čtvrtí.",
+          "4": "Ano, nový tendr vypíšeme. Dvanáct let od architektonické soutěže je pro takto významný veřejný prostor nepřijatelně dlouhá doba.\n\nV první polovině roku 2027 chceme dokončit aktualizaci rozpočtu, archeologických podmínek a případných změn vyvolaných památkovými požadavky a nejpozději do 30. června 2027 vyhlásit novou veřejnou zakázku.\n\nProměna musí zachovat původní podstatu vítězného návrhu: Malostranské náměstí má být především náměstím – tedy pobytovým a dostupným veřejným prostorem – nikoli parkovištěm a dopravním prostorem. Debata ohledně umístění sochy maršála Radeckého nesmí brzdil plány na další oživení tohoto náměstí. S umístěním sochy nesouhlasíme.",
+          "5": "Původní termín 2024–2026 už objektivně splnit nelze. Za nejzazší termín celého spojení považujeme rok 2033 a nechceme připustit jeho další posun.\n\nPraha ale nemůže garantovat termíny Správy železnic nebo Středočeského kraje. Může garantovat, že nebude sama kritickou cestou projektu. Do roku 2029 proto musí být připravena dokumentace, majetkoprávní řešení, financování a maximum povolení tak, aby po uvolnění železničního tělesa nevznikla další několikaletá mezera.\n\nNavrhneme společný veřejný harmonogram Prahy, kraje a Správy železnic s konkrétními milníky a každoročním zveřejněním jejich plnění. A kde lze jednotlivé úseky postavit nezávisle na železnici, chceme je otevírat dříve. Propojování PID se středočeskými městy považujeme za důležitou dopravní politiku.",
+          "6": "Zastávku Kuchyňka podporujeme. Po vyhodnocení prvních měsíců provozu chceme, aby ROPID nejpozději do konce roku 2026 zveřejnil rozhodnutí a jeho dopravní zdůvodnění. Pokud se neprokáže vážná provozní překážka, zastávka by měla vzniknout při nejbližší vhodné změně jízdních řádů.\n\nPřímé spojení Prahy 5 a 6 tunelem po dokončení rekonstrukce Strahovského tunelu podporujeme také. Nechceme se ale předem vázat na číslo 145. Pokud by extrémně dlouhá linka Čimice–Smíchov byla náchylná ke zpoždění, může být pro cestující lepší samostatná spolehlivá linka Praha 5–Praha 6.\n\nTunely financované z veřejných peněz nemají sloužit pouze individuální automobilové dopravě; mají pomáhat zejména rychlé veřejné dopravě mezi čtvrtěmi.",
+          "7": "Za čtyři roky chceme postavit nejméně 20 km nové fyzicky oddělené cyklistické infrastruktury, s cílem přiblížit se 30 km.\n\nBudeme přitom počítat kilometry trasy, nikoli sčítat oba směry jako dva kilometry. Do závazku se budou započítávat samostatné stezky a fyzicky oddělené či vyvýšené cyklopásy. Nebudou se započítávat piktogramy, ochranné pruhy namalované na vozovce, sdílené autobusové pruhy ani pouhé vyznačení trasy značkami.\n\nKaždoročně zveřejníme mapu dokončených úseků, jejich cenu a počet skutečně nových kilometrů.",
+          "8": "Ano. Každý formálně předložený zastupitelský tisk má být veřejný bez ohledu na to, zda jej politická většina nakonec zařadí na program.\n\nJakmile tisk dostane evidenční číslo a je formálně předložen k projednání, má se automaticky objevit ve veřejném systému. Pokud je později stažen nebo nezařazen, má tam zůstat s označením „staženo“ nebo „nezařazeno“, datem a historií verzí.\n\nVýjimkou samozřejmě musí být osobní údaje a informace, jejichž zveřejnění zákon zakazuje; v takových případech se zveřejní anonymizovaná veřejná verze. Nejde nám o zveřejňování interních pracovních konceptů, ale formálně předložených tisků.\n\nZměnu jednacího řádu a pravidel pro přípravu tisků chceme předložit v prvních měsících volebního období. Za odstrašující považujeme zveřejňování, úpravy a opětovné zveřejnění návrhu nového územního plánu Hl. m. Prahy, který byl bohužel schválen současnou magistrátní koalicí."
+        }
+      },
+      {
+        "nazev": "Naše Praha SNK ED",
+        "slozeni": "SNK ED",
+        "lidr": "Jiří Benýšek",
+        "odpovedel": "Jiří Benýšek, kandidát na primátora, osobně",
+        "doruceno": "2026-09-10",
+        "hodnoceni": {"1": "zavazek", "2a": "ne", "2b": "ne", "3": "zavazek", "4": "zavazek", "5": "zavazek", "6a": "podpora", "6b": "podpora", "7": "ne", "8": "podpora"},
+        "odpovedi": {
+          "1": "Ano. Osobně bych omezení průjezdu aut spustil od 1.7.2027 a to tak, že rezidenti bez omezení, ostatní zpoplatněný průjezd částkou 100,- kč. Na obou stranách Smetanova nábřeží by to bylo hlídáno kamerou se schopností číst poznávací značky a výzva k uhrazení poplatku by byla posílána okamžitě do datové schránky.",
+          "2": "Ne. Bohužel tyto dvě ulice jsou stále součástí páteřní sítě automobilové dopravy v centru Prahy a omezení byť jen jednoho pruhu by zvyšovalo již tak časté dopravní zácpy. Dle mého názoru cyklostezka do tohoto místa nepatří a obrubník by nedokázal cyklistům a cyklistkám zajistit bezpečný způsob dopravy. Cyklistickou infrastrukturu u Hlavního nádraží tím pádem rovněž nepodporuji.",
+          "3": "Ano. Zavazuji. Tomuto projektu fandím, protože vzniká na místě zrušené železniční trati a podporuje jak volnočasové občanské vyžití, tak rozvoj bezpečných cyklostezek, kde se cyklista nepotkává s motoristou.",
+          "4": "Ano, do poloviny roku 2027.",
+          "5": "Na zastupitelstvu koaličním partnerům vysvětlím, že tento projekt by pro nás měl být v daném volebním období prioritou. Rok dokončení 2030.",
+          "6": "Ano, už jsem četl, že na zastávce Kuchuňka tunelbus stavět bude a ano.",
+          "7": "Žádný.",
+          "8": "Ano."
+        }
+      },
+      {
+        "nazev": "SEN PRO PRAHU",
+        "slozeni": "SEN 21",
+        "lidr": "Václav Láska",
+        "odpovedel": "Monika Shaw Salajová, místopředsedkyně hnutí SEN 21",
+        "doruceno": "2026-09-11",
+        "hodnoceni": {"1": "podpora", "2a": "vyhybave", "2b": "vyhybave", "3": "podpora", "4": "podpora", "5": "podpora", "6a": "vyhybave", "6b": "vyhybave", "7": "vyhybave", "8": "podpora"},
+        "odpovedi": {
+          "1": "V našem programu je omezení automobilové dopravy v centru obecně řešeno cestou ekonomické motivace - tzn. \"mýtem\". Smetanovo nábřeží bude určitě zahrnuto v zájmovém území mýta. Termín bez hlubší interní znalosti nedokážeme uvést, ale bude to jedna z priorit.",
+          "2": "Podporujeme rozvoj kvalitní cyklistické infrastruktury, ale jsme skeptičtí k mísení cyklistů a motoristů tam, kde jsou vysoké intenzity dopravy. Magistrála by měla zůstat významným městským bulvárem, přestože její tranzitní funkce by měla být výrazně potlačena. Zapojení cyklistické infrastruktury do tohoto plánu musíme první prověřit.",
+          "3": "Jednoznačně realizaci podpoříme jako dobrý příklad kvalitní oddělené pěší/cyklistické infrastruktury. Termín bez hlubší interní znalosti nedokážeme zaručit, ale bude to jedna z priorit.",
+          "4": "Malostranské náměstí také vnímáme jako nešťastně nedotažený projekt. Navážeme na jeho dokončení. Termín bez hlubší interní znalosti nedokážeme zaručit.",
+          "5": "Jednoznačně projekt podpoříme jako dobrý příklad kvalitní oddělené cyklistické infrastruktury. Termín bez hlubší interní znalosti a vývoje na straně Správy železnic nedokážeme zaručit, ale bude to jedna z priorit.",
+          "6": "Provoz linky 145 bude nutné nejprve vyhodnotit po stránce obsazenosti a spolehlivosti. Pokud se ukáže jako životaschopný, zastávku Kuchyňka určitě doplníme a prověříme možnosti dalšího rozvoje.",
+          "7": "Dánské pásy jsou prostorově nejnáročnějším řešením cyklistické infrastruktury. Srovnáme-li typickou ulici v širším centru Prahy a Kodaně, vidíme jejich plošné rozšíření jako velmi problematické. Znamenalo by to velké zásahy do prostorů pro chodce i auta. Jako mnohem průchodnější vnímáme např. skutečně spojitou páteřní síť cyklistických stezek v kombinaci s cyklopruhy a zónami 30.",
+          "8": "Ano, určitě."
+        }
+      },
+      {
+        "nazev": "PATRIOTI PRO PRAHU",
+        "slozeni": "Patrioti České republiky",
+        "lidr": "Jiří Vítek",
+        "odpovedel": "Jiří Vítek, předseda strany, osobně",
+        "doruceno": "2026-09-07",
+        "hodnoceni": {"1": "vyhybave", "2a": "vyhybave", "2b": "vyhybave", "3": "podpora", "4": "podpora", "5": "podpora", "6a": "podpora", "6b": "vyhybave", "7": "podpora", "8": "podpora"},
+        "odpovedi": {
+          "1": "Dokončené úpravy je potřeba vyhodnotit podle dopadů na dopravu, MHD, rezidenty i centrum města. Omezení průjezdu aut podpoříme pouze tehdy, pokud bude součástí funkčního dopravního řešení a nezpůsobí jen přesun kolon do okolních ulic. Termín proto musí vycházet z reálných dat, ne z politického ultimáta.",
+          "2": "Bezpečnou infrastrukturu pro cyklisty podporujeme tam, kde neohrozí kapacitu klíčových komunikací a průjezd IZS. Projekt Legerovy a Sokolské chceme posoudit podle konkrétního řešení a dopravních dopadů. U Hlavního nádraží má být cyklistická doprava součástí návrhu, pokud bude bezpečně skloubena s pěšími, MHD a zásobováním.",
+          "3": "Ano, dokončení přípravy této promenády dává smysl a město by na něj mělo držet prostředky v rozpočtu. Budeme podporovat pokračování projektu a přípravu stavby tak, aby se z něj nestal další projekt na desetiletí. Zahájení stavby v příštím volebním období považujeme za realistický cíl.",
+          "4": "Dvanáct let od soutěže je příliš dlouhá doba. Chceme zjistit, proč se projekt zastavil, aktualizovat cenu i technické podmínky a následně vypsat nový tendr bez dalších zbytečných průtahů. Cílem musí být, aby se veřejný prostor konečně začal reálně měnit, nikoli aby vznikala další kola studií.",
+          "5": "Posouvání termínů až k roku 2033 nepovažujeme za dobrý stav. Praha musí s krajem a Správou železnic nastavit závazný harmonogram, jasné odpovědnosti a pravidelné zveřejňování postupu. Budeme prosazovat co nejrychlejší realizaci, ideálně ještě před rokem 2033, pokud to majetkoprávní a stavební příprava umožní.",
+          "6": "Zastávku Kuchyňka podporujeme, pokud technické řešení potvrdí její bezpečnost a nebude významně zhoršovat průjezd tunelem Blanka. Prodloužení linky 145 na Smíchov po dokončení rekonstrukce Strahovského tunelu považujeme za variantu, kterou má ROPID prověřit podle poptávky cestujících a návazností na další linky.",
+          "7": "Nechceme soutěžit v počtu kilometrů za každou cenu. Prioritou musí být bezpečné a skutečně využitelné trasy, které dávají dohromady souvislou síť. V příštích čtyřech letech bychom chtěli realizovat desítky kilometrů kvalitních stezek a oddělených pásů, ale pouze tam, kde jejich výstavba dává dopravní a ekonomický smysl.",
+          "8": "Ano. Podklady zastupitelstva mají být veřejně dohledatelné i v případě, že se návrh nakonec na program nedostane, samozřejmě s výjimkou zákonem chráněných osobních či neveřejných údajů. Veřejnost má mít možnost zjistit nejen to, o čem se hlasovalo, ale také jaké návrhy byly předloženy a proč projednány nebyly."
+        }
+      },
+      {
+        "nazev": "GEN s podporou veřejnosti",
+        "slozeni": "GEN",
+        "lidr": "Vojtěch Ryvola",
+        "odpovedel": "Vojtěch Ryvola, předseda strany, osobně",
+        "doruceno": "2026-08-25",
+        "hodnoceni": {"1": "vyhybave", "2a": "vyhybave", "2b": "vyhybave", "3": "podpora", "4": "podpora", "5": "podpora", "6a": "podpora", "6b": "vyhybave", "7": "vyhybave", "8": "podpora"},
+        "odpovedi": {
+          "1": "Nejsem zastáncem dopravních experimentů, jejichž cílem je prostě vytlačit auta z jednoho místa bez vyřešení dopadů v okolních ulicích. Smetanovo nábřeží je třeba posuzovat jako součást celého dopravního systému centra Prahy. Podpořím takové řešení, které prokazatelně zlepší veřejný prostor a současně nezhorší dopravu rezidentům ani obsluze území. Ke konkrétnímu termínu omezení průjezdu se proto bez dopravních dat zavazovat nebudu.",
+          "2": "Oddělené cyklistické trasy považuji za správnější řešení než malování cyklopruhů do automobilové dopravy. U Legerovy a Sokolské ale musí být projekt posouzen podle skutečných dopadů na kapacitu magistrály, MHD, zásobování a okolní ulice. U Hlavního nádraží podporuji bezpečné řešení pro cyklisty, nikoli však za cenu zhoršení základní dopravní funkce tohoto mimořádně vytíženého prostoru.",
+          "3": "Využití bývalé železniční infrastruktury pro pěší a cyklisty je přesně typ projektu, který má smysl podporovat, protože vytváří bezpečnou trasu mimo automobilovou dopravu. Budu podporovat dokončení projektové přípravy i zajištění financování. Termín zahájení stavby ale musí vycházet z reálného stavu přípravy, majetkoprávních vztahů a povolení, nikoli z předvolebního slibu.",
+          "4": "Dvanáct let příprav je nepřiměřeně dlouhá doba. Jsem pro dokončení projektu a pro rychlé rozhodnutí, zda lze pokračovat podle výsledku soutěže, nebo je nutné vypsat nové zadávací řízení. Praha nemůže další volební období pouze vyrábět nové studie a dokumentace. Ja ale jisté, ža jakýkoliv projekt může dostat zelenou pouze po participaci a většinovém souhlasu místních obyvatel.",
+          "5": "Takovou stezku podporuji. Oddělené trasy vedené mimo automobilovou dopravu jsou podle mě správnou cestou rozvoje cyklistické infrastruktury. Praha ale nemůže sama garantovat termín projektu závislého také na Středočeském kraji a dalších subjektech. Místo nereálného slibu konkrétního roku budu prosazovat jasný harmonogram, odpovědnost jednotlivých partnerů a pravidelné zveřejňování jeho plnění. Od počátku svého mandátu podporuji cyklo stezku kolem Prahy.",
+          "6": "Zastávku Kuchyňka podpořím, pokud její technické řešení umožní bezpečný provoz a nezpůsobí nepřiměřené zpomalení linky. Stejně tak má smysl prověřit prodloužení linky na Smíchov po dokončení rekonstrukce Strahovského tunelu. O trasách MHD se ale má rozhodovat podle skutečné poptávky cestujících a dopravních dat.",
+          "7": "Nebudu soutěžit v počtu kilometrů cyklopásů. To je podle mě špatně zvolená metrika. Budu podporovat oddělené cyklistické trasy všude tam, kde dávají dopravní smysl a lze je vytvořit bez nesmyslného vyvolávání konfliktu mezi jednotlivými druhy dopravy. Úspěchem není určitý počet kilometrů, ale bezpečnější a funkčnější dopravní síť.",
+          "8": "Ano. Pokud tomu nebrání zákonná ochrana osobních údajů, obchodního tajemství nebo jiných chráněných informací, nevidím důvod, proč by veřejnost neměla mít přístup také k návrhům, které byly řádně předloženy, ale nakonec nebyly zařazeny na program zastupitelstva. Transparentnost nemá záviset na tom, zda se politická většina rozhodne určitý materiál projednat."
+        }
+      },
+      {
+        "nazev": "Libertariánská strana Voluntia",
+        "slozeni": "Voluntia",
+        "lidr": "Tadeáš Janků",
+        "odpovedel": "Tadeáš Janků, kandidát na primátora (odpovědi v příloze)",
+        "doruceno": "2026-09-09",
+        "hodnoceni": {"1": "vyhybave", "2a": "vyhybave", "2b": "podpora", "3": "podpora", "4": "podpora", "5": "vyhybave", "6a": "podpora", "6b": "ne", "7": "vyhybave", "8": "podpora"},
+        "odpovedi": {
+          "1": "Tohle (stejně jako ostatní otázky) je čisté centrální plánování, které bychom nejraději úplně odmítli a nechali město řídit trhem. Ale nechceme touto odpovědí zabít všechny Vaše otázky. Proto takto odpovíme jen na tu první, na kterou jinak ve straně nemáme jednoznačný názor a nemáme ukotvenou pozici, a kdyby došlo na lámání chleba, tak dost možná půjdeme ve straně proti sobě. Na ostatní otázky se už však pokusíme odpovědět jako plánovači.",
+          "2": "Cykloinfrastruktura zmizela z plánů kvůli odporu památkářů, takže už jenom proto tíhneme k tomu ji tam vrátit. Splnění projektu slíbit nemůžeme, protože nevíme, co všechno by to zahrnovalo, nicméně tohle je jedno z míst, kde by stavebně oddělená cyklotrasa měla smysl a obecně je za nás lepší mít pár plnohodnotných cyklotras než hodně nesmyslných cyklopruhů.",
+          "3": "Tenhle projekt by určitě byl hodně pěkný a dříve nebo později by měl přijít, protože buď budeme mít cyklotrasu, a nebo brownfield. Byli bychom raději, kdyby projekt plánoval soukromý subjekt, a nikoliv město, nicméně když už to dělá město, tak to má naši podporu. Zahájení do roku 2030 by bylo super, ale tohle bohužel platí o spoustě dalších projektů v Praze a nemůžeme slíbit všechny.",
+          "4": "Musíme se přiznat, že když vidíme, jak hrozným způsobem město ten prostor spravuje, tak máme největší chuť celý prostor zprivatizovat. Ale jelikož víme, že to nejspíš nebude na stole, takže Vám (nejspíš stejně jako všechny ostatní strany) řekneme, že ten tendr vypíšeme. Do kdy, to už nevíme, ale čím dřív, tím líp.",
+          "5": "No tak ten posun je celkem logický, nelze stavět cyklotrasu, dokud zde stále jezdí vlaky. Takže hlavním problémem je fakt, že se neustále odsouvá budování trati na Kladno, která je ale primárně v kompetenci Správy železnic, a nikoliv Prahy. Nicméně z pozice Prahy chceme udělat vše proti dalšímu blokování této tratě jak ze strany NIMBY politiků, obzvláště těch z Prahy 6, tak i ze strany NIMBY aktivistů, obzvláště těch z Liboce.",
+          "6": "Zastávka Kuchyňka již byla schválena a podporujeme ji. Ekonomické náklady jsou nejspíše zanedbatelné oproti přínosům (byť v centrálním plánování nemůžeme nikdy vědět s jistotou). Prodloužení na Smíchov nepodporujeme, raději bychom zde viděli sesterskou linku jezdící přímo na Smíchov bez zastávky v Dejvicích. Dopravu Smíchov – Dejvice pak zvládne vykrýt tramvajová linka 20.",
+          "7": "Konkrétní číslo nezvládneme říct a vůbec ho nemáme promyšlené. Nicméně chceme se řídit heslem, že klidně raději méně, ale zato pořádně. Praha je velmi kopcovitá a na některých místech je tedy cykloinfrastruktura řádově přínosnější než jinde, proto se chceme zaměřit hlavně na ulice v rovině. Obecně navíc podporujeme oddělené cyklotrasy před nakreslenými cyklopruhy.",
+          "8": "Tohle bychom určitě rádi dělali. Pokud byl návrh dostatečně zpracován a stojí za ním nějaká myšlenka, tak bychom ho určitě chtěli alespoň v hrubém obraze představit veřejnosti."
+        }
+      },
+      {
+        "nazev": "Urza.cz: Nechceme vaše hlasy",
+        "slozeni": "Urza.cz",
+        "lidr": "Urza",
+        "odpovedel": "Urza, osobně",
+        "doruceno": "2026-08-25",
+        "poznamka": "Jediná společná odpověď na všech osm otázek; strana se zavázala složit každý získaný mandát.",
+        "hodnoceni": {"1": "ne", "2a": "ne", "2b": "ne", "3": "ne", "4": "ne", "5": "ne", "6a": "ne", "6b": "ne", "7": "ne", "8": "ne"},
+        "spolecna": "Naše strana se zavázala, že složí každý mandát, který by potenciálně dostala; odpověď na všechny Vaše otázky tedy je, že neuděláme nic.\n\nKandidujeme proto, abychom se mohli účastnit předvolebních debat a vnášet do nich myšlenky svobody, což ve většině debat a dotazníků jde; Vy jste natolik konkrétní, že nelze říct víc, než že nemáme v plánu nic dělat – každopdáně to můžete brát jako poklonu, protože za ty roky, co tohle děláme, nám nikdo neposlal tak jednoznačné a uzavřené otázky, aby do nich nešlo vnést nic z toho, co cheme do veřejného prostoru přinášet. Klobouk dolů.",
+        "odpovedi": {}
+      },
+      {
+        "nazev": "Motoristé sobě",
+        "slozeni": "Motoristé sobě",
+        "lidr": "Alena Sovová",
+        "odpovedel": "krajský manažer",
+        "doruceno": "2026-09-11",
+        "poznamka": "Hnutí odpovědělo jen na dvě otázky pro kandidující v Praze 1 (viz níže); na osm otázek pro zastupitelstvo hlavního města neodpovědělo, ačkoli jsme 11. 9. poslali výčet otevřených otázek.",
+        "hodnoceni": {"1": "bez", "2a": "bez", "2b": "bez", "3": "bez", "4": "bez", "5": "bez", "6a": "bez", "6b": "bez", "7": "bez", "8": "bez"},
+        "odpovedi": {}
+      }
+    ],
+    "bez_odpovedi": [
+      {"nazev": "SPOLU pro Prahu", "slozeni": "ODS, TOP 09", "lidr": "Tomáš Portlík"},
+      {"nazev": "Česká pirátská strana", "slozeni": "Piráti", "lidr": "Tereza Nislerová", "poznamka": "Tisková mluvčí 4. 9. napsala, že s doručením odpovědi počítají; do uzávěrky obsahu nedorazila."},
+      {"nazev": "ANO 2011", "slozeni": "ANO", "lidr": "Jan Husbauer"},
+      {"nazev": "Spojená levice pro Prahu", "slozeni": "KSČM, ČSSD, KSČ", "lidr": "Jakub Vlček"},
+      {"nazev": "JSME PRAHA", "slozeni": "Jsme team, Volt", "lidr": "Jana Komrsková"},
+      {"nazev": "Svobodní", "slozeni": "Svobodní"},
+      {"nazev": "ANO LEPŠÍ ČESKO S MIMOZEMŠŤANY", "slozeni": ""},
+      {"nazev": "DSZ - ZA PRÁVA ZVÍŘAT", "slozeni": ""},
+      {"nazev": "Volte Pravý Blok", "slozeni": "", "lidr": "Petr Cibulka"}
+    ],
+    "bez_kontaktu": [
+      {"nazev": "Česká strana asociálů", "poznamka": "jen profily na sociálních sítích"},
+      {"nazev": "LEPŠÍ ŽIVOT PRO LIDI", "poznamka": "jen datová schránka"},
+      {"nazev": "VELKÝ KŘÍŽEK ... SOUSEDÉ PRO PRAHU", "poznamka": "bez dohledatelného kontaktu"}
+    ]
+  },
+  "p1": {
+    "nazev": "Zastupitelstvo městské části Praha 1",
+    "dopis": "2026-09-03",
+    "pripominky": ["2026-09-09"],
+    "otazky": [
+      {"id": "1", "kratce": "Smetanovo nábřeží", "project": "smetanovo-nabrezi",
+       "text": "Rada hlavního města v roce 2021 schválila zadání proměny (usnesení č. 579); stavební úpravy zčásti proběhly, ale omezení průjezdu aut, které je jádrem záměru, dosud nikdo nespustil. Podpoříte jako městská část spuštění schváleného omezení průjezdu? Za jakých podmínek?"},
+      {"id": "2", "kratce": "Malostranské náměstí", "project": "malostranske-namesti",
+       "text": "Od architektonické soutěže uplynulo dvanáct let; zhotovitel byl v roce 2021 vybrán, smlouvu ale nikdo nepodepsal a hlavní město od té doby nový tendr nevypsalo. Budete jako městská část po hlavním městě aktivně vymáhat vypsání tendru a dokončení proměny? Jak?"}
+    ],
+    "subjekty": [
+      {
+        "nazev": "NEZÁVISLÍ z Jedničky Kateřiny Klasnové a Davida Bodečka",
+        "slozeni": "Nezávislí",
+        "lidr": "David Bodeček",
+        "odpovedel": "David Bodeček, lídr kandidátky, výslovně za sebe",
+        "doruceno": "2026-09-03",
+        "poznamka": "Odpovídá za sebe: kandidáti listiny nejsou vázáni jednotným hlasováním, jednotný postoj všech případně zvolených zastupitelů proto předem nezaručuje.",
+        "hodnoceni": {"1": "podpora", "2": "podpora"},
+        "uvod": "Považuji za správní předeslat, že Smetanovo nábřeží ani dokončení proměny Malostranského náměstí nejsou v našem volebním programu uvedeny jako samostatná hlavní témata. Obecně však podporujeme rozšiřování pěších a zklidněných zón tam, kde to charakter lokality umožňuje, omezování průjezdné dopravy v obytných čtvrtích a silnější prosazování zájmů Prahy 1 vůči magistrátu.",
+        "odpovedi": {
+          "1": "Za sebe podpořím omezení zbytného tranzitu, nikoli plošné uzavření Smetanova nábřeží. V letech 2023 a 2025 jsem v Praze 1 hlasoval pro zklidnění centra a v dubnu 2026 také pro klidové víkendy. Podmínkou je dopravní model a zkušební provoz, které prověří dopady na okolní ulice a sousední městské části a zachovají dostupnost pro rezidenty, MHD, IZS, zásobování a osoby se sníženou pohyblivostí.",
+          "2": "Za sebe dokončení proměny Malostranského náměstí podporuji. Praha 1 má po hlavním městě aktivně požadovat nový harmonogram, rozpočet, určení odpovědnosti a vypsání nového tendr. Plnění těchto kroků má pravidelně projednávat zastupitelstvo. Před vypsáním soutěže je však nutné ověřit aktuálnost projektu a jeho soulad s požadavky památkové péče, dopravy, archeologie a potřebami rezidentů."
+        }
+      },
+      {
+        "nazev": "REZIDENTI 1",
+        "slozeni": "Rezidenti 1",
+        "lidr": "Martin Motl",
+        "odpovedel": "Martin Motl, lídr kandidátky, osobně",
+        "doruceno": "2026-09-04",
+        "hodnoceni": {"1": "podpora", "2": "podpora"},
+        "odpovedi": {
+          "1": "Omezení tranzitní dopravy podporuji. Jako zastupitel Prahy 1 ale nechci, aby se auta pouze přesunula na druhý břeh. Budu proto po hlavním městě požadovat společné řešení Smetanova nábřeží a Karmelitské, včetně otevřené participace s bezprostředně dotčenými obyvateli a městskými částmi. Z debat s místními vnímám podporu pro odstranění tranzitu z obou břehů při zachování průjezdu pro rezidenty a nezbytnou obsluhu. Debatu o mýtném bych nevylučoval.",
+          "2": "Po dvanácti letech už je nejvyšší čas se pohnout. Jako Praha 1 bych po magistrátu aktivně požadoval nový tendr a dokončení proměny náměstí. Ještě předtím bych ale udělal rychlou participaci s místními, protože se za tu dobu změnily jejich potřeby. Lidé dnes chtějí více stromů, vodní prvek a zároveň zachovat možnost pořádání Malostranských trhů. Tyto požadavky by měl výsledný návrh respektovat. Participace ale nesmí být další záminkou k odkladu. Potom musí Praha rozhodnout, vysoutěžit a stavbu dokončit."
+        }
+      },
+      {
+        "nazev": "GEN a sousedé z Prahy 1",
+        "slozeni": "GEN",
+        "lidr": "Vojtěch Ryvola",
+        "odpovedel": "Vojtěch Ryvola, předseda strany, osobně",
+        "doruceno": "2026-09-10",
+        "hodnoceni": {"1": "vyhybave", "2": "podpora"},
+        "odpovedi": {
+          "1": "Omezení průjezdu podpoříme pouze tehdy, pokud bude jasně prokázáno, že nezhorší dopravu a život rezidentů v okolních ulicích. Centrum potřebuje méně tranzitu, ale dopravu nelze jen přelít o ulici vedle. Podmínkou je dopravní model, zachování průjezdu rezidentům a obsluze a vyhodnocení dopadů před trvalým zavedením.",
+          "2": "Rekonstrukci Malostranského náměstí chceme konečně posunout k realizaci, ale podmínkou je přizvat k jednání zástupce místních rezidentů a spolků. Po dvanácti letech potřebujeme jasný harmonogram a termín realizace, zároveň však nechceme, aby se o podobě náměstí rozhodovalo bez lidí, kteří tam skutečně žijí. Malostranské náměstí není turistická kulisa, je to především domov místních, a jejich hlas proto musí být při rozhodování slyšet."
+        },
+        "doplneni": {
+          "1": {
+            "doruceno": "2026-09-14",
+            "text": "ZRV, Zóna regulovaného vjezdu.\n\nNejde o zákaz aut ani o mýto. Cílem je omezit zbytečný tranzit historickým centrem. Princip je jednoduchý:\n\nKdo má v centru cíl, může vjet. Kdo jím pouze projíždí, jede jinudy.\n\nVjezd by měli zachovaný rezidenti, vlastníci nemovitostí, zásobování, řemeslníci a servis, hoteloví hosté, taxi, zdravotní a sociální služby, komunální služby a IZS. Čistý tranzit by povolen nebyl.\n\nVjezdy by kontrolovaly kamery podle SPZ. Zásobování by mohlo mít vyhrazené časy např 6:00-10:00 a v noci například od 22:00 do 6:00 by mohl platit přísnější režim.\n\nZačal bych pilotem na části Starého Města a Josefova. Nejdříve několik měsíců pouze měřit dopravu, potom spustit zkušební režim a teprve podle výsledků rozhodnout o rozšíření.\n\nHlavní pravidlo:\nRezidenti bez omezení. Obsluha bez komplikací. Zbytečný tranzit mimo centrum."
+          }
+        }
+      },
+      {
+        "nazev": "Rozhodujme společně",
+        "slozeni": "Volt",
+        "lidr": "Petr Rachunek",
+        "odpovedel": "Petr Rachunek, lídr kandidátky, osobně",
+        "doruceno": "2026-09-11",
+        "hodnoceni": {"1": "podpora", "2": "podpora"},
+        "odpovedi": {
+          "1": "Zklidnění historického centra podporujeme, ale musí vznikat ve spolupráci Prahy 1 s hlavním městem. Omezení tranzitu na Smetanově nábřeží podpoříme, pokud zachová přístup rezidentům, zásobování a IZS, nebude jen přesouvat dopravu do okolních ulic a jeho dopady budou předem prověřeny a následně vyhodnocovány.",
+          "2": "Ano, chceme, aby se dvanáct let připravovaná revitalizace konečně posunula. Budeme po hlavním městě požadovat jasný harmonogram a součinnost Prahy 1, HMP, IPR a TSK. Nechceme ale, aby se její realizace stala rukojmím sporu o návrat pomníku maršála Radeckého. O podobě tak významného veřejného prostoru se má rozhodovat transparentně a s veřejností."
+        }
+      },
+      {
+        "nazev": "Patrioti pro Prahu 1",
+        "slozeni": "Patrioti České republiky",
+        "lidr": "Jiří Pavlů",
+        "odpovedel": "René Buřič, kandidát, z oficiální adresy listiny",
+        "doruceno": "2026-09-11",
+        "hodnoceni": {"1": "podpora", "2": "podpora"},
+        "odpovedi": {
+          "1": "Patrioti pro Prahu 1 podporují zklidnění dopravy v historickém centru. Průjezd touto lokalitou však musí zůstat zachován pro obyvatele Prahy 1. Úplné omezení by řadě místních zkomplikovalo každodenní dopravu. Proto upřednostňujeme jednoduché elektronické řešení, například čtení SPZ propojené se světelnou signalizací, které umožní průjezd místním a současně omezí tranzitní dopravu.\n\nPodle informací na vašem webu sestavil magistrát pracovní skupinu, která měla řešit další podmínky projektu. Výsledky její práce ani zápisy z jednání se nám však nepodařilo dohledat. Před konečným rozhodnutím bychom se s nimi rádi seznámili.",
+          "2": "Patrioti pro Prahu 1 podporují dokončení proměny Malostranského náměstí, ale považujeme za vhodné oddělit úpravu náměstí od řešení dopravy. Budeme prosazovat, aby hlavní město vypsalo novou soutěž zaměřenou na prostor bývalého parkoviště. Součástí zadání podle nás musí být návrat vody na náměstí v podobě kašny, více zeleně a prostoru k posezení. Takové řešení je zároveň v souladu s klimatickými cíli hlavního města.\n\nZměna dopravního režimu na Malostranském náměstí si podle nás zaslouží samostatný projekt a samostatnou veřejnou diskusi."
+        }
+      },
+      {
+        "nazev": "Motoristé sobě a Svobodní",
+        "slozeni": "Motoristé sobě, Svobodní",
+        "lidr": "Michal Sechter",
+        "odpovedel": "Tristan Giudici, krajský manažer Motoristé sobě",
+        "doruceno": "2026-09-11",
+        "hodnoceni": {"1": "ne", "2": "podpora"},
+        "odpovedi": {
+          "1": "Omezení průjezdu na Smetanově nábřeží v současné podobě nepodpoříme. Dosavadní pokusy uzavírat ulice bez širší dopravní koncepce vedly především k dopravním komplikacím a přenášení problému do okolních čtvrtí. Vytlačovat řidiče bez zajištění skutečných alternativ není dopravní politika, ale alibismus.\n\nO případném omezení lze uvažovat teprve tehdy, až budou k dispozici kapacitní objízdné trasy, pokročí výstavba Městského i Pražského okruhu a dopravní model prokáže, že se provoz pouze nepřesune do sousedních ulic. Podmínkou musí být také zachování průjezdu pro místní obyvatele, zásobování, zdravotníky a další nezbytnou dopravu. Omezení dopravy nemůže být politickým experimentem. Musí být výsledkem fungující infrastruktury, ověřených dat a promyšlené koncepce.",
+          "2": "Ano. Dokončení proměny Malostranského náměstí budeme na magistrátu důrazně požadovat. Parkoviště bylo z dolní části náměstí odstraněno už v roce 2016 a prostor od té doby zůstává provizoriem. Rozmístit po městě provizorní lavičky je snadné, podstatně těžší je dotáhnout významnou investici do konce.\n\nProsadíme usnesení městské části, budeme požadovat vypsání nové veřejné zakázky a po magistrátu chceme závazný harmonogram i zajištěné financování. Malostranské náměstí si zaslouží moderní a důstojnou podobu, kvalitně řešený veřejný prostor, vodní prvek a více zeleně. Po deseti letech provizoria je nejvyšší čas projekt konečně dokončit."
+        }
+      },
+      {
+        "nazev": "Piráti a nezávislí pro Prahu 1",
+        "slozeni": "Piráti",
+        "lidr": "Tomáš Raiter",
+        "odpovedel": "Tomáš Raiter, kandidát na starostu, osobně",
+        "doruceno": "2026-09-11",
+        "hodnoceni": {"1": "podpora", "2": "podpora"},
+        "odpovedi": {
+          "1": "Určitě ano. Podpoříme omezení průjezdu přes Smetanovo nábřeží a zákaz tranzitu mezi Novotného lávkou a Křížovnickým náměstím s výjimkou MHD, IZS a cyklistů. Preferujeme tzv. „zapytlování“ jako neprůjezdnou oblast s vjezdem a výjezdem pro rezidenty a dopravní obsluhu, kontrolovanou kamerovým systémem, obdobně jako v centru Brna.",
+          "2": "Souhlasíme s omezením tranzitu a se zrušením parkoviště v horní části náměstí. Požadujeme více stromů, hospodaření s dešťovkou a kašnu. Po omezení tranzitu může autům stačit trasa po kolejích, což omezí objíždění horní části náměstí. Před Parlamentem preferujeme stromy a kašnu; pokud sochu, pak Ernesta Denise."
+        }
+      }
+    ],
+    "bez_odpovedi": [
+      {"nazev": "ODS", "slozeni": "ODS", "lidr": "Michal Müller"},
+      {"nazev": "PRAHA 1 SOBĚ", "slozeni": "Praha 1 sobě", "lidr": "Pavel Marc"},
+      {"nazev": "Naše Praha 1 - ANO", "slozeni": "ANO", "lidr": "Karel Grabein Procházka"},
+      {"nazev": "TOP 09 Srdce Prahy", "slozeni": "TOP 09", "lidr": "Terezie Radoměřská"},
+      {"nazev": "Starostové, KDU-ČSL / My, co tady žijeme", "slozeni": "STAN, KDU-ČSL", "lidr": "Petr Hejma", "poznamka": "Adresa uvedená na webu listiny (mctz.cz) poštu nepřijímá; dopis jsme 4. 9. poslali navíc na adresu pražské KDU-ČSL a na úřední adresu lídra."},
+      {"nazev": "SPD pro Prahu 1", "slozeni": "SPD", "lidr": "Jiří Fořt"}
+    ],
+    "bez_kontaktu": [
+      {"nazev": "MODRÁ pro jedničku", "poznamka": "bez dohledatelného kontaktu"}
+    ]
+  },
+  "changelog": [
+    {"datum": "2026-09-15", "text": "Zveřejnění: odpovědi došlé do uzávěrky obsahu 14. 9. Doplnění odpovědi GEN a sousedé z Prahy 1 k první otázce došlo 14. 9., po termínu 11. 9."}
+  ]
+}

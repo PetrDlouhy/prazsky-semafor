@@ -174,8 +174,8 @@ def page(title, body, nav_active, single_file=False, desc="", path=""):
         return f'<a href="{prefix}{slug}{ext}"{on}>{label}</a>'
 
     nav = (nav_link("index", "Projekty") + nav_link("ramce", "Rámce")
-           + nav_link("sliby", "Sliby") + nav_link("akteri", "Aktéři")
-           + nav_link("metodika", "Metodika"))
+           + nav_link("sliby", "Sliby") + nav_link("odpovedi", "Odpovědi")
+           + nav_link("akteri", "Aktéři") + nav_link("metodika", "Metodika"))
     return f"""<!doctype html>
 <html lang="cs">
 <head>
@@ -1082,6 +1082,187 @@ def render_person_body(person):
 </div>"""
 
 
+HOD_LABEL = {"zavazek": "termín", "podpora": "ano", "vyhybave": "neurčité",
+             "ne": "ne", "bez": "bez odp."}
+
+
+def cz_date(iso):
+    y, m, d = iso.split("-")
+    return f"{int(d)}. {int(m)}. {y}"
+
+
+def cz_day(iso):
+    y, m, d = iso.split("-")
+    return f"{int(d)}. {int(m)}."
+
+
+def hod_chip(kind, skala, href=None):
+    tag = "a" if href else "span"
+    at = f' href="{href}"' if href else ""
+    return (f'<{tag}{at} class="hod hod-{kind}" title="{esc(skala[kind])}">'
+            f'{esc(HOD_LABEL[kind])}</{tag}>')
+
+
+def question_cols(section):
+    cols = []
+    for q in section["otazky"]:
+        for c in q.get("casti") or [q]:
+            cols.append((c["id"], c["kratce"]))
+    return cols
+
+
+def odp_person(name, persons, prefix, ext):
+    if not name:
+        return ""
+    slug = actor_slug(name)
+    if slug in persons:
+        return f'<a href="{prefix}osoba-{slug}{ext}">{esc(name)}</a>'
+    return esc(name)
+
+
+def render_odpovedi_section(key, section, data, persons, slug_to_title, single_file):
+    prefix = "#" if single_file else ""
+    ext = "" if single_file else ".html"
+    skala = data["skala"]
+    uzaverka = data["uzaverka"]
+    cols = question_cols(section)
+    total = len(section["subjekty"]) + len(section["bez_odpovedi"]) + len(section["bez_kontaktu"])
+    answered = [s for s in section["subjekty"] if s["odpovedi"] or s.get("spolecna")]
+
+    qitems = []
+    for q in section["otazky"]:
+        proj = ""
+        if q.get("project") and q["project"] in slug_to_title:
+            proj = (f' <a class="src" href="{prefix}{q["project"]}{ext}">spis: '
+                    f'{esc(slug_to_title[q["project"]])}</a>')
+        parts = ""
+        if q.get("casti"):
+            parts = " <span class=\"src\">hodnotíme zvlášť: " + "; ".join(
+                f'{c["id"]} {esc(c["kratce"])}' for c in q["casti"]) + "</span>"
+        qitems.append(f'<li><b>{esc(q["kratce"])}.</b> <span class="qtext">{esc(q["text"])}</span>{proj}{parts}</li>')
+
+    head = "".join(f'<th title="{esc(label)}">{esc(cid)}</th>' for cid, label in cols)
+    rows = []
+    for s in section["subjekty"]:
+        sid = f"odp-{key}-{actor_slug(s['nazev'])}"
+        cells = "".join(
+            f'<td>{hod_chip(s["hodnoceni"][cid], skala, f"#{sid}")}</td>' for cid, _ in cols)
+        late = "" if s["doruceno"] <= uzaverka else ' <span class="odp-late" title="po termínu">*</span>'
+        rows.append(f'<tr><td><a href="#{sid}">{esc(s["nazev"])}</a>{late}</td>{cells}</tr>')
+    for s in section["bez_odpovedi"]:
+        cells = "".join(f'<td>{hod_chip("bez", skala)}</td>' for _ in cols)
+        rows.append(f'<tr><td>{esc(s["nazev"])}</td>{cells}</tr>')
+    for s in section["bez_kontaktu"]:
+        cells = "".join(f'<td>{hod_chip("bez", skala)}</td>' for _ in cols)
+        rows.append(f'<tr><td>{esc(s["nazev"])} <span class="src">(kontakt se nepodařilo dohledat)</span></td>{cells}</tr>')
+    legend = "".join(f'<span>{hod_chip(k, skala)} {esc(v)}</span>' for k, v in skala.items())
+
+    blocks = []
+    for s in section["subjekty"]:
+        sid = f"odp-{key}-{actor_slug(s['nazev'])}"
+        meta = [f'odpověděl: {esc(s["odpovedel"])}',
+                f'doručeno {cz_date(s["doruceno"])}'
+                + ("" if s["doruceno"] <= uzaverka
+                   else f' <span class="odp-late">(po termínu {cz_day(uzaverka)})</span>')]
+        if s.get("lidr"):
+            meta.insert(0, f'lídr: {odp_person(s["lidr"], persons, prefix, ext)}')
+        if s.get("slozeni") and s["slozeni"] != s["nazev"]:
+            meta.insert(0, esc(s["slozeni"]))
+        note = f'<p class="odp-note">{esc(s["poznamka"])}</p>' if s.get("poznamka") else ""
+        body = []
+        if s.get("uvod"):
+            body.append('<div class="odp-q"><h4>Úvodem</h4><blockquote>'
+                        + "".join(f"<p>{esc(p)}</p>" for p in s["uvod"].split("\n\n")) + "</blockquote></div>")
+        if s.get("spolecna"):
+            body.append('<div class="odp-q"><h4>Společná odpověď na všechny otázky</h4><blockquote>'
+                        + "".join(f"<p>{esc(p)}</p>" for p in s["spolecna"].split("\n\n")) + "</blockquote></div>")
+        for q in section["otazky"]:
+            if q["id"] not in s["odpovedi"]:
+                continue
+            chips = " ".join(f'<span class="src">{esc(c["id"])}</span> ' + hod_chip(s["hodnoceni"][c["id"]], skala)
+                             for c in q["casti"]) if q.get("casti") else hod_chip(s["hodnoceni"][q["id"]], skala)
+            paras = "".join(f"<p>{esc(p)}</p>" for p in s["odpovedi"][q["id"]].split("\n\n"))
+            extra = ""
+            dop = (s.get("doplneni") or {}).get(q["id"])
+            if dop:
+                lateness = "" if dop["doruceno"] <= uzaverka else f', po termínu {cz_day(uzaverka)}'
+                extra = (f'<p class="odp-note">Doplnění doručené {cz_date(dop["doruceno"])}{lateness}:</p>'
+                         '<blockquote>' + "".join(f"<p>{esc(p)}</p>" for p in dop["text"].split("\n")) + "</blockquote>")
+            body.append(f'<div class="odp-q"><h4>{esc(q["id"])}. {esc(q["kratce"])} {chips}</h4>'
+                        f'<blockquote>{paras}</blockquote>{extra}</div>')
+        blocks.append(f'<section class="odp-subject" id="{sid}"><h3>{esc(s["nazev"])}</h3>'
+                      f'<p class="odp-meta">{" · ".join(meta)}</p>{note}{"".join(body)}</section>')
+
+    nonresp = []
+    for s in section["bez_odpovedi"]:
+        who = f' <span class="src">({esc(s["slozeni"])}{", lídr " if s.get("lidr") else ""}{odp_person(s.get("lidr"), persons, prefix, ext)})</span>' if s.get("slozeni") or s.get("lidr") else ""
+        note = f' <span class="qtext">{esc(s["poznamka"])}</span>' if s.get("poznamka") else ""
+        nonresp.append(f"<li><b>{esc(s['nazev'])}</b>{who}{note}</li>")
+    nocontact = "".join(f"<li><b>{esc(s['nazev'])}</b> <span class=\"src\">({esc(s['poznamka'])})</span></li>"
+                        for s in section["bez_kontaktu"])
+    reminders = " a ".join(cz_day(d) for d in section["pripominky"])
+    return f"""<h2 class="sec" id="odp-{key}">{esc(section["nazev"])}</h2>
+  <p class="sec-lead">Dopis odešel {cz_date(section["dopis"])} všem {total} zaregistrovaným
+  volebním stranám, připomínka {reminders}, termín {cz_date(uzaverka)}.
+  Odpovědělo {len(answered)} z {total}.</p>
+  <h3 class="odp-h3">Otázky</h3>
+  <ol class="odp-questions">{"".join(qitems)}</ol>
+  <h3 class="odp-h3">Přehled</h3>
+  <div class="odp-scroll"><table class="odp">
+    <thead><tr><th>Subjekt</th>{head}</tr></thead>
+    <tbody>{"".join(rows)}</tbody>
+  </table></div>
+  <div class="odp-legend">{legend}<span><span class="odp-late">*</span> doručeno po termínu</span></div>
+  <h3 class="odp-h3">Odpovědi doslova</h3>
+  {"".join(blocks)}
+  <h3 class="odp-h3">Bez odpovědi</h3>
+  <ul class="odp-questions">{"".join(nonresp)}</ul>
+  <p class="qtext">Kontakt se nepodařilo dohledat, dopis proto nedostaly:</p>
+  <ul class="odp-questions">{nocontact}</ul>"""
+
+
+def render_odpovedi_body(projects, persons, single_file=False):
+    data = json.loads((ROOT / "data" / "odpovedi.json").read_text())
+    slug_to_title = {p["slug"]: p["title"] for p in projects}
+    anchor = ' id="odpovedi"' if single_file else ""
+    sections = "".join(
+        render_odpovedi_section(key, data[key], data, persons, slug_to_title, single_file)
+        for key in ("zhmp", "p1"))
+    changelog = "".join(f"<li><b>{cz_date(c['datum'])}</b> {esc(c['text'])}</li>" for c in data["changelog"])
+    return f"""<div class="wrap"{anchor}>
+  <p class="crumb">Volby {data["zverejneno"][:4]}</p>
+  <h1 class="page">Co kandidující slibují k projektům ze spisů</h1>
+  <p class="page-lead">Před komunálními volbami jsme položili všem volebním
+  stranám kandidujícím do zastupitelstva hlavního města osm stejných otázek
+  k projektům z našich spisů a stranám kandidujícím v Praze 1 dvě doplňkové.
+  Odpovědi zveřejňujeme doslova a vedle sebe, včetně toho, kdo neodpověděl.
+  Po volbách je zařadíme do <a href="{'#' if single_file else ''}sliby{'' if single_file else '.html'}">Slibů</a>
+  a budeme sledovat jejich plnění.</p>
+  {sections}
+  <h2 class="sec">Jak odpovědi hodnotíme</h2>
+  <div class="odp-questions qtext">
+  <p>Každou odpověď zařazujeme na pětistupňovou škálu: <b>závazek s termínem</b>
+  (respondent slibuje konkrétní krok a říká kdy), <b>ano / podpora bez termínu</b>,
+  <b>podmíněné / bez jasné pozice</b> (podpora vázaná na budoucí data či
+  rozhodnutí, nebo odpověď, ze které postoj nelze vyčíst), <b>ne</b> a
+  <b>bez odpovědi</b>. Škála je čtecí pomůcka; rozhoduje doslovný text, který
+  je u každé otázky. Otázky s dvěma dílčími projekty (2 a 6) hodnotíme po částech.</p>
+  <p>Otázky dostaly všechny zaregistrované volební strany podle úředních
+  seznamů, na veřejnou adresu strany a v kopii na úřední adresu lídra, pokud
+  existuje. Se všemi jsme zacházeli stejně: dvě připomínky, žádné doplňující
+  dotazy k obsahu. Limit 500 znaků na otázku byl vodítko; delší odpovědi
+  zveřejňujeme celé. Odpovědi došlé po termínu doplňujeme s poznámkou o datu
+  doručení; datum doručení nemá na zařazení na škále vliv. Odpovědi
+  přijímáme až do voleb, po nich už jen do Slibů.</p>
+  <p>Kde subjekt odpověděl prostřednictvím lídra nebo kandidáta osobně,
+  uvádíme to; stanovisko bereme jako stanovisko subjektu, pokud odesílatel
+  výslovně neuvedl jinak.</p>
+  <h3 class="odp-h3">Změny</h3>
+  <ul>{changelog}</ul>
+  </div>
+</div>"""
+
+
 def build():
     projects = []
     for f in sorted((ROOT / "data" / "projects").glob("*.json")):
@@ -1115,6 +1296,9 @@ def build():
     emit("sliby.html", page("Sliby", render_promises_body(projects), "sliby",
         desc="Veřejné závazky politiků k pražským projektům: kdo co slíbil, dokdy a jak to dopadlo.",
         path="sliby.html"))
+    emit("odpovedi.html", page("Odpovědi kandidujících", render_odpovedi_body(projects, persons), "odpovedi",
+        desc="Volby 2026: doslovné odpovědi kandidujících stran na osm otázek k pražským projektům, vedle sebe, včetně toho, kdo neodpověděl.",
+        path="odpovedi.html"))
     for slug, person in persons.items():
         emit(f"osoba-{slug}.html",
             page(person["name"], render_person_body(person), "akteri",
@@ -1140,6 +1324,7 @@ def build():
         + "".join(render_project_body(p, single_file=True) for p in projects)
         + render_ramce_body(projects, single_file=True)
         + render_promises_body(projects, single_file=True)
+        + render_odpovedi_body(projects, persons, single_file=True)
         + render_actors_body(projects, single_file=True)
         + render_methodology_body(single_file=True)
     )
