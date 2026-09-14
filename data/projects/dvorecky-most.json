@@ -7,7 +7,7 @@
     "label": "v provozu",
     "kind": "ok"
   },
-  "summary": "Nový most přes Vltavu mezi Podolím a Zlíchovem je vyhrazen tramvajím, autobusům, vozům integrovaného záchranného systému, chodcům a cyklistům; osobní auta na něj nesmějí. Od architektonické soutěže k otevření uběhlo přes osm let a s mostem se přeskupila velká část tramvajové sítě. Cestou se výrazně zvedla cena a namísto původně projektovaných oddělených cyklopruhů se jezdí ve sdíleném režimu; ten cyklokomise hájí jako nejlepší možné řešení za daných podmínek.",
+  "summary": "Nový most přes Vltavu mezi Podolím a Zlíchovem je vyhrazen tramvajím, autobusům, vozům integrovaného záchranného systému, chodcům a cyklistům; osobní auta na něj nesmějí. Od architektonické soutěže k otevření uběhlo přes osm let a s mostem se přeskupila velká část tramvajové sítě. Cestou se výrazně zvedla cena a namísto původně projektovaných oddělených cyklopruhů se jezdí ve sdíleném režimu; ten cyklokomise doporučila jako zkušební řešení za daných stavebních podmínek.",
   "parts": [
     {
       "name": "Most pro MHD, pěší a kola",
@@ -23,7 +23,7 @@
         "label": "kompromis",
         "kind": "muted"
       },
-      "text": "Návrh ze soutěže počítal s jednosměrnými cyklopruhy podél kolejí. Nakonec se jezdí po sdílených chodnících s chodci, případně ve vozovce mezi kolejemi. Cyklokomise záměnu jednomyslně doporučila s tím, že jde o nejlepší řešení za daných stavebních podmínek a návazností; deklarován je zkušební provoz s možností vrátit oddělené vedení."
+      "text": "Návrh ze soutěže počítal s jednosměrnými cyklopruhy podél kolejí. Nakonec se jezdí po sdílených chodnících s chodci, případně ve vozovce mezi kolejemi. Cyklokomise záměnu doporučila (11 hlasů pro, nikdo proti) s odkazem na stavební limity konstrukce a návaznosti; deklarován je zkušební provoz s možností vrátit oddělené vedení."
     },
     {
       "name": "Návaznosti v podmostí",
@@ -39,7 +39,7 @@
       "date": "2017–2018",
       "title": "Architektonická soutěž",
       "tier": "a",
-      "text": "Soutěž na most bez individuální automobilové dopravy vyhlašuje v listopadu 2017 vedení Krnáčové a Dolínka; ze 45 návrhů vybírá porota tým ATELIER 6 a TUBES a Rada vítěze potvrzuje 2. října 2018 (usnesení č. 2546), tři dny před komunálními volbami.",
+      "text": "Soutěž na most bez individuální automobilové dopravy vyhlašuje v listopadu 2017 vedení Krnáčové a Dolínka; ze 45 návrhů vybírá porota tým ATELIER 6 a TUBES a Rada vítěze potvrzuje 2. října 2018, tři dny před komunálními volbami.",
       "sources": [
         {
           "label": "praha.eu: Dvorecký most",
@@ -69,7 +69,7 @@
       "date": "2018 / 2021",
       "title": "Zastupitelstvo schvaluje zakázky",
       "tier": "a",
-      "text": "Záměr zakázky na projektování schvaluje zastupitelstvo v prosinci 2018 (tisk Z-6905), záměr zakázky na stavební práce v červnu 2021 (tisk Z-9446); následují smluvní tisky v letech 2022 a 2023 (Z-10443, Z-10724, Z-11597), všechny přijaté bez hlasů proti.",
+      "text": "Záměr zakázky na projektování schvaluje zastupitelstvo v prosinci 2018 (tisk Z-6905), záměr zakázky na stavební práce v červnu 2021 (tisk Z-9446); následují smluvní tisky v letech 2022 a 2023 (Z-10443, Z-10724, Z-11597); záměr stavebních prací prošel 51 hlasy, nikdo nebyl proti.",
       "sources": [
         {
           "label": "jmenovitý záznam hlasování, praha.eu",
@@ -119,7 +119,7 @@
       "date": "červen 2025",
       "title": "Cyklokomise mění cyklistické řešení",
       "tier": "b",
-      "text": "Cyklokomise Rady jednomyslně doporučuje nahradit projektované cyklopruhy obousměrným sdílením chodníků s chodci. Argumentuje stavebními limity konstrukce, návazností na trasu A1 a nepraktičností jednosměrných pásů pro část směrů; řešení označuje za nejlepší možné a zkušební, při špatných zkušenostech se má vrátit oddělené vedení.",
+      "text": "Cyklokomise Rady doporučuje (11 hlasů pro, nikdo proti) nahradit projektované cyklopruhy obousměrným provozem cyklistů po obou stranách mostu ve sdíleném prostoru s chodci a (10 pro, 1 proti) neomezovat jízdu ve vozovce. Argumentuje stavebními limity konstrukce, návazností na trasu A1 a nepraktičností jednosměrných pásů pro část směrů; režim označuje za zkušební (C 9), po vyhodnocení lze provoz oddělit.",
       "sources": [
         {
           "label": "mestemnakole.cz, září 2025",
@@ -144,10 +144,10 @@
       ]
     },
     {
-      "date": "jaro 2026",
+      "date": "18. 4. 2026",
       "title": "První zkušenosti se sdílením",
       "tier": "b",
-      "text": "Reportáže z prvních týdnů popisují proplétání cyklistů mezi chodci a čekání na vyhodnocení zkušebního provozu. Zda a kdy se vrátí oddělené vedení, zůstává otevřené.",
+      "text": "Reportáž z prvního dne a ohlasy čtenářů popisují proplétání cyklistů mezi chodci; vyhodnocení zkušebního provozu se teprve čeká. Zda a kdy se vrátí oddělené vedení, zůstává otevřené.",
       "sources": [
         {
           "label": "mestemnakole.cz, duben 2026",

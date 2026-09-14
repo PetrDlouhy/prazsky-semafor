@@ -7,7 +7,7 @@
     "label": "v přípravě, horizont posunut",
     "kind": "wait"
   },
-  "summary": "Modernizace železnice z Prahy na Kladno postupně uvolňuje staré drážní těleso a na něm má vzniknout zhruba třicetikilometrová stezka pro pěší a cyklisty, největší projekt svého druhu v okolí Prahy. Kraj i Praha se k ní zavázaly smlouvou a původní záměr počítal se stavbou v letech 2024 až 2026; dnes se mluví o roce 2033. Tento spis vznikl preventivně: hlídá rozhodovací body, na kterých se nedávno zadrhla Vršovická drážní promenáda, dokud je ještě čas je uhlídat.",
+  "summary": "Modernizace železnice z Prahy na Kladno postupně uvolňuje staré drážní těleso a na něm má vzniknout stezka pro pěší a cyklisty dlouhá podle posledních údajů kraje 24 kilometrů, největší projekt svého druhu v okolí Prahy. Kraj i Praha se k ní zavázaly smlouvou a původní záměr počítal se stavbou v letech 2024 až 2026; dnes se mluví o roce 2033. Tento spis vznikl preventivně: hlídá rozhodovací body, na kterých se nedávno zadrhla Vršovická drážní promenáda, dokud je ještě čas je uhlídat.",
   "parts": [
     {
       "name": "Krajský úsek Praha-Ruzyně – Kladno",
@@ -39,7 +39,7 @@
         "label": "klíčová podmínka",
         "kind": "muted"
       },
-      "text": "Správa železnic může opuštěné těleso předat až po dokončení modernizace (konec 2029); podle kraje potrvá předání zhruba rok a povolení další rok. Mechanismus převodu není smluvně termínován a už v roce 2021 zaznělo varování, že nepřipravený projekt může skončit odstraněním náspu při stavbě železnice."
+      "text": "Správa železnic může opuštěné těleso předat až po dokončení modernizace (konec 2029); podle kraje potrvá předání zhruba rok a povolení další rok. Mechanismus převodu není smluvně termínován a Kladno už v roce 2020 varovalo, že pokud stezka nevznikne spolu s modernizací trati, „už by tato cyklotrasa pravděpodobně už nikdy nevznikla“."
     }
   ],
   "events": [
@@ -47,7 +47,7 @@
       "date": "25. 2. 2020",
       "title": "Kladno navrhuje drážní cestu",
       "tier": "a",
-      "text": "Kladno představuje rozvojovou studii území kolem modernizované trati; její součástí je „drážní cesta“ od kladenského nádraží přes Sletiště k Ostrovci. Město si nechává zpracovat technickou prověřovací studii celé stezky.",
+      "text": "Kladno představuje rozvojové studie území kolem modernizované trati; mezi souvisejícími investicemi uvádí drážní stezku mezi nádražím Kladno, Sletištěm a Ostrovcem a se státem i obcemi jedná o drážní cestě až do Prahy. Radní Lukáš Hanes: „Když ji neprosadíme nyní, kdy se modernizuje trať, už by tato cyklotrasa pravděpodobně už nikdy nevznikla.“",
       "sources": [
         {
           "label": "mestokladno.cz, 25. 2. 2020",
@@ -77,7 +77,7 @@
       "date": "prosinec 2021",
       "title": "Kraj schvaluje záměr: 467 milionů, stavba 2024 až 2026",
       "tier": "b",
-      "text": "Rada Středočeského kraje schvaluje projektový záměr Kladenské drážní cesty: zhruba 30 km bezpečné stezky z Prahy-Ruzyně do Kladna po opuštěném drážním tělese, odhad přípravy a realizace 467 milionů korun, fyzická stavba v letech 2024 až 2026 v návaznosti na modernizaci trati.",
+      "text": "Rada Středočeského kraje schvaluje projektový záměr Kladenské drážní cesty: bezpečná stezka z Prahy-Ruzyně do Kladna po opuštěném drážním tělese (na území kraje zhruba 15 km), odhad přípravy a realizace 467 milionů korun, fyzická stavba v letech 2024 až 2026 v návaznosti na modernizaci trati.",
       "sources": [
         {
           "label": "tisková zpráva kraje, 16. 12. 2021 (přepis)",
@@ -106,7 +106,7 @@
       "date": "21. 7. 2022",
       "title": "Kraj zadává projektovou dokumentaci",
       "tier": "a",
-      "text": "Krajská správa a údržba silnic uzavírá smlouvu na projektovou dokumentaci úseku Praha-Ruzyně – Kladno se sdružením METROPROJEKT Praha a SUDOP PRAHA za 11,9 milionu korun.",
+      "text": "Krajská správa a údržba silnic uzavírá smlouvu na projektovou dokumentaci úseku Praha-Ruzyně – Kladno se sdružením METROPROJEKT Praha, SUDOP PRAHA, PUDIS a SUDOP EU za 9,9 milionu korun bez DPH.",
       "sources": [
         {
           "label": "registr smluv (Hlídač státu)",
@@ -118,7 +118,7 @@
       "date": "6. 10. 2022",
       "title": "Praha a kraj podepisují smlouvu o spolupráci",
       "tier": "a",
-      "text": "Smlouva o spolupráci na projektu Kladenská drážní cesta (č. OPS/29/03/004655/2022): kraj finančně a organizačně zajistí kompletní přípravu a výstavbu, Praha poskytne pozemky na svém území, bude se podílet na financování a svůj úsek po dokončení převezme do vlastnictví a správy. Za Prahu podepisuje primátor Hřib.",
+      "text": "Smlouva o spolupráci na projektu Kladenská drážní cesta (č. OPS/29/03/004655/2022): kraj finančně a organizačně zajistí kompletní přípravu a výstavbu, Praha poskytne pozemky na svém území, bude se podílet na financování a svůj úsek po dokončení převezme do vlastnictví a správy.",
       "sources": [
         {
           "label": "registr smluv (Hlídač státu)",
@@ -131,17 +131,13 @@
       ],
       "actors": [
         {
-          "name": "Zdeněk Hřib",
-          "role": "primátor, Piráti"
-        },
-        {
           "name": "Petr Borecký",
           "role": "radní Středočeského kraje pro veřejnou dopravu, STAN"
         }
       ]
     },
     {
-      "date": "podzim 2022",
+      "date": "12. 12. 2022",
       "title": "Memorandum k uvolněnému tělesu v Bubenči",
       "tier": "a",
       "text": "Rada hl. m. Prahy schvaluje memorandum se Správou železnic: pozemek uvolněný po přeložení trati mezi Výstavištěm a Hradčanskou má Správa železnic vyhodnotit jako nepotřebný a jednat o převodu na město; vzniknout tu má zelený pás s pěší a cyklistickou promenádou od Hradčanské ke Stromovce.",
@@ -151,18 +147,13 @@
           "url": "https://web.archive.org/web/20241011160609/https://praha.pirati.cz/aktuality/v-bubenci-vznikne-po-zahloubeni-trate-zeleny-pas.html"
         }
       ],
-      "actors": [
-        {
-          "name": "Adam Scheinherr",
-          "role": "náměstek pro dopravu, Praha sobě"
-        }
-      ]
+      "actors": []
     },
     {
       "date": "20. 12. 2024",
       "title": "Dokumentace se rozšiřuje dodatkem",
       "tier": "a",
-      "text": "Kraj uzavírá s projektanty dodatek za 1,7 milionu korun. Dokumentace je stále živá; původně slibovaný rok zahájení stavby ale mezitím uplynul.",
+      "text": "Kraj uzavírá s projektanty dodatek za 1,4 milionu korun bez DPH. Dokumentace je stále živá; původně slibovaný rok zahájení stavby ale mezitím uplynul.",
       "sources": [
         {
           "label": "registr smluv (Hlídač státu)",
@@ -199,6 +190,10 @@
       "text": "Ministerstvo životního prostředí vydává souhlasné stanovisko k zahloubení trati do tunelu pod Střešovicemi; stavět se má od roku 2028. Na povrchu má poté vzniknout zelená radiála pro pěší a cyklisty z Dejvic k Divoké Šárce, zatím popsaná jen v dokumentaci Správy železnic.",
       "sources": [
         {
+          "label": "tisková zpráva Ministerstva dopravy a Správy železnic, 22. 12. 2025",
+          "url": "https://md.gov.cz/Media/Media-a-tiskove-zpravy/Budouci-tunel-mezi-Dejvicemi-a-Veleslavinem-ziskal"
+        },
+        {
           "label": "Správa železnic: úsek Dejvice–Veleslavín",
           "url": "https://www.spravazeleznic.cz/zeleznice-na-letiste/useky/modernizace-trati-praha-dejvice-praha-veleslavin"
         },
@@ -212,14 +207,14 @@
       "date": "30. 3. 2026",
       "title": "Modernizace Ruzyně–Kladno startuje",
       "tier": "a",
-      "text": "Správa železnic podepisuje smlouvu na modernizaci patnáctikilometrového úseku Praha-Ruzyně – Kladno za 10 miliard korun s dokončením na konci roku 2029. Tím se rozbíhá stavba, po níž má zbýt těleso pro stezku; zároveň běží riziko, na které Kladno upozorňovalo už v roce 2021, že nepřipravený projekt může skončit odstraněním náspu.",
+      "text": "Správa železnic podepisuje smlouvu na modernizaci patnáctikilometrového úseku Praha-Ruzyně – Kladno za 8,3 miliardy korun bez DPH (10 miliard s DPH) s dokončením na konci roku 2029. Tím se rozbíhá stavba, po níž má zbýt těleso pro stezku; zároveň běží riziko, před kterým Kladno varovalo už v roce 2020: stezka musí vzniknout spolu s modernizací trati, jinak „už by pravděpodobně už nikdy nevznikla“.",
       "sources": [
         {
           "label": "registr smluv (Hlídač státu)",
           "url": "https://www.hlidacstatu.cz/Detail/37394057"
         },
         {
-          "label": "ct24.ceskatelevize.cz, březen 2026",
+          "label": "ct24.ceskatelevize.cz, 2. 4. 2026",
           "url": "https://ct24.ceskatelevize.cz/clanek/domaci/sprava-zeleznic-zahaji-modernizaci-trate-ruzyne-kladno-371995"
         }
       ]
@@ -228,7 +223,7 @@
       "date": "22. 7. 2026",
       "title": "Praha soutěží projektanta své části",
       "tier": "a",
-      "text": "TSK uzavírá smlouvu na projektanta pražské části stezky se společností 4roads za 2,3 milionu korun. Pražská příprava se tím rozbíhá naplno, čtyři roky po krajské.",
+      "text": "TSK uzavírá smlouvu na projektanta pražské části stezky se společností 4roads za 1,9 milionu korun bez DPH. Pražská příprava se tím rozbíhá naplno, čtyři roky po krajské.",
       "sources": [
         {
           "label": "registr smluv (Hlídač státu)",
@@ -248,7 +243,7 @@
   "links": [
     {
       "label": "Správa železnic: železnice na letiště a do Kladna",
-      "url": "https://www.spravazeleznic.cz/zeleznice-na-letiste"
+      "url": "https://zeleznicenaletiste.cz/"
     },
     {
       "label": "Městem na kole: souhrn záměru",

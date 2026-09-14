@@ -15,7 +15,7 @@
         "label": "jezdí",
         "kind": "ok"
       },
-      "text": "Sídliště Čimice – Kobylisy – tunel Blanka – Hradčanská – Dejvická, interval 6 minut v ranní špičce. Z Kobylis na Hradčanskou 13 až 15 minut; metro se dvěma přestupy potřebuje 22 až 30."
+      "text": "Sídliště Čimice – Kobylisy – tunel Blanka – Hradčanská – Dejvická, interval 6 minut v ranní špičce. Z Kobylis na Hradčanskou průměrně 15 minut; metro s přestupem mezi linkami C a A potřebuje 22 minut, s cestou na nástupiště až 30."
     },
     {
       "name": "Zastávka Kuchyňka",
@@ -31,7 +31,7 @@
         "label": "výhled",
         "kind": "muted"
       },
-      "text": "Pokračování na Smíchov ROPID vylučuje, dokud neskončí rekonstrukce Strahovského tunelu. Ta se teprve připravuje a má trvat zhruba deset let; prodloužení je tedy otázkou příštího desetiletí."
+      "text": "Pokračování na Smíchov je podle ROPID možné až po rekonstrukci Strahovského tunelu, kterou město plánuje na 30. léta; prodloužení je tedy otázkou příštího desetiletí."
     }
   ],
   "events": [
@@ -60,6 +60,10 @@
       "text": "ROPID nejdřív v dubnové tiskové zprávě vypočítává úskalí záměru včetně dodatečných nákladů kolem 75 milionů korun ročně, v prosinci pak předkládá dopravnímu výboru zastupitelstva posouzení čtyř variant vedení linky a všechny odmítá: naráží na kapacitu Vítězného náměstí, nesouhlas Prahy 6 a náklady kolem 70 milionů korun ročně.",
       "sources": [
         {
+          "label": "tisková zpráva ROPID, 27. 4. 2016 (archivní kopie)",
+          "url": "http://web.archive.org/web/20160502101918/http://www.ropid.cz/tiskove-informace/informace-k-provozu-autobusovych-linek-prazskymi-tunely__s193x3721.html"
+        },
+        {
           "label": "TZ ROPID 4/2016 a posudek 12/2016, via wikipedie",
           "url": "https://cs.wikipedia.org/wiki/Tunelov%C3%BD_komplex_Blanka"
         }
@@ -69,7 +73,7 @@
       "date": "15. 5. 2024",
       "title": "Praha 8 žádá linku",
       "tier": "a",
-      "text": "Zastupitelstvo Prahy 8 vyzývá hlavní město a ROPID „bezodkladně zavést autobusovou linku mezi Prahou 8 a Prahou 6, která pojede tunelem Blanka“ (usnesení Usn ZMC 020/2024). Výzvu, doplněnou pozměňovacím návrhem opozičního zastupitele Jana Šimbery, podpořilo 35 zastupitelů napříč kluby, nikdo nebyl proti; kluby ODS a SPD s Trikolorou nehlasovaly.",
+      "text": "Zastupitelstvo Prahy 8 vyzývá hlavní město a ROPID, „aby bezodkladně zavedli autobusovou linku mezi Prahou 8 a Prahou 6, která pojede tunelem Blanka“ (usnesení Usn ZMC 020/2024). Výzvu, doplněnou pozměňovacím návrhem opozičního zastupitele Jana Šimbery, podpořilo 35 zastupitelů napříč kluby, nikdo nebyl proti; nehlasovali tři zastupitelé ODS, dva z ANO a oba přítomní zastupitelé SPD a Trikolory, tři chyběli.",
       "sources": [
         {
           "label": "jmenovitý záznam hlasování č. 11, praha8.cz (HTML)",
@@ -92,7 +96,7 @@
       ],
       "vote": {
         "rollFile": "p8-2024-05-15-h11.json",
-        "label": "ZMČ Praha 8, návrh propojení s Prahou 6 (hlasování č. 11), 15. 5. 2024",
+        "label": "ZMČ Praha 8, bod „Návrh propojení Prahy 8 s Prahou 6 tramvajovou tratí“ (hlasování č. 11), 15. 5. 2024",
         "vysledek": "přijato",
         "pro": 35,
         "proti": 0,
@@ -147,7 +151,7 @@
       ]
     },
     {
-      "date": "16. 8. 2026",
+      "date": "15. 8. 2026",
       "title": "Proč se na Kuchyňce nestaví, není doloženo",
       "tier": "b",
       "text": "Odborný web zdopravy.cz píše, že linka na Kuchyňce nestaví po jednáních s Prahou 8, jinde uvádí politický kompromis. Kdo a proč o vynechání zastávky rozhodl, žádný veřejný zdroj neuvádí; formálně o zastávkách rozhoduje ROPID po projednání s městem a městskými částmi.",
@@ -157,7 +161,7 @@
           "url": "https://zdopravy.cz/prvni-jizda-tunelbusem-preference-udelala-z-autobusu-nove-metro-linka-vsak-ma-i-sva-kriticka-mista-294134/"
         },
         {
-          "label": "zdopravy.cz: e-paper zastávky, 16. 8. 2026",
+          "label": "zdopravy.cz: e-paper zastávky, 15. 8. 2026",
           "url": "https://zdopravy.cz/bez-papiru-a-na-baterky-v-praze-se-objevily-prvni-e-paper-zastavky-ukazou-i-mimoradnosti-294170/"
         }
       ]
@@ -191,7 +195,7 @@
       "date": "10. 9. 2026",
       "title": "Kuchyňka bude: od 29. září",
       "tier": "a",
-      "text": "Praha 8 oznamuje, že od 29. 9. 2026 začne linka 145 zastavovat na Kuchyňce v obou směrech; ROPID změnu vede jako trvalou. Městská část o doplnění opakovaně jednala s ROPID, oficiální žádost poslalo i vedení Univerzity Karlovy (areál na Pelc-Tyrolce má zhruba 1 400 kolejních lůžek). Radní Martin Jedlička: „Zastavování linky 145 na Kuchyňce je logickým krokem. Autobus dosud míjel významný univerzitní areál bez možnosti zastavení.“ Proč zastávka z trasy před spuštěním vypadla, vysvětluje až 14. 9. náměstek Beránek: „Důvodem, proč tam linka 145 v tuto chvíli nestaví, jsou obavy jednoho z koaličních partnerů. Ten vyjádřil obavu, že by zastavující autobus brzdil plynulost dopravy v hustě vytížené ulici V Holešovičkách.“ Kterého partnera, neříká.",
+      "text": "Praha 8 oznamuje, že od 29. 9. 2026 začne linka 145 zastavovat na Kuchyňce v obou směrech; ROPID změnu vede jako trvalou. Městská část o doplnění opakovaně jednala s ROPID, oficiální žádost poslalo i vedení Univerzity Karlovy (areál na Pelc-Tyrolce má zhruba 1 400 kolejních lůžek). Radní Martin Jedlička: „Zastavování linky 145 na Kuchyňce je logickým krokem. Autobus dosud míjel významný univerzitní areál bez možnosti zastavení, přestože právě zde žijí a studují stovky studentů a působí několik fakult.“ Proč zastávka z trasy před spuštěním vypadla, vysvětluje náměstek Beránek Seznam Zprávám (cituje PrahaIN 14. 9.): „Důvodem, proč tam linka 145 v tuto chvíli nestaví, jsou obavy jednoho z koaličních partnerů. Ten vyjádřil obavu, že by zastavující autobus brzdil plynulost dopravy v hustě vytížené ulici V Holešovičkách a nabíral zpoždění ještě před vjezdem do tunelu Blanka.“ Kterého partnera, neříká.",
       "sources": [
         {
           "label": "pid.cz: zřízení zastávky Kuchyňka pro linku 145 (trvalá změna od 29. 9. 2026)",
@@ -225,7 +229,7 @@
       "date": "27. 8. 2026",
       "title": "První krizový den: regulace Blanky",
       "tier": "b",
-      "text": "Porucha kamionu blokuje přes dvě hodiny pruh v Blance a policie reguluje vjezdy. Desetina spojů linky 145 nabírá zpoždění, průměrně 9 minut směr Dejvice a 15 minut směr Kobylisy, nejvíce 16 minut; linka jede celou trasu. Za dva týdny provozu ji využilo 30 tisíc lidí. Na první školní den 1. září se scénář opakuje po nehodě pěti aut v Bubenečském tunelu: zpoždění 10 až 15 minut směr Dejvice.",
+      "text": "Porucha kamionu blokuje přes dvě hodiny pruh v Blance a policie reguluje vjezdy. U desetiny nejzpožděnějších spojů linky 145 dosahuje zpoždění průměrně 9 minut směr Dejvice a 15 minut směr Kobylisy, nejvíce 16 minut; linka jede celou trasu. Za dva týdny provozu ji využilo 30 tisíc lidí. Na první školní den 1. září se scénář opakuje po nehodě pěti aut v Bubenečském tunelu: zpoždění 10 až 15 minut směr Dejvice.",
       "sources": [
         {
           "label": "zdopravy.cz, 29. 8. 2026",
