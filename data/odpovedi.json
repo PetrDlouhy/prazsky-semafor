@@ -437,18 +437,30 @@
       {
         "nazev": "SPOLU pro Prahu",
         "slozeni": "ODS, TOP 09",
-        "lidr": "Tomáš Portlík"
+        "lidr": "Tomáš Portlík",
+        "hlasovani": {
+          "text": "Postoj lze číst z hlasování: 23. 4. 2026 hlasoval klub SPOLU jednotně pro usnesení č. 33/1, které odmítá „dílčí a nesystémové zákazy průjezdu“ a místo prázdninového zklidnění Smetanova nábřeží a Malostranského náměstí žádá koncepci do konce roku (17 pro, nikdo proti). Předkladatelem byl lídr kandidátky Tomáš Portlík.",
+          "project": "smetanovo-nabrezi"
+        }
       },
       {
         "nazev": "Česká pirátská strana",
         "slozeni": "Piráti",
         "lidr": "Tereza Nislerová",
-        "poznamka": "Tisková mluvčí 4. 9. napsala, že s odpovědí počítají. Do uzávěrky nepřišla."
+        "poznamka": "Tisková mluvčí 4. 9. napsala, že s odpovědí počítají. Do uzávěrky nepřišla.",
+        "hlasovani": {
+          "text": "Postoj lze číst z hlasování: 23. 4. 2026 hlasoval klub Pirátů proti usnesení č. 33/1, které odmítá „dílčí a nesystémové zákazy průjezdu“ (7 proti, nikdo pro), a pro návrh náměstka Beránka na koncepci zklidnění centra a pilotní projekt v roce 2027 (10 pro), který neprošel.",
+          "project": "smetanovo-nabrezi"
+        }
       },
       {
         "nazev": "ANO 2011",
         "slozeni": "ANO",
-        "lidr": "Jan Husbauer"
+        "lidr": "Jan Husbauer",
+        "hlasovani": {
+          "text": "Postoj lze číst z hlasování: 23. 4. 2026 hlasoval klub ANO jednotně pro usnesení č. 33/1, které odmítá „dílčí a nesystémové zákazy průjezdu“ a místo prázdninového zklidnění Smetanova nábřeží a Malostranského náměstí žádá koncepci do konce roku (14 pro, nikdo proti).",
+          "project": "smetanovo-nabrezi"
+        }
       },
       {
         "nazev": "Spojená levice pro Prahu",

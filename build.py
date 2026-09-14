@@ -9,6 +9,7 @@ import html
 import json
 import re
 import shutil
+import subprocess
 import unicodedata
 import urllib.request
 from datetime import date
@@ -147,7 +148,17 @@ def counter_days(since_iso):
     return f"{days:,}".replace(",", " ")
 
 
-def page(title, body, nav_active, single_file=False, desc="", path=""):
+def last_change(rel_path):
+    """Datum posledního commitu souboru; při mělkém checkoutu nebo mimo git dnešek."""
+    try:
+        out = subprocess.run(["git", "log", "-1", "--format=%cs", "--", rel_path], cwd=ROOT,
+                             capture_output=True, text=True, timeout=10).stdout.strip()
+    except (OSError, subprocess.SubprocessError):
+        out = ""
+    return cz_date(out) if re.fullmatch(r"\d{4}-\d{2}-\d{2}", out) else date.today().strftime("%-d. %-m. %Y")
+
+
+def page(title, body, nav_active, single_file=False, desc="", path="", changed=""):
     prefix = "#" if single_file else ""
     ext = "" if single_file else ".html"
     desc = desc or ("Hlídač pražských projektů: co si město schválilo, co skutečně "
@@ -187,14 +198,14 @@ def page(title, body, nav_active, single_file=False, desc="", path=""):
  else '<link rel="stylesheet" href="style.css">'}
 </head>
 <body>
-<div class="betabar">Pracovní verze · údaje před spuštěním projdou položkovým ověřením</div>
+<div class="betabar">Spisy procházejí položkovým ověřením zdrojů · odpovědi kandidátek jsou zveřejněny doslova a ověřeny proti doručeným mailům</div>
 <header class="site"><div class="wrap site-inner">
   <a class="brand" href="{prefix}index{ext}">Pražský <em>semafor</em><small>{TAGLINE}</small></a>
   <nav class="top">{nav}</nav>
 </div></header>
 <main>{body}</main>
 <footer class="site"><div class="wrap">
-  <span class="mono">Zdroje jsou uvedeny u každé události · stav k {date.today().strftime('%-d. %-m. %Y')}</span>
+  <span class="mono">Zdroje jsou uvedeny u každé události · {f'tato stránka naposledy upravena {changed} · ' if changed else ''}web sestaven {date.today().strftime('%-d. %-m. %Y')}</span>
 </div></footer>
 </body>
 </html>"""
@@ -1290,6 +1301,11 @@ def render_odpovedi_section(key, section, persons, slug_to_title, single_file):
             bits.append(f'lídr {odp_person(s["lidr"], persons, prefix, ext)}')
         who = f' <span class="src">({", ".join(bits)})</span>' if bits else ""
         note = f' <span class="qtext">{esc(s["poznamka"])}</span>' if s.get("poznamka") else ""
+        hv = s.get("hlasovani")
+        if hv:
+            spis = (f' <a href="{prefix}{hv["project"]}{ext}">Spis se jmenovitým hlasováním.</a>'
+                    if hv.get("project") in slug_to_title else "")
+            note += f'<br><span class="qtext">{esc(hv["text"])}{spis}</span>'
         nonresp.append(f"<li><b>{esc(s['nazev'])}</b>{who}{note}</li>")
     nocontact = "".join(f"<li><b>{esc(s['nazev'])}</b> <span class=\"src\">({esc(s['poznamka'])})</span></li>"
                         for s in section["bez_kontaktu"])
@@ -1442,10 +1458,10 @@ def build():
         path="sliby.html"))
     emit("odpovedi.html", page("Osm otázek pro pražské kandidátky", render_odpovedi_body(projects, persons, "zhmp"), "odpovedi",
         desc="Volby 2026: odpovědi kandidujících stran na osm otázek k pražským projektům, tak jak přišly, vedle sebe, i kdo neodpověděl.",
-        path="odpovedi.html"))
+        path="odpovedi.html", changed=last_change("data/odpovedi.json")))
     emit("odpovedi-praha1.html", page("Dvě otázky pro kandidátky v Praze 1", render_odpovedi_body(projects, persons, "p1"), "odpovedi",
         desc="Volby 2026: odpovědi kandidátek do zastupitelstva Prahy 1 na dvě otázky ke Smetanovu nábřeží a Malostranskému náměstí.",
-        path="odpovedi-praha1.html"))
+        path="odpovedi-praha1.html", changed=last_change("data/odpovedi.json")))
     for slug, person in persons.items():
         emit(f"osoba-{slug}.html",
             page(person["name"], render_person_body(person), "akteri",
@@ -1464,7 +1480,8 @@ def build():
     for p in projects:
         emit(f'{p["slug"]}.html',
             page(p["title"], render_project_body(p), "index",
-                 desc=p["summary"][:280], path=f'{p["slug"]}.html'))
+                 desc=p["summary"][:280], path=f'{p["slug"]}.html',
+                 changed=last_change(f'data/projects/{p["slug"]}.json')))
 
     preview_body = (
         render_index_body(projects, single_file=True)
