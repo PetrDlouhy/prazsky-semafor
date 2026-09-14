@@ -1267,6 +1267,11 @@ def render_odpovedi_section(key, section, persons, slug_to_title, single_file):
                 lateness = "" if dop["doruceno"] <= uzaverka else f' (po termínu {cz_day(uzaverka)})'
                 extra = (f'<p class="odp-note">Doplnění, které přišlo {cz_date(dop["doruceno"])}{lateness}:</p>'
                          f'<blockquote>{answer_paras(dop["text"], sep=chr(10))}</blockquote>')
+            ov = (s.get("overeni") or {}).get(q["id"])
+            if ov:
+                link = (f' <a href="{prefix}{ov["project"]}{ext}">Podrobnosti ve spisu.</a>'
+                        if ov.get("project") and ov["project"] in slug_to_title else "")
+                extra += f'<p class="odp-note"><b>Ověřili jsme:</b> {esc(ov["text"])}{link}</p>'
             body.append(f'<div class="odp-q"><h4>{esc(q["id"])}. {esc(q["kratce"])} {chips}</h4>'
                         f'<blockquote>{answer_paras(s["odpovedi"][q["id"]])}</blockquote>{extra}</div>')
         blocks.append(f'<section class="odp-subject" id="{sid}"><h3>{esc(s["nazev"])}</h3>'
