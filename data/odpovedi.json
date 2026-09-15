@@ -73,7 +73,7 @@
             "kratce": "Prodloužení na Smíchov"
           }
         ],
-        "poznamka": "Po rozeslání otázek se situace změnila: 10. 9. 2026 Praha 8 oznámila, že linka 145 začne na Kuchyňce zastavovat od 29. 9. 2026. PRAHA SOBĚ, STAN, SPD, Levice, PATRIOTI, GEN a Voluntia odpovídaly před tímto oznámením, Naše Praha, SEN a REZIDENTI po něm."
+        "poznamka": "Po rozeslání otázek se situace změnila: 10. 9. 2026 Praha 8 oznámila, že linka 145 začne na Kuchyňce zastavovat od 29. 9. 2026. PRAHA SOBĚ, STAN, SPD, Levice, PATRIOTI, GEN a Voluntia odpovídaly před tímto oznámením, Naše Praha, SEN, REZIDENTI a SPOLU po něm."
       },
       {
         "id": "7",
@@ -115,6 +115,36 @@
           "6": "Ano. Zastávku Kuchyňka na lince 145 doplníme hned po volbách. A linka musí v budoucnu pokračovat až na Smíchov, jakmile skončí rekonstrukce Strahovského tunelu.",
           "7": "První dánský pás v Praze, na Smetanově nábřeží, vznikl za mého náměstkování a beru ho jako vzor. Řádově musí vznikat jednotky kilometrů takové infrastruktury ročně, tedy za čtyři roky jednotky až nižší desítky kilometrů dánských pásů a samostatných stezek. Přesné číslo nechci slibovat, dokud neuvidím stav přípravy jednotlivých tras. Na Smetanově nábřeží jsme ukázali, že stavět oddělené cyklostezky jde i v památkově chráněném centru. Teď to chce jen vůli je skutečně dělat.",
           "8": "Ano. Veřejnost musí vždy vědět, o čem zastupitelé hlasují, a to platí i pro návrhy, o jejichž zařazení na program se hlasovalo a neprošly. Podklady těchto tisků budeme zveřejňovat."
+        }
+      },
+      {
+        "nazev": "SPOLU pro Prahu",
+        "slozeni": "ODS, TOP 09",
+        "lidr": "Tomáš Portlík",
+        "odpovedel": "Tomáš Portlík, lídr kandidátky, odpovědi v příloze",
+        "doruceno": "2026-09-14",
+        "poznamka": "Odpověď přišla 14. 9. večer, po termínu 11. 9. a po zveřejnění této stránky; doplněna 15. 9.",
+        "hodnoceni": {
+          "1": "ne",
+          "2a": "podpora",
+          "2b": "ne",
+          "3": "podpora",
+          "4": "vyhybave",
+          "5": "vyhybave",
+          "6a": "podpora",
+          "6b": "podpora",
+          "7": "podpora",
+          "8": "ne"
+        },
+        "odpovedi": {
+          "1": "Jakékoliv zklidňování centra přichází v úvahu až ve chvíli, kdy budou existovat funkční objízdné trasy, tedy až budou dokončené okruhy a radiály. Navíc se chystají komplikované opravy Seifertovy, Ječné a Strahovského tunelu, což vyvolá samo o sobě značné komplikace a bylo by nezodpovědné to ještě zhoršovat.",
+          "2": "Přestavba magistrály je v tomto termínu reálná. Co se hlavního nádraží týče, neoddělený cyklopruh by byl na takto rušné komunikaci nebezpečný. A naopak oddělený cyklopás nepovolili památkáři.",
+          "3": "Město nevybralo projektanta jen tak pro nic za nic, takže ano, s tímto projektem počítáme. A je podle mě reálné začít stavět v příštím volebním období.",
+          "4": "K projektu přestavby se vrátíme po volbách. Fakt, že jsme na návrh našeho radního pro kulturu schválili, aby se v rámci proměny umístil na náměstí pomník maršála Radeckého, myslím vypovídá o tom, že s přestavbou počítáme.",
+          "5": "Vytvoření stezky je podmíněno vybudováním nové železnice, což je ovšem zcela v kompetenci státu. Stavba úseku mezi Kladnem a Ruzyní nicméně letos na jaře už začala, takže by snad k žádným průtahům dojít nemělo.",
+          "6": "Na zastávce Kuchyňka začne autobus stavět koncem září. Co se týče prodloužení na Smíchov, tak s tím nemám problém.",
+          "7": "Desítky kilometrů.",
+          "8": "Zastupitelstvo má mít transparentní podklady k bodům, o kterých skutečně rozhoduje. Navíc každý předkladatel tisk vždy při návrhu na zařazení do programu představí, což lze následně dohledat v záznamu nebo stenozápisu z jednání zastupitelstva. A pokud by někoho návrh zajímal ještě konkrétněji, vždy může napřímo oslovit jeho předkladatele."
         }
       },
       {
@@ -435,15 +465,6 @@
     ],
     "bez_odpovedi": [
       {
-        "nazev": "SPOLU pro Prahu",
-        "slozeni": "ODS, TOP 09",
-        "lidr": "Tomáš Portlík",
-        "hlasovani": {
-          "text": "Postoj lze číst z hlasování: 23. 4. 2026 hlasoval klub SPOLU jednotně pro usnesení č. 33/1, které odmítá řešení dopravy „formou dílčích a nesystémových zákazů průjezdů“ a místo prázdninového zklidnění Smetanova nábřeží a Malostranského náměstí žádá koncepci do konce roku (17 pro, nikdo proti). Předkladatelem byl lídr kandidátky Tomáš Portlík.",
-          "project": "smetanovo-nabrezi"
-        }
-      },
-      {
         "nazev": "Česká pirátská strana",
         "slozeni": "Piráti",
         "lidr": "Tereza Nislerová",
@@ -686,6 +707,10 @@
     {
       "datum": "2026-09-14",
       "text": "První zveřejnění, o den dřív, než jsme slíbili. Zahrnuje odpovědi, které přišly do 14. 9. Doplnění GEN a sousedé z Prahy 1 k první otázce přišlo 14. 9., po termínu 11. 9."
+    },
+    {
+      "datum": "2026-09-15",
+      "text": "Doplněna odpověď SPOLU pro Prahu (Tomáš Portlík), která přišla 14. 9. večer, po termínu 11. 9. Odpovědělo tak 12 z 24 kandidátek pro hlavní město."
     }
   ]
 }
