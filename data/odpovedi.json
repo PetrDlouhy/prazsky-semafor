@@ -73,7 +73,7 @@
             "kratce": "Prodloužení na Smíchov"
           }
         ],
-        "poznamka": "Po rozeslání otázek se situace změnila: 10. 9. 2026 Praha 8 oznámila, že linka 145 začne na Kuchyňce zastavovat od 29. 9. 2026. PRAHA SOBĚ, STAN, SPD, Levice, PATRIOTI, GEN a Voluntia odpovídaly před tímto oznámením, Naše Praha, SEN, REZIDENTI a SPOLU po něm."
+        "poznamka": "Po rozeslání otázek se situace změnila: 10. 9. 2026 Praha 8 oznámila, že linka 145 začne na Kuchyňce zastavovat od 29. 9. 2026. PRAHA SOBĚ, STAN, SPD, Levice, PATRIOTI, GEN a Voluntia odpovídaly před tímto oznámením, Naše Praha, SEN, REZIDENTI, SPOLU a Piráti po něm."
       },
       {
         "id": "7",
@@ -145,6 +145,42 @@
           "6": "Na zastávce Kuchyňka začne autobus stavět koncem září. Co se týče prodloužení na Smíchov, tak s tím nemám problém.",
           "7": "Desítky kilometrů.",
           "8": "Zastupitelstvo má mít transparentní podklady k bodům, o kterých skutečně rozhoduje. Navíc každý předkladatel tisk vždy při návrhu na zařazení do programu představí, což lze následně dohledat v záznamu nebo stenozápisu z jednání zastupitelstva. A pokud by někoho návrh zajímal ještě konkrétněji, vždy může napřímo oslovit jeho předkladatele."
+        }
+      },
+      {
+        "nazev": "Česká pirátská strana",
+        "slozeni": "Piráti",
+        "lidr": "Tereza Nislerová",
+        "odpovedel": "Michal Polák z kontaktní adresy pražských Pirátů, na kterou dotazník odešel",
+        "doruceno": "2026-09-15",
+        "poznamka": "Odpověď přišla 15. 9. večer, čtyři dny po termínu 11. 9. a den po zveřejnění této stránky; doplněna 16. 9. Tisková mluvčí strany odpověď přislíbila 4. 9.",
+        "hodnoceni": {
+          "1": "podpora",
+          "2a": "zavazek",
+          "2b": "vyhybave",
+          "3": "zavazek",
+          "4": "podpora",
+          "5": "vyhybave",
+          "6a": "podpora",
+          "6b": "vyhybave",
+          "7": "podpora",
+          "8": "ne"
+        },
+        "odpovedi": {
+          "1": "Omezení Piráti prosazují a tlačí dlouhodobě, na tom se nic nezmění. Téma bylo otevřeno i na jednání zastupitelstva hl. města Prahy, ale koaliční partneři i vedení jednotlivých MČ se proti našemu návrhu postavili. Pokud však v příštím volebním období najdeme potřebnou podporu, omezení průjezdu aut spustíme.",
+          "2": "S rekonstrukcí Sokolské a Legerovy počítáme a chceme ji dotáhnout v příštím volebním období k realizaci. Stavbu bude nutné důsledně koordinovat s dalšími záměry v okolí, ale s harmonogramem k roku 2030 nyní stále počítáme.\n\nZ přestavby hlavního nádraží cyklistická infrastruktura nevypadla, vzhledem k návaznostem (severně od Fantovy budovy stejně nelze cyklisty vést po estakádě přes Masarykovo nádraží odděleně) bude bezpečné provedení cyklistů v území zahrnuto do projektu Nového Hlaváku. Všechny probíhající a připravované akce v okolí s tím počítají a jsou na to dimenzovány.",
+          "3": "Ano, peníze na ní jsou a počítáme se zahájením stavby v příštím volebním období.",
+          "4": "S revitalizací náměstí počítáme a chtěli bychom ji zahájit.",
+          "5": "Na území Prahy je nutné stavět v koordinaci se Správou železnic. V tom, kdy budeme moci začít, jsme tedy závislí na státu. Nyní jsme ve fázi projekční přípravy několika úseků.",
+          "6": "Ano, na zastávce Kuchyňka začne tunelbus stavět už 29. září. Navíc ve směru na Čimice má zastávka nový označník, který zobrazuje jízdní řády a mimořádnosti. Již při plánování trasy a provozu se totiž počítalo s tím, že tunelbus na Kuchyňce bude stavět, nakonec ale tato zastávka nenašla potřebnou podporu. Po prvních zkušenostech z provozu se nicméně zastavování podařilo prosadit i přes jeho odpůrce.\n\nChceme tyto expresní linky rozvíjet. Další na řadě by mohla být po opravě Strahovského tunelu linka právě skrz Prahu 5.",
+          "7": "Realistické jsou jednotky kilometrů. V přípravě je několik projektů dánských cyklopásů. Např. Olšanská, Vaníčkova, Libeňský a Hlávkův most. Prověřujeme další možnosti, ale kilometry budou záležet na povolovacích procesech a náklonnosti jednotlivých zainteresovaných tomuto řešení. Dánské pásy je totiž nutno budovat v rámci celkové přestavby ulic a navíc je nutné hledat na ně místo na úkor jiných druhů dopravy. Jednodušší je navrhovat ať už dánské pásy, nebo přímo oddělené cyklostezky přímo na zelené louce, když se s nimi od začátku počítá. I tak je chceme implementovat v maximální možné míře.",
+          "8": "Pokud se nějaký tisk zařazuje na jednání zastupitelstva, tak obvykle má jen název a krátký popis. Nemusí obsahovat ani důvodovou zprávu. Jeho zveřejnění proto občanům příliš nenapoví. Naší práci se tak jako tak snažíme denně komunikovat na sítích a prostřednictvím tiskových zpráv, a to i v případě, že jsme pro návrh dostatečnou podporu u ostatních zastupitelských klubů nenašli. Pokud najdeme způsob, jak naši politickou agendu voličům ještě přiblížit, rádi jej využijeme."
+        },
+        "overeni": {
+          "2": {
+            "text": "Zápis komise Rady pro cyklodopravu ze 7. 9. 2026 uvádí: „Nebyl zapracován projekt IPR řešící cyklotrasu A4. Nově je navrhován BUS + cyklo pruh ve směru na sever, a žádné cyklointegrační opatření ve směru na jih.“ Stavba přednádraží začala v červenci 2026 bez oddělené cyklistické infrastruktury; cyklisté mají jet v pruhu pro autobusy.",
+            "project": "legerova-sokolska"
+          }
         }
       },
       {
@@ -465,16 +501,6 @@
     ],
     "bez_odpovedi": [
       {
-        "nazev": "Česká pirátská strana",
-        "slozeni": "Piráti",
-        "lidr": "Tereza Nislerová",
-        "poznamka": "Tisková mluvčí 4. 9. napsala, že s odpovědí počítají. Do uzávěrky nepřišla.",
-        "hlasovani": {
-          "text": "Postoj lze číst z hlasování: 23. 4. 2026 hlasoval klub Pirátů proti usnesení č. 33/1, které odmítá řešení dopravy „formou dílčích a nesystémových zákazů průjezdů“ (7 proti, nikdo pro, 5 nehlasovalo), a pro návrh náměstka Beránka na koncepci zklidnění centra a pilotní projekt v roce 2027 (10 pro), který neprošel.",
-          "project": "smetanovo-nabrezi"
-        }
-      },
-      {
         "nazev": "ANO 2011",
         "slozeni": "ANO",
         "lidr": "Jan Husbauer",
@@ -711,6 +737,10 @@
     {
       "datum": "2026-09-15",
       "text": "Doplněna odpověď SPOLU pro Prahu (Tomáš Portlík), která přišla 14. 9. večer, po termínu 11. 9. Odpovědělo tak 12 z 24 kandidátek pro hlavní město."
+    },
+    {
+      "datum": "2026-09-16",
+      "text": "Doplněna odpověď České pirátské strany, která přišla 15. 9. večer, po termínu 11. 9. Odpovědělo tak 13 z 24 kandidátek pro hlavní město."
     }
   ]
 }
