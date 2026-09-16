@@ -44,6 +44,14 @@
         {
           "label": "praha.eu: drážní promenáda",
           "url": "https://praha.eu/drazni-promenada"
+        },
+        {
+          "label": "Městem na kole, prosinec 2020 (stavba 2022 až 2023, dokončení 2024)",
+          "url": "https://mestemnakole.cz/2020/12/co-prinese-vrsovicka-drazni-promenada/"
+        },
+        {
+          "label": "Blesk, 2021 (hotová do roku 2024)",
+          "url": "https://www.blesk.cz/clanek/regiony-praha-praha-zpravy/662189/promenada-na-kolejich-prazska-high-line-za-stamiliony-se-zacne-stavet-za-dva-roky-takhle-bude-vypadat.html"
         }
       ]
     },
@@ -101,7 +109,7 @@
       "date": "březen 2025",
       "title": "Petice a usnesení zastupitelstva",
       "tier": "b",
-      "text": "Občanskou petici za urychlení stavby podepisují zhruba dva tisíce lidí. Zastupitelstvo ji projednává a přijímá usnesení ke stavu projektu (tisk Z-13057): 60 pro, nikdo proti; usnesení k petici (Z-13051) 58 pro, nikdo proti. Rada má mimo jiné vybrat projektanta dokumentace do 31. srpna 2025, jednat se Správou železnic o nabytí pozemků do konce roku 2025 a zachovat standard řešení podle studie a územního rozhodnutí. Radní pro finance Kovářík v rozpravě říká, že politici „prezentují své vize předčasně, aniž by měli zajištěné potřebné dokumenty a finance“; podle Deníku tím podle něj politici matou veřejnost, která pak doufá ve vznik projektů předčasně a sepisuje petice.",
+      "text": "Občanskou petici za urychlení stavby podepisují zhruba dva tisíce lidí. Zastupitelstvo ji projednává a přijímá usnesení ke stavu projektu (tisk Z-13057): 60 pro, nikdo proti; usnesení k petici (Z-13051) 58 pro, nikdo proti. Rada má mimo jiné vybrat projektanta dokumentace do 31. srpna 2025, průběžně jednat se Správou železnic a Prahou 10 o dohodě k úsekům kolizním s vysokorychlostní tratí, do 31. 10. 2025 zahájit přípravu napojení od Petrohradské k nádraží Vršovice a zachovat standard řešení podle studie a územního rozhodnutí. Radní pro finance Kovářík v rozpravě říká, že politici „prezentují své vize předčasně, aniž by měli zajištěné potřebné dokumenty a finance“; podle Deníku tím podle něj politici matou veřejnost, která pak doufá ve vznik projektů předčasně a sepisuje petice.",
       "sources": [
         {
           "label": "mestemnakole.cz, říjen 2025 (rekapitulace)",
@@ -114,6 +122,10 @@
         {
           "label": "prazsky.denik.cz, 28. 3. 2025",
           "url": "https://prazsky.denik.cz/zpravy-region/praha-10-drazni-promenada-petice-zastupitelstvo-odpadky-zachrana-projekt/"
+        },
+        {
+          "label": "zápis z 22. zasedání ZHMP, 27. 3. 2025 (PDF, usnesení 22/2 s pozměňovacím návrhem)",
+          "url": "https://praha.eu/o/prg/meetings-representative/5541"
         }
       ],
       "promise": {
@@ -121,7 +133,7 @@
         "promised": "březen 2025",
         "due": "projektant do 31. 8. 2025",
         "status": "částečně",
-        "text": "Rada má vybrat projektanta dokumentace do 31. 8. 2025, jednat se Správou železnic o nabytí pozemků do konce roku 2025 a zachovat standard řešení podle studie a územního rozhodnutí."
+        "text": "Rada má vybrat projektanta dokumentace do 31. 8. 2025, průběžně jednat se Správou železnic a Prahou 10 o dohodě k úsekům kolizním s vysokorychlostní tratí, do 31. 10. 2025 zahájit přípravu napojení od Petrohradské a zachovat standard řešení podle studie a územního rozhodnutí."
       },
       "vote": {
         "id": 103701,
@@ -132,8 +144,8 @@
         "proti": 0,
         "zdrzel": 0,
         "ostatni": 5,
-        "zneni": "Zastupitelstvo hl. m. Prahy konstatuje, že Drážní promenáda je prioritou rozvoje celoměstsky významných tras pro aktivní mobilitu a zásadní rozvojový projekt pro Prahu 10 i okolní městské části; ukládá Radě HMP vybrat projektanta dokumentace do 31. 8. 2025, zachovat standard řešení dle studie a DÚR, jednat se Správou železnic o nabytí pozemků do 31. 12. 2025, hledat externí financování a zahájit přípravu napojení od Petrohradské k nádraží Vršovice do 31. 10. 2025.",
-        "zneniZdroj": "výrok usnesení č. 22/2, kráceno"
+        "zneni": "Zastupitelstvo hl. m. Prahy konstatuje, že Drážní promenáda je prioritou rozvoje celoměstsky významných tras pro aktivní mobilitu a zásadní rozvojový projekt pro Prahu 10 i okolní městské části; ukládá Radě HMP vybrat projektanta dokumentace do 31. 8. 2025, zachovat standard řešení dle studie a DÚR, průběžně jednat se Správou železnic a MČ Praha 10 o dohodě k úsekům kolizním s vysokorychlostní tratí, hledat externí financování a zahájit přípravu napojení od Petrohradské k nádraží Vršovice do 31. 10. 2025.",
+        "zneniZdroj": "výrok usnesení č. 22/2 podle tisku Z-13057 a zápisu ze zasedání, kráceno"
       },
       "actors": [
         {

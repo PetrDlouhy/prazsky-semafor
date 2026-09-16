@@ -7,7 +7,7 @@
     "label": "schváleno, nespuštěno",
     "kind": "wait"
   },
-  "summary": "Nábřeží mezi Národním divadlem a Karlovými lázněmi patří k nejcennějším místům Prahy a zároveň slouží jako tranzitní čtyřproudovka: denně tudy projede kolem 40 tisíc lidí autem, zatímco 90 tisíc jich sveze MHD, a chodci s cestujícími tramvají tvoří 70 procent uživatelů ulice. Město ho zkusilo zklidnit opakovaně: poprvé na den v roce 2004, naposledy na rok a půl v letech 2020 až 2021. V roce 2021 Rada schválila koncepční zadání trvalé proměny; stavební část je zčásti hotová, dopravní režim, který je jádrem koncepce, dosud spuštěn nebyl.",
+  "summary": "Nábřeží mezi Národním divadlem a Karlovými lázněmi patří k nejcennějším místům Prahy a zároveň slouží jako tranzitní čtyřproudovka: podle dat z roku 2019 tudy denně projede kolem 40 tisíc lidí autem, zatímco 90 tisíc jich sveze MHD, a chodci s cestujícími tramvají tvoří 70 procent uživatelů ulice. Město ho zkusilo zklidnit opakovaně: poprvé na den v roce 2004, naposledy na rok a půl v letech 2020 až 2021. V roce 2021 Rada schválila koncepční zadání trvalé proměny; stavební část je zčásti hotová, dopravní režim, který je jádrem koncepce, dosud spuštěn nebyl.",
   "counter": {
     "since": "2021-03-22",
     "label": "dní od schválení koncepčního zadání Radou (usnesení č. 579)"
@@ -134,6 +134,10 @@
         {
           "label": "irozhlas.cz, 15. 11. 2019",
           "url": "https://www.irozhlas.cz/zpravy-domov/praha-doprava-smetanovo-nabrezi-mala-strana-uzavirky-radni_1911151009_tzr"
+        },
+        {
+          "label": "zdopravy.cz, 15. 11. 2019 (denní intenzity: 40 tisíc autem, 90 tisíc MHD)",
+          "url": "https://zdopravy.cz/praha-otevrela-smetanovo-nabrezi-pro-auta-ale-jen-rezidentum-a-zasobovani-37316/"
         }
       ]
     },
@@ -158,6 +162,10 @@
         {
           "label": "jmenovitý záznam hlasování, praha.eu",
           "url": "https://praha.eu/vysledky-hlasovani#/detail/-52318"
+        },
+        {
+          "label": "zápis ze 17. zasedání ZHMP, 21. 5. 2020 (PDF; předkladatelé tisku Z-8341 Nacher a Udženija)",
+          "url": "https://praha.eu/documents/42409/10274114/Zapis_jednani_3138236_1089807_zps200521.pdf"
         }
       ],
       "actors": [
@@ -194,12 +202,26 @@
       "text": "Rada usnesením č. 579 schvaluje koncepční zadání Křižovnická – Smetanovo nábřeží – Masarykovo nábřeží podle studie IPR: priorita tramvají a chodců, kteří tvoří 70 procent uživatelů ulice, oddělený cyklopás, stromy, nové zastávky. Vzniká pracovní skupina k omezení dopravy.",
       "sources": [
         {
+          "label": "usnesení Rady HMP č. 579 ze dne 22. 3. 2021, tisk R-39908 (archiv usnesení Rady)",
+          "url": "https://zastupitelstvo.praha.eu/ina-iframe/tedusndetail.aspx?par=196234037045040001247234055045040001244234052045040001244234049045040001244234045040001250245253251250249"
+        },
+        {
           "label": "iprpraha.cz, projekt 136",
           "url": "https://iprpraha.cz/project/136/smetanovo-nabrezi"
         },
         {
           "label": "prazskypatriot.cz, březen 2021",
           "url": "https://www.prazskypatriot.cz/nabrezi-s-vyhledem-na-hradcany-a-malou-stranu-se-promeni-k-omezeni-dopravy-vznikla-pracovni-skupina/"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Petr Hlaváček",
+          "role": "1. náměstek pro územní rozvoj, Spojené síly pro Prahu"
+        },
+        {
+          "name": "Adam Scheinherr",
+          "role": "náměstek pro dopravu, Praha sobě"
         }
       ]
     },

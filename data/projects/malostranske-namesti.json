@@ -235,7 +235,7 @@
       "date": "8. 4. 2026",
       "title": "Oficiální stav: stavební řízení, bez termínu",
       "tier": "a",
-      "text": "Karta projektu na webu CAMP uvádí stav „stavební řízení“ a výslovně: „V roce 2022 byla rozhodnutím Rady hl. m. Prahy příprava akce zastavena.“ Termín dokončení chybí; rozpočet se mezitím v podkladech města posunul z 95 na zhruba 147 milionů korun.",
+      "text": "Karta projektu na webu CAMP uvádí stav „stavební řízení“ a výslovně: „V roce 2022 byla rozhodnutím Rady hl. m. Prahy příprava akce zastavena.“ Termín dokončení chybí.",
       "sources": [
         {
           "label": "karta projektu, praha.camp (CAMP/IPR)",
@@ -353,7 +353,7 @@
     "fazepozn": "město uvádí „stavební řízení“; tendr z roku 2021 zrušen",
     "investor": "hl. m. Praha (příprava IPR)",
     "horizont": "bez termínu",
-    "cena": "nabídka zhotovitele 2021: 84,4 mil. Kč; dnes město uvádí 95 až 147 mil. Kč"
+    "cena": "nabídka zhotovitele 2021: 84,4 mil. Kč; IPR dnes uvádí 95 mil. Kč"
   },
   "links": [
     {
