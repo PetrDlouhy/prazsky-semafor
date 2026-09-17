@@ -281,6 +281,31 @@
           "role": "radní pro finance, ODS"
         }
       ]
+    },
+    {
+      "date": "10. 9. 2026",
+      "title": "Plnění smlouvy s projektantem pozastaveno po výhradách autora",
+      "tier": "a",
+      "text": "Členka petičního výboru Radka Jenka Šubířová se v interpelaci ptá, zda město prověří rozsah a cenu zakázky na projektanta (téměř 59 milionů bez DPH): hlavní architekt promenády Tomáš Cach napsal zastupitelům, že zakázka má zahrnovat i práce, které už byly v dřívějších fázích provedeny. Náměstek Beránek odpovídá, že do soutěže přišlo pět nabídek v rozmezí 54,6 až 65 milionů bez DPH, že po Cachově dopise „požádal vedení TSK o dočasné pozastavení plnění té smlouvy s projektantem“ a o projednání na výboru pro audit, že rozsah a cena prošly kontrolním výborem zastupitelstva i dozorčí radou TSK a že rychlá oponentura jiného odboru magistrátu došla „na o něco nižší částku“, se kterou TSK nyní počítá. Po vyjasnění má projektování pokračovat; hotový projekt jako podklad pro stavební povolení očekává „zhruba do doby jednoho roku“. Zhotovitel opravy mostu v Moskevské se má poté přesunout na historickou lávku u bývalé zastávky Praha-Strašnice; vyčištění území od náletů má následovat po převodu pozemků do správy TSK.",
+      "sources": [
+        {
+          "label": "interpelace občanů a odpovědi radních, 36. zasedání ZHMP 10. 9. 2026, INT 36/3 (PDF, praha.eu)",
+          "url": "https://praha.eu/documents/42409/15075022/Interpelace_obcanu_a_odpovedi_radnich_36_ZHMP_INT_OBC_akt_web_01.pdf"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Jaromír Beránek",
+          "role": "1. náměstek primátora pro dopravu, Piráti"
+        }
+      ],
+      "promise": {
+        "by": "Jaromír Beránek (1. náměstek pro dopravu)",
+        "promised": "10. 9. 2026",
+        "due": "podzim 2027",
+        "status": "běží",
+        "text": "Hotový projekt jako podklad pro stavební povolení má být podle smlouvy s projektantem dodán zhruba do jednoho roku; oprava lávky u zastávky Praha-Strašnice začne po dokončení mostu v Moskevské."
+      }
     }
   ],
   "trasa": "A3",
@@ -290,7 +315,8 @@
     "fazepozn": "projektant vybrán 8/2026",
     "investor": "TSK Praha",
     "horizont": "stavba ne dříve než 2027",
-    "cena": "dokumentace 58,6 mil. Kč bez DPH"
+    "cena": "dokumentace 58,6 mil. Kč bez DPH",
+    "stav": "projektová příprava; plnění smlouvy s projektantem od září 2026 dočasně pozastaveno kvůli prověření rozsahu a ceny"
   },
   "links": [
     {
