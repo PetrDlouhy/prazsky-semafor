@@ -38,12 +38,6 @@ body {
 .wrap { max-width: 56rem; margin: 0 auto; padding: 0 1.25rem; }
 a:focus-visible { outline: 2px solid var(--river); outline-offset: 2px; }
 
-.betabar {
-  background: var(--ink); color: var(--paper);
-  font-family: ui-monospace, Menlo, Consolas, monospace;
-  font-size: .7rem; letter-spacing: .14em; text-transform: uppercase;
-  text-align: center; padding: .45rem 1rem;
-}
 header.site { border-bottom: 1px solid var(--line); }
 .site-inner { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; padding: 1.05rem 0; flex-wrap: wrap; }
 .brand { font-family: Georgia, "Times New Roman", serif; font-size: 1.3rem; font-weight: 700; color: var(--ink); text-decoration: none; }

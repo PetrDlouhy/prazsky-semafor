@@ -198,7 +198,6 @@ def page(title, body, nav_active, single_file=False, desc="", path="", changed="
  else '<link rel="stylesheet" href="style.css">'}
 </head>
 <body>
-<div class="betabar">Spisy procházejí položkovým ověřením zdrojů · odpovědi kandidátek jsou zveřejněny doslova a ověřeny proti doručeným mailům</div>
 <header class="site"><div class="wrap site-inner">
   <a class="brand" href="{prefix}index{ext}">Pražský <em>semafor</em><small>{TAGLINE}</small></a>
   <nav class="top">{nav}</nav>
