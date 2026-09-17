@@ -734,6 +734,14 @@ def render_methodology_body(single_file=False):
       s uvedením původce, jen pokud je veřejně dohledatelné; dotčený vždy
       dostane prostor k vyjádření předem.</p></div>
   </div>
+  <h2>Předvolební otázky</h2>
+  <p>Před volbami 2026 jsme všem zaregistrovaným kandidátkám položili stejné
+  otázky k projektům ze spisů. Odpovědi zveřejňujeme tak, jak přišly, včetně
+  překlepů, a řadíme je na pětistupňovou škálu, která je jen čtecí pomůckou;
+  rozhoduje doslovný text. Kde odpověď obsahuje ověřitelné tvrzení o stavu
+  projektu, připojujeme poznámku „Ověřili jsme“ s odkazem do spisu. Dotčená
+  strana může na poznámku reagovat, reakci zveřejníme u odpovědi. Podrobný
+  postup je na stránce <a href="odpovedi.html">Odpovědi</a>.</p>
   <h2>Hlasování a jejich výklad</h2>
   <p>Postoj k projektu nikdy nevyvozujeme z jediného procedurálního hlasování:
   hlasování o zařazení bodu na program vypovídá o ochotě jednat, ne o názoru na
