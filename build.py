@@ -236,10 +236,20 @@ def render_event(ev, single_file=False):
     <p>{esc(ev["text"])}</p>
     {render_vote(ev, single_file)}
     {render_promise_line(ev)}
+    {render_reakce(ev)}
     <p class="src">{srcs}</p>
     {actors}
   </div>
 </li>"""
+
+
+def render_reakce(ev):
+    r = ev.get("reakce")
+    if not r:
+        return ""
+    paras = "".join(f"<p>{esc(p)}</p>" for p in r["text"].split("\n\n"))
+    return (f'<div class="reakce"><p class="src">vyjádření: {esc(r["kdo"])}, {esc(r["datum"])} ({esc(r["zdroj"])})</p>'
+            f'<blockquote>{paras}</blockquote></div>')
 
 
 PROMISE_CHIP = {"nesplněno": "miss", "běží": "wait", "splněno": "ok",
