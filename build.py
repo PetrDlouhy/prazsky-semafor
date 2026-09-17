@@ -1304,6 +1304,10 @@ def render_odpovedi_section(key, section, persons, slug_to_title, single_file):
                 link = (f' <a href="{prefix}{ov["project"]}{ext}">Podrobnosti ve spisu.</a>'
                         if ov.get("project") and ov["project"] in slug_to_title else "")
                 extra += f'<p class="odp-note"><b>Ověřili jsme:</b> {esc(ov["text"])}{link}</p>'
+            rk = (s.get("reakce") or {}).get(q["id"])
+            if rk:
+                extra += (f'<div class="reakce"><p class="src">vyjádření: {esc(rk["kdo"])}, {esc(rk["datum"])} ({esc(rk["zdroj"])})</p>'
+                          f'<blockquote>{answer_paras(rk["text"])}</blockquote></div>')
             body.append(f'<div class="odp-q"><h4>{esc(q["id"])}. {esc(q["kratce"])} {chips}</h4>'
                         f'<blockquote>{answer_paras(s["odpovedi"][q["id"]])}</blockquote>{extra}</div>')
         blocks.append(f'<section class="odp-subject" id="{sid}"><h3>{esc(s["nazev"])}</h3>'

@@ -299,7 +299,13 @@
           "label": "Deník N, minuta 28. 7. 2026 (podle zdopravy.cz)",
           "url": "https://denikn.cz/minuta/2139324"
         }
-      ]
+      ],
+      "reakce": {
+        "kdo": "Petr Hlaváček, náměstek primátora a lídr STAN, prostřednictvím sekretariátu",
+        "datum": "17. 9. 2026",
+        "zdroj": "e-mail Pražskému semaforu",
+        "text": "Problém je ten, že cyklokomise požadovala něco, co z hlediska bezpečnosti provozu v místě skutečně není možné. V tomto místě je totiž několik zastávek autobusu a taxistání s velkým množstvím velkých vozidel, které zde zastavují, a musely by tak překřížit požadovaný cyklopruh. To by vedlo k častým kolizním situacím. Proto jedinou bezpečnou možností, jak splnit požadavky cyklokomise, bylo vést zastavující vozidla a cyklisty v jednom pruhu.\n\nMy jsme tvrdili, že je bezpečnější převést cyklisty skrze klidovou zónu v jasně materiálně odděleném pruhu, což razantně odmítli. Je mi líto, pokud nyní tvrdí, že nevěděli o dopadech svého usnesení, ale právě na základě těchto požadavků dospěl projektant k tomuto realizovanému řešení."
+      }
     }
   ],
   "trasa": "A4",
