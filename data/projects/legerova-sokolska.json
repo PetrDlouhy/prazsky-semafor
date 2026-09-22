@@ -281,6 +281,38 @@
       ]
     },
     {
+      "date": "červenec 2026",
+      "title": "Beránek: buspruh je dočasný, oddělený průjezd na západní straně se připravuje",
+      "tier": "b",
+      "thread": "Hlavní nádraží",
+      "text": "Pod příspěvkem AutoMatu z 24. 7. 2026, který řešení u Hlavního nádraží označuje za „velké selhání“, náměstek Beránek veřejně vysvětluje, proč se staví buspruh: schválená podoba projektu byla „neprojednatelná s policií, silničními správními úřady a v části chodníku před Fantovou budovou i se samotnou Správou železnic“, policie nesouhlasila s napojením rampy od Bulhara do dvou průběžných pruhů a ROPID žádal kapacitní nástupní hrany pro autobusy. Současný stav označuje za dočasný: jeden jízdní pruh v každém směru lze podle něj přestavět na plnohodnotný cyklopás „kdyby byla příhodná politická konstelace“ i před dokončením rekonstrukce v roce 2027, a paralelně se připravuje oddělený obousměrný průjezd pro cyklisty na západní straně území, který má projektant Nového Hlaváku zapracovat v další fázi. Odůvodnění policií a ROPIDem se liší od verze náměstka Hlaváčka, který řešení připsal cyklokomisi.",
+      "reakce": {
+        "kdo": "Jaromír Beránek, 1. náměstek primátora pro dopravu",
+        "datum": "červenec 2026",
+        "zdroj": "komentář pod příspěvkem AutoMatu na Facebooku, kráceno o odkaz na jiné vlákno",
+        "text": "Předně je nutné vysvětlit, že prezentované řešení rozhodně není finální, jedná se o dočasný stav.\n\nDiskutovaná podoba projektu, schválená na radě před 3 lety, se již před časem ukázala jako neprojednatelná s policií, silničními správními úřady a v části chodníku před Fantovou budovou i se samotnou Správou železnic. Policie vyjádřila zásadní nesouhlas s napojením rampy od Bulhara do 2 průběžných pruhů. Dalším klíčovým důvodem byl z našeho pohledu oprávněný požadavek ROPIDu zachovat dostatečně kapacitní nástupní hrany pro obsluhu nádraží autobusy. Naší největší obavou pak bylo, aby se jen \"tupě\" neobnovil dosavadní stav, což by byla prohra pro všechny, proto jsme museli přistoupit na některé kompromisy.\n\nProjekt nicméně umožňuje poměrně jednoduše dotáhnout plnohodnotná cykloopatření. Kdyby byla příhodná politická konstelace, tak dokonce ještě před finalizací stávající rekonstrukce v roce 2027. Jinak řečeno, jeden jízdní pruh v každém směru je možné transformovat na plnohodnotný cyklopás, a to bez výrazného omezení kapacity SJM pro motorovou dopravu. A navíc paralelně připravujeme ještě zcela oddělený obousměrný průjezd pro cyklisty na západní straně řešeného území. Projektant Nového Hlaváku dostane za úkol tento požadavek v další fázi zapracovat do projektu."
+      },
+      "promise": {
+        "by": "Jaromír Beránek (1. náměstek pro dopravu, Piráti)",
+        "promised": "červenec 2026",
+        "due": "další fáze projektu Nový Hlavák",
+        "status": "běží",
+        "text": "Projektant Nového Hlaváku dostane za úkol zapracovat zcela oddělený obousměrný průjezd pro cyklisty na západní straně území; jeden pruh v každém směru lze přestavět na cyklopás i před dokončením rekonstrukce v roce 2027."
+      },
+      "sources": [
+        {
+          "label": "AutoMat na Facebooku, 24. 7. 2026, komentář J. Beránka (veřejně čitelné bez přihlášení)",
+          "url": "https://www.facebook.com/spolekautomat/posts/pfbid026nTbJ2VWn8884E4vUU2KU8xyNAZndc8q4XcxSVctHRAXPW5oWgL7S4KS8Pi84n4Wl"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Jaromír Beránek",
+          "role": "1. náměstek primátora pro dopravu, Piráti"
+        }
+      ]
+    },
+    {
       "date": "7. 9. 2026",
       "title": "Cyklokomise se o buspruhu dozvídá dodatečně",
       "tier": "a",
