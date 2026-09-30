@@ -533,7 +533,8 @@
       },
       {
         "nazev": "ANO LEPŠÍ ČESKO S MIMOZEMŠŤANY",
-        "slozeni": ""
+        "slozeni": "",
+        "poznamka": "Předseda strany Tomáš Franěk 30. 9. napsal: „omlouvám se, ale z důvodu pracovní vytíženosti našeho lídra jsme neodpověděli.“"
       },
       {
         "nazev": "DSZ - ZA PRÁVA ZVÍŘAT",
@@ -753,6 +754,10 @@
     {
       "datum": "2026-09-17",
       "text": "U odpovědi STAN na otázku 2 zveřejněno vyjádření Petra Hlaváčka k poznámce Ověřili jsme."
+    },
+    {
+      "datum": "2026-09-30",
+      "text": "U strany ANO LEPŠÍ ČESKO S MIMOZEMŠŤANY doplněna omluva předsedy, proč neodpověděla."
     }
   ]
 }
