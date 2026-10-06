@@ -7,7 +7,7 @@
     "label": "v provozu",
     "kind": "ok"
   },
-  "summary": "Myšlenka vést městský autobus tunelem Blanka je stará jako tunel sám. Deset let ji odmítaly posudky i dopravní podnik, v létě 2026 nakonec linka 145 vyjela a spojuje Kobylisy s Hradčanskou zhruba dvakrát rychleji než metro. Součástí příběhu zůstávají dvě otevřené otázky: zastávka Kuchyňka u vysokoškolského areálu, která z trasy před spuštěním vypadla a od 29. 9. 2026 se doplňuje, a plánované prodloužení na Smíchov.",
+  "summary": "Myšlenka vést městský autobus tunelem Blanka je stará jako tunel sám. Deset let ji odmítaly posudky i dopravní podnik, v létě 2026 nakonec linka 145 vyjela a spojuje Kobylisy s Hradčanskou zhruba dvakrát rychleji než metro. Zastávku Kuchyňka u vysokoškolského areálu, která z trasy před spuštěním vypadla, linka obsluhuje od 29. 9. 2026; otevřené zůstává plánované prodloužení na Smíchov.",
   "parts": [
     {
       "name": "Provoz linky",
@@ -20,10 +20,10 @@
     {
       "name": "Zastávka Kuchyňka",
       "status": {
-        "label": "chybí",
-        "kind": "miss"
+        "label": "obsluhována",
+        "kind": "ok"
       },
-      "text": "Jediná zastávka, která by obsloužila trojský areál MFF UK a kolej 17. listopadu. V plánované trase byla ještě na jaře 2025, při spuštění linky chyběla. O jejím doplnění se má jednat po prázdninách 2026."
+      "text": "Jediná zastávka, která obsluhuje trojský areál MFF UK a kolej 17. listopadu. V plánované trase byla ještě na jaře 2025, při spuštění linky v srpnu 2026 chyběla; po jednáních Prahy 8 s ROPID a žádosti Univerzity Karlovy na ní linka zastavuje od 29. 9. 2026 v obou směrech."
     },
     {
       "name": "Prodloužení na Smíchov",
@@ -246,13 +246,25 @@
           "role": "mluvčí ROPID"
         }
       ]
+    },
+    {
+      "date": "29. 9. 2026",
+      "title": "Linka 145 zastavuje na Kuchyňce",
+      "tier": "a",
+      "text": "Od prvního ranního spoje zastavuje linka 145 na zastávce Kuchyňka v obou směrech. PID vede změnu jako trvalou, probíhající od 29. 9. 2026 4:00. Zastávka, která z trasy před spuštěním linky vypadla, tak začala sloužit šest týdnů po zahájení provozu.",
+      "sources": [
+        {
+          "label": "pid.cz: zřízení zastávky Kuchyňka pro linku 145, stav „probíhající, trvale od 29. 9. 2026“",
+          "url": "https://pid.cz/zmena/zrizeni-zastavky-kuchynka-pro-linku-145-230022-9/"
+        }
+      ]
     }
   ],
   "karta": {
     "typ": "opatření",
     "gestor": "ROPID (organizace), DPP (provoz)",
     "stav": "v provozu od 15. 8. 2026",
-    "horizont": "zastávka Kuchyňka obsluhována od 29. 9. 2026; prodloužení na Smíchov po rekonstrukci Strahovského tunelu"
+    "horizont": "prodloužení na Smíchov po rekonstrukci Strahovského tunelu"
   },
   "links": [
     {
